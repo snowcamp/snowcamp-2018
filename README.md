@@ -21,6 +21,7 @@ Hugo is not a nodejs (javascript) package it needs to be installed (to the comma
 ## Run dev mode
 
 ```
+gulp bower
 gulp config-dev
 gulp serve
 ```
