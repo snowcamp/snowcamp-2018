@@ -1,0 +1,61 @@
+<header>
+  <div id="snc-header" class="snc-header menu">
+    <div class="snc-header-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+
+            <nav class="navbar navbar-default snc-navbar">
+              <div class="container-fluid">
+
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                          aria-expanded="false" aria-controls="navbar"
+                          data-target="#menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <div class="navbar-brand snc-logo">
+                    <a href="{{.Site.BaseURL}}" class="snc-scroll">
+                      <img src="{{.Site.BaseURL}}/img/alpes-snow-full-illustration.png"
+                           alt="Logo">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="nav navbar-nav snc-nav">
+                    <li class="dropdown">
+                      <a href="#" class="snc-scroll dropdown-toggle" data-toggle="dropdown" role="button"
+                         aria-haspopup="true"
+                         aria-expanded="false">Programme <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/#programme">CFP</a></li>
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/#programme">Programme</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#snc-sponsors" class="snc-scroll dropdown-toggle" data-toggle="dropdown"
+                         role="button" aria-haspopup="true"
+                         aria-expanded="false">Sponsors <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/#sponsors">Nos
+                          sponsons</a></li>
+                        <li><a href="{{.Site.BaseURL}}/sponsors">Devenez
+                          sponsors</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="{{.Site.BaseURL}}/tickets">Tickets</a>
+                    <li><a href="{{.Site.BaseURL}}/organisation">Organisation</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

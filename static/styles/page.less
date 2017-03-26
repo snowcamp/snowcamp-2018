@@ -1,0 +1,71 @@
+@import "colors";
+
+.page .snc-banner-inner, .page-template .snc-banner-inner, .single .snc-banner-inner, .single-post .snc-banner-inner {
+  //background: url(../img/banner-inner.jpg) bottom center no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover
+}
+
+.page .snc-banner-inner .snc-inner-bg, .page-template .snc-banner-inner .snc-inner-bg, .single .snc-banner-inner .snc-inner-bg, .single-post .snc-banner-inner .snc-inner-bg {
+  //background: url(../img/banner-style-inner.png) top left no-repeat;
+  -webkit-background-size: auto auto, cover;
+  -o-background-size: auto auto, cover;
+  -moz-background-size: auto auto, cover;
+  background-size: auto auto, cover
+}
+
+.page .snc-banner-inner .snc-inner, .page-template .snc-banner-inner .snc-inner, .single .snc-banner-inner .snc-inner, .single-post .snc-banner-inner .snc-inner {
+  padding: 12.8rem 0 6.8rem;
+  background: rgba(46, 40, 65, .85)
+}
+
+.page .snc-banner-inner .snc-heading-area, .page-template .snc-banner-inner .snc-heading-area, .single .snc-banner-inner .snc-heading-area, .single-post .snc-banner-inner .snc-heading-area {
+  margin-bottom: 0
+}
+
+.page .snc-sponsors, .page-template .snc-sponsors, .single .snc-sponsors, .single-post .snc-sponsors {
+  background: 0 0
+}
+
+.page .snc-sponsors .snc-inner, .page-template .snc-sponsors .snc-inner, .single .snc-sponsors .snc-inner {
+  background: #f1f1f1
+}
+
+.page .snc-heading, .page-template .snc-heading, .single .snc-heading, .single-post .snc-heading {
+  margin-bottom: 0
+}
+
+.page .breadcrumb, .page-template .breadcrumb, .single .breadcrumb, .single-post .breadcrumb {
+  background: 0 0;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  z-index: 1
+}
+
+.page .breadcrumb li, .page-template .breadcrumb li, .single .breadcrumb li, .single-post .breadcrumb li {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: @white;
+  text-transform: uppercase
+}
+
+.page .breadcrumb li a, .page-template .breadcrumb li a, .single .breadcrumb li a, .single-post .breadcrumb li a {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit
+}
+
+.page .breadcrumb .active, .page-template .breadcrumb .active, .single .breadcrumb .active, .single-post .breadcrumb .active {
+  color: @orange-red
+}
+
+.page .breadcrumb > li + li:before, .page-template .breadcrumb > li + li:before, .single .breadcrumb > li + li:before, .single-post .breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #42bd41;
+  content: "/\00a0";
+  opacity: .7
+}

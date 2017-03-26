@@ -1,0 +1,174 @@
+@import "colors";
+@import "typo";
+@import "animations";
+@import "nav";
+@import "banner";
+@import "speaker";
+@import "sponsor";
+@import "ticket";
+@import "footer";
+@import "button";
+
+// Screen adaptation
+@import "screen-XS";
+@import "screen-S";
+@import "screen-M";
+@import "screen-L";
+@import "screen-XL";
+@import "screen-XXL";
+
+html {
+  font-size: 62.5%
+}
+
+body, p {
+  font-family: Lora, serif;
+  font-size: 1.9rem;
+  padding: 0;
+  margin: 0;
+  color: @text-color;
+  line-height: 2.6rem
+}
+
+li {
+  font-family: Lora, serif;
+  font-size: 1.9rem;
+}
+
+body {
+  background: @white;
+}
+
+img {
+  max-width: 100%
+}
+
+.snc-inner {
+  padding: 12rem 0
+}
+
+.snc-heading, .snc-heading .heading, .snc-heading-area {
+  text-align: center
+}
+
+.snc-heading-area {
+  margin-bottom: 6.8rem
+}
+
+.snc-heading-area .text {
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  padding: 0 20%;
+  font-family: Lora, serif;
+  font-weight: 400;
+  opacity: .7;
+  font-style: italic
+}
+
+.snc-btn, .snc-header .snc-navbar .snc-nav li a {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase
+}
+
+.snc-heading {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: -3.9rem
+}
+
+.snc-heading h2 {
+  margin: 0
+}
+
+.snc-heading .back-heading {
+  font-size: 11rem;
+  line-height: 16.5rem;
+  text-transform: uppercase;
+  color: @orange-red;
+  width: 100%;
+  opacity: .5
+}
+
+.snc-heading .heading {
+  position: absolute;
+  font-size: 4.2rem;
+  font-weight: 700;
+  color: @black;
+  //line-height: 18.5rem;
+  line-height: 12.5rem;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-transform: uppercase
+}
+
+.snc-heading .heading.dark-background {
+  color: @white;
+}
+
+.text.dark-background {
+  color: @white;
+}
+
+.snc-schedule .snc-tab, .snc-schedule .snc-tab .snc-single-tab .time-area, .snc-schedule .snc-tab .nav-pills, .snc-single-speaker .speaker-info, .snc-speaker-single .social ul li, .snc-speakers .speakers-btn-area, .snc-snowcamp, .snc-innovation {
+  text-align: center
+}
+
+#snc-organisation .snc-single-speaker img {
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.snc-speaker-single .snc-inner, .snc-speakers {
+  background: #f1f1f1
+}
+
+.snc-snowcamp-single .snc-inner, .snc-snowcamp {
+  background: #f1f1f1
+}
+
+.snc-innovation-single .snc-inner, .snc-innovation {
+  // TODO Picture
+  background: @white;
+}
+
+.snc-programme-single .snc-inner, .snc-programme {
+  background:  darken(@white, 3.5%);
+}
+
+.snc-programme .ui.steps .step {
+  background: @white;
+}
+
+.snc-programme .ui.steps .step.active .title {
+  color: @orange-light;
+}
+
+.snc-programme .ui.steps .step.active .description {
+  font-size: 1.5rem;
+  font-family: Lora, serif;
+}
+
+.snc-programme .ui.steps .step .title {
+  font-family: Oswald, sans-serif;
+  font-size: 2.14em;
+  font-weight: bold;
+}
+
+.snc-schedule .snc-tab .snc-tab-content, .snc-schedule .snc-tab .nav-pills li a {
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 4px 10px rgba(0, 0, 0, .25)
+}
+
+.snc-ticket .single .single-bottom, .snc-sponsors .sponsors-area .single {
+  -webkit-transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s
+}
+
+.product ul.products {
+  margin-left: -.5%;
+  margin-right: -.5%
+}

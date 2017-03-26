@@ -1,0 +1,90 @@
+@import "colors";
+
+.snc-footer {
+  background: @black;
+  color: @white;
+  text-align: center
+}
+
+.snc-footer .snc-footer-bg {
+  background: url(../img/footer-style.png) bottom left no-repeat;
+  -webkit-background-size: auto auto, cover;
+  -o-background-size: auto auto, cover;
+  -moz-background-size: auto auto, cover;
+  background-size: auto auto, cover
+}
+
+.snc-footer .snc-inner {
+  background: rgba(46, 40, 65, .4);
+  margin: 0 auto
+}
+
+.snc-footer .footer-social, .snc-footer .snc-logo {
+  margin-bottom: 4.2rem
+}
+
+.snc-footer .footer-social ul li {
+  background: rgba(255, 255, 255, .5);
+  padding: 5px;
+  border-radius: 50%;
+  transition: all .3s ease-in-out 0s
+}
+
+.snc-footer .footer-social ul li a {
+  background: @white;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 26px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .25)
+}
+
+.snc-footer .footer-social ul li a i {
+  font-size: inherit;
+  line-height: 62px
+}
+
+.snc-footer .footer-social ul li:hover {
+  background: @orange-red
+}
+
+.snc-footer .footer-social ul li:hover a {
+  color: @green
+}
+
+.snc-footer .footer-social ul li:hover a i {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  animation-duration: .6s;
+  animation-timing-function: linear
+}
+
+.snc-footer .snc-copyright {
+  font-family: Lora, serif;
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  color: @white;
+  font-style: italic
+}
+
+.snc-footer .snc-copyright .text {
+  opacity: .4
+}
+
+.snc-footer .snc-copyright a {
+  color: #42bd41;
+  opacity: .4;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s
+}
+
+.snc-footer .snc-copyright a:hover {
+  opacity: 1
+}

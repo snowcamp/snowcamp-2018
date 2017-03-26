@@ -1,0 +1,194 @@
+@import "colors";
+
+.snc-schedule .snc-inner {
+  //background: url(../img/background-sechedule.png) bottom center no-repeat;
+  -webkit-background-size: auto auto, cover;
+  -o-background-size: auto auto, cover;
+  -moz-background-size: auto auto, cover;
+  background-size: auto auto, cover
+}
+
+.snc-schedule .snc-tab .nav-pills {
+  display: inline-block;
+  margin-bottom: 2.6rem
+}
+
+.snc-schedule .snc-tab .nav-pills li {
+  background: #f1f1f1;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 0 .4rem
+}
+
+.snc-schedule .snc-tab .nav-pills li a {
+  background: @white;
+  padding: 1.2rem 3rem .8rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .25)
+}
+
+.snc-schedule .snc-tab .nav-pills li a h3 {
+  font-size: 2.6rem;
+  line-height: 2.6rem;
+  color: @black;
+  text-transform: uppercase;
+  margin: 0
+}
+
+.snc-schedule .snc-tab .nav-pills li a h3 span {
+  color: @orange-red
+}
+
+.snc-schedule .snc-tab .nav-pills li a p {
+  font-style: italic;
+  margin: 0
+}
+
+.snc-schedule .snc-tab .nav-pills li a p span {
+  color: @orange-red;
+  font-weight: 700
+}
+
+.snc-schedule .snc-tab .nav-pills .active {
+  background: @orange-red;
+  position: relative;
+  -moz-box-shadow: 3px 4px 15px rgba(52, 61, 71, .49);
+  -webkit-box-shadow: 3px 4px 15px rgba(52, 61, 71, .49);
+  -o-box-shadow: 3px 4px 15px rgba(52, 61, 71, .49);
+  box-shadow: 3px 4px 15px rgba(52, 61, 71, .49)
+}
+
+.snc-schedule .snc-tab .nav-pills .active:before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 60px solid @orange-red;
+  top: 50%;
+  left: 22%
+}
+
+.snc-schedule .snc-tab .snc-tab-content {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .25)
+}
+
+.snc-schedule .snc-tab .snc-single-tab {
+  background: rgba(255, 255, 255, .4);
+  border-radius: 4px;
+  padding: 2rem 1.6rem
+}
+
+.snc-schedule .snc-tab .snc-single-tab:nth-of-type(even) {
+  background: rgba(241, 241, 241, .5)
+}
+
+.snc-schedule .snc-tab .snc-single-tab .time-area .time {
+  font-family: Oswald, sans-serif;
+  font-size: 4.2rem;
+  text-align: right;
+  line-height: 5rem;
+  text-transform: uppercase;
+  display: inline-block
+}
+
+.snc-schedule .snc-tab .snc-single-tab .schedule-info, .snc-schedule .snc-tab .snc-single-tab:hover .schedule-info {
+  text-align: left
+}
+
+.snc-schedule .snc-tab .snc-single-tab .time-area .time span {
+  display: block;
+  color: @orange-red;
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  opacity: .7
+}
+
+.snc-schedule .snc-tab .snc-single-tab .author .author-img, .snc-schedule .snc-tab .snc-single-tab .author .author-info {
+  width: 50%;
+  float: left
+}
+
+.snc-schedule .snc-tab .snc-single-tab .author .author-img {
+  max-width: 100px;
+  margin-right: 1.3rem
+}
+
+.snc-schedule .snc-tab .snc-single-tab .author .author-img img {
+  max-width: 100px;
+  border-radius: 50%
+}
+
+.snc-schedule .snc-tab .snc-single-tab .author .author-info {
+  text-align: left;
+  margin-top: 2rem
+}
+
+.snc-schedule .snc-tab .snc-single-tab .author .author-info .name {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  color: @black;
+  margin: 0
+}
+
+.snc-schedule .snc-tab .snc-single-tab .author .author-info .name a {
+  color: inherit
+}
+
+.snc-schedule .snc-tab .snc-single-tab .author .author-info .author-title {
+  color: @orange-red;
+  margin: 0
+}
+
+.snc-schedule .snc-tab .snc-single-tab .schedule-info .title {
+  color: @black;
+  margin-top: 0;
+  margin-bottom: .5rem
+}
+
+.snc-schedule .snc-tab .snc-single-tab .schedule-info .title a {
+  color: inherit
+}
+
+.snc-schedule .snc-tab .snc-single-tab:hover .author .author-info .name, .snc-schedule .snc-tab .snc-single-tab:hover .time-area .time span, .snc-schedule .snc-tab .snc-single-tab:hover p {
+  color: @white
+}
+
+.snc-schedule .snc-tab .snc-single-tab:hover {
+  background: @orange-red;
+  color: @white;
+  border-radius: 0
+}
+
+.snc-schedule .snc-tab .snc-single-tab:hover:first-child {
+  border-radius: 4px 4px 0 0
+}
+
+.snc-schedule .snc-tab .snc-single-tab:hover:last-child {
+  border-radius: 0 0 4px 4px
+}
+
+.snc-schedule .snc-tab .snc-single-tab:hover .author .author-img img {
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  animation-duration: .4s;
+  animation-timing-function: linear
+}
+
+.snc-schedule .snc-tab .snc-single-tab:hover .author .author-info .name a {
+  color: inherit
+}
+
+.snc-schedule .snc-tab .snc-single-tab:hover .author .author-info .author-title, .snc-schedule .snc-tab .snc-single-tab:hover .schedule-info .title {
+  color: @white
+}
+
+.snc-schedule .snc-tab .snc-single-tab:hover .schedule-info .title a {
+  color: inherit
+}

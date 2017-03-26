@@ -1,0 +1,4 @@
+baseURL = "http://localhost:6789"
+languageCode = "fr"
+title = "Snowcamp 2018"
+googleAnalytics = ""

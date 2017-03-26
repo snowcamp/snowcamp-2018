@@ -1,0 +1,57 @@
+@import "colors";
+
+.snc-btn, .snc-btn:hover, .snc-header .snc-toggle, .snc-heading-brand .heading, .snc-heading-brand .text {
+  color: @white
+}
+
+.snc-row {
+  padding: 11rem 0;
+}
+
+.snc-btn {
+  background: @green;
+  padding: 1rem 2.6rem;
+  overflow: hidden;
+  display: inline-block;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  letter-spacing: .1rem;
+  font-size: 1.4rem;
+  line-height: 2.0999999999999996rem;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s
+}
+
+.snc-btn-brand, .snc-btn:hover {
+  background: @orange-light;
+}
+
+.snc-btn:hover span {
+  display: block;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  animation-duration: .5s;
+  animation-timing-function: linear
+}
+
+.snc-btn-brand:hover {
+  background: @green
+}
+
+.snc-btn-big {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding: 1.3rem 3.2rem
+}
+
+button {
+  border: 0
+}

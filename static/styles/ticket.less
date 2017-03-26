@@ -1,0 +1,109 @@
+@import "colors";
+
+.snc-ticket {
+  background: url(../img/background-ticket.png) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: @white
+}
+
+.snc-ticket .snc-inner {
+  background: rgba(46, 40, 65, .5)
+}
+
+.snc-ticket .single {
+  background: rgba(46, 40, 65, .85);
+  border: 1px solid @orange-red;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 0 1rem;
+  position: relative
+}
+
+.snc-ticket .single .single-top {
+  padding: 4.2rem 1.5rem 2.6rem
+}
+
+.snc-ticket .single .single-top .price {
+  font-family: Oswald, sans-serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  margin: 0;
+  line-height: 5rem
+}
+
+.snc-ticket .single .single-top .price span, .snc-ticket .single .single-top .title {
+  font-family: Lora, serif;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 3.9rem
+}
+
+.snc-ticket .single .single-top .price span {
+  color: @white
+}
+
+.snc-ticket .single .single-top .title {
+  color: @white;
+  margin: 0
+}
+
+.snc-ticket .single .single-top p {
+  color: @white;
+  opacity: .8
+}
+
+.snc-ticket .single .single-bottom {
+  background: rgba(255, 255, 255, .8);
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+  border-radius: 4px;
+  padding: 4.2rem 1.5rem;
+  transition: all .3s ease-in-out 0s
+}
+
+.snc-ticket .single .single-bottom ul {
+  margin-bottom: 2.6rem
+}
+
+.snc-ticket .single .single-bottom ul li {
+  margin-bottom: .6rem;
+  color: rgba(46, 40, 65, .8)
+}
+
+.snc-ticket .single .single-bottom ul li i {
+  color: #42bd41
+}
+
+.snc-ticket .single .single-bottom ul li .fa-times {
+  color: @orange-red
+}
+
+.snc-ticket .single:hover .single-top {
+  padding: 4.2rem 1.5rem 2.6rem
+}
+
+.snc-ticket .single:hover .single-top .title {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  animation-duration: .4s;
+  animation-timing-function: linear
+}
+
+.snc-ticket .single:hover .single-bottom {
+  background: @white
+}
+
+.snc-ticket .single:hover .single-bottom ul li {
+  color: rgba(46, 40, 65, .8)
+}
+
+.snc-ticket .active {
+  background: rgba(220, 78, 65, .85)
+}

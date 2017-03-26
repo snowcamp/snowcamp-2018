@@ -1,0 +1,149 @@
+@import "colors";
+
+a, a.active, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0
+}
+
+.btn:active, .btn:focus, a, button:active, button:focus, input[type=submit]:active, input[type=submit]:focus, input[type=button]:active, input[type=button]:focus {
+  outline: 0
+}
+
+p {
+  font-weight: 400
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  font-family: Oswald, sans-serif
+}
+
+.h3, .h4, h3, h4 {
+  font-weight: 700
+}
+
+.h1, h1 {
+  font-size: 6.8rem;
+  line-height: 7.2rem
+}
+
+.h2, h2 {
+  font-size: 4.2rem;
+  line-height: 4.8rem
+}
+
+.h3, h3 {
+  font-size: 2.6rem;
+  line-height: 4.2rem
+}
+
+.h4, .h5, h4, h5 {
+  font-size: 1.6rem
+}
+
+.h3 a, h3 a {
+  color: inherit
+}
+
+.h3 a:hover, h3 a:hover {
+  color: @orange;
+}
+
+.h4, h4 {
+  line-height: 2.4rem;
+  font-family: Lora, serif
+}
+
+.h4 a, h4 a {
+  color: inherit
+}
+
+.h4 a:hover, h4 a:hover {
+  color: @orange;
+}
+
+.h5, h5 {
+  line-height: 2.4rem
+}
+
+.h6, h6 {
+  font-size: 1.4rem;
+  line-height: 2.4rem
+}
+
+blockquote, blockquote p {
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  font-weight: 400
+}
+
+a {
+  color: @orange
+}
+
+a.active, a:focus, a:hover {
+  color: @orange-light;
+}
+
+blockquote {
+  text-align: left;
+  overflow: hidden;
+  width: 100%;
+  color: @black;
+  margin: 2rem 0;
+  display: block;
+  padding: 4rem;
+  font-style: italic;
+  position: relative;
+  border-left: 0;
+  border-radius: 40px 0
+}
+
+blockquote:after, blockquote:before {
+  position: absolute;
+  font-size: 5.1rem;
+  line-height: 7.6499999999999995rem;
+  color: @white;
+  opacity: 1
+}
+
+blockquote footer {
+  float: none !important;
+  color: @orange;
+}
+
+// TODO reference font-awesome.
+
+blockquote:after {
+  content: "\f10e";
+  right: 8px;
+  bottom: -22px
+}
+
+blockquote:before {
+  content: "\f10d";
+  left: -1px;
+  top: -19px
+}
+
+.snc-typed-info .typed-cursor {
+  opacity: 1;
+  font-weight: 300;
+  margin-left: 5px;
+  -webkit-animation: blink .7s infinite;
+  -moz-animation: blink .7s infinite;
+  animation: blink .7s infinite
+}
+
+.snc-heading-brand .back-heading {
+  color: @orange-red;
+}
+
+.lgx-heading-brand .heading, .lgx-heading-brand .text {
+  color: @white;
+}
+
+.lgx-heading-brand .text {
+  color: #fff;
+}
+
+

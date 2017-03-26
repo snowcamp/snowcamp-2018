@@ -1,0 +1,246 @@
+@import-once "colors.less";
+
+.navbar-brand {
+  padding: 0;
+}
+
+.snc-header .snc-navbar .snc-logo, .snc-header .snc-navbar .snc-nav {
+  -webkit-transform-origin: center;
+  animation-duration: .4s;
+  animation-timing-function: linear
+}
+
+.snc-header {
+  position: fixed;
+  top: 3rem;
+  width: 100%;
+  z-index: 9
+}
+
+.snc-header .snc-inner {
+  margin: 0 auto
+}
+
+.snc-header .snc-toggle {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  z-index: 99
+}
+
+.snc-header .snc-toggle i {
+  font-size: 26px
+}
+
+.snc-header .navbar-nav li:hover > ul, .snc-header .navbar-nav ul li:hover > ul {
+  display: block;
+  -moz-animation: fadeIn .3s ease-in;
+  -webkit-animation: fadeIn .3s ease-in;
+  animation: fadeIn .3s ease-in
+}
+
+.snc-header .dropdown-submenu {
+  position: relative
+}
+
+.snc-header .dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px
+}
+
+.snc-header .dropdown-submenu:hover > .dropdown-menu {
+  display: block
+}
+
+.snc-header .dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  margin-top: 5px;
+  margin-right: -10px
+}
+
+.snc-header .dropdown-submenu.pull-left {
+  float: none
+}
+
+.snc-header .dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px
+}
+
+.snc-header .snc-navbar {
+  margin-bottom: 0;
+  border: none;
+  background: 0 0;
+  border-radius: 0
+}
+
+.snc-header .snc-navbar .snc-nav {
+  position: relative;
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  transform-origin: center;
+  float: right
+}
+
+.snc-header .snc-navbar .snc-nav li a {
+  color: @white;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  letter-spacing: .08rem
+}
+
+.snc-banner .date, .snc-banner .subtitle {
+  font-family: Lora, serif;
+  font-style: italic
+}
+
+.snc-header .snc-navbar .snc-nav li a:hover {
+  background: 0 0;
+  color: @orange-red;
+  opacity: 1
+}
+
+.snc-header .snc-navbar .snc-nav li .snc-btn {
+  margin-top: .5rem;
+  padding: .8rem 2.4rem;
+  -webkit-transition: all 0s ease-in-out 0s;
+  -moz-transition: all 0s ease-in-out 0s;
+  -o-transition: all 0s ease-in-out 0s;
+  transition: all 0s ease-in-out 0s
+}
+
+.snc-header .snc-navbar .snc-nav li .snc-btn:hover {
+  background: @orange-red;
+  color: @white
+}
+
+.snc-header .snc-navbar .snc-nav .active a {
+  background: 0 0;
+  color: @orange-red
+}
+
+.snc-header .snc-navbar .snc-logo {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  transform-origin: center
+}
+
+.snc-header .snc-navbar .snc-logo a img {
+  max-width: 190px;
+  margin-top: -5px;
+  -webkit-transition: all .4s ease-in-out 0s;
+  -moz-transition: all .4s ease-in-out 0s;
+  -o-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s
+}
+
+.snc-header .snc-navbar .snc-nav .dropdown-menu {
+  border: 0;
+  border-radius: 0
+}
+
+.snc-header .snc-navbar .snc-nav .dropdown-menu li a {
+  color: @black;
+  padding: .6rem 1.5rem;
+  font-size: 1.4rem;
+  line-height: 2.0999999999999996rem
+}
+
+.snc-header .snc-navbar .snc-nav .dropdown-menu li a b {
+  color: @orange-red;
+}
+
+.snc-header .snc-navbar .snc-nav .dropdown-menu li a:hover {
+  background: 0 0;
+  color: @orange-red;
+  opacity: 1
+}
+
+.page .snc-header .snc-navbar .snc-nav .dropdown-menu, .page-template .snc-header .snc-navbar .snc-nav .dropdown-menu, .single .snc-header .snc-navbar .snc-nav .dropdown-menu, .single-post .snc-header .snc-navbar .snc-nav .dropdown-menu {
+  border: 0;
+  border-radius: 0
+}
+
+.page .snc-header .snc-navbar .snc-nav .dropdown-menu li a, .page-template .snc-header .snc-navbar .snc-nav .dropdown-menu li a, .single .snc-header .snc-navbar .snc-nav .dropdown-menu li a, .single-post .snc-header .snc-navbar .snc-nav .dropdown-menu li a {
+  color: @black;
+}
+
+.page .snc-header .snc-navbar .snc-nav .dropdown-menu li a b, .page-template .snc-header .snc-navbar .snc-nav .dropdown-menu li a b, .single .snc-header .snc-navbar .snc-nav .dropdown-menu li a b, .single-post .snc-header .snc-navbar .snc-nav .dropdown-menu li a b {
+  color: @orange-red;
+}
+
+.menu {
+  background: rgba(46, 40, 65, .95);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  animation-duration: .6s;
+  animation-timing-function: linear;
+  -moz-box-shadow: 0 3px 5px rgba(66, 189, 65, .1);
+  -webkit-box-shadow: 0 3px 5px rgba(66, 189, 65, .1);
+  -o-box-shadow: 0 3px 5px rgba(66, 189, 65, .1);
+  box-shadow: 0 3px 5px rgba(66, 189, 65, .1)
+}
+
+.menu .snc-navbar .snc-nav .active a, .menu .snc-navbar .snc-nav li a:hover {
+  background: 0 0;
+  opacity: 1;
+  color: @orange-red;
+}
+
+.menu .snc-toggle {
+  color: @orange-red;
+  top: 15px
+}
+
+.menu .snc-navbar .snc-nav li a {
+  padding-top: 23px;
+  padding-bottom: 23px
+}
+
+.menu .snc-navbar .snc-nav li .snc-btn {
+  margin-top: 1.3rem;
+  -webkit-transition: all 0s ease-in-out 0s;
+  -moz-transition: all 0s ease-in-out 0s;
+  -o-transition: all 0s ease-in-out 0s;
+  transition: all 0s ease-in-out 0s
+}
+
+.menu .snc-navbar .snc-logo {
+  display: block;
+  margin-top: .9rem
+}
+
+.menu .snc-navbar .snc-logo a img {
+  max-width: 170px;
+  margin-top: 0;
+  -webkit-transition: all .2s ease-in-out 0s;
+  -moz-transition: all .2s ease-in-out 0s;
+  -o-transition: all .2s ease-in-out 0s;
+  transition: all .2s ease-in-out 0s
+}
+
+.snc-header-white .snc-toggle {
+  color: @orange-red
+}
+
+.snc-header-white .snc-navbar .snc-nav li a {
+  color: @black;
+  opacity: .7
+}
+
+.snc-header-white .snc-navbar .snc-nav .active a, .snc-header-white .snc-navbar .snc-nav li a:hover {
+  color: @orange-red;
+}

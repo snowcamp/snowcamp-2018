@@ -1,0 +1,187 @@
+@import "colors";
+
+.snc-speakers .snc-single-speaker-sm {
+  padding: 8px
+}
+
+.snc-speakers .snc-single-speaker-sm .speaker-info .title, .snc-speakers .snc-single-speaker-sm figure figcaption a {
+  font-size: 1.8rem;
+  line-height: 2.7rem
+}
+
+.snc-speaker-single .snc-single-speaker {
+  min-height: 100% !important
+}
+
+.snc-speaker-single p {
+  margin-bottom: 1.6rem
+}
+
+.snc-speaker-single .speakers-content .title {
+  font-size: 4.2rem;
+  line-height: 6.3rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase
+}
+
+.snc-single-speaker, .snc-speaker-single .social {
+  margin-bottom: 4.2rem
+}
+
+.snc-speaker-single .speakers-content .subtitle {
+  font-family: Lora, serif;
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  font-weight: 400;
+  color: @orange-red;
+  margin-top: 0
+}
+
+.snc-speaker-single .social ul li {
+  background: @white;
+  padding: 5px;
+  border-radius: 50%;
+  transition: all .3s ease-in-out 0s
+}
+
+.snc-speaker-single .social ul li a {
+  background: @white;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 26px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .25)
+}
+
+.snc-speaker-single .social ul li a i {
+  font-size: inherit;
+  line-height: 53px;
+}
+
+.snc-speaker-single .social ul li:hover {
+  background: @orange-red;
+}
+
+.snc-speaker-single .social ul li:hover a {
+  color: @green;
+}
+
+.snc-speaker-single .social ul li:hover a i {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  animation-duration: .6s;
+  animation-timing-function: linear
+}
+
+.snc-single-speaker {
+  background: @white;
+  border-radius: 4px;
+  padding: 8px;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s
+}
+
+.snc-single-speaker figure {
+  position: relative;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+  border-radius: 4px
+}
+
+#snc-organisation .snc-single-speaker figure {
+  position: relative;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.snc-single-speaker figure a.profile-img, .snc-single-speaker figure a.profile-img img {
+  border-radius: 4px
+}
+
+.snc-single-speaker figure figcaption {
+  background: @white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: @white;
+  border-radius: 0 0 4px 4px;
+  opacity: 0;
+  padding: .8rem 0;
+  -webkit-transition: all .3s ease-in-out .3s;
+  -moz-transition: all .3s ease-in-out .3s;
+  -o-transition: all .3s ease-in-out .3s;
+  transition: all .3s ease-in-out .3s
+}
+
+.snc-single-speaker figure figcaption a {
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  color: @orange-red;
+  padding: 0 .3rem
+}
+
+.snc-single-speaker .speaker-info {
+  padding: 1.6rem 0 1.5rem
+}
+
+.snc-single-speaker .speaker-info .title {
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: .08rem
+}
+
+.snc-single-speaker .speaker-info .title a {
+  font-size: inherit
+}
+
+.snc-single-speaker .speaker-info .subtitle {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0;
+  color: @orange-red;
+}
+
+.snc-single-speaker:hover .speaker-info .subtitle, .snc-single-speaker:hover .speaker-info .title a {
+  color: @white;
+}
+
+.snc-single-speaker:hover {
+  background: @orange-red;
+}
+
+.snc-single-speaker:hover figure figcaption {
+  opacity: 1;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  animation-duration: .4s;
+  animation-timing-function: linear
+}
+
+.snc-single-speaker:hover figure figcaption a i {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  animation-duration: .5s;
+  animation-timing-function: linear
+}
