@@ -8,3 +8,6 @@ static/libs
 .settings/
 .idea/
 public/
+_site/
+.sass-cache/
+.jekyll-metadata
