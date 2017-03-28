@@ -15,6 +15,10 @@ organizers:
     img: emmanuel.png
     twitter: ehsavoie
     linkedin: ehsavoie
+  - name: Johan Martinsson
+    img: johan.jpg
+    twitter: johan_alps
+    linkedin: jomartinsson    
   - name: Lorie Pisicchio
     img: lorie.png
     twitter: LoriePisicchio
@@ -23,6 +27,10 @@ organizers:
     img: ludovic.jpg
     twitter: LudoMP
     linkedin: ludovicp
+  - name: Michel Barret
+    img: michel.jpg
+    twitter: barmic42
+    linkedin: michel-barret-23a39a27    
   - name: Miguel Moquillon
     img: miguel.jpg
     twitter: migmoq
@@ -35,11 +43,3 @@ organizers:
     img: sylvain.jpg
     twitter: sylvainbauza
     linkedin: sylvainbauza
-  - name: Johan Martinsson
-    img: johan.jpg
-    twitter: johan_alps
-    linkedin: jomartinsson
-  - name: Michel Barret
-    img: michel.jpg
-    twitter: barmic42
-    linkedin: michel-barret-23a39a27
