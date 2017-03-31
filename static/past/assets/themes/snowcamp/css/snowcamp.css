@@ -1,0 +1,123 @@
+
+@font-face {
+  font-family: 'SnowtopCaps';
+  src: url('/assets/themes/snowcamp/font/SnowtopCaps.ttf') format('truetype');
+  font-weight: normal !important;
+  font-style: normal;
+}
+
+.logo {
+  font-family: "SnowtopCaps" !important;
+  white-space: nowrap;
+  margin-top: 2em !important;
+}
+
+.soldout {
+  background-image: url('/assets/themes/snowcamp/skin/soldout.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.supporters {
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+}
+
+.supporters .supporter-logo {
+  height: auto;
+  width: 35%;
+  max-width: 350px;
+  margin: 20px;
+}
+
+.sponsors-type {
+    color: #0d69b2;
+}
+
+.sponsors-header {
+  background-image: url("/past/assets/themes/snowcamp/skin/sponsors-ujf-xlarge.jpg") !important;
+  background-color: #1B1C1D;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+  .sponsors-header {
+      background-image: url("/past/assets/themes/snowcamp/skin/sponsors-ujf-large.jpg") !important;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .sponsors-header {
+      background-image: url("/past/assets/themes/snowcamp/skin/sponsors-ujf-medium.jpg") !important;
+  }
+
+  .sponsors-trust {
+    font-size: 1.2em !important;
+  }
+
+}
+
+.previous-edition-header {
+  background-image: url("/past/assets/themes/snowcamp/skin/corridor-ujf-xlarge.jpg") !important;
+  background-color: #1B1C1D;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+  .previous-edition-header {
+      background-image: url("/past/assets/themes/snowcamp/skin/corridor-ujf-large.jpg") !important;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .previous-edition-header {
+      background-image: url("/past/assets/themes/snowcamp/skin/corridor-ujf-medium.jpg") !important;
+  }
+}
+
+.previous-edition-fingers {
+  padding-left: 2em !important;
+}
+
+.venue-header {
+  background-image: url("/past/assets/themes/snowcamp/skin/pilsi-ujf-xlarge.jpg") !important;
+  background-color: #1B1C1D;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+  .venue-header {
+      background-image: url("/past/assets/themes/snowcamp/skin/pilsi-ujf-large.jpg") !important;
+  }
+}
+
+
+@media screen and (max-width: 399px) {
+  .venue-header {
+      background-image: url("/past/assets/themes/snowcamp/skin/pilsi-ujf-medium.jpg") !important;
+  }
+}
+
+.agenda-header {
+  background-image: url("/past/assets/themes/snowcamp/skin/agenda-xlarge.jpg") !important;
+  background-color: #1B1C1D;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+  .agenda-header {
+      background-image: url("/past/assets/themes/snowcamp/skin/agenda-large.jpg") !important;
+  }
+}
+
+
+@media screen and (max-width: 399px) {
+  .agenda-header {
+      background-image: url("/past/assets/themes/snowcamp/skin/agenda-medium.jpg") !important;
+  }
+}
