@@ -1,0 +1,10 @@
+baseURL = "http://escoffier.me/snowcamp/en"
+languageCode = "en"
+title = "Snowcamp 2018"
+googleAnalytics = ""
+
+contentDir = "content/en"
+publishDir = "public/en"
+
+[params]
+    locale = "en-US"

@@ -1,4 +1,12 @@
-baseURL = "http://escoffier.me/snowcamp"
+baseURL = "http://localhost:6789"
 languageCode = "fr"
 title = "Snowcamp 2018"
 googleAnalytics = ""
+
+contentDir = "content"
+publishDir = "public"
+
+[params]
+    locale = "fr-FR"
+
+

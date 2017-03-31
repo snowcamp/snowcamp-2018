@@ -44,7 +44,9 @@ var imageInput = './static/img/**/*';
 var imageOutput = './public/img';
 
 var configDevFile = './config.dev.toml';
+var configDevFileEn = './config.dev_en.toml';
 var configProdFile = './config.prod.toml';
+var configProdFileEn = './config.prod_en.toml';
 
 gulp.task('default', ['serve']);
 
@@ -75,11 +77,23 @@ gulp.task('html', function () {
 });
 
 gulp.task('config-dev', function () {
-  return changeConfigFile(configDevFile);
+  gulp.src(configDevFile)
+    .pipe(rename('config.toml'))
+    .pipe(gulp.dest('./'));
+
+  gulp.src(configDevFileEn)
+    .pipe(rename('config_en.toml'))
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('config-prod', function () {
-  return changeConfigFile(configProdFile);
+  gulp.src(configProdFile)
+    .pipe(rename('config.toml'))
+    .pipe(gulp.dest('./'));
+
+  gulp.src(configProdFileEn)
+    .pipe(rename('config_en.toml'))
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('build', function () {
@@ -123,6 +137,25 @@ gulp.task('serve', function () {
 
 function buildHugo() {
   var hugoCommand = 'hugo --buildDrafts';
+
+  if (hugoTheme) {
+    hugoCommand += ' --theme=' + hugoTheme;
+  }
+
+  gulp
+    .src('')
+    .pipe(plumber({
+      errorHandler: handleError
+    }))
+    .pipe(shell([
+      hugoCommand
+    ]));
+
+  return buildHugoEn();
+}
+
+function buildHugoEn() {
+  var hugoCommand = 'hugo --buildDrafts --config="config_en.toml"';
 
   if (hugoTheme) {
     hugoCommand += ' --theme=' + hugoTheme;

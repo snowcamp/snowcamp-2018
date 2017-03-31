@@ -1,0 +1,12 @@
+baseURL = "http://localhost:6789/en"
+languageCode = "en"
+title = "Snowcamp 2018"
+googleAnalytics = ""
+
+contentDir = "content/en"
+publishDir = "public/en"
+
+[params]
+    locale = "en-US"
+
+
