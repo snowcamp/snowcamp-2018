@@ -109,6 +109,17 @@ const images = {
 };
 
 /**
+ * HTML Config
+ * `options` will be passed to htmlmin
+ * Task: `tasks/html.js`
+ * @type {Object}
+ */
+const html = {
+  sourcePath: `${assetPath}/**/*.html`,
+  destinationPath: `${assetPath}`,
+};
+
+/**
  * Modernizr Settings
  * `tests` specify the modernizr tests to run
  * `settings` will be passed to customizr
@@ -181,4 +192,5 @@ module.exports = {
   scripts,
   styles,
   svg,
+  html
 };
