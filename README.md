@@ -21,16 +21,14 @@ Hugo is not a nodejs (javascript) package it needs to be installed (to the comma
 ## Run dev mode
 
 ```
-gulp bower
-gulp config-dev
+gulp dependencies:build
 gulp serve
 ```
 
 ## Prod mode
 
 ```
-gulp config-prod
-gulp build
+gulp build --prod=true
 # Copy public to your site...
 ```
 
