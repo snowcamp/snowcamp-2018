@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'SnowtopCaps';
-  src: url('/assets/themes/snowcamp/font/SnowtopCaps.ttf') format('truetype');
+  src: url('../font/SnowtopCaps.ttf') format('truetype');
   font-weight: normal !important;
   font-style: normal;
 }
@@ -13,7 +13,7 @@
 }
 
 .soldout {
-  background-image: url('/assets/themes/snowcamp/skin/soldout.png');
+  background-image: url('../skin/soldout.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -36,7 +36,7 @@
 }
 
 .sponsors-header {
-  background-image: url("/past/assets/themes/snowcamp/skin/sponsors-ujf-xlarge.jpg") !important;
+  background-image: url("../skin/sponsors-ujf-xlarge.jpg") !important;
   background-color: #1B1C1D;
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -44,13 +44,13 @@
 
 @media screen and (min-width: 400px) and (max-width: 1024px) {
   .sponsors-header {
-      background-image: url("/past/assets/themes/snowcamp/skin/sponsors-ujf-large.jpg") !important;
+      background-image: url("../skin/sponsors-ujf-large.jpg") !important;
   }
 }
 
 @media screen and (max-width: 399px) {
   .sponsors-header {
-      background-image: url("/past/assets/themes/snowcamp/skin/sponsors-ujf-medium.jpg") !important;
+      background-image: url("../skin/sponsors-ujf-medium.jpg") !important;
   }
 
   .sponsors-trust {
@@ -60,7 +60,7 @@
 }
 
 .previous-edition-header {
-  background-image: url("/past/assets/themes/snowcamp/skin/corridor-ujf-xlarge.jpg") !important;
+  background-image: url("../skin/corridor-ujf-xlarge.jpg") !important;
   background-color: #1B1C1D;
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -68,13 +68,13 @@
 
 @media screen and (min-width: 400px) and (max-width: 1024px) {
   .previous-edition-header {
-      background-image: url("/past/assets/themes/snowcamp/skin/corridor-ujf-large.jpg") !important;
+      background-image: url("../skin/corridor-ujf-large.jpg") !important;
   }
 }
 
 @media screen and (max-width: 399px) {
   .previous-edition-header {
-      background-image: url("/past/assets/themes/snowcamp/skin/corridor-ujf-medium.jpg") !important;
+      background-image: url("../skin/corridor-ujf-medium.jpg") !important;
   }
 }
 
@@ -83,7 +83,7 @@
 }
 
 .venue-header {
-  background-image: url("/past/assets/themes/snowcamp/skin/pilsi-ujf-xlarge.jpg") !important;
+  background-image: url("../skin/pilsi-ujf-xlarge.jpg") !important;
   background-color: #1B1C1D;
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -91,19 +91,19 @@
 
 @media screen and (min-width: 400px) and (max-width: 1024px) {
   .venue-header {
-      background-image: url("/past/assets/themes/snowcamp/skin/pilsi-ujf-large.jpg") !important;
+      background-image: url("../skin/pilsi-ujf-large.jpg") !important;
   }
 }
 
 
 @media screen and (max-width: 399px) {
   .venue-header {
-      background-image: url("/past/assets/themes/snowcamp/skin/pilsi-ujf-medium.jpg") !important;
+      background-image: url("../skin/pilsi-ujf-medium.jpg") !important;
   }
 }
 
 .agenda-header {
-  background-image: url("/past/assets/themes/snowcamp/skin/agenda-xlarge.jpg") !important;
+  background-image: url("../skin/agenda-xlarge.jpg") !important;
   background-color: #1B1C1D;
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -111,13 +111,13 @@
 
 @media screen and (min-width: 400px) and (max-width: 1024px) {
   .agenda-header {
-      background-image: url("/past/assets/themes/snowcamp/skin/agenda-large.jpg") !important;
+      background-image: url("../skin/agenda-large.jpg") !important;
   }
 }
 
 
 @media screen and (max-width: 399px) {
   .agenda-header {
-      background-image: url("/past/assets/themes/snowcamp/skin/agenda-medium.jpg") !important;
+      background-image: url("../skin/agenda-medium.jpg") !important;
   }
 }
