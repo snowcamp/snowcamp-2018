@@ -32,9 +32,11 @@
                          aria-haspopup="true"
                          aria-expanded="false">Snowcamp <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/snowcamp/#what">C'est quoi ?</a></li>
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/snowcamp/#what">
+                          {{ i18n "what_is_this" }}</a></li>
                         <li><a class="page-scroll" href="{{.Site.BaseURL}}/organisation/">Organisation</a></li>
-                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/past/2017/fr/welcome.html">En 2017</a></li>
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/past/2017/fr/welcome.html">
+                          {{ i18n "in_2017" }}</a></li>
                       </ul>
                     </li>
                     <li class="dropdown">
@@ -43,7 +45,8 @@
                          aria-expanded="false"> {{ i18n "program_translation"  }} <span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li><a class="page-scroll" href="{{.Site.BaseURL}}/#programme">CFP</a></li>
-                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/#programme">Programme</a></li>
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/#programme">
+                          {{ i18n "program_translation" }}</a></li>
                       </ul>
                     </li>
                     <li class="dropdown">
@@ -51,10 +54,8 @@
                          role="button" aria-haspopup="true"
                          aria-expanded="false">Sponsors <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/#sponsors">Nos
-                          sponsors</a></li>
-                        <li><a href="{{.Site.BaseURL}}/sponsors">Devenez
-                          sponsors</a></li>
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/#sponsors">{{ i18n "our_sponsors" }}</a></li>
+                        <li><a href="{{.Site.BaseURL}}/sponsors"> {{ i18n "become_sponsor" }} </a></li>
                       </ul>
                     </li>
                     <li><a href="{{.Site.BaseURL}}/tickets">Tickets</a>
