@@ -3,43 +3,54 @@ organizers:
     img: cedric.png
     twitter: ctranxuan
     linkedin: ctranxuan
+    github: ctranxuan
   - name: Clement Escoffier
     img: clement.jpeg
     twitter: clementplop
     linkedin: clementescoffier
+    github: cescoffier
   - name: Dana Popovici
     img: dana.png
     twitter: dnppvc
+    github: dana-popovici
     linkedin: dana-popovici-54331b16
   - name: Emmanuel Hugonnet
     img: emmanuel.png
     twitter: ehsavoie
     linkedin: ehsavoie
+    github: ehsavoie
   - name: Johan Martinsson
     img: johan.jpg
     twitter: johan_alps
-    linkedin: jomartinsson    
+    linkedin: jomartinsson
+    github: martinsson
   - name: Lorie Pisicchio
     img: lorie.png
     twitter: LoriePisicchio
     linkedin: loriepisicchio
+    github: loriepisicchio
   - name: Ludovic Poitou
     img: ludovic.jpg
     twitter: LudoMP
     linkedin: ludovicp
+    github: ludomp
   - name: Michel Barret
     img: michel.jpg
     twitter: barmic42
-    linkedin: michel-barret-23a39a27    
+    linkedin: michel-barret-23a39a27
+    github: barmic
   - name: Miguel Moquillon
     img: miguel.jpg
     twitter: migmoq
     linkedin: miguel-moquillon-b8a1aa3
+    github: mmoqui
   - name: Rémy Salanville
     img: remy.jpg
     twitter: sanlaville
     linkedin: sanlaville
+    github: sanlaville
   - name: Sylvain Bauza
     img: sylvain.jpg
     twitter: sylvainbauza
     linkedin: sylvainbauza
+    github: sbauza
