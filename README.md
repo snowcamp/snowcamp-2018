@@ -22,7 +22,7 @@ Hugo is not a nodejs (javascript) package it needs to be installed (to the comma
 
 ```
 gulp dependencies:build
-gulp serve
+gulp watch
 ```
 
 ## Prod mode
