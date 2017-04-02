@@ -1,2 +1,4 @@
 - id: program_translation
   translation: program
+- id: ticketlabel
+  translation: Tickets
