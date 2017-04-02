@@ -3,11 +3,12 @@ languageCode = "fr"
 title = "Snowcamp 2018"
 googleAnalytics = ""
 
+DefaultContentLanguage = "fr"
 
 [Languages]
-[Languages.en]
-weight = 1
 
 [Languages.fr]
+weight = 1
+[Languages.en]
 weight = 2
 
