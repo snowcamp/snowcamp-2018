@@ -1,9 +1,6 @@
 #!/bin/bash
-
-echo "Switching to prod..."
-gulp config-prod
 echo "Rendering...."
-gulp build
+gulp build --prod=true
 echo "Uploading..."
 cd public
 scp -r . wisdom-framework.org:~wisdom/snowcamp
