@@ -10,8 +10,22 @@
   translation: Devenez Sponsor
 - id: our_sponsors
   translation: Nos sponsors
+
 - id: organisation_about_1
-  translation: Le neigecamp est une conférence faite par des développeurs de la région grenobloise. Elle a été créée en
-  2016 à l'initiative de l'
+  translation: Le neigecamp est une conférence faite par des développeurs de la région grenobloise. Elle a été créée en 2016 à l'initiative de l'
 - id: organisation_about_2
   translation: . Tous les organisateurs sontdes geeks bénévoles passionnés.
+
+- id: snowcamp_nuts
+  translation: La conférence qui envoie de la noix
+- id: snowcamp_what_is_it
+  translation: Le SnowCamp c'est quoi ?
+- id: snowcamp_first_of_all
+  translation: Tout d’abord, c’est surtout une conférence à haut niveau technique où l’innovation prime en faisant rencontrer académiques et entreprises du secteur informatique autour de technologies d’aujourd’hui et de demain.
+#- id: snowcamp_concept
+#  translation: Le SnowCamp est un concept à part : des ateliers le mercredi sur une journée complète pour apprendre ou approfondir une technologie particulière ; une conférence le jeudi et vendredi plus classique mais qui permet aussi de découvrir des pitches de 5 mins sur des projets universitaires ou de recherche ; enfin le samedi, une journée détente à la neige.
+- id: snowcamp_grenoble_and_innovation
+  translation: Grenoble et l'innovation
+#- id: snowcamp_grenoble_and_innovation_content
+#  translation: Depuis les débuts de l’électricité, Grenoble a toujours été un vivier d’innovation et d’excellence : des laboratoires et des industries de pointe y sont installés, elle a été classée 5e ville la plus innovante au monde par le magazine Forbes et est maintenant labellisée “French Tech”. Ici, l'innovation technique a trouvé ses racines dans les montagnes environnantes. C'est pourquoi le SnowCamp propose, suite à la conférence, une journée "unconference" en altitude, sur les pistes de ski, lors de laquelle les participants pourront continuer à échanger de façon plus informelle et détendue, dans un cadre exceptionnel propice à la créativité.
+
