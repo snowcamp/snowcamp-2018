@@ -1,0 +1,55 @@
+<html class="no-js" lang="{{ .Site.Params.locale }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<head>
+  {{ partial "header.html" . }}
+</head>
+
+<body lang="fr">
+{{ partial "header_menu.html" . }}
+
+<section>
+  <div id="snc-organisation" class="snc-ticket">
+    <div class="snc-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <div class="snc-heading-area snc-heading-brand">
+              <h2 class="snc-heading ">
+                <span class="back-heading"><i class="fa fa-users" aria-hidden="true"></i></span>
+                <span class="heading dark-background">Organisation</span>
+              </h2>
+              <p class="text dark-background">
+                Snowcamp is a conference crafted by developers from the Grenoble area. It as been created in 2016 on
+                the initiative of <a href="http://www.alpesjug.fr/">AlpesJug</a>. All organizers are enthusiast geeky volonteers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          {{ range $.Site.Data.organisation.organizers }}
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="snc-single-speaker">
+              <figure>
+                <img src="{{ $.Site.BaseURL }}/img/orga/{{.img}}" alt="{{.name}}">
+                <figcaption>
+                  <a class="sp-tw" href="https://twitter.com/{{.twitter}}/"><i class="fa fa-twitter"></i></a>
+                  <a class="sp-in" href="https://www.linkedin.com/in/{{.linkedin}}"><i class="fa fa-linkedin"></i></a>
+                  <a class="sp-gh" href="https://github.com/{{.github}}"><i class="fa fa-github"></i></a>
+                </figcaption>
+              </figure>
+              <div class="speaker-info">
+                <h4 class="subtitle">{{.name}}</h4>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
+
+
+</body>
