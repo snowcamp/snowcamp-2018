@@ -1,0 +1,125 @@
+<html class="no-js" lang="{{ .Site.Params.locale }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<head>
+  {{ partial "header.html" . }}
+</head>
+
+<body lang="fr">
+{{ partial "header_menu.html" . }}
+
+<section>
+  <div id="snc-ticket" class="snc-ticket">
+    <div class="snc-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <div class="snc-heading-area snc-heading-brand">
+              <h2 class="snc-heading ">
+                <span class="back-heading"><i class="fa fa-ticket" aria-hidden="true"></i></span>
+                <span class="heading dark-background">Tickets</span>
+              </h2>
+              <p class="text dark-background">
+                You can buy a pack of 3 days (universities + conferences), or 2 days (conferences only).
+                The sell of the ticket is done through our partner YouPlan.
+                Beware, the number of the tickets is limited!
+              </p>
+              <p class="text dark-background emph">The sell of tickets is not open.</p>
+            </div>
+          </div>
+        </div>
+        <!--<div class="row">-->
+          <!--<div class="col-xs-12 col-sm-6 col-md-6">-->
+            <!--<div class="single active">-->
+              <!--<div class="single-top">-->
+                <!--<h2 class="title">Early-Bird - Pack 3 jours</h2>-->
+                <!--<h4 class="price">{{ $.Site.Data.ticket.prices.early_pack }} &euro;</h4>-->
+                <!--<p>Université + Conférence (nombre limité)</p>-->
+              <!--</div>-->
+              <!--<div class="single-bottom">-->
+                <!--<ul class="list-unstyled list">-->
+                  <!--<li><i class="fa fa-check" aria-hidden="true"></i> Access to the universities</li>-->
+                  <!--<li><i class="fa fa-check" aria-hidden="true"></i> Access to the conferences</li>-->
+                  <!--<li><i class="fa fa-check" aria-hidden="true"></i> Petit déjeuner sur les 3 jours</li>-->
+                  <!--<li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 3 jours</li>-->
+                  <!--<li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>-->
+                <!--</ul>-->
+                <!--<a class="snc-btn disabled"-->
+                   <!--href="#"><span>The sell of tickets is not open.</span></a>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="col-xs-12 col-sm-6 col-md-6">-->
+            <!--<div class="single">-->
+              <!--<div class="single-top">-->
+                <!--<h2 class="title">Early-Bird - Pack 2 jours</h2>-->
+                <!--<h4 class="price">{{ $.Site.Data.ticket.prices.early }} &euro;</h4>-->
+                <!--<p>Conférence seulement (nombre limité)</p>-->
+              <!--</div>-->
+              <!--<div class="single-bottom">-->
+                <!--<ul class="list-unstyled list">-->
+                  <!--<li><i class="fa fa-times" aria-hidden="true"></i> Access to the universities</li>-->
+                  <!--<li><i class="fa fa-check" aria-hidden="true"></i> Access to the conferences</li>-->
+                  <!--<li><i class="fa fa-check" aria-hidden="true"></i> Breakfast for the 2 days</li>-->
+                  <!--<li><i class="fa fa-check" aria-hidden="true"></i> Lunch for the 2 days</li>-->
+                  <!--<li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>-->
+                <!--</ul>-->
+                <!--<a class="snc-btn disabled"-->
+                   <!--href="#"><span>The sell of tickets is not open.</span></a>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+        <div class="row">
+          <div class="snc-row">
+
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="single">
+                <div class="single-top">
+                  <h2 class="title">Standard - Package 3 days</h2>
+                  <h4 class="price">{{ $.Site.Data.ticket.prices.full_pack }} &euro;</h4>
+                  <p>Universities + Conferences</p>
+                </div>
+                <div class="single-bottom">
+                  <ul class="list-unstyled list">
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Access to the universities</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Access to the conferences</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Breakfast for the 3 days</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Lunch for the 3 days</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>
+                  </ul>
+                  <a class="snc-btn disabled"
+                     href="#"><span>The sell of tickets is not open.</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="single">
+                <div class="single-top">
+                  <h2 class="title">Standard - Package 2 days</h2>
+                  <h4 class="price">{{ $.Site.Data.ticket.prices.full }} &euro;</h4>
+                  <p>Conferences only</p>
+                </div>
+                <div class="single-bottom">
+                  <ul class="list-unstyled list">
+                    <li><i class="fa fa-times" aria-hidden="true"></i> Access to the universities</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Access to the conferences</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Breakfast for the 2 days</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Lunch for the 2 days</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>
+                  </ul>
+                  <a class="snc-btn disabled"
+                     href="#"><span>The sell of tickets is not open.</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
+
+
+</body>
