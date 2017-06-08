@@ -7,10 +7,10 @@
 <body lang="{{ .Lang }}">
 {{ partial "header_menu.html" . }}
 
-{{ if eq .Lang "fr" }}
-    {{ partial "index.fr.html" . }}
-{{else}}
+{{ if eq .Lang "en" }}
     {{ partial "index.en.html" . }}
+{{else}}
+    {{ partial "index.fr.html" . }}
 {{ end }}
 
 

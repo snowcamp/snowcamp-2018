@@ -58,7 +58,21 @@
                         <li><a href="{{.Site.BaseURL}}{{ .Lang }}/sponsors"> {{ i18n "become_sponsor" }} </a></li>
                       </ul>
                     </li>
-                    <li><a href="{{.Site.BaseURL}}{{ .Lang }}/tickets">Tickets</a>
+                    <li><a href="{{.Site.BaseURL}}{{ .Lang }}/tickets">Tickets</a></li>
+                    {{ if eq .Lang "fr" }}
+                        <li>
+                          <a href="{{.Site.BaseURL}}en/">
+                            <img class="snc-flag" src="{{.Site.BaseURL}}/img/gb.svg" alt="Switch to English">
+                          </a>
+                        </li>
+                    {{else}}
+                        <li>
+                          <a href="{{.Site.BaseURL}}fr/">
+                            <img class="snc-flag" src="{{.Site.BaseURL}}/img/fr.svg" alt="Switch to French">
+                          </a>
+                        </li>
+                    {{ end }}
+
                   </ul>
                 </div>
               </div>
