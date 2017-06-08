@@ -32,4 +32,9 @@ gulp build --prod=true
 # Copy public to your site...
 ```
 
+## Deploy 
+
+```
+./deploy-on-air.sh
+```
 
