@@ -2,3 +2,13 @@ baseURL = "http://escoffier.me/snowcamp"
 languageCode = "fr"
 title = "Snowcamp 2018"
 googleAnalytics = ""
+
+DefaultContentLanguage = "fr"
+defaultContentLanguageInSubdir=true
+
+[Languages]
+
+[Languages.fr]
+weight = 1
+[Languages.en]
+weight = 2
