@@ -4,6 +4,7 @@ title = "Snowcamp 2018"
 googleAnalytics = ""
 
 DefaultContentLanguage = "fr"
+defaultContentLanguageInSubdir=true
 
 [Languages]
 
@@ -11,4 +12,3 @@ DefaultContentLanguage = "fr"
 weight = 1
 [Languages.en]
 weight = 2
-
