@@ -1,0 +1,14 @@
+- id: program_translation
+  translation: program
+- id: ticketlabel
+  translation: Tickets
+- id: what_is_this
+  translation: What's this?
+- id: in_2017
+  translation: In 2017
+- id: become_sponsor
+  translation: Become a sponsor
+- id: our_sponsors
+  translation: Our sponsors
+- id: past_editions
+  translation: Past editions
