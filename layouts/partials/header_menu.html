@@ -18,7 +18,7 @@
                     <span class="icon-bar"></span>
                   </button>
                   <div class="navbar-brand snc-logo">
-                    <a href="{{.Site.BaseURL}}/{{ .Lang }}" class="snc-scroll">
+                    <a href="{{.Site.BaseURL}}{{ .Lang }}" class="snc-scroll">
                       <img src="{{.Site.BaseURL}}/img/alpes-snow-full-illustration.png"
                            alt="Logo">
                     </a>
@@ -32,10 +32,10 @@
                          aria-haspopup="true"
                          aria-expanded="false">Snowcamp <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/{{ .Lang }}/snowcamp/#what">
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}{{ .Lang }}/snowcamp/#what">
                           {{ i18n "what_is_this" }}</a></li>
-                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/{{ .Lang }}/organisation/">Organisation</a></li>
-                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/{{ .Lang }}/previous-editions">{{ i18n "past_editions" }}</a></li>
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}{{ .Lang }}/organisation/">Organisation</a></li>
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}{{ .Lang }}/previous-editions">{{ i18n "past_editions" }}</a></li>
                       </ul>
                     </li>
                     <li class="dropdown">
@@ -43,8 +43,8 @@
                          aria-haspopup="true"
                          aria-expanded="false"> {{ i18n "program_translation"  }} <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/{{ .Lang }}/#programme">CFP</a></li>
-                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/{{ .Lang }}/#programme">
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}{{ .Lang }}/#programme">CFP</a></li>
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}{{ .Lang }}/#programme">
                           {{ i18n "program_translation" }}</a></li>
                       </ul>
                     </li>
@@ -53,11 +53,11 @@
                          role="button" aria-haspopup="true"
                          aria-expanded="false">Sponsors <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a class="page-scroll" href="{{.Site.BaseURL}}/{{ .Lang }}/#sponsors">{{ i18n "our_sponsors" }}</a></li>
-                        <li><a href="{{.Site.BaseURL}}/{{ .Lang }}/sponsors"> {{ i18n "become_sponsor" }} </a></li>
+                        <li><a class="page-scroll" href="{{.Site.BaseURL}}{{ .Lang }}/#sponsors">{{ i18n "our_sponsors" }}</a></li>
+                        <li><a href="{{.Site.BaseURL}}{{ .Lang }}/sponsors"> {{ i18n "become_sponsor" }} </a></li>
                       </ul>
                     </li>
-                    <li><a href="{{.Site.BaseURL}}/{{ .Lang }}/tickets">Tickets</a></li>
+                    <li><a href="{{.Site.BaseURL}}{{ .Lang }}/tickets">Tickets</a></li>
                     {{ if eq .Lang "fr" }}
                         <li>
                           <a href="{{.Site.BaseURL}}en/">
