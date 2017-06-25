@@ -12,3 +12,4 @@ _site/
 .sass-cache/
 .jekyll-metadata
 scmpublish-checkout/
+package-lock.json
