@@ -165,7 +165,7 @@ const scripts = {
 const styles = {
   sourcePath: `${srcPath}/styles/**/style.less`,
   destinationPath: `${assetPath}/css`,
-  watch: [`${srcPath}/styles/**/*.{less}`],
+  watch: [`${srcPath}/styles/*.less`],
   autoprefixer: {
     browsers: ['last 2 versions', 'ie >= 10', 'Android >= 4.4'],
   },
