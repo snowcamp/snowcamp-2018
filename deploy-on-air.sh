@@ -2,7 +2,7 @@
 export CONTENT_DIR=public
 export REPO=git@github.com:snowcamp/snowcamp.github.io.git
 export CHECKOUT_DIR=scmpublish-checkout
-export OUTPUT_BRANCH=2018
+export OUTPUT_BRANCH=master
 
 echo "Rendering...."
 gulp build --prod=true
