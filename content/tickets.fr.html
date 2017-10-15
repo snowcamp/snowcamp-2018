@@ -4,7 +4,7 @@
   {{ partial "header.html" . }}
 </head>
 
-<body lang="fr">
+<body lang="{{ .Lang }}">
 {{ partial "header_menu.html" . }}
 
 <section>
@@ -16,63 +16,110 @@
             <div class="snc-heading-area snc-heading-brand">
               <h2 class="snc-heading ">
                 <span class="back-heading"><i class="fa fa-ticket" aria-hidden="true"></i></span>
-                <span class="heading dark-background">Billeterie</span>
+                <span class="heading dark-background">Billetterie</span>
               </h2>
               <p class="text dark-background">
-                Vous pouvez acheter le pack 3 jours (universités + conférences), ou 2 jours
-                (conférences seulement). L'achat du ticket est délégué à notre prestataire YurPlan. Attention, le
+                Vous pouvez acheter le pack 3 jours (Universités + Conférences), ou 2 jours
+                (Conférences seulement). L'achat du ticket est délégué à notre prestataire YurPlan. Attention, le
                 nombre de billets est limité !
               </p>
-              <p class="text dark-background emph">La billetterie n'est pas encore ouverte.</p>
+              <p class="text dark-background emph">La Billetterie Early Birds est ouverte jusqu'au 10 Novembre 2017 !</p>
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-6">
-            <div class="single">
-              <div class="single-top">
-                <h2 class="title">Standard - Package 3 jours</h2>
-                <h4 class="price">{{ $.Site.Data.ticket.prices.full_pack }} &euro;</h4>
-                <p>Universités + Conférences</p>
-              </div>
-              <div class="single-bottom">
-                <ul class="list-unstyled list">
-                  <li><i class="fa fa-check" aria-hidden="true"></i> Accès aux universités</li>
-                  <li><i class="fa fa-check" aria-hidden="true"></i> Accès aux conférences</li>
-                  <li><i class="fa fa-check" aria-hidden="true"></i> Petit déjeuner sur les 3 jours</li>
-                  <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 3 jours</li>
-                  <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
-                </ul>
-                <a class="snc-btn disabled"
-                   href="#"><span>La billetterie n'est pas encore ouverte</span></a>
+        <div class="row">
+          <div class="snc-row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="single">
+                <div class="single-top">
+                  <h2 class="title">Early Birds - Package 3 jours</h2>
+                  <h4 class="price"><strike>{{ $.Site.Data.ticket.prices.full_pack }} &euro;</strike> {{ $.Site.Data.ticket.prices.early_pack }} &euro;</h4>
+                  <p>Universités + Conférences</p>
+                </div>
+                <div class="single-bottom">
+                  <ul class="list-unstyled list">
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Accès aux Universités</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Accès aux Conférences</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Petit déjeuner sur les 3 jours</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 3 jours</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
+                  </ul>
+                  <a class="snc-btn enabled"
+                     href="https://yurplan.com/event/Snow-Camp-2018/20660" target="_blank"><span>La billetterie est ouverte ici !</span></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6">
-            <div class="single">
-              <div class="single-top">
-                <h2 class="title">Standard - Package 2 jours</h2>
-                <h4 class="price">{{ $.Site.Data.ticket.prices.full }} &euro;</h4>
-                <p>Conférences seulement</p>
-              </div>
-              <div class="single-bottom">
-                <ul class="list-unstyled list">
-                  <li><i class="fa fa-times" aria-hidden="true"></i> Accès aux universités</li>
-                  <li><i class="fa fa-check" aria-hidden="true"></i> Accès aux conférences</li>
-                  <li><i class="fa fa-check" aria-hidden="true"></i> Petit déjeuner sur les 2 jours</li>
-                  <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 2 jours</li>
-                  <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
-                </ul>
-                <a class="snc-btn disabled"
-                   href="#"><span>La billetterie n'est pas encore ouverte</span></a>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="single">
+                <div class="single-top">
+                  <h2 class="title">Early Birds - Package 2 jours</h2>
+                  <h4 class="price"><strike>{{ $.Site.Data.ticket.prices.early }} &euro;</strike> {{ $.Site.Data.ticket.prices.full }} &euro;</h4>
+                  <p>Conférences seulement</p>
+                </div>
+                <div class="single-bottom">
+                  <ul class="list-unstyled list">
+                    <li><i class="fa fa-times" aria-hidden="true"></i> Accès aux Universités</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Accès aux Conférences</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Petit déjeuner sur les 2 jours</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 2 jours</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
+                  </ul>
+                  <a class="snc-btn enabled"
+                     href="https://yurplan.com/event/Snow-Camp-2018/20660" target="_blank"><span>La billetterie est ouverte ici !</span></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="snc-row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="single">
+                <div class="single-top">
+                  <h2 class="title">Standard - Package 3 jours</h2>
+                  <h4 class="price">{{ $.Site.Data.ticket.prices.full_pack }} &euro;</h4>
+                  <p>Universités + Conférences</p>
+                </div>
+                <div class="single-bottom">
+                  <ul class="list-unstyled list">
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Accès aux Universités</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Accès aux Conférences</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Petit déjeuner sur les 3 jours</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 3 jours</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
+                  </ul>
+                  <a class="snc-btn disabled"
+                     href="#"><span>Cette billetterie n'est pas encore ouverte.</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="single">
+                <div class="single-top">
+                  <h2 class="title">Standard - Package 2 days</h2>
+                  <h4 class="price">{{ $.Site.Data.ticket.prices.full }} &euro;</h4>
+                  <p>Conferences only</p>
+                </div>
+                <div class="single-bottom">
+                  <ul class="list-unstyled list">
+                    <li><i class="fa fa-times" aria-hidden="true"></i> Accès aux Universités</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Accès aux Conférences</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Petit déjeuner sur les 2 jours</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 2 jours</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
+                  </ul>
+                  <a class="snc-btn disabled"
+                     href="#"><span>Cette billetterie n'est pas encore ouverte</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+  </div>
 </section>
 
 {{ partial "footer.html" . }}
-
-
 </body>
