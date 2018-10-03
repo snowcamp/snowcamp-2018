@@ -11,6 +11,7 @@ You'll need node.js and npm installed first and of course git.
 Global dependencies that you'll need for command line. You'll need to preface with sudo on Linux.
 
 ```
+npm install gulp-cli -g
 npm install
 ```
 
