@@ -1,5 +1,7 @@
 - id: program_translation
-  translation: programme
+  translation: CFP # programme
+- id: cfp_program_translation
+  translation: CFP # Programme
 - id: ticketlabel
   translation: Billeterie
 - id: what_is_this

@@ -1,5 +1,7 @@
 - id: program_translation
-  translation: program
+  translation: CFP # program
+- id: cfp_program_translation
+  translation: Call For Proposals # Program
 - id: ticketlabel
   translation: Tickets
 - id: what_is_this

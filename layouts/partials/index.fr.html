@@ -7,15 +7,15 @@
             <div class="col-xs-12">
               <div class="banner-info">
                 <div class="snc-countdown-area">
-                  <div id="snc-countdown" data-date="2019/1/23">
+                  <div id="snc-countdown" data-date="2020/1/22">
                     <span class="snc-days">100 <i> Jours </i></span>
                     <span class="snc-hr">14 <i> Heures </i></span>
                     <span class="snc-min">15 <i> Minutes </i></span>
                     <span class="snc-sec">29<i> Secondes </i></span>
                   </div>
                 </div>
-                <h2 class="title">Snowcamp <span>2019</span></h2>
-                <h3 class="date"><span>23-26 Janvier </span>2019, Grenoble</h3>
+                <h2 class="title">Snowcamp <span>2020</span></h2>
+                <h3 class="date"><span>22-25 Janvier </span>2020, Grenoble</h3>
               </div>
             </div>
           </div>
@@ -132,20 +132,71 @@
                 <span class="back-heading">
                     <i class="fa fa-calendar" aria-hidden="true"></i>
                 </span>
-                <span class="heading">Programme</span>
+                <span class="heading">{{ i18n "cfp_program_translation" }}</span>
               </h2>
 
+              <div class="ui steps">
+                  <div class="active step">
+                    <i class="inbox icon"></i>
+                    <div class="content">
+                      <div class="title">Ouverture du CFP</div>
+                      <div class="description">Été 2019</div>
+                    </div>
+                  </div>
+                  <div class="active step">
+                    <i class="spinner icon"></i>
+                    <div class="content">
+                      <div class="title">Fermeture du CFP</div>
+                      <div class="description">Mi-Octobre 2019</div>
+                    </div>
+                  </div>
+                  <div class="active step">
+                    <i class="mail icon"></i>
+                    <div class="content">
+                      <div class="title">Notifications</div>
+                      <div class="description">Début Novembre 2019</div>
+                    </div>
+                  </div>
+                  <div class="active step">
+                    <i class="checked calendar icon"></i>
+                    <div class="content">
+                      <div class="title">Snowcamp</div>
+                      <div class="description">22-25 Janvier 2020</div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="row">
+             <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="single">
+                <img src="{{.Site.BaseURL}}/img/themas.png" alt="themas">
+              </div>
+            </div> 
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="single">
+                <p>Le CFP n'est pas encore ouvert... Soyez patients ! Suivez-nous sur Twitter <a class="sp-tw" href="https://twitter.com/SnowCampIO"><i class="fa fa-twitter"></i></a> pour être notifiés de
+                  l'ouverture du CFP.</p>
+                <br/>
+                <p>Quelques conseils :</p>
+                <ul>
+                  <li>Choisissez bien votre titre</li>
+                  <li>Expliquez ce que les participants vont voir et apprendre</li>
+                  <li>Faites des démos</li>
+                  <li>Soumettez tôt !</li>
+                </ul>
+                <br/>
+                <p>Les sessions peuvent être proposées en français ou en anglais. Les présentations sont sélectionnées
+                  par un comité neutre et ouvert. Alors lancez-vous !
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <a id="sched-embed" href="https://snowcamp2019.sched.com/" data-sched-sidebar="no">SnowCamp 2019 schedule &amp; directory.</a>
-          <script type="text/javascript" src="https://snowcamp2019.sched.com/js/embed.js"></script>
-        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 <section>
   <div id="sponsors" class="snc-sponsors">
@@ -157,20 +208,28 @@
               <div class="snc-heading-area">
                 <h2 class="snc-heading">
                   <span class="back-heading"><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                  <span class="heading">Sponsors 2019</span>
+                  <span class="heading">Sponsors 2020</span>
                 </h2>
                 <p class="text">
-                  Ils nous ont déjà accordé leur confiance pour préparer ensemble l'édition 2019. <br/>
-                  Un grand merci à nos sponsors !
+                  Pour réussir l'édition 2020, nous avons besoin de vous!
                 </p>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <h3 class="sponsored-heading first-heading">Sponsors Chamois &#129351;</h3>
+            <div class="sponsors-btn-area">
+              <a class="snc-btn snc-btn-big" href="{{.Site.BaseURL}}{{ .Lang }}/sponsors"><span>Devenir sponsor</span></a>
             </div>
           </div>
+          <div class="row">
+            <div class="col-xs-12 text-center">
+                <div class="snc-heading-area">
+                  <h2 class="sponsored-heading-previous">Sponsors 2019</h2>
+                  <p class="text">
+                      Sans eux, l'aventure 2019 n'aurait pas été possible.
+                      Un grand merci à nos sponsors 2019 !
+                  </p>
+                </div>
+            </div>
+          </div>  
           <div class="sponsors-area">
             <div class="row">
               <div class="single">
@@ -180,14 +239,6 @@
                   <img src="{{.Site.BaseURL}}/img/sponsors/2019/thales.png" alt="Thales"/></a>
               </div>
             </div>
-          </div>
-
-          <div class="row">
-            <div class="col-xs-12">
-              <h3 class="sponsored-heading">Sponsors Étoile &#9734;</h3>
-            </div>
-          </div>
-          <div class="sponsors-area">
             <div class="row">
               <div class="single">
                 <a href="https://www.zenika.com/" target="_blank"
@@ -250,14 +301,6 @@
                   <img src="{{.Site.BaseURL}}/img/sponsors/2019/kelkoogroup.png" alt="Kelkoo"/></a>
               </div>
             </div>
-          </div>
-
-          <div class="row">
-            <div class="col-xs-12">
-              <h3 class="sponsored-heading">Sponsors Flocon ❄</h3>
-            </div>
-          </div>
-          <div class="sponsors-area">
             <div class="row">
               <div class="single">
                 <a href="https://www.salesforce.com/" target="_blank"
@@ -282,10 +325,6 @@
                   <img src="{{.Site.BaseURL}}/img/sponsors/2019/exoscale.png" alt="Exoscale"/></a>
               </div>
             </div>
-          </div>
-
-          <div class="sponsors-btn-area">
-            <a class="snc-btn snc-btn-big" href="{{.Site.BaseURL}}{{ .Lang }}/sponsors"><span>Devenir sponsor</span></a>
           </div>
           <div class="row">
             <div class="col-xs-12">
