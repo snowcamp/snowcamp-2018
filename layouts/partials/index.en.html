@@ -7,15 +7,15 @@
             <div class="col-xs-12">
               <div class="banner-info">
                 <div class="snc-countdown-area">
-                  <div id="snc-countdown" data-date="2019/1/23">
+                  <div id="snc-countdown" data-date="2020/1/22">
                     <span class="snc-days">100 <i> Days </i></span>
                     <span class="snc-hr">14 <i> Hours </i></span>
                     <span class="snc-min">15 <i> Minutes </i></span>
                     <span class="snc-sec">29<i> Seconds </i></span>
                   </div>
                 </div>
-                <h2 class="title">Snowcamp <span>2019</span></h2>
-                <h3 class="date"><span>23rd-26th of January </span>2019, Grenoble</h3>
+                <h2 class="title">Snowcamp <span>2020</span></h2>
+                <h3 class="date"><span>22nd-25th of January </span>2020, Grenoble</h3>
               </div>
             </div>
           </div>
@@ -132,20 +132,69 @@
                 <span class="back-heading">
                     <i class="fa fa-calendar" aria-hidden="true"></i>
                 </span>
-                <span class="heading">Program</span>
+                <span class="heading">{{ i18n "cfp_program_translation" }}</span>
               </h2>
+              <div class="ui steps">
+                  <div class="active step">
+                    <i class="inbox icon"></i>
+                    <div class="content">
+                      <div class="title">CFP opens</div>
+                      <div class="description">Summer 2019</div>
+                    </div>
+                  </div>
+                  <div class="active step">
+                    <i class="spinner icon"></i>
+                    <div class="content">
+                      <div class="title">CFP closes</div>
+                      <div class="description">Middle of October 2019</div>
+                    </div>
+                  </div>
+                  <div class="active step">
+                    <i class="mail icon"></i>
+                    <div class="content">
+                      <div class="title">Notifications</div>
+                      <div class="description">Beginning November 2019</div>
+                    </div>
+                  </div>
+                  <div class="active step">
+                    <i class="checked calendar icon"></i>
+                    <div class="content">
+                      <div class="title">Snowcamp</div>
+                      <div class="description">22nd-25th of January 2020</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+             <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="single">
+                <img src="{{.Site.BaseURL}}/img/themas.png" alt="themas">
+              </div>
+            </div> 
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="single">
+                <p>The CFP is not yet open... Be patient! Follow us on Twitter <a class="sp-tw" href="https://twitter.com/SnowCampIO"><i class="fa fa-twitter"></i></a> to be notified when the CFP opens.</p>
+                <br/>
+                <p>Some hints:</p>
+                <ul>
+                  <li>Choose well your title</li>
+                  <li>Explain what the attendees will see and learn</li>
+                  <li>Make demos</li>
+                  <li>Submit early!</li>
+                </ul>
+                <br/>
+                <p>Sessions can be made in French or English. The talks are selected
+                  by a neutral and open-minded committee. So, take the plunge!
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <a id="sched-embed" href="https://snowcamp2019.sched.com/" data-sched-sidebar="no">SnowCamp 2019 schedule &amp; directory.</a>
-          <script type="text/javascript" src="https://snowcamp2019.sched.com/js/embed.js"></script>
-        </div>
       </div>
     </div>
-  </div>
-</section>
-
+  </section>
 <section>
   <div id="sponsors" class="snc-sponsors">
     <div class="snc-inner-bg">
@@ -156,27 +205,30 @@
               <div class="snc-heading-area">
                 <h2 class="snc-heading">
                   <span class="back-heading"><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                  <span class="heading">Sponsors 2019</span>
+                  <span class="heading">Sponsors 2020</span>
                 </h2>
                 <p class="text">
-                    They have already placed their trust to prepare 2019 edition together.
-                    Many thanks to our sponsors!
+                  To make a success of this adventure, we need you!
                   </p>
               </div>
             </div>
-          </div>
-          <!-- <div class="row">
-            <div class="col-xs-12">
-              <h3 class="sponsored-heading first-heading">Sponsors Chamois</h3>
-              <div class="sponsors-area">
-              </div>
+            <div class="sponsors-btn-area">
+              <a class="snc-btn snc-btn-big" href="{{.Site.BaseURL}}{{ .Lang }}/sponsors"><span>Become a sponsor</span></a>
             </div>
-          </div> -->
+          </div>
+
           <div class="row">
-            <div class="col-xs-12">
-              <h3 class="sponsored-heading first-heading">Sponsor Chamois &#129351;</h3>
-            </div>
-          </div>
+            <div class="col-xs-12 text-center">
+              <div class="snc-heading-area">
+                <h2 class="sponsored-heading-previous">Sponsors 2019</h2>
+                <p class="text">
+                Without them SnowCamp 2019 would have not been possible.
+                A big Thank You to our sponsors 2019!
+                </p>
+              </div>
+              </div>
+            </div>        
+          
           <div class="sponsors-area">
             <div class="row">
               <div class="single">
@@ -186,14 +238,6 @@
                   <img src="{{.Site.BaseURL}}/img/sponsors/2019/thales.png" alt="Thales"/></a>
               </div>
             </div>
-          </div>
-
-          <div class="row">
-              <div class="col-xs-12">
-                <h3 class="sponsored-heading">Sponsors Étoile &#9734;</h3>
-              </div>
-          </div>
-          <div class="sponsors-area">
               <div class="row">
                 <div class="single">
                   <a href="https://www.zenika.com/" target="_blank"
@@ -256,14 +300,6 @@
                     <img src="{{.Site.BaseURL}}/img/sponsors/2019/kelkoogroup.png" alt="Kelkoo"/></a>
                 </div>
               </div>
-          </div>
-
-          <div class="row">
-            <div class="col-xs-12">
-              <h3 class="sponsored-heading">Sponsors Flocon ❄</h3>
-            </div>
-          </div>
-          <div class="sponsors-area">
             <div class="row">
               <div class="single">
                 <a href="https://www.salesforce.com/" target="_blank"
@@ -289,11 +325,6 @@
               </div>
             </div>
           </div>
-
-          <div class="sponsors-btn-area">
-            <a class="snc-btn snc-btn-big" href="{{.Site.BaseURL}}{{ .Lang }}/sponsors"><span>Become a sponsor</span></a>
-          </div>
-
           <div class="row">
             <div class="col-xs-12">
               <h3 class="sponsored-heading">Partners</h3>
@@ -341,7 +372,7 @@
                 <span class="heading">Venue</span>
               </h2>
               <p class="text">
-                SnowCamp will take place in "La Maison Minatec" - Conference Center
+                SnowCamp will take place in the Conference Center "World Trade Center WTC of Grenoble" 
               </p>
             </div>
           </div>
@@ -349,28 +380,30 @@
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-6 polaroid-images">
             <div class="single">
-              <a href="https://www.minatec.org/en/life-minatec/maison-minatec-conference-center/" target="_blank" class="rot-4" title="Maison Minatec - Conference Center">
-                <img src="{{.Site.BaseURL}}/img/la-maison-minatec.png" alt="Maison Minatec - Conference Center" width="40%">
+              <a href="http://www.congres-wtcgrenoble.com/en/annuaire-geolocalise?field_service_tid%25255B0%25255D=73" target="_blank" class="rot-4" title="WTC Grenoble - Conference Center">
+                <img src="{{.Site.BaseURL}}/img/wtc.jpg" alt="WTC Grenoble - Conference Center" width="40%">
               </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-6">
             <div class="single">
               <p>Both Universities and Conferences will take place at
-                <a href="https://www.minatec.org/en/life-minatec/maison-minatec-conference-center/" target="_blank"><strong>"La Maison Minatec"</strong></a>,
+                <a href="http://www.congres-wtcgrenoble.com/en" target="_blank"><strong>"WTC World Trade Center Grenoble"</strong></a>,
                  a Conference Center in the heart of Grenoble.</p>
               <br/>
-              <p><strong>3 Parvis Louis Néel<br/>38000 Grenoble</strong></p>
+              <p><strong>5 - 7 , place Robert Schuman<br/>38025 Grenoble</strong></p>
               <br/>
               <p>You can access:</p>
               <ul>
-                <li>by Tramway line B (towards Grenoble Presqu'île), stop "Cité Internationale"</li>
-                <li>by Car (you can park at the parking Doyen Weil or Europole Gare)
+                <li>by tramway line B (towards Grenoble Presqu'île), stop "Palais De Justice - Gare"</li>
+                <li>by car (you can park at the parking Doyen Weil or Europole Gare)
                   <ul>
-                    <li>when arriving from Lyon or Valence, take Exit 16 off of the N481; go over the Oxford bridge and then follow signs to MINATEC via "Rue des Martyrs"</li>
-                    <li>when arriving from Chambéry, Gap or Sisteron, take Exit 2 off of the A480; follow signs to MINATEC via "Rue Félix Esclangon"</li>
+                    <li>when arriving from Lyon or Valence, take the Europole-Gares exit and follow signs to Europole.</li>
+                    <li>when arriving from Chambéry, Gap or Sisteron,  take "the rocade Sud", follow signs to Lyon by highway, take the Europole exit and follow signs to Europole</li>
                   </ul>
                 </li>
+                <li>by train or bus: use the underground passage between the railway station and Europole</li>
+                <li>by plane: there are airport shuttles: from Lyon Saint-Exupéry (17 round trips per day) and from Genève Cointrin (6 round trips per day)</li>
                 <li>by <a href="http://www.metromobilite.fr/velo.html" target="_blank">bike</a></li>
               </ul>
             </div>
@@ -379,22 +412,22 @@
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-6">
             <div class="single">
-              <p><strong>Latitude:</strong> 45.195807222</p>
-              <p><strong>Longitude:</strong> 5.7096947222</p>
+              <p><strong>Latitude:</strong>45.191113</p>
+              <p><strong>Longitude:</strong> 5.712145</p>
             </div>
             <div class="single">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.5868099502018!2d5.706387124129039!3d45.1954597678373!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x635d7041ccdf995b!2sMINATEC!5e0!3m2!1sfr!2sfr!4v1506778131344" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2811.812207884478!2d5.711009615420941!3d45.190897559659334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af481b7661f97%3A0x2f475fe8d95f61e0!2sCentre+de+congr%C3%A8s+du+World+Trade+Center+Grenoble!5e0!3m2!1sfr!2sfr!4v1555137908940!5m2!1sfr!2sfr" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div class="single polaroid-images">
-              <a href="#" target="_blank" class="rot-4" title="Maison Minatec - Keynote Room">
-                <img src="{{.Site.BaseURL}}/img/minatec-amphi.png" alt="Maison Minatec" width="40%">
+              <a href="#" target="_blank" class="rot-4" title="WTC - Atrium (Photo credit WTC)">
+                <img src="{{.Site.BaseURL}}/img/wtc-atrium.jpg" alt="WTC - Atrium  (Photo credit WTC)" width="40%">
               </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-6 polaroid-images">
             <div class="single">
-              <a href="https://www.minatec.org/en/how-to-find-us/#front-image" target="_blank" class="rot4" title="Maison Minatec - Access">
-                <img src="{{.Site.BaseURL}}/img/minatec-access-en.gif" alt="Maison Minatec - Conference Center" width="30%">
+              <a href="http://www.congres-wtcgrenoble.com/sites/default/files/ACCESS%20MAP.pdf" target="_blank" class="rot4" title="WTC Grenoble - Access">
+                <img src="{{.Site.BaseURL}}/img/wtc-access-en.png" alt="WTC Grenoble - Conference Center" width="30%">
               </a>
             </div>
           </div>
