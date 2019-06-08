@@ -1,0 +1,14 @@
+etoile:
+  - name: Norsys
+    logo: img/sponsors/2018/norsys.png
+    url_fr: http://www.norsys.fr/
+    url_en: http://www.norsys.fr/
+    description_fr: Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.
+    description_en: Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.
+partners:
+  - name: AlpesJUG
+    logo: img/partners/alpesjug.png
+    url_fr: http://alpesjug.fr/
+    url_en: http://alpesjug.fr/
+    description_fr: AlpesJug est le groupe des utilisateurs Java de la région grenobloise, et à l'origine du Snowcamp.
+    description_en: AlpesJug is the Java User Group of the Grenoble area, and the initiator of the Snowcamp conference.
