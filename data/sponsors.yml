@@ -5,30 +5,6 @@ etoile:
     url_en: http://www.norsys.fr/
     description_fr: Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.
     description_en: Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.
-  - name: BonitaSoft
-    logo: img/sponsors/2019/bonitasoft.png
-    url_fr: 
-    url_en: https://www.bonitasoft.com/
-    description_fr: 
-    description_en: 
-  - name: Viseo
-    logo: img/sponsors/2018/viseo.png
-    url_fr: 
-    url_en: http://www.viseo.com/en
-    description_fr: 
-    description_en: 
-  - name: Sopra
-    logo: img/sponsors/2018/sopra-steria.png
-    url_fr: 
-    url_en: https://www.soprasteria.com/en/home
-    description_fr: 
-    description_en: 
-  - name: ForgeRock
-    logo: img/sponsors/2018/forgerock.png
-    url_fr: 
-    url_en: https://www.forgerock.com/
-    description_fr: <strong>ForgeRock®</strong>, le leader sur le marché de la gestion de l’identité numérique, transforme la manière dont les entreprises établissent des échanges sécurisés entre les personnes, les services et les objets. Les entreprises adoptent la ForgeRock Identity Platform™ en tant que système d’identité numérique pour rentabiliser les échanges avec leurs clients, respecter les règlements sur la confidentialité et le consentement (GDPR, HIPAA, PSD2, Open Banking, etc.), et tirer le meilleur profit de l’Internet des objets. ForgeRock est le fournisseur de centaines de marques comme Morningstar, Vodafone, GEICO, Toyota ou Pearson et de nombreux gouvernements comme la Norvège, le Canada ou la Belgique, et gère des milliards d’identités dans le monde entier. ForgeRock dispose de bureaux dans toute l’Europe, aux États-Unis et en Asie.
-    description_en: <strong>ForgeRock®</strong> is the Digital Identity Management company transforming the way organizations interact securely with customers, employees, devices, and things. Organizations adopt the ForgeRock Identity Platform™ as their digital identity system of record to monetize customer relationships, address stringent regulations for privacy and consent (GDPR, HIPAA, FCC privacy, etc.), and leverage the internet of things. ForgeRock serves hundreds of brands, including Morningstar, Vodafone, GEICO, Toyota and Pearson, as well as governments such as Norway, New Zealand, and Belgium, among many others. Headquartered in San Francisco, California, ForgeRock has offices in Austin, London, Bristol, Grenoble, Munich, Paris, Oslo, Singapore, Sydney and Vancouver, Washington.
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
