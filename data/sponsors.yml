@@ -5,6 +5,12 @@ etoile:
     url_en: http://www.norsys.fr/
     description_fr: Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.
     description_en: Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.
+  - name: Kelkoo
+    logo: img/sponsors/2019/kelkoogroup.png
+    url_fr: https://www.kelkoogroup.com/fr/
+    url_en: https://www.kelkoogroup.com/
+    description_fr: Kelkoo Group est une plateforme marketing pour le e-commerce qui connecte les produits de nos marchands à nos sites propriétaires de comparaison de prix et à notre réseau premium de sites Publishers. Avec 20 ans d’expérience en e-commerce, marketing digital et analyse consommateur, nous proposons des solutions efficaces dans 22 pays à travers le monde.
+    description_en: Kelkoo Group is an ecommerce marketing platform that connects our merchants’ products to a network of proprietary shopping websites and premium publishers. Our 20 years of experience in ecommerce, digital marketing and consumer analytics, provide efficient solutions in 22 countries worldwide.
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
