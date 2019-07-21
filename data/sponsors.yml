@@ -22,7 +22,19 @@ etoile:
     url_fr: https://fr.bonitasoft.com/
     url_en: https://www.bonitasoft.com/
     description_fr: 
-    description_en:     
+    description_en:
+  - name: Viseo
+    logo: img/sponsors/2018/viseo.png
+    url_fr: http://www.viseo.com/fr
+    url_en: http://www.viseo.com/en
+    description_fr: '<b>VISEO Technologies</b> est un cabinet de conseil &amp; services, expert des nouvelles technologies.
+                    <br/>Filiale du Groupe VISEO, nous délivrons les dispositifs numériques au service de la volonté d’accélération digitale de nos clients. «Venez avec votre idée et repartez avec votre produit». C’est notre promesse.
+                    <br/>À Grenoble, nous sommes + de 110 ingénieurs spécialistes des processus de conception et de développement logiciel.
+                    Nous avons mis au point la Factory Agile, pour répondre aux enjeux auxquels sont confrontés les entreprises : une plateforme dédiée à la production de projets digitaux innovants en environnement web, mobile et objets connectés. Nos compétences s’articulent autour des domaines technologiques, méthodologiques et pédagogiques.
+                    Acteur précurseur et promoteur de l’innovation, notre métier est l’optimisation de chaque étape du processus de développement logiciel en transférant vers nos clients des technologies, des méthodes et des concepts innovants.
+                    VISEO développe son expertise dans la modélisation, la conception et le déploiement des architectures (Iot, Java, .NET, Web, Mobile…). Les méthodes agiles, parfaitement maîtrisées, fournissent un cadre méthodologique et organisationnel clair et éprouvé.
+                    Si comme nous, vous souhaitez intégrer une culture d’entreprise axée sur la proximité, l’échange, le partage de connaissances et la formation et vous aimez travaillez dans une ambiance conviviale sur des projets innovants et stimulants, n’attendez plus : rejoignez-nous ! http://www.viseo.com/fr/communique-de-presse/viseo-grenoble-ouvre-ses-meetups-technologiques-la-communaute'
+    description_en:      
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
