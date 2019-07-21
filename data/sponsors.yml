@@ -13,7 +13,7 @@ etoile:
     description_en: 'Kelkoo Group is an ecommerce marketing platform that connects our merchants’ products to a network of proprietary shopping websites and premium publishers. Our 20 years of experience in ecommerce, digital marketing and consumer analytics, provide efficient solutions in 22 countries worldwide.'
   - name: ForgeRock
     logo: img/sponsors/2018/forgerock.png
-    url_fr: 
+    url_fr:
     url_en: https://www.forgerock.com/
     description_fr: '<strong>ForgeRock®</strong>, le leader sur le marché de la gestion de l’identité numérique, transforme la manière dont les entreprises établissent des échanges sécurisés entre les personnes, les services et les objets. Les entreprises adoptent la ForgeRock Identity Platform™ en tant que système d’identité numérique pour rentabiliser les échanges avec leurs clients, respecter les règlements sur la confidentialité et le consentement (GDPR, HIPAA, PSD2, Open Banking, etc.), et tirer le meilleur profit de l’Internet des objets. ForgeRock est le fournisseur de centaines de marques comme Morningstar, Vodafone, GEICO, Toyota ou Pearson et de nombreux gouvernements comme la Norvège, le Canada ou la Belgique, et gère des milliards d’identités dans le monde entier. ForgeRock dispose de bureaux dans toute l’Europe, aux États-Unis et en Asie.'
     description_en: '<strong>ForgeRock®</strong> is the Digital Identity Management company transforming the way organizations interact securely with customers, employees, devices, and things. Organizations adopt the ForgeRock Identity Platform™ as their digital identity system of record to monetize customer relationships, address stringent regulations for privacy and consent (GDPR, HIPAA, FCC privacy, etc.), and leverage the internet of things. ForgeRock serves hundreds of brands, including Morningstar, Vodafone, GEICO, Toyota and Pearson, as well as governments such as Norway, New Zealand, and Belgium, among many others. Headquartered in San Francisco, California, ForgeRock has offices in Austin, London, Bristol, Grenoble, Munich, Paris, Oslo, Singapore, Sydney and Vancouver, Washington.'
@@ -21,7 +21,7 @@ etoile:
     logo: img/sponsors/2019/bonitasoft.png
     url_fr: https://fr.bonitasoft.com/
     url_en: https://www.bonitasoft.com/
-    description_fr: 
+    description_fr:
     description_en:
   - name: Viseo
     logo: img/sponsors/2018/viseo.png
@@ -34,7 +34,15 @@ etoile:
                     Acteur précurseur et promoteur de l’innovation, notre métier est l’optimisation de chaque étape du processus de développement logiciel en transférant vers nos clients des technologies, des méthodes et des concepts innovants.
                     VISEO développe son expertise dans la modélisation, la conception et le déploiement des architectures (Iot, Java, .NET, Web, Mobile…). Les méthodes agiles, parfaitement maîtrisées, fournissent un cadre méthodologique et organisationnel clair et éprouvé.
                     Si comme nous, vous souhaitez intégrer une culture d’entreprise axée sur la proximité, l’échange, le partage de connaissances et la formation et vous aimez travaillez dans une ambiance conviviale sur des projets innovants et stimulants, n’attendez plus : rejoignez-nous ! http://www.viseo.com/fr/communique-de-presse/viseo-grenoble-ouvre-ses-meetups-technologiques-la-communaute'
-    description_en:      
+    description_en:
+  - name: Kaizen
+    logo: img/sponsors/2018/kaizen.png
+    url_fr: https://kaizen-solutions.net/
+    url_en: https://kaizen-solutions.net/
+    description_fr: 'Notre société de services accompagne de grands groupes industriels sur Grenoble et sur Lyon en apportant des solutions logicielles haut de gamme sur l’ensemble des couches logicielles du capteur jusqu’au cloud. Partenaire boîte blanche, nous accompagnons nos clients sur leurs systèmes d’informations connectés temps réel à travers des solutions qui répondent à des projets complexes, portant sur de forts enjeux économiques, techniques et humains.
+                    <br/>Vous avez envie de rejoindre une jeune société à taille humaine ? Qui se préoccupe de vous proposer des projets qui correspondent à vos attentes ?
+                    <br/>Être vrai avant d’être différent, voilà notre vision du métier du service !'
+    description_en:
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
