@@ -2,4 +2,14 @@ prices:
   early: 42
   early_pack: 100
   full: 60
-  full_pack: 150
+  full_pack: 150   
+store:
+  lang:
+    fr:    
+      store_status: La billetterie n'est pas encore ouverte
+      early_status: La billetterie n'est pas encore ouverte
+      full_status: La billetterie n'est pas encore ouverte
+    en:
+      store_status: The store is not open yet
+      early_status: The store is not open yet
+      full_status: The store is not open yet
