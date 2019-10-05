@@ -49,6 +49,12 @@ etoile:
     url_en: https://www.zenika.com/
     description_fr: '<strong>Zenika</strong>, L’innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;'
     description_en: '<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;'
+  - name: Microsoft
+    logo: img/sponsors/2020/microsoft.png
+    url_fr: https://www.microsoft.com/fr-fr/
+    url_en: https://www.microsoft.com/en-us/
+    description_fr: 
+    description_en:      
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
