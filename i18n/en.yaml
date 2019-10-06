@@ -15,4 +15,6 @@
 - id: past_editions
   translation: Past editions
 - id: venue
-  translation: Venue  
+  translation: Venue
+- id: coc
+  translation: CoC
