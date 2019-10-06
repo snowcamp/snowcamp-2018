@@ -61,6 +61,13 @@ etoile:
     url_en: https://www.soprasteria.com/en/home/
     description_fr: 
     description_en:
+flocon:
+  - name: Tuleap
+    logo: img/sponsors/2018/tuleap.png
+    url_fr: https://www.tuleap.org/
+    url_en: https://www.tuleap.org/
+    description_fr: 
+    description_en:
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
