@@ -9,11 +9,6 @@ organizers:
     twitter: clementplop
     linkedin: clementescoffier
     github: cescoffier
-  - name: Dana Popovici
-    img: dana.png
-    twitter: dnppvc
-    github: dana-popovici
-    linkedin: dana-popovici-54331b16
   - name: Emmanuel Hugonnet
     img: emmanuel.png
     twitter: ehsavoie
@@ -54,13 +49,18 @@ organizers:
     twitter: sylvainbauza
     linkedin: sylvainbauza
     github: sbauza
-  - name: Yannick Chiron  
-    img: yannick.jpg
-    twitter: Ldoppea
-    linkedin: yannickchiron
-    github: Ldoppea
   - name: Sébastien Chassande-Barrioz
     img: sebastien.jpg
     twitter: SnowCampIO
     linkedin: sébastien-chassande-barrioz-aa6a623
     github: snowcamp
+  - name: Yannick Chiron  
+    img: yannick.jpg
+    twitter: Ldoppea
+    linkedin: yannickchiron
+    github: Ldoppea
+  - name: Yohan Lasorsa  
+    img: yohan.jpeg
+    twitter: sinedied
+    linkedin: yohanlasorsa
+    github: sinedied
