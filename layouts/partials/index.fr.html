@@ -122,6 +122,10 @@
 </section>
 
 <section>
+    {{ $cfp := $.Site.Data.cfp }}
+    {{ $cfp_dates := ( index $cfp.dates.lang .Lang ) }}
+    {{ $cfp_url := $cfp.url }}
+    {{ $cfp_status := $cfp.status }}
   <div id="program" class="snc-programme">
     <div class="snc-inner">
       <div class="container">
@@ -140,28 +144,28 @@
                     <i class="inbox icon"></i>
                     <div class="content">
                       <div class="title">Ouverture du CFP</div>
-                      <div class="description">1er Septembre 2019</div>
+                      <div class="description">{{ $cfp_dates.open }}</div>
                     </div>
                   </div>
                   <div class="active step">
                     <i class="spinner icon"></i>
                     <div class="content">
                       <div class="title">Fermeture du CFP</div>
-                      <div class="description">15 Octobre 2019</div>
+                      <div class="description">{{ $cfp_dates.close }}</div>
                     </div>
                   </div>
                   <div class="active step">
                     <i class="mail icon"></i>
                     <div class="content">
                       <div class="title">Notifications</div>
-                      <div class="description">Début Novembre 2019</div>
+                      <div class="description">{{ $cfp_dates.notification }}</div>
                     </div>
                   </div>
                   <div class="active step">
                     <i class="checked calendar icon"></i>
                     <div class="content">
                       <div class="title">Snowcamp</div>
-                      <div class="description">22-25 Janvier 2020</div>
+                      <div class="description">{{ $cfp_dates.snowcamp }}</div>
                     </div>
                   </div>
                 </div> 
@@ -175,8 +179,9 @@
               </div>
             </div> 
             <div class="col-xs-12 col-sm-6 col-md-6">
+              {{ if isset $cfp_status "open" }}
               <div class="single">
-                <p>Le CFP est ouvert ! C'est le moment de soumettre des sujets extraordinaires ici : <a href="https://conference-hall.io/public/event/mB6d6o0uQONgUiFuo9We" target="_blank"><i class="fa fa-bullhorn">   https://conference-hall.io/public/event/mB6d6o0uQONgUiFuo9We</i></a></p>
+                <p>Le CFP est ouvert ! C'est le moment de soumettre des sujets extraordinaires ici : <a href="{{ $cfp_url }}" target="_blank"><i class="fa fa-bullhorn">   {{ $cfp_url }}</i></a></p>
                 <br/>
                 <p>Quelques conseils :</p>
                 <ul>
@@ -190,6 +195,11 @@
                   par un comité neutre et ouvert. Alors lancez-vous !
                 </p>
               </div>
+              {{ else }}
+              <div class="single">
+                <p>Le CFP est désormais fermé !</p>
+              </div>
+              {{ end }}
             </div>
           </div>
         </div>
