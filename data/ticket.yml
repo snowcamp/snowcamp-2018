@@ -4,12 +4,13 @@ prices:
   full: 60
   full_pack: 150   
 store:
+  url: https://yurplan.com/event/Snow-Camp-2020/48840#/
   lang:
     fr:    
-      store_status: La billetterie n'est pas encore ouverte
-      early_status: La billetterie n'est pas encore ouverte
+      store_status: La billetterie Early Birds est ouverte !
+      early_status: La billetterie est ouverte !
       full_status: La billetterie n'est pas encore ouverte
     en:
-      store_status: The store is not open yet
-      early_status: The store is not open yet
+      store_status: The Early Birds store is open!
+      early_status: The store is open!
       full_status: The store is not open yet
