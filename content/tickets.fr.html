@@ -7,8 +7,9 @@
 <body lang="{{ .Lang }}">
 {{ partial "header_menu.html" . }}
 {{ $store := $.Site.Data.ticket.store }}
-{{ $store_lang := ( index $store.lang .Lang ) }}
 {{ $store_url := ( cond ( isset $store "url" ) $store.url ( delimit ( slice .Site.BaseURL .Lang "/tickets" ) "" ) ) }}
+{{ $early_birds_status := $store.early.status }}
+{{ $classic_status := $store.classic.status }}
 <section>
   <div id="snc-ticket" class="snc-ticket">
     <div class="snc-inner">
@@ -25,7 +26,15 @@
                 (Conférences seulement). L'achat du ticket est délégué à notre prestataire YurPlan. Attention, le
                 nombre de billets est limité !
               </p>
-              <p class="text dark-background emph">{{ $store_lang.store_status }}</p>
+              {{ if (eq $early_birds_status "open") }}
+                <p class="text dark-background emph">La billetterie Early Birds est ouverte !</p>
+              {{ else if (eq $classic_status "open") }}
+                <p class="text dark-background emph">La billetterie est ouverte !</p>
+              {{ else if (and ((eq $classic_status "closed") (eq $classic_status "closed"))) }}
+                <p class="text dark-background emph">La billetterie est épuisée</p>
+              {{ else }}
+                <p class="text dark-background emph">La billetterie n'est pas encore ouverte</p>
+              {{ end }}
             </div>
           </div>
         </div>
@@ -35,7 +44,7 @@
               <div class="single">
                 <div class="single-top">
                   <h2 class="title">Early Birds - Package 3 jours</h2>
-                  <h4 class="price"><strike>{{ $.Site.Data.ticket.prices.full_pack }} &euro;</strike> {{ $.Site.Data.ticket.prices.early_pack }} &euro;</h4>
+                  <h4 class="price"><strike>{{ $.Site.Data.ticket.prices.classic_pack }} &euro;</strike> {{ $.Site.Data.ticket.prices.early_pack }} &euro;</h4>
                   <p>Universités + Conférences</p>
                 </div>
                 <div class="single-bottom">
@@ -46,8 +55,16 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 3 jours</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
                   </ul>
-                  <a class="snc-btn disabled"
-                    href="{{ $store_url }}" target="_blank"><span>{{ $store_lang.early_status }}</span></a>
+                  {{ if (eq $early_birds_status "open") }}
+                  <a class="snc-btn disabled" 
+                     href="{{ $store_url }}" target="_blank"><span>La billetterie est ouverte !</span></a>
+                  {{ else if (eq $early_birds_status "closed") }}
+                  <a class="snc-btn disabled" 
+                     href="{{ $store_url }}" target="_blank"><span>La billetterie est épuisée !</span></a>
+                  {{ else }}
+                  <a class="snc-btn disabled" 
+                     target="_blank"><span>La billetterie n'est pas encore ouverte</span></a>
+                  {{ end }}
                 </div>
               </div>
             </div>
@@ -55,7 +72,7 @@
               <div class="single">
                 <div class="single-top">
                   <h2 class="title">Early Birds - Package 2 jours</h2>
-                  <h4 class="price"><strike>{{ $.Site.Data.ticket.prices.full }} &euro;</strike> {{ $.Site.Data.ticket.prices.early }} &euro;</h4>
+                  <h4 class="price"><strike>{{ $.Site.Data.ticket.prices.classic }} &euro;</strike> {{ $.Site.Data.ticket.prices.early }} &euro;</h4>
                   <p>Conférences seulement</p>
                 </div>
                 <div class="single-bottom">
@@ -66,8 +83,16 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 2 jours</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
                   </ul>
-                  <a class="snc-btn disabled"
-                     href="{{ $store_url }}" target="_blank"><span>{{ $store_lang.early_status }}</span></a>
+                  {{ if (eq $early_birds_status "open") }}
+                  <a class="snc-btn disabled" 
+                     href="{{ $store_url }}" target="_blank"><span>La billetterie est ouverte !</span></a>
+                  {{ else if (eq $early_birds_status "closed") }}
+                  <a class="snc-btn disabled" 
+                     href="{{ $store_url }}" target="_blank"><span>La billetterie est épuisée !</span></a>
+                  {{ else }}
+                  <a class="snc-btn disabled" 
+                     target="_blank"><span>La billetterie n'est pas encore ouverte</span></a>
+                  {{ end }}
                 </div>
               </div>
             </div>
@@ -79,7 +104,7 @@
               <div class="single">
                 <div class="single-top">
                   <h2 class="title">Standard - Package 3 jours</h2>
-                  <h4 class="price">{{ $.Site.Data.ticket.prices.full_pack }} &euro;</h4>
+                  <h4 class="price">{{ $.Site.Data.ticket.prices.classic_pack }} &euro;</h4>
                   <p>Universités + Conférences</p>
                 </div>
                 <div class="single-bottom">
@@ -90,8 +115,16 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 3 jours</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
                   </ul>
-                  <a class="snc-btn disabled"
-                     href="{{ $store_url }}"><span>{{ $store_lang.full_status }}</span></a>
+                  {{ if (eq $classic_status "open") }}
+                  <a class="snc-btn disabled" 
+                     href="{{ $store_url }}" target="_blank"><span>La billetterie est ouverte !</span></a>
+                  {{ else if (eq $classic_status "closed") }}
+                  <a class="snc-btn disabled" 
+                     href="{{ $store_url }}" target="_blank"><span>La billetterie est épuisée !</span></a>
+                  {{ else }}
+                  <a class="snc-btn disabled" 
+                     target="_blank"><span>La billetterie n'est pas encore ouverte</span></a>
+                  {{ end }}
                 </div>
               </div>
             </div>
@@ -99,7 +132,7 @@
               <div class="single">
                 <div class="single-top">
                   <h2 class="title">Standard - Package 2 days</h2>
-                  <h4 class="price">{{ $.Site.Data.ticket.prices.full }} &euro;</h4>
+                  <h4 class="price">{{ $.Site.Data.ticket.prices.classic }} &euro;</h4>
                   <p>Conferences only</p>
                 </div>
                 <div class="single-bottom">
@@ -110,8 +143,16 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 2 jours</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
                   </ul>
-                  <a class="snc-btn disabled"
-                     href="{{ $store_url }}"><span>{{ $store_lang.full_status }}</span></a>
+                  {{ if (eq $classic_status "open") }}
+                  <a class="snc-btn disabled" 
+                     href="{{ $store_url }}" target="_blank"><span>La billetterie est ouverte !</span></a>
+                  {{ else if (eq $classic_status "closed") }}
+                  <a class="snc-btn disabled" 
+                     href="{{ $store_url }}" target="_blank"><span>La billetterie est épuisée !</span></a>
+                  {{ else }}
+                  <a class="snc-btn disabled" 
+                     target="_blank"><span>La billetterie n'est pas encore ouverte</span></a>
+                  {{ end }}
                 </div>
               </div>
             </div>
