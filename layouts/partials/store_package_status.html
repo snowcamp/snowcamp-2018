@@ -1,10 +1,11 @@
+{{ $store_lang := (index .store.lang .context.Lang) }}
 {{ if (eq .status "open") }}
 <a class="snc-btn disabled" 
-    href="{{ .url }}" target="_blank"><span>{{ i18n "store_open_status" }}</span></a>
+    href="{{ .store.url }}" target="_blank"><span>{{ $store_lang.store_open_status }}</span></a>
 {{ else if (eq .status "closed") }}
 <a class="snc-btn disabled" 
-   href="{{ .url }}" target="_blank"><span>{{ i18n "store_closed_status" }}</span></a>
+   href="{{ .store.url }}" target="_blank"><span>{{ $store_lang.store_closed_status }}</span></a>
 {{ else }}
 <a class="snc-btn disabled" 
-   target="_blank"><span>{{ i18n "store_not_open_status" }}</span></a>
+   target="_blank"><span>{{ $store_lang.store_not_open_status }}</span></a>
 {{ end }}

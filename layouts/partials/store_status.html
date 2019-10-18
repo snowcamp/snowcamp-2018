@@ -1,9 +1,10 @@
-{{ if (eq .early_birds_status "open") }}
-   <p class="text dark-background emph">{{ i18n "store_early_birds_open" }}</p>
-{{ else if (eq .classic_status "open") }}
-   <p class="text dark-background emph">{{ i18n "store_open_status" }}</p>
-{{ else if (and ((eq .classic_status "closed") (eq .classic_status "closed"))) }}
-   <p class="text dark-background emph">{{ i18n "store_closed_status" }}</p>
+{{ $store_lang := (index .store.lang .context.Lang) }}
+{{ if (eq $store_lang.early_birds_status "open") }}
+   <p class="text dark-background emph">{{ $store_lang.store_early_birds_open }}</p>
+{{ else if (eq $store_lang.classic_status "open") }}
+   <p class="text dark-background emph">{{ $store_lang.store_open_status }}</p>
+{{ else if (and ((eq $store_lang.classic_status "closed") (eq .classic_status "closed"))) }}
+   <p class="text dark-background emph">{{ $store_lang.store_closed_status }}</p>
 {{ else }}
-   <p class="text dark-background emph">{{ i18n "store_not_open_status" }}</p>
+   <p class="text dark-background emph">{{ $store_lang.store_not_open_status }}</p>
 {{ end }}

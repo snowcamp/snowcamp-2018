@@ -9,3 +9,15 @@ store:
     status: closed
   classic:
     status: not_open
+  lang:
+    fr:
+      store_early_birds_open: La billetterie Early Birds est ouverte !
+      store_not_open_status: La billetterie n'est pas encore ouverte
+      store_open_status: La billetterie est ouverte !
+      store_closed_status: La billetterie est épuisée !
+    en:
+      store_early_birds_open: The Early Birds store is open!
+      store_not_open_status: The store is not open yet
+      store_open_status: The store is open!
+      store_closed_status: The store is soldout!
+      
