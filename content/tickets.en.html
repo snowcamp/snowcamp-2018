@@ -26,15 +26,7 @@
                 The tickets can be bought through our partner YouPlan.
                 Beware, the number of attendees is limited and we were sold out last year!
               </p>
-              {{ if (eq $early_birds_status "open") }}
-                <p class="text dark-background emph">The Early Birds store is open!</p>
-              {{ else if (eq $classic_status "open") }}
-                <p class="text dark-background emph">The store is open!</p>
-              {{ else if (and ((eq $classic_status "closed") (eq $classic_status "closed"))) }}
-                <p class="text dark-background emph">The store is closed</p>
-              {{ else }}
-                <p class="text dark-background emph">The store is not open yet</p>
-              {{ end }}   
+              {{ partial "store_status" (dict "context" . "early_birds_status" $early_birds_status "classic_status" $classic_status) }}
             </div>
           </div>
         </div>
@@ -55,16 +47,7 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Lunch for the 3 days</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>
                   </ul>
-                  {{ if (eq $early_birds_status "open") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>The store is open!</span></a>
-                  {{ else if (eq $early_birds_status "closed") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>The store is soldout!</span></a>
-                  {{ else }}
-                  <a class="snc-btn disabled" 
-                     target="_blank"><span>The store is not open yet</span></a>
-                  {{ end }}
+                  {{ partial "store_package_status" (dict "context" . "status" $early_birds_status "url" $store_url) }}
                 </div>
               </div>
             </div>
@@ -83,16 +66,7 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Lunch for the 2 days</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>
                   </ul>
-                  {{ if (eq $early_birds_status "open") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>The store is open!</span></a>
-                  {{ else if (eq $early_birds_status "closed") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>The store is soldout!</span></a>
-                  {{ else }}
-                  <a class="snc-btn disabled" 
-                     target="_blank"><span>The store is not open yet</span></a>
-                  {{ end }}
+                  {{ partial "store_package_status" (dict "context" . "status" $early_birds_status "url" $store_url) }}
                 </div>
               </div>
             </div>
@@ -115,16 +89,7 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Lunch for the 3 days</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>
                   </ul>
-                  {{ if (eq $classic_status "open") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>The store is open!</span></a>
-                  {{ else if (eq $classic_status "closed") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>The store is soldout!</span></a>
-                  {{ else }}
-                  <a class="snc-btn disabled" 
-                     target="_blank"><span>The store is not open yet</span></a>
-                  {{ end }}
+                  {{ partial "store_package_status" (dict "context" . "status" $classic_status "url" $store_url) }}
                 </div>
               </div>
             </div>
@@ -143,16 +108,7 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Lunch for the 2 days</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>
                   </ul>
-                  {{ if (eq $classic_status "open") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>The store is open!</span></a>
-                  {{ else if (eq $classic_status "closed") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>The store is soldout!</span></a>
-                  {{ else }}
-                  <a class="snc-btn disabled" 
-                     target="_blank"><span>The store is not open yet</span></a>
-                  {{ end }}
+                  {{ partial "store_package_status" (dict "context" . "status" $classic_status "url" $store_url) }}
                 </div>
               </div>
             </div>

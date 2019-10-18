@@ -26,15 +26,7 @@
                 (Conférences seulement). L'achat du ticket est délégué à notre prestataire YurPlan. Attention, le
                 nombre de billets est limité !
               </p>
-              {{ if (eq $early_birds_status "open") }}
-                <p class="text dark-background emph">La billetterie Early Birds est ouverte !</p>
-              {{ else if (eq $classic_status "open") }}
-                <p class="text dark-background emph">La billetterie est ouverte !</p>
-              {{ else if (and ((eq $classic_status "closed") (eq $classic_status "closed"))) }}
-                <p class="text dark-background emph">La billetterie est épuisée</p>
-              {{ else }}
-                <p class="text dark-background emph">La billetterie n'est pas encore ouverte</p>
-              {{ end }}
+              {{ partial "store_status" (dict "context" . "early_birds_status" $early_birds_status "classic_status" $classic_status) }}
             </div>
           </div>
         </div>
@@ -55,16 +47,7 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 3 jours</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
                   </ul>
-                  {{ if (eq $early_birds_status "open") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>La billetterie est ouverte !</span></a>
-                  {{ else if (eq $early_birds_status "closed") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>La billetterie est épuisée !</span></a>
-                  {{ else }}
-                  <a class="snc-btn disabled" 
-                     target="_blank"><span>La billetterie n'est pas encore ouverte</span></a>
-                  {{ end }}
+                  {{ partial "store_package_status" (dict "context" . "status" $early_birds_status "url" $store_url) }}
                 </div>
               </div>
             </div>
@@ -83,16 +66,7 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 2 jours</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
                   </ul>
-                  {{ if (eq $early_birds_status "open") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>La billetterie est ouverte !</span></a>
-                  {{ else if (eq $early_birds_status "closed") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>La billetterie est épuisée !</span></a>
-                  {{ else }}
-                  <a class="snc-btn disabled" 
-                     target="_blank"><span>La billetterie n'est pas encore ouverte</span></a>
-                  {{ end }}
+                  {{ partial "store_package_status" (dict "context" . "status" $early_birds_status "url" $store_url) }}
                 </div>
               </div>
             </div>
@@ -115,16 +89,7 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 3 jours</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
                   </ul>
-                  {{ if (eq $classic_status "open") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>La billetterie est ouverte !</span></a>
-                  {{ else if (eq $classic_status "closed") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>La billetterie est épuisée !</span></a>
-                  {{ else }}
-                  <a class="snc-btn disabled" 
-                     target="_blank"><span>La billetterie n'est pas encore ouverte</span></a>
-                  {{ end }}
+                  {{ partial "store_package_status" (dict "context" . "status" $classic_status "url" $store_url) }}
                 </div>
               </div>
             </div>
@@ -143,16 +108,7 @@
                     <li><i class="fa fa-check" aria-hidden="true"></i> Repas midi sur les 2 jours</li>
                     <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet le jeudi soir</li>
                   </ul>
-                  {{ if (eq $classic_status "open") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>La billetterie est ouverte !</span></a>
-                  {{ else if (eq $classic_status "closed") }}
-                  <a class="snc-btn disabled" 
-                     href="{{ $store_url }}" target="_blank"><span>La billetterie est épuisée !</span></a>
-                  {{ else }}
-                  <a class="snc-btn disabled" 
-                     target="_blank"><span>La billetterie n'est pas encore ouverte</span></a>
-                  {{ end }}
+                  {{ partial "store_package_status" (dict "context" . "status" $classic_status "url" $store_url) }}
                 </div>
               </div>
             </div>

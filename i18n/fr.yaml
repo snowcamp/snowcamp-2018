@@ -18,3 +18,11 @@
   translation: Venir  
 - id: coc
   translation: CdC
+- id: store_early_birds_open
+  translation: La billetterie Early Birds est ouverte !   
+- id: store_not_open_status
+  translation: La billetterie n'est pas encore ouverte
+- id: store_open_status
+  translation: La billetterie est ouverte !
+- id: store_closed_status
+  translation: La billetterie est épuisée !
