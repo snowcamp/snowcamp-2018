@@ -1,3 +1,21 @@
+year: 2020
+lang:
+  fr:
+    chamois: Sponsor Chamois
+    etoile: Sponsors Étoile
+    flocon: Sponsors Flocon
+    partners: Partenaires
+    thanks: Ils nous ont déjà accordé leur confiance pour préparer ensemble l'édition 2020.
+            <br/>Un grand merci à nos sponsors !
+    become: Devenir sponsor
+  en:
+    chamois: Sponsor Chamois
+    etoile: Sponsors Étoile 
+    flocon: Sponsors Flocon
+    partners: Partners
+    thanks: They have already placed their trust to prepare the edition 2020 together.
+            <br/>Many thanks to our sponsors!
+    become: Become a sponsor        
 etoile:
   - name: Norsys
     logo: img/sponsors/2018/norsys.png
@@ -53,20 +71,20 @@ etoile:
     logo: img/sponsors/2020/microsoft.png
     url_fr: https://www.microsoft.com/fr-fr/
     url_en: https://www.microsoft.com/en-us/
-    description_fr: 
-    description_en:      
+    description_fr:
+    description_en:
   - name: Sopra Steria
     logo: img/sponsors/2018/sopra-steria.png
     url_fr: https://www.soprasteria.com/fr/accueil/
     url_en: https://www.soprasteria.com/en/home/
-    description_fr: 
+    description_fr:
     description_en:
 flocon:
   - name: Tuleap
     logo: img/sponsors/2020/tuleap.png
     url_fr: https://www.tuleap.org/
     url_en: https://www.tuleap.org/
-    description_fr: 
+    description_fr:
     description_en:
 partners:
   - name: AlpesJUG
