@@ -7,15 +7,15 @@
             <div class="col-xs-12">
               <div class="banner-info">
                 <div class="snc-countdown-area">
-                  <div id="snc-countdown" data-date="2020/1/22">
+                  <div id="snc-countdown" data-date="{{ .Site.Data.edition.count_down }}">
                     <span class="snc-days">100 <i> Days </i></span>
                     <span class="snc-hr">14 <i> Hours </i></span>
                     <span class="snc-min">15 <i> Minutes </i></span>
                     <span class="snc-sec">29<i> Seconds </i></span>
                   </div>
                 </div>
-                <h2 class="title">Snowcamp <span>2020</span></h2>
-                <h3 class="date"><span>22nd-25th of January </span>2020, Grenoble</h3>
+                <h2 class="title">Snowcamp <span>{{ .Site.Data.edition.year }}</span></h2>
+                <h3 class="date"><span>{{ (index .Site.Data.edition.lang .Lang).dates }} </span>{{ .Site.Data.edition.year }}, Grenoble</h3>
               </div>
             </div>
           </div>
@@ -123,7 +123,6 @@
 
 <section>
   {{ $cfp := $.Site.Data.cfp }}
-  {{ $cfp_dates := ( index $cfp.dates.lang .Lang ) }}
   {{ $cfp_url := $cfp.url }}
   {{ $cfp_status := $cfp.status }}
   <div id="program" class="snc-programme">
@@ -138,36 +137,7 @@
                 </span>
                 <span class="heading">{{ i18n "cfp_program_translation" }}</span>
               </h2>
-              <div class="ui steps">
-                  <div class="active step">
-                    <i class="inbox icon"></i>
-                    <div class="content">
-                      <div class="title">CFP opens</div>
-                      <div class="description">{{ $cfp_dates.open }}</div>
-                    </div>
-                  </div>
-                  <div class="active step">
-                    <i class="spinner icon"></i>
-                    <div class="content">
-                      <div class="title">CFP closes</div>
-                      <div class="description">{{ $cfp_dates.close }}</div>
-                    </div>
-                  </div>
-                  <div class="active step">
-                    <i class="mail icon"></i>
-                    <div class="content">
-                      <div class="title">Notifications</div>
-                      <div class="description">{{ $cfp_dates.notification }}</div>
-                    </div>
-                  </div>
-                  <div class="active step">
-                    <i class="checked calendar icon"></i>
-                    <div class="content">
-                      <div class="title">Snowcamp</div>
-                      <div class="description">{{ $cfp_dates.snowcamp }}</div>
-                    </div>
-                  </div>
-                </div>
+              {{ partial "cfp_dates" (dict "context" . "edition" $.Site.Data.edition "cfp" $cfp) }}
               </div>
             </div>
           </div>
@@ -178,8 +148,8 @@
               </div>
             </div> 
             <div class="col-xs-12 col-sm-6 col-md-6">
-              {{ if isset $cfp_status "open" }}
               <div class="single">
+                {{ if (eq $cfp_status "open") }}
                 <p>The CFP is open! Let's submit awesome subjects here: <a href="{{ $cfp_url }}" target="_blank"><i class="fa fa-bullhorn">   {{ $cfp_url }}</i></a></p>
                 <br/>
                 <p>Some hints:</p>
@@ -191,21 +161,22 @@
                 </ul>
                 <br/>
                 <p>Sessions can be made in French or English. The talks are selected
-                  by a neutral and open-minded committee. So, take the plunge!
+                   by a neutral and open-minded committee. So, take the plunge!
                 </p>
-              </div>
-              {{ else }}
-              <div class="single">
+                {{ else if (eq $cfp_status "closed") }}
                 <p>The CFP is now closed!</p>
-              </div>
-              {{ end }}
+                {{ else }}
+                <p>The CFP is not yet open... Be patient!
+                   <br>Follow us on Twitter <a class="sp-tw" href="https://twitter.com/SnowCampIO"><i class="fa fa-twitter"></i></a> to be notified when the CFP opens.</p>
+                {{ end }}
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-{{ partial "sponsors" (dict "context" . "sponsors" .Site.Data.sponsors "baseUrl" .Site.BaseURL) }}
+  </div>
+</section>
+{{ partial "sponsors" (dict "context" . "edition" .Site.Data.edition "sponsors" .Site.Data.sponsors "baseUrl" .Site.BaseURL) }}
 <section>
   <div id="venue" class="snc-venue">
     <div class="snc-inner">

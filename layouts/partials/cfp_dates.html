@@ -1,0 +1,32 @@
+{{ $cfp_lang := (index .cfp.lang .context.Lang) }}
+{{ $edition_lang := (index .edition.lang .context.Lang) }}
+<div class="ui steps">
+    <div class="active step">
+        <i class="inbox icon"></i>
+        <div class="content">
+        <div class="title">{{ $cfp_lang.cfp_opens }}</div>
+        <div class="description">{{ $cfp_lang.open_date }}</div>
+        </div>
+    </div>
+    <div class="active step">
+        <i class="spinner icon"></i>
+        <div class="content">
+        <div class="title">{{ $cfp_lang.cfp_closes }}</div>
+        <div class="description">{{ $cfp_lang.close_date }}</div>
+        </div>
+    </div>
+    <div class="active step">
+        <i class="mail icon"></i>
+        <div class="content">
+        <div class="title">Notifications</div>
+        <div class="description">{{ $cfp_lang.notification_date }}</div>
+        </div>
+    </div>
+    <div class="active step">
+        <i class="checked calendar icon"></i>
+        <div class="content">
+        <div class="title">Snowcamp</div>
+        <div class="description">{{ $edition_lang.dates }} {{ .edition.year }}</div>
+        </div>
+    </div>
+</div>
