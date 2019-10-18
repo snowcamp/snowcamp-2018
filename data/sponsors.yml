@@ -1,20 +1,19 @@
-year: 2020
 lang:
   fr:
     chamois: Sponsor Chamois
     etoile: Sponsors Étoile
     flocon: Sponsors Flocon
     partners: Partenaires
-    thanks: Ils nous ont déjà accordé leur confiance pour préparer ensemble l'édition 2020.
-            <br/>Un grand merci à nos sponsors !
+    thanks_1: Ils nous ont déjà accordé leur confiance pour préparer ensemble l'édition
+    thanks_2: .<br/>Un grand merci à nos sponsors !
     become: Devenir sponsor
   en:
     chamois: Sponsor Chamois
     etoile: Sponsors Étoile 
     flocon: Sponsors Flocon
     partners: Partners
-    thanks: They have already placed their trust to prepare the edition 2020 together.
-            <br/>Many thanks to our sponsors!
+    thanks_1: They have already placed their trust to prepare the edition
+    thanks_2: <span> </span>together.<br/>Many thanks to our sponsors!
     become: Become a sponsor        
 etoile:
   - name: Norsys

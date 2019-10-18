@@ -9,9 +9,9 @@
                 <div class="snc-heading-area">
                   <h2 class="snc-heading">
                     <span class="back-heading"><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                    <span class="heading">Sponsors {{ .sponsors.year }}</span>
+                    <span class="heading">Sponsors {{ .edition.year }}</span>
                   </h2>
-                  <p class="text">{{ $sponsors_lang.thanks | safeHTML }}</p>
+                  <p class="text">{{ $sponsors_lang.thanks_1 | safeHTML }} {{ .edition.year }}{{ $sponsors_lang.thanks_2 | safeHTML }}</p>
                 </div>
               </div>
             </div>
