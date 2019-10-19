@@ -96,6 +96,14 @@ etoile:
     description:
       fr:
       en: 
+  - name: Open
+    logo: img/sponsors/2019/open.png
+    url:
+      fr: http://www.open-groupe.com/
+      en: http://www.open-groupe.com/
+    description:
+      fr: ESN généraliste et multi technologique (Java, C#, ReactJS, Angular,…) , résolument tournée vers l’expertise digitale (IoT, Big Data, E-commerce, mobilité, innovation), mettant un accent fort sur la relation collaborateur ainsi que sur la proximité clients
+      en: General IT services company (Java, C#, ReactJS, Angular,…), specialized on digital expertises (IoT, Big Data, Market Place, Mobility &amp; Geolocalisation, Digital Communication), with a strong focus on employees relationship and customer proximity
 flocon:
   - name: Tuleap
     logo: img/sponsors/2020/tuleap.png
