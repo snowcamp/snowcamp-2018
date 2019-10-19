@@ -18,77 +18,99 @@ lang:
 etoile:
   - name: Norsys
     logo: img/sponsors/2018/norsys.png
-    url_fr: http://www.norsys.fr/
-    url_en: http://www.norsys.fr/
-    description_fr: 'Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.'
-    description_en:
+    url:
+      fr: http://www.norsys.fr/
+      en: http://www.norsys.fr/
+    description:
+      fr: 'Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.'
+      en:
   - name: Kelkoo
     logo: img/sponsors/2019/kelkoogroup.png
-    url_fr: https://www.kelkoogroup.com/fr/
-    url_en: https://www.kelkoogroup.com/
-    description_fr: 'Kelkoo Group est une plateforme marketing pour le e-commerce qui connecte les produits de nos marchands à nos sites propriétaires de comparaison de prix et à notre réseau premium de sites Publishers. Avec 20 ans d’expérience en e-commerce, marketing digital et analyse consommateur, nous proposons des solutions efficaces dans 22 pays à travers le monde.'
-    description_en: 'Kelkoo Group is an ecommerce marketing platform that connects our merchants’ products to a network of proprietary shopping websites and premium publishers. Our 20 years of experience in ecommerce, digital marketing and consumer analytics, provide efficient solutions in 22 countries worldwide.'
+    url:
+      fr: https://www.kelkoogroup.com/fr/
+      en: https://www.kelkoogroup.com/
+    description:
+      fr: 'Kelkoo Group est une plateforme marketing pour le e-commerce qui connecte les produits de nos marchands à nos sites propriétaires de comparaison de prix et à notre réseau premium de sites Publishers. Avec 20 ans d’expérience en e-commerce, marketing digital et analyse consommateur, nous proposons des solutions efficaces dans 22 pays à travers le monde.'
+      en: 'Kelkoo Group is an ecommerce marketing platform that connects our merchants’ products to a network of proprietary shopping websites and premium publishers. Our 20 years of experience in ecommerce, digital marketing and consumer analytics, provide efficient solutions in 22 countries worldwide.'
   - name: ForgeRock
     logo: img/sponsors/2018/forgerock.png
-    url_fr:
-    url_en: https://www.forgerock.com/
-    description_fr: '<strong>ForgeRock®</strong>, le leader sur le marché de la gestion de l’identité numérique, transforme la manière dont les entreprises établissent des échanges sécurisés entre les personnes, les services et les objets. Les entreprises adoptent la ForgeRock Identity Platform™ en tant que système d’identité numérique pour rentabiliser les échanges avec leurs clients, respecter les règlements sur la confidentialité et le consentement (GDPR, HIPAA, PSD2, Open Banking, etc.), et tirer le meilleur profit de l’Internet des objets. ForgeRock est le fournisseur de centaines de marques comme Morningstar, Vodafone, GEICO, Toyota ou Pearson et de nombreux gouvernements comme la Norvège, le Canada ou la Belgique, et gère des milliards d’identités dans le monde entier. ForgeRock dispose de bureaux dans toute l’Europe, aux États-Unis et en Asie.'
-    description_en: '<strong>ForgeRock®</strong> is the Digital Identity Management company transforming the way organizations interact securely with customers, employees, devices, and things. Organizations adopt the ForgeRock Identity Platform™ as their digital identity system of record to monetize customer relationships, address stringent regulations for privacy and consent (GDPR, HIPAA, FCC privacy, etc.), and leverage the internet of things. ForgeRock serves hundreds of brands, including Morningstar, Vodafone, GEICO, Toyota and Pearson, as well as governments such as Norway, New Zealand, and Belgium, among many others. Headquartered in San Francisco, California, ForgeRock has offices in Austin, London, Bristol, Grenoble, Munich, Paris, Oslo, Singapore, Sydney and Vancouver, Washington.'
+    url:
+      fr:
+      en: https://www.forgerock.com/
+    description:
+      fr: '<strong>ForgeRock®</strong>, le leader sur le marché de la gestion de l’identité numérique, transforme la manière dont les entreprises établissent des échanges sécurisés entre les personnes, les services et les objets. Les entreprises adoptent la ForgeRock Identity Platform™ en tant que système d’identité numérique pour rentabiliser les échanges avec leurs clients, respecter les règlements sur la confidentialité et le consentement (GDPR, HIPAA, PSD2, Open Banking, etc.), et tirer le meilleur profit de l’Internet des objets. ForgeRock est le fournisseur de centaines de marques comme Morningstar, Vodafone, GEICO, Toyota ou Pearson et de nombreux gouvernements comme la Norvège, le Canada ou la Belgique, et gère des milliards d’identités dans le monde entier. ForgeRock dispose de bureaux dans toute l’Europe, aux États-Unis et en Asie.'
+      en: '<strong>ForgeRock®</strong> is the Digital Identity Management company transforming the way organizations interact securely with customers, employees, devices, and things. Organizations adopt the ForgeRock Identity Platform™ as their digital identity system of record to monetize customer relationships, address stringent regulations for privacy and consent (GDPR, HIPAA, FCC privacy, etc.), and leverage the internet of things. ForgeRock serves hundreds of brands, including Morningstar, Vodafone, GEICO, Toyota and Pearson, as well as governments such as Norway, New Zealand, and Belgium, among many others. Headquartered in San Francisco, California, ForgeRock has offices in Austin, London, Bristol, Grenoble, Munich, Paris, Oslo, Singapore, Sydney and Vancouver, Washington.'
   - name: BonitaSoft
     logo: img/sponsors/2019/bonitasoft.png
-    url_fr: https://fr.bonitasoft.com/
-    url_en: https://www.bonitasoft.com/
-    description_fr:
-    description_en:
+    url:
+      fr: https://fr.bonitasoft.com/
+      en: https://www.bonitasoft.com/
+    description:
+      fr:
+      en:
   - name: Viseo
     logo: img/sponsors/2018/viseo.png
-    url_fr: http://www.viseo.com/fr
-    url_en: http://www.viseo.com/en
-    description_fr: '<b>VISEO Technologies</b> est un cabinet de conseil &amp; services, expert des nouvelles technologies.
-                    <br/>Filiale du Groupe VISEO, nous délivrons les dispositifs numériques au service de la volonté d’accélération digitale de nos clients. «Venez avec votre idée et repartez avec votre produit». C’est notre promesse.
-                    <br/>À Grenoble, nous sommes + de 110 ingénieurs spécialistes des processus de conception et de développement logiciel.
-                    Nous avons mis au point la Factory Agile, pour répondre aux enjeux auxquels sont confrontés les entreprises : une plateforme dédiée à la production de projets digitaux innovants en environnement web, mobile et objets connectés. Nos compétences s’articulent autour des domaines technologiques, méthodologiques et pédagogiques.
-                    Acteur précurseur et promoteur de l’innovation, notre métier est l’optimisation de chaque étape du processus de développement logiciel en transférant vers nos clients des technologies, des méthodes et des concepts innovants.
-                    VISEO développe son expertise dans la modélisation, la conception et le déploiement des architectures (Iot, Java, .NET, Web, Mobile…). Les méthodes agiles, parfaitement maîtrisées, fournissent un cadre méthodologique et organisationnel clair et éprouvé.
-                    Si comme nous, vous souhaitez intégrer une culture d’entreprise axée sur la proximité, l’échange, le partage de connaissances et la formation et vous aimez travaillez dans une ambiance conviviale sur des projets innovants et stimulants, n’attendez plus : rejoignez-nous ! http://www.viseo.com/fr/communique-de-presse/viseo-grenoble-ouvre-ses-meetups-technologiques-la-communaute'
-    description_en:
+    url:
+      fr: http://www.viseo.com/fr
+      en: http://www.viseo.com/en
+    description:
+      fr: '<b>VISEO Technologies</b> est un cabinet de conseil &amp; services, expert des nouvelles technologies.
+           <br/>Filiale du Groupe VISEO, nous délivrons les dispositifs numériques au service de la volonté d’accélération digitale de nos clients. «Venez avec votre idée et repartez avec votre produit». C’est notre promesse.
+           <br/>À Grenoble, nous sommes + de 110 ingénieurs spécialistes des processus de conception et de développement logiciel.
+                Nous avons mis au point la Factory Agile, pour répondre aux enjeux auxquels sont confrontés les entreprises : une plateforme dédiée à la production de projets digitaux innovants en environnement web, mobile et objets connectés. Nos compétences s’articulent autour des domaines technologiques, méthodologiques et pédagogiques.
+                Acteur précurseur et promoteur de l’innovation, notre métier est l’optimisation de chaque étape du processus de développement logiciel en transférant vers nos clients des technologies, des méthodes et des concepts innovants.
+                VISEO développe son expertise dans la modélisation, la conception et le déploiement des architectures (Iot, Java, .NET, Web, Mobile…). Les méthodes agiles, parfaitement maîtrisées, fournissent un cadre méthodologique et organisationnel clair et éprouvé.
+                Si comme nous, vous souhaitez intégrer une culture d’entreprise axée sur la proximité, l’échange, le partage de connaissances et la formation et vous aimez travaillez dans une ambiance conviviale sur des projets innovants et stimulants, n’attendez plus : rejoignez-nous ! http://www.viseo.com/fr/communique-de-presse/viseo-grenoble-ouvre-ses-meetups-technologiques-la-communaute'
+      en:
   - name: Kaizen
     logo: img/sponsors/2018/kaizen.png
-    url_fr: https://kaizen-solutions.net/
-    url_en: https://kaizen-solutions.net/
-    description_fr: 'Notre société de services accompagne de grands groupes industriels sur Grenoble et sur Lyon en apportant des solutions logicielles haut de gamme sur l’ensemble des couches logicielles du capteur jusqu’au cloud. Partenaire boîte blanche, nous accompagnons nos clients sur leurs systèmes d’informations connectés temps réel à travers des solutions qui répondent à des projets complexes, portant sur de forts enjeux économiques, techniques et humains.
-                    <br/>Vous avez envie de rejoindre une jeune société à taille humaine ? Qui se préoccupe de vous proposer des projets qui correspondent à vos attentes ?
-                    <br/>Être vrai avant d’être différent, voilà notre vision du métier du service !'
-    description_en:
+    url:
+      fr: https://kaizen-solutions.net/
+      en: https://kaizen-solutions.net/
+    description:
+      fr: 'Notre société de services accompagne de grands groupes industriels sur Grenoble et sur Lyon en apportant des solutions logicielles haut de gamme sur l’ensemble des couches logicielles du capteur jusqu’au cloud. Partenaire boîte blanche, nous accompagnons nos clients sur leurs systèmes d’informations connectés temps réel à travers des solutions qui répondent à des projets complexes, portant sur de forts enjeux économiques, techniques et humains.
+           <br/>Vous avez envie de rejoindre une jeune société à taille humaine ? Qui se préoccupe de vous proposer des projets qui correspondent à vos attentes ?
+           <br/>Être vrai avant d’être différent, voilà notre vision du métier du service !'
+      en:
   - name: Zenika
     logo: img/sponsors/2018/zenika.png
-    url_fr: https://www.zenika.com/
-    url_en: https://www.zenika.com/
-    description_fr: '<strong>Zenika</strong>, L’innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;'
-    description_en: '<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;'
+    url:
+      fr: https://www.zenika.com/
+      en: https://www.zenika.com/
+    description:
+      fr: '<strong>Zenika</strong>, L’innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;'
+      en: '<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;'
   - name: Microsoft
     logo: img/sponsors/2020/microsoft.png
-    url_fr: https://www.microsoft.com/fr-fr/
-    url_en: https://www.microsoft.com/en-us/
-    description_fr:
-    description_en:
+    url:
+      fr: https://www.microsoft.com/fr-fr/
+      en: https://www.microsoft.com/en-us/
+    description:
+      fr:
+      en:
   - name: Sopra Steria
     logo: img/sponsors/2018/sopra-steria.png
-    url_fr: https://www.soprasteria.com/fr/accueil/
-    url_en: https://www.soprasteria.com/en/home/
-    description_fr:
-    description_en:
+    url:
+      fr: https://www.soprasteria.com/fr/accueil/
+      en: https://www.soprasteria.com/en/home/
+    description:
+      fr:
+      en: 
 flocon:
   - name: Tuleap
     logo: img/sponsors/2020/tuleap.png
-    url_fr: https://www.tuleap.org/
-    url_en: https://www.tuleap.org/
-    description_fr:
-    description_en:
+    url:
+      fr: https://www.tuleap.org/
+      en: https://www.tuleap.org/
+    description:
+      fr:
+      en:
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
-    url_fr: http://alpesjug.fr/
-    url_en: http://alpesjug.fr/
-    description_fr: 'AlpesJug est le groupe des utilisateurs Java de la région grenobloise, et à l''origine du Snowcamp.'
-    description_en: 'AlpesJug is the Java User Group of the Grenoble area, and the initiator of the Snowcamp conference.'
+    url:
+      fr: http://alpesjug.fr/
+      en: http://alpesjug.fr/
+    description:
+      fr: 'AlpesJug est le groupe des utilisateurs Java de la région grenobloise, et à l''origine du Snowcamp.'
+      en: 'AlpesJug is the Java User Group of the Grenoble area, and the initiator of the Snowcamp conference.'

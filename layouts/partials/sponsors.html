@@ -1,4 +1,5 @@
-{{ $sponsors_lang := (index .sponsors.lang .context.Lang) }}
+{{ $lang := .context.Lang }}
+{{ $sponsors_lang := (index .sponsors.lang $lang) }}
 <section>
     <div id="sponsors" class="snc-sponsors">
       <div class="snc-inner-bg">
@@ -28,9 +29,11 @@
                   <div class="row">
                   {{end}}
                       <div class="single">
-                        <a href="{{ $sponsor.url_en }}" target="_blank"
+                          {{ $sponsor_url := (cond (isset $sponsor.url $lang ) (index $sponsor.url $lang) "") }}
+                          {{ $sponsor_desc := (cond (isset $sponsor.description $lang ) (index $sponsor.description $lang) "") }}
+                        <a href="{{ $sponsor_url }}" target="_blank"
                             data-placement="top" data-toggle="tooltip" data-html="true"
-                            data-original-title="{{ $sponsor.description_en }}">
+                            data-original-title="{{ $sponsor_desc }}">
                           <img src="{{ .baseUrl }}/{{ $sponsor.logo }}" alt="{{ $sponsor.name }}"/></a>
                       </div>
                   {{ if modBool (add $i 1) 3 }}
@@ -46,14 +49,16 @@
             </div>
             {{ end }}
             <div class="sponsors-area">
-                {{ range $i, $sponsor := .sponsors.etoile }}
+                {{ range $i, $sponsor := .sponsors.etoile }}                
                   {{ if modBool $i 3 }}
                   <div class="row">
                   {{end}}
                       <div class="single">
-                        <a href="{{ $sponsor.url_en }}" target="_blank"
+                        {{ $sponsor_url := (cond (isset $sponsor.url $lang ) (index $sponsor.url $lang) "") }}
+                        {{ $sponsor_desc := (cond (isset $sponsor.description $lang ) (index $sponsor.description $lang) "") }}
+                        <a href="{{ $sponsor_url }}" target="_blank"
                             data-placement="top" data-toggle="tooltip" data-html="true"
-                            data-original-title="{{ $sponsor.description_en }}">
+                            data-original-title="{{ $sponsor_desc }}">
                           <img src="{{ .baseUrl }}/{{ $sponsor.logo }}" alt="{{ $sponsor.name }}"/></a>
                       </div>
                   {{ if modBool (add $i 1) 3 }}
@@ -74,9 +79,11 @@
                   <div class="row">
                   {{end}}
                       <div class="single">
-                        <a href="{{ $sponsor.url_en }}" target="_blank"
+                        {{ $sponsor_url := (cond (isset $sponsor.url $lang ) (index $sponsor.url $lang) "") }}
+                        {{ $sponsor_desc := (cond (isset $sponsor.description $lang ) (index $sponsor.description $lang) "") }}
+                        <a href="{{ $sponsor_url }}" target="_blank"
                             data-placement="top" data-toggle="tooltip" data-html="true"
-                            data-original-title="{{ $sponsor.description_en }}">
+                            data-original-title="{{ $sponsor_desc }}">
                           <img src="{{ .baseUrl }}/{{ $sponsor.logo }}" alt="{{ $sponsor.name }}"/></a>
                       </div>
                   {{ if modBool (add $i 1) 3 }}
@@ -99,9 +106,11 @@
                   <div class="row">
                   {{end}}
                       <div class="single">
-                        <a href="{{ $sponsor.url_en }}" target="_blank"
+                        {{ $sponsor_url := (cond (isset $sponsor.url $lang ) (index $sponsor.url $lang) "") }}
+                        {{ $sponsor_desc := (cond (isset $sponsor.description $lang ) (index $sponsor.description $lang) "") }}
+                        <a href="{{ $sponsor_url }}" target="_blank"
                             data-placement="top" data-toggle="tooltip" data-html="true"
-                            data-original-title="{{ $sponsor.description_en }}">
+                            data-original-title="{{ $sponsor_desc }}">
                           <img src="{{ .baseUrl }}/{{ $sponsor.logo }}" alt="{{ $sponsor.name }}"/></a>
                       </div>
                   {{ if modBool (add $i 1) 3 }}
