@@ -105,6 +105,14 @@ etoile:
       fr: ESN généraliste et multi technologique (Java, C#, ReactJS, Angular,…) , résolument tournée vers l’expertise digitale (IoT, Big Data, E-commerce, mobilité, innovation), mettant un accent fort sur la relation collaborateur ainsi que sur la proximité clients
       en: General IT services company (Java, C#, ReactJS, Angular,…), specialized on digital expertises (IoT, Big Data, Market Place, Mobility &amp; Geolocalisation, Digital Communication), with a strong focus on employees relationship and customer proximity
       en:
+  - name: Criteo
+    logo: img/sponsors/2019/crite.png
+    url:
+      fr: https://www.criteo.com/
+      en: https://www.criteo.com/
+    description:
+      fr: Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data.
+      en: Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data.
 flocon:
   - name: Tuleap
     logo: img/sponsors/2020/tuleap.png
