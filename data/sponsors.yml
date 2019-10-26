@@ -9,12 +9,12 @@ lang:
     become: Devenir sponsor
   en:
     chamois: Sponsor Chamois
-    etoile: Sponsors Étoile 
+    etoile: Sponsors Étoile
     flocon: Sponsors Flocon
     partners: Partners
     thanks_1: They have already placed their trust to prepare the edition
     thanks_2: <span> </span>together.<br/>Many thanks to our sponsors!
-    become: Become a sponsor        
+    become: Become a sponsor
 etoile:
   - name: Norsys
     logo: img/sponsors/2018/norsys.png
@@ -104,6 +104,7 @@ etoile:
     description:
       fr: ESN généraliste et multi technologique (Java, C#, ReactJS, Angular,…) , résolument tournée vers l’expertise digitale (IoT, Big Data, E-commerce, mobilité, innovation), mettant un accent fort sur la relation collaborateur ainsi que sur la proximité clients
       en: General IT services company (Java, C#, ReactJS, Angular,…), specialized on digital expertises (IoT, Big Data, Market Place, Mobility &amp; Geolocalisation, Digital Communication), with a strong focus on employees relationship and customer proximity
+      en:
 flocon:
   - name: Tuleap
     logo: img/sponsors/2020/tuleap.png
@@ -121,6 +122,14 @@ flocon:
     description:
       fr: 'AViSTO, vous ne connaissez peut-être pas encore : une société 100% ingénieurs, des développeurs passionnés, des projets techniques et ambitieux… Le SNOWCAMP, on aime, alors on le soutient et on y participe !'
       en: 'AViSTO, you may not know us yet: a company 100% engineers, with passionate developers, technical and ambitious projects... SNOWCAMP, we love it, so we support it and participate to it!'
+  - name: KLS Group
+    logo: img/sponsors/2020/kls.png
+    url:
+      fr: https://www.kls-group.fr/
+      en: https://www.kls-group.fr/en/kls-group-en-home/
+    description:
+      fr: Editeur-intégrateur de logiciels dédiés à l’optimisation globale de la Supply Chain (WMS gestion des stocks pour les grands comptes et PME, TMS gestion des expéditions, APS prévisions, WCS pilotage d’équipements mécanisés) depuis 30 ans. KLS Group propose une gamme complète pour une vision à 360° de votre logistique pour tous secteurs d’activité.
+      en: Editor-integrator of software dedicated to the global optimization of the Supply Chain (WMS, TMS, APS, WCS) for 30 years. KLS Group proposes a complete range for a 360 degree view on your logistics for any business sectors.
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
