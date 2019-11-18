@@ -6,9 +6,9 @@ prices:
 store:
   url: https://yurplan.com/event/Snow-Camp-2020/48840#/
   early:
-    status: closed
+    status: closed # not_open, open, closed
   classic:
-    status: not_open
+    status: not_open # not_open, open, closed
   lang:
     fr:
       store_early_birds_open: La billetterie Early Birds est ouverte !
