@@ -6,5 +6,12 @@
 {{ else if (and ((eq $store_lang.classic_status "closed") (eq .classic_status "closed"))) }}
    <p class="text dark-background emph">{{ $store_lang.store_closed_status }}</p>
 {{ else }}
-   <p class="text dark-background emph">{{ $store_lang.store_not_open_status }}</p>
+   <p class="text dark-background emph">
+       {{ if isset $store_lang "store_open_dates" }}
+       <a href="{{ .store.url }}" target="_blank">{{ $store_lang.store_not_open_status }}</a>
+       <br>{{ $store_lang.store_open_dates }}
+       {{ else }}
+       {{ $store_lang.store_not_open_status }}
+       {{ end }}
+   </p>
 {{ end }}
