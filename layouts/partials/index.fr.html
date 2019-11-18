@@ -125,6 +125,7 @@
 {{ $cfp := $.Site.Data.cfp }}
 {{ $cfp_url := $cfp.url }}
 {{ $cfp_status := $cfp.status }}
+{{ if (not (eq $cfp_status "published")) }}
   <div id="program" class="snc-programme">
     <div class="snc-inner">
       <div class="container">
@@ -176,6 +177,30 @@
       </div>
     </div>
   </div>
+  {{ else }}
+  <div id="program" class="snc-programme">
+    <div class="snc-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="snc-heading-area">
+              <h2 class="snc-heading">
+                <span class="back-heading">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                </span>
+                <span class="heading">{{ i18n "schedule_translation" }}</span>
+              </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <a id="sched-embed" href="{{ $cfp.sched_url }}" data-sched-sidebar="no">SnowCamp {{ .Site.Data.edition.year }}</a><script type="text/javascript" src="{{ $cfp.sched_url }}/js/embed.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
 </section>
 {{ partial "sponsors" (dict "context" . "edition" .Site.Data.edition "sponsors" .Site.Data.sponsors "baseUrl" .Site.BaseURL) }}
 <section>
