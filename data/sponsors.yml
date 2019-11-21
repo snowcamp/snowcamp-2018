@@ -113,6 +113,14 @@ flocon:
     description:
       fr:
       en:
+  - name: Avisto
+    logo: img/sponsors/2020/avisto.png
+    url:
+      fr: https://www.avisto.com/fr/
+      en: https://www.avisto.com/en/
+    description:
+      fr:
+      en:      
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
