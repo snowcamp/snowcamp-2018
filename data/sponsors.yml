@@ -113,14 +113,14 @@ flocon:
     description:
       fr:
       en:
-  - name: Avisto
+  - name: AViSTO
     logo: img/sponsors/2020/avisto.png
     url:
-      fr: https://www.avisto.com/fr/
-      en: https://www.avisto.com/en/
+      fr: https://www.avisto.com/?utm_source=snowcamp&utm_medium=sponsor&utm_campaign=backlinks
+      en: https://www.avisto.com/?utm_source=snowcamp&utm_medium=sponsor&utm_campaign=backlinks
     description:
-      fr:
-      en:      
+      fr: 'AViSTO, vous ne connaissez peut-être pas encore : une société 100% ingénieurs, des développeurs passionnés, des projets techniques et ambitieux… Le SNOWCAMP, on aime, alors on le soutient et on y participe !'
+      en: 'AViSTO, you may not know us yet: a company 100% engineers, with passionate developers, technical and ambitious projects... SNOWCAMP, we love it, so we support it and participate to it!'
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
