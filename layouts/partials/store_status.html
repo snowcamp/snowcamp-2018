@@ -1,5 +1,8 @@
 {{ $store_lang := (index .store.lang .context.Lang) }}
 <p class="text dark-background emph">
+{{ if (and ((eq .store.classic.status "closed") (eq .store.classic.status "closed"))) }}
+   {{ $store_lang.store_closed_status }}
+{{ end }}
 {{ if isset $store_lang "store_open_dates" }}
     <br>{{ $store_lang.store_open_dates }}
     <p>

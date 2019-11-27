@@ -15,6 +15,7 @@ store:
       store_not_open_status: La billetterie n'est pas encore ouverte
       store_open_status: Ouverte de la billetterie le 28 Novembre a 11h!
       store_closed_status: La billetterie est épuisée !
+#      Comment following line to no show store opening info on website
       store_open_dates: La billetterie ouvre le Mardi 26 Novembre à 15h pour la vente d'une première salve de billets, le Jeudi 28 Novembre à 11h pour la 2nde salve
       store_here: Billetterie ici
     en:
@@ -22,5 +23,6 @@ store:
       store_not_open_status: The store is not open yet
       store_open_status: Store opens November 28th a 11:00 am!
       store_closed_status: The store is soldout!
+#      Comment following line to no show store opening info on website
       store_open_dates: The store opens on Tuesday, 26th of November at 3:00 pm (Paris TimeZone) for a first sale, on Thursday, 28th November at 11:00 am (Paris TimeZone) for a second sale.
       store_here: Store here
