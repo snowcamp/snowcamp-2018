@@ -13,7 +13,7 @@ store:
     fr:
       store_early_birds_open: Vente des Early Birds le 17 Octobre !
       store_not_open_status: La billetterie n'est pas encore ouverte
-      store_open_status: Ouverte de la billetterie le 28 Novembre a 11h!
+      store_open_status: Ouverture de la billetterie le 28 Novembre à 11h !
       store_closed_status: La billetterie est épuisée !
 #      Comment following line to no show store opening info on website
       store_open_dates: La billetterie ouvre le Mardi 26 Novembre à 15h pour la vente d'une première salve de billets, le Jeudi 28 Novembre à 11h pour la 2nde salve
