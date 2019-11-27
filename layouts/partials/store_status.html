@@ -1,15 +1,10 @@
 {{ $store_lang := (index .store.lang .context.Lang) }}
 <p class="text dark-background emph">
-{{ if (eq .store.early_birds.status "open") }}
-   {{ $store_lang.store_early_birds_open }}
-{{ else if (eq .store.classic.status "open") }}
-   {{ $store_lang.store_open_status }}
-{{ else if (and ((eq .store.classic.status "closed") (eq .store.classic.status "closed"))) }}
-   {{ $store_lang.store_closed_status }}
-{{ end }}
 {{ if isset $store_lang "store_open_dates" }}
     <br>{{ $store_lang.store_open_dates }}
-    <br><b><a href="{{ .store.url }}" target="_blank">
-            <i class="fa fa-hand-o-right" aria-hidden="true"><span> {{ $store_lang.store_here }}</span></i></a></b>
+    <p>
+      <br><b><a href="{{ .store.url }}" target="_blank">
+              <i class="fa fa-hand-o-right" aria-hidden="true"><span> {{ $store_lang.store_here }}</span></i></a></b>
+    </p>
 {{ end }}
 </p>

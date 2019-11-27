@@ -2,7 +2,7 @@ prices:
   early: 42
   early_pack: 100
   classic: 60
-  classic_pack: 150   
+  classic_pack: 150
 store:
   url: https://yurplan.com/event/Snow-Camp-2020/48840#/
   early:
@@ -11,16 +11,16 @@ store:
     status: open # not_open, open, closed
   lang:
     fr:
-      store_early_birds_open: La billetterie Early Birds est ouverte !
+      store_early_birds_open: Vente des Early Birds le 17 Octobre !
       store_not_open_status: La billetterie n'est pas encore ouverte
-      store_open_status: La billetterie est ouverte !
+      store_open_status: Ouverte de la billetterie le 28 Novembre a 11h!
       store_closed_status: La billetterie est épuisée !
       store_open_dates: La billetterie ouvre le Mardi 26 Novembre à 15h pour la vente d'une première salve de billets, le Jeudi 28 Novembre à 11h pour la 2nde salve
       store_here: Billetterie ici
     en:
-      store_early_birds_open: The Early Birds store is open!
+      store_early_birds_open: Early Birds sell starts October 17!
       store_not_open_status: The store is not open yet
-      store_open_status: The store is open!
+      store_open_status: Store opens November 28th a 11:00 am!
       store_closed_status: The store is soldout!
       store_open_dates: The store opens on Tuesday, 26th of November at 3:00 pm (Paris TimeZone) for a first sale, on Thursday, 28th November at 11:00 am (Paris TimeZone) for a second sale.
       store_here: Store here
