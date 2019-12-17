@@ -46,7 +46,7 @@ etoile:
       fr: https://fr.bonitasoft.com/
       en: https://www.bonitasoft.com/
     description:
-      fr:
+      fr: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l’amélioration de l’automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
       en:
   - name: Viseo
     logo: img/sponsors/2018/viseo.png
