@@ -155,3 +155,11 @@ partners:
     description:
       fr: 'AlpesJug est le groupe des utilisateurs Java de la région grenobloise, et à l''origine du Snowcamp.'
       en: 'AlpesJug is the Java User Group of the Grenoble area, and the initiator of the Snowcamp conference.'
+  - name: Manning
+    logo: img/partners/2019/manning.png
+    url:
+      fr: https://www.manning.com/
+      en: https://www.manning.com/
+    description:
+      fr: '<b>Manning</b> est un éditeur indépendant de livres d''informatique pour les développeurs logiciel, ingénieurs, architectes, administrateurs système, managers et tous les professionnels de l''informatique. Les livres que nous publions couvrent un large éventail de sujets nécessaires au développeur moderne ; des langages et frameworks, aux bonnes practiques pour les responsables d''équipes.'
+      en: '<b>Manning</b> is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.'
