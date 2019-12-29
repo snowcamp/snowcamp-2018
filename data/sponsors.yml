@@ -147,14 +147,6 @@ flocon:
       fr: 
       en: 
 partners:
-  - name: AlpesJUG
-    logo: img/partners/alpesjug.png
-    url:
-      fr: http://alpesjug.fr/
-      en: http://alpesjug.fr/
-    description:
-      fr: 'AlpesJug est le groupe des utilisateurs Java de la région grenobloise, et à l''origine du Snowcamp.'
-      en: 'AlpesJug is the Java User Group of the Grenoble area, and the initiator of the Snowcamp conference.'
   - name: Manning
     logo: img/partners/2019/manning.png
     url:
@@ -163,3 +155,19 @@ partners:
     description:
       fr: '<b>Manning</b> est un éditeur indépendant de livres d''informatique pour les développeurs logiciel, ingénieurs, architectes, administrateurs système, managers et tous les professionnels de l''informatique. Les livres que nous publions couvrent un large éventail de sujets nécessaires au développeur moderne ; des langages et frameworks, aux bonnes practiques pour les responsables d''équipes.'
       en: '<b>Manning</b> is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.'
+  - name: AlpesJUG
+    logo: img/partners/alpesjug.png
+    url:
+      fr: http://alpesjug.fr/
+      en: http://alpesjug.fr/
+    description:
+      fr: 'AlpesJug est le groupe des utilisateurs Java de la région grenobloise, et à l''origine du Snowcamp.'
+      en: 'AlpesJug is the Java User Group of the Grenoble area, and the initiator of the Snowcamp conference.'
+  - name: Sticker Mule
+    logo: img/partners/2019/stickermule.png
+    url:
+      fr: https://www.stickermule.com/fr/
+      en: https://www.stickermule.com/
+    description:
+      fr: 'Avec <b>Sticker Mule</b>, achetez rapidement et facilement des produits imprimés personnalisés. Il suffit de 60 secondes pour passer votre commande. Il nous faudra ensuite quelques jours pour transformer vos modèles et images en stickers, magnets, badges, étiquettes autocollantes ou emballages personnalisés. Nous offrons des épreuves en ligne gratuites, un délai de production extrêmement court et la livraison à l''international est gratuite.'
+      en: '<b>Sticker Mule</b> is the fastest and easiest way to buy custom printed products. Thousands of people in the EU trust us to make kick-ass stickers, labels, magnets, badges & more. Order in seconds and get free online proofs, free shipping, and super fast turnaround.'
