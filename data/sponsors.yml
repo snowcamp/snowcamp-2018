@@ -161,8 +161,8 @@ partners:
       fr: http://alpesjug.fr/
       en: http://alpesjug.fr/
     description:
-      fr: 'AlpesJug est le groupe des utilisateurs Java de la région grenobloise, et à l''origine du Snowcamp.'
-      en: 'AlpesJug is the Java User Group of the Grenoble area, and the initiator of the Snowcamp conference.'
+      fr: '<b>AlpesJug</b> est le groupe des utilisateurs Java de la région grenobloise, et à l''origine du Snowcamp.'
+      en: '<b>AlpesJug</b> is the Java User Group of the Grenoble area, and the initiator of the Snowcamp conference.'
   - name: Sticker Mule
     logo: img/partners/2019/stickermule.png
     url:
