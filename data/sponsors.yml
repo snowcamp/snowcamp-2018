@@ -68,10 +68,16 @@ etoile:
       fr: https://kaizen-solutions.net/
       en: https://kaizen-solutions.net/
     description:
-      fr: 'Notre société de services accompagne de grands groupes industriels sur Grenoble et sur Lyon en apportant des solutions logicielles haut de gamme sur l’ensemble des couches logicielles du capteur jusqu’au cloud. Partenaire boîte blanche, nous accompagnons nos clients sur leurs systèmes d’informations connectés temps réel à travers des solutions qui répondent à des projets complexes, portant sur de forts enjeux économiques, techniques et humains.
-           <br/>Vous avez envie de rejoindre une jeune société à taille humaine ? Qui se préoccupe de vous proposer des projets qui correspondent à vos attentes ?
-           <br/>Être vrai avant d’être différent, voilà notre vision du métier du service !'
-      en:
+      fr: "Partenaire boîte blanche, nous accompagnons nos clients sur leurs systèmes d’informations connectés temps réel à travers des solutions qui répondent à des projets complexes, portant sur de forts enjeux économiques, techniques et humains.
+          <br>Avec une approche verticale du métier, nous intervenons sur toutes les couches du capteur jusqu’au cloud à travers une vision ingénierie système.
+          <br><br>Afin d’avoir une vision globale de la chaîne de réalisation d’un projet, nous mettons l’ingénierie système au cœur de notre démarche. Cette méthodologie a pour objectif de maîtriser la conception et la réalisation d’un produit depuis l’expression du besoin jusqu’à l’acquisition de la solution.
+          L’ingénierie système devient nécessaire pour des produits complexes ou déployés dans un environnement complexe. Sa mise en œuvre permet d’assurer la réussite des projets de nos clients.
+          <br><br>Nos services sont autant à destination des grands groupes que des start-up technologiques. L’alliance des deux nous permet ainsi de travailler sur des projets complexes avec de forts enjeux techniques, économiques et humains et d’accompagner les projets les plus innovants."
+      en: "Partenaire boîte blanche, nous accompagnons nos clients sur leurs systèmes d’informations connectés temps réel à travers des solutions qui répondent à des projets complexes, portant sur de forts enjeux économiques, techniques et humains.
+          <br>Avec une approche verticale du métier, nous intervenons sur toutes les couches du capteur jusqu’au cloud à travers une vision ingénierie système.
+          <br><br>Afin d’avoir une vision globale de la chaîne de réalisation d’un projet, nous mettons l’ingénierie système au cœur de notre démarche. Cette méthodologie a pour objectif de maîtriser la conception et la réalisation d’un produit depuis l’expression du besoin jusqu’à l’acquisition de la solution.
+          L’ingénierie système devient nécessaire pour des produits complexes ou déployés dans un environnement complexe. Sa mise en œuvre permet d’assurer la réussite des projets de nos clients.
+          <br><br>Nos services sont autant à destination des grands groupes que des start-up technologiques. L’alliance des deux nous permet ainsi de travailler sur des projets complexes avec de forts enjeux techniques, économiques et humains et d’accompagner les projets les plus innovants."
   - name: Zenika
     logo: img/sponsors/2018/zenika.png
     url:
@@ -86,16 +92,22 @@ etoile:
       fr: https://www.microsoft.com/fr-fr/
       en: https://www.microsoft.com/en-us/
     description:
-      fr:
-      en:
+      fr: "Leader des plateformes et des services de productivité, Microsoft donne à chaque individu et chaque organisation les moyens de réaliser ses ambitions, dans un monde fondé sur le Cloud et la mobilité.
+           <br>Grâce à des investissements en recherche et développement dans des domaines de pointe comme l’IA, le quantum computing ou la réalité mixte, Microsoft a su s’imposer comme un leader de l’innovation tout en ayant à coeur de former les développeurs à travers des initiatives comme l’école IA (https://simplon.co/ecoleia/) ou Microsoft Learn (aka.ms/learn). Le virage vers l’opensource engagé par Microsoft ces dernières années participe également à l’ouverture de l’entreprise auprès des développeurs. Il n’est plus rare de voir Microsoft mettre à disposition de la communauté des outils ou langages sous licence opensource à l’instar de Typescript, .Net Core ou VSCode. Sans oublier Linux dans lequel l’entreprise investie à la fois sur Azure et sur Windows avec WSL (Windows Subsystem for Linux)."
+      en: "As a leader in productivity platforms and services, Microsoft gives every individual and every organization the tools to achieve their ambitions in a cloud and mobility-based world.
+          <br>Thanks to investments in research and development in cutting-edge fields such as AI, quantum computing or mixed reality, Microsoft has established itself as a leader in innovation while having at heart to train developers through initiatives like the IA School (https://simplon.co/ecoleia/) and Microsoft Learn (aka.ms/learn).. Microsoft's move to opensource in recent years is also helping to open up the company to developers. It is not uncommon to see Microsoft open-sourcing projects like tools or languages like Typescript, .Net Core or VSCode. Not to mention Linux in which the company invests on both Azure and Windows with WSL (Windows Subsystem for Linux)."
   - name: Sopra Steria
     logo: img/sponsors/2018/sopra-steria.png
     url:
       fr: https://www.soprasteria.com/fr/accueil/
       en: https://www.soprasteria.com/en/home/
     description:
-      fr:
-      en: 
+      fr: "Sopra Steria, un leader européen du conseil, des services et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.
+           <br>Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif. 
+           <br>Fort de 45 000 collaborateurs dans 25 pays, nous construisons un futur résolument prometteur."
+      en: "Sopra Steria, un leader européen du conseil, des services et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.
+           <br>Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif. 
+           <br>Fort de 45 000 collaborateurs dans 25 pays, nous construisons un futur résolument prometteur."
   - name: Open
     logo: img/sponsors/2019/open.png
     url:
@@ -120,8 +132,12 @@ flocon:
       fr: https://www.tuleap.org/
       en: https://www.tuleap.org/
     description:
-      fr:
-      en:
+      fr: "Tuleap est un outil d’entreprise tout-en-un pour la Gestion Agile et le Développement Logiciel. Tuleap est une véritable alternative à la suite Atlassian. La solution permet aux PO, clients, développeurs, équipe IT et QA, de collaborer pour développer et déployer des logiciels de meilleure qualité. Les grand atouts de Tuleap: centralisation des outils, liberté de configuration par les équipes, automatisation des tâches.
+          <br>Sur une même plateforme Tuleap, chaque équipe est autonome dans la gestion de son espace de travail, quelque soit sa façon de travailler : Scrum, Kanban, ITIL, CMMI, ISO… Chaque équipe sélectionne les outils dont elle a besoin parmi un large panel de modules : Planification des releases, tableau Kanban, tracker d’artefacts, Git, SVN, Pull requests, Jenkins, Gerrit, Tests manuels et automatisés, Gestionnaire de documents,…
+          https://www.tuleap.org/"
+      en: "Tuleap est un outil d’entreprise tout-en-un pour la Gestion Agile et le Développement Logiciel. Tuleap est une véritable alternative à la suite Atlassian. La solution permet aux PO, clients, développeurs, équipe IT et QA, de collaborer pour développer et déployer des logiciels de meilleure qualité. Les grand atouts de Tuleap: centralisation des outils, liberté de configuration par les équipes, automatisation des tâches.
+          <br>Sur une même plateforme Tuleap, chaque équipe est autonome dans la gestion de son espace de travail, quelque soit sa façon de travailler : Scrum, Kanban, ITIL, CMMI, ISO… Chaque équipe sélectionne les outils dont elle a besoin parmi un large panel de modules : Planification des releases, tableau Kanban, tracker d’artefacts, Git, SVN, Pull requests, Jenkins, Gerrit, Tests manuels et automatisés, Gestionnaire de documents,…
+          https://www.tuleap.org/"
   - name: AViSTO
     logo: img/sponsors/2020/avisto.png
     url:
@@ -144,8 +160,24 @@ flocon:
       fr: https://www.soat.fr/
       en: https://www.soat.fr/
     description:
-      fr: 
-      en: 
+      fr: "SOAT réalise des missions d’expertise et de développement IT agiles. <br>Elle est spécialisée dans le développement logiciel, l’expertise technologique (Web, Full Stack, Back-end, Front-end, Big Data, Cloud, Mobile, Architecture), la formation, le coaching et l’innovation.
+<br>Elle offre un accompagnement de bout-en-bout et sur-mesure, prônant les approches Agile, Craftsmanship et DevOps.
+Née en 2001, SOAT réalise un CA de 40 millions €. Elle accompagne plus de 150 clients grâce à ses 370 collaborateurs, au sein d’une organisation qui valorise l’intelligence collective. 
+<br><br>
+Grâce à l’INCLUSIVE SOFTWARE DEVELOPMENT
+Nous cultivons l’intelligence collective pour développer avec nos clients des solutions adaptées à leur réalité, grâce à la complémentarité de nos profils, approches et savoir-faire.
+<br>
+Pour CRÉER DE LA VALEUR 
+Et faire grandir les projets de nos clients et de nos consultants."
+      en: "SOAT réalise des missions d’expertise et de développement IT agiles. <br>Elle est spécialisée dans le développement logiciel, l’expertise technologique (Web, Full Stack, Back-end, Front-end, Big Data, Cloud, Mobile, Architecture), la formation, le coaching et l’innovation.
+<br>Elle offre un accompagnement de bout-en-bout et sur-mesure, prônant les approches Agile, Craftsmanship et DevOps.
+Née en 2001, SOAT réalise un CA de 40 millions €. Elle accompagne plus de 150 clients grâce à ses 370 collaborateurs, au sein d’une organisation qui valorise l’intelligence collective. 
+<br><br>
+Grâce à l’INCLUSIVE SOFTWARE DEVELOPMENT
+Nous cultivons l’intelligence collective pour développer avec nos clients des solutions adaptées à leur réalité, grâce à la complémentarité de nos profils, approches et savoir-faire.
+<br>
+Pour CRÉER DE LA VALEUR 
+Et faire grandir les projets de nos clients et de nos consultants."
 partners:
   - name: Manning
     logo: img/partners/2019/manning.png
