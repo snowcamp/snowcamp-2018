@@ -23,7 +23,7 @@ etoile:
       en: http://www.norsys.fr/
     description:
       fr: 'Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.'
-      en:
+      en: 'Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.'
   - name: Kelkoo
     logo: img/sponsors/2019/kelkoogroup.png
     url:
@@ -47,7 +47,7 @@ etoile:
       en: https://www.bonitasoft.com/
     description:
       fr: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l’amélioration de l’automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
-      en:
+      en: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l’amélioration de l’automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
   - name: Viseo
     logo: img/sponsors/2018/viseo.png
     url:
@@ -61,7 +61,13 @@ etoile:
                 Acteur précurseur et promoteur de l’innovation, notre métier est l’optimisation de chaque étape du processus de développement logiciel en transférant vers nos clients des technologies, des méthodes et des concepts innovants.
                 VISEO développe son expertise dans la modélisation, la conception et le déploiement des architectures (Iot, Java, .NET, Web, Mobile…). Les méthodes agiles, parfaitement maîtrisées, fournissent un cadre méthodologique et organisationnel clair et éprouvé.
                 Si comme nous, vous souhaitez intégrer une culture d’entreprise axée sur la proximité, l’échange, le partage de connaissances et la formation et vous aimez travaillez dans une ambiance conviviale sur des projets innovants et stimulants, n’attendez plus : rejoignez-nous ! http://www.viseo.com/fr/communique-de-presse/viseo-grenoble-ouvre-ses-meetups-technologiques-la-communaute'
-      en:
+      en: '<b>VISEO Technologies</b> est un cabinet de conseil &amp; services, expert des nouvelles technologies.
+           <br/>Filiale du Groupe VISEO, nous délivrons les dispositifs numériques au service de la volonté d’accélération digitale de nos clients. «Venez avec votre idée et repartez avec votre produit». C’est notre promesse.
+           <br/>À Grenoble, nous sommes + de 110 ingénieurs spécialistes des processus de conception et de développement logiciel.
+                Nous avons mis au point la Factory Agile, pour répondre aux enjeux auxquels sont confrontés les entreprises : une plateforme dédiée à la production de projets digitaux innovants en environnement web, mobile et objets connectés. Nos compétences s’articulent autour des domaines technologiques, méthodologiques et pédagogiques.
+                Acteur précurseur et promoteur de l’innovation, notre métier est l’optimisation de chaque étape du processus de développement logiciel en transférant vers nos clients des technologies, des méthodes et des concepts innovants.
+                VISEO développe son expertise dans la modélisation, la conception et le déploiement des architectures (Iot, Java, .NET, Web, Mobile…). Les méthodes agiles, parfaitement maîtrisées, fournissent un cadre méthodologique et organisationnel clair et éprouvé.
+                Si comme nous, vous souhaitez intégrer une culture d’entreprise axée sur la proximité, l’échange, le partage de connaissances et la formation et vous aimez travaillez dans une ambiance conviviale sur des projets innovants et stimulants, n’attendez plus : rejoignez-nous ! http://www.viseo.com/fr/communique-de-presse/viseo-grenoble-ouvre-ses-meetups-technologiques-la-communaute'
   - name: Kaizen
     logo: img/sponsors/2018/kaizen.png
     url:
@@ -116,7 +122,6 @@ etoile:
     description:
       fr: ESN généraliste et multi technologique (Java, C#, ReactJS, Angular,…) , résolument tournée vers l’expertise digitale (IoT, Big Data, E-commerce, mobilité, innovation), mettant un accent fort sur la relation collaborateur ainsi que sur la proximité clients
       en: General IT services company (Java, C#, ReactJS, Angular,…), specialized on digital expertises (IoT, Big Data, Market Place, Mobility &amp; Geolocalisation, Digital Communication), with a strong focus on employees relationship and customer proximity
-      en:
   - name: Criteo
     logo: img/sponsors/2019/crite.png
     url:
