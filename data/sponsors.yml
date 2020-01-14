@@ -183,6 +183,16 @@ Nous cultivons l’intelligence collective pour développer avec nos clients des
 <br>
 Pour CRÉER DE LA VALEUR 
 Et faire grandir les projets de nos clients et de nos consultants."
+      fr: 
+      en: 
+  - name: Qim info
+    logo: img/sponsors/2020/quiminfo.png
+    url:
+      fr: https://www.qiminfo.ch/
+      en: https://www.qiminfo.ch/language/en/
+    description:
+      fr: 'Qim info est une société de services intervenant auprès de grands comptes dans des secteurs variés : Industrie, Santé, Aéronautique, Luxe...<br>Présents sur Grenoble, Genève, Lausanne et Zürich, nous accompagnons nos clients dans l’évolution et la mise en œuvre de leur système d’information.<br>Proches, fidèles et pragmatiques, nous visons l’excellence et la satisfaction de nos collaborateurs ainsi que de nos clients.<br>Notre expertise dans le domaine de l’IT est notre force, l’humain au cœur de nos valeurs.'
+      en: 'Qim info is an IT Consulting company working with key accounts in various sectors : Industry, Healthcare, Aeronautics, Luxury ...<br>Our offices are in Grenoble, Genève, Lausanne and Zurich and we assist our clients in the evolution and implementation of their information system.<br>Close, faithful and pragmatic, we strive for excellence and satisfaction of our employees as well as our customers.<br>Our expertise in the IT field is our strength, the human being at the very heart of our values.'
 partners:
   - name: Manning
     logo: img/partners/2019/manning.png
