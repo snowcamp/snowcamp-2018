@@ -20,3 +20,41 @@
   translation: Venue
 - id: coc
   translation: CoC
+# CFP
+- id: cfp_opens
+  translation: CFP opens
+- id: cfp_closes
+  translation: CFP closes
+- id: cfp_notifications
+  translation: Notifications
+# Tickets
+- id: store_package_title
+  translation: "{{ .title }} - Package {{ .days }} days"
+- id: store_package_universities_plus_confs
+  translation: Universities + Conferences
+- id: store_package_confs_only
+  translation: Conferences only
+- id: store_access_universities
+  translation: Access to the Universities
+- id: store_access_conferences
+  translation: Access to the Conferences
+- id: store_access_breakfast
+  translation: "Breakfast for the {{ .days }} days"
+- id: store_access_lunch
+  translation: "Lunch for the {{ .days }} days"
+- id: store_access_meet_and_greet
+  translation: Meet & Greet on Thursday evening
+- id: store_classic_dates
+  translation: "The store opens on {{ .date1 }} for a first sale, on {{ .date2 }} for a second sale"
+- id: store_not_open
+  translation: The store is not open yet
+- id: store_early_birds_open
+  translation: "Early Birds sell starts on {{ .date }}!"
+- id: store_opens_on
+  translation: "Store opens on the {{ .date }}!"
+- id: store_is_open
+  translation: The store is open
+- id: store_is_soldout
+  translation: The store is soldout!
+- id: store_here
+  translation: Store here

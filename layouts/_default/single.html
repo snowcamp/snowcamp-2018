@@ -1,10 +1,11 @@
-<html class="no-js" lang="{{ .Site.Params.locale }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<html class="no-js" lang="{{ $.Site.Language }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
 <head>
   {{ partial "header.html" . }}
 </head>
 
-<body lang="fr">
+<body lang="{{ $.Site.Language }}">
 {{ partial "header_menu.html" . }}
-
+{{ .Content }}
+{{ partial "footer.html" . }}
 </body>

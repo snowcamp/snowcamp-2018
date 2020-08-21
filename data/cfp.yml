@@ -1,16 +1,13 @@
-status: published # open, closed, published
-url: https://conference-hall.io/public/event/mB6d6o0uQONgUiFuo9We
-sched_url: //snowcamp2020.sched.com/
-lang:
-  fr:
-    cfp_opens: Ouverture du CFP
-    cfp_closes: Fermeture du CFP
-    open_date: 1er Septembre 2019
-    close_date: 15 Octobre 2019
-    notification_date: Début Novembre 2019
-  en:
-    cfp_opens: CFP opens
-    cfp_closes: CFP closes
-    open_date: 1st of September 2019
-    close_date: 15th of October 2019
-    notification_date: Beginning November 2019
+status: not_open # not_open, open, closed, published
+url: N/A # https://conference-hall.io/public/event/mB6d6o0uQONgUiFuo9We
+sched_url: N/A # //snowcamp2020.sched.com/
+dates:
+  open_date:
+    fr: 8 Septembre 2020
+    en: 8th of September 2020
+  close_date:
+    fr: 15 Octobre 2020
+    en: 15th of October 2020
+  notification_date:
+    fr: Début Novembre 2020
+    en: Beginning November 2020

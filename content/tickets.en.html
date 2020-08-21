@@ -1,15 +1,5 @@
-<html class="no-js" lang="{{ .Site.Params.locale }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-
-<head>
-  {{ partial "header.html" . }}
-</head>
-
-<body lang="{{ .Lang }}">
-{{ partial "header_menu.html" . }}
-{{ $store := $.Site.Data.ticket.store }}
-{{ $store_url := ( cond ( isset $store "url" ) $store.url ( delimit ( slice .Site.BaseURL .Lang "/tickets" ) "" ) ) }}
-{{ $early_birds_status := $store.early.status }}
-{{ $classic_status := $store.classic.status }}
+---
+---
 <section>
   <div id="snc-ticket" class="snc-ticket">
     <div class="snc-inner">
@@ -26,100 +16,12 @@
                 The tickets can be bought through our partner YouPlan.
                 Beware, the number of attendees is limited and we were sold out last year!
               </p>
-              <p>
-              {{ partial "store_status" (dict "context" . "store" $store) }}
-              </p>
+              {{< store_status >}}
             </div>
           </div>
         </div>
-         <div class="row">
-          <div class="snc-row">
-            <div class="col-xs-12 col-sm-6 col-md-6">
-              <div class="single">
-                <div class="single-top">
-                  <h2 class="title">Early Birds - Package 3 days</h2>
-                  <h4 class="price"><strike>{{ $.Site.Data.ticket.prices.classic_pack }} &euro;</strike> {{ $.Site.Data.ticket.prices.early_pack }} &euro;</h4>
-                  <p>Universities + Conferences</p>
-                </div>
-                <div class="single-bottom">
-                  <ul class="list-unstyled list">
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Access to the Universities</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Access to the Conferences</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Breakfast for the 3 days</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Lunch for the 3 days</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>
-                  </ul>
-                  {{ partial "store_package_status" (dict "context" . "store" $store "status" $early_birds_status) }}
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6">
-              <div class="single">
-                <div class="single-top">
-                  <h2 class="title">Early Birds - Package 2 days</h2>
-                  <h4 class="price"><strike>{{ $.Site.Data.ticket.prices.classic }} &euro;</strike> {{ $.Site.Data.ticket.prices.early }} &euro;</h4>
-                  <p>Conferences only</p>
-                </div>
-                <div class="single-bottom">
-                  <ul class="list-unstyled list">
-                    <li><i class="fa fa-times" aria-hidden="true"></i> Access to the Universities</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Access to the Conferences</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Breakfast for the 2 days</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Lunch for the 2 days</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>
-                  </ul>
-                  {{ partial "store_package_status" (dict "context" . "store" $store "status" $early_birds_status) }}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="snc-row">
-            <div class="col-xs-12 col-sm-6 col-md-6">
-              <div class="single">
-                <div class="single-top">
-                  <h2 class="title">Standard - Package 3 days</h2>
-                  <h4 class="price">{{ $.Site.Data.ticket.prices.classic_pack }} &euro;</h4>
-                  <p>Universities + Conferences</p>
-                </div>
-                <div class="single-bottom">
-                  <ul class="list-unstyled list">
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Access to the Universities</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Access to the Conferences</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Breakfast for the 3 days</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Lunch for the 3 days</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>
-                  </ul>
-                  {{ partial "store_package_status" (dict "context" . "store" $store "status" $classic_status) }}
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6">
-              <div class="single">
-                <div class="single-top">
-                  <h2 class="title">Standard - Package 2 days</h2>
-                  <h4 class="price">{{ $.Site.Data.ticket.prices.classic }} &euro;</h4>
-                  <p>Conferences only</p>
-                </div>
-                <div class="single-bottom">
-                  <ul class="list-unstyled list">
-                    <li><i class="fa fa-times" aria-hidden="true"></i> Access to the Universities</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Access to the Conferences</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Breakfast for the 2 days</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Lunch for the 2 days</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> Meet &amp; Greet on Thursday evening</li>
-                  </ul>
-                  {{ partial "store_package_status" (dict "context" . "store" $store "status" $classic_status) }}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {{< store_all_packages >}}
       </div>
     </div>
   </div>
 </section>
-
-{{ partial "footer.html" . }}
-</body>

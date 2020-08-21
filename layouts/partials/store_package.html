@@ -1,0 +1,25 @@
+<div class="single">
+  <div class="single-top">
+    <h2 class="title">{{ i18n "store_package_title" (dict "title" .title "days" .days) }}</h2>
+    <h4 class="price">{{ .price }}</h4>
+    {{ if (eq .days 3) }}
+    <p>{{ i18n "store_package_universities_plus_confs" }}</p>
+    {{ else }}
+    <p>{{ i18n "store_package_confs_only" }}</p>
+    {{ end }}
+  </div>
+  <div class="single-bottom">
+    <ul class="list-unstyled list">
+      {{ if (eq .days 3) }}
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "store_access_universities" }}</li>
+      {{ else }}
+      <li><i class="fa fa-times" aria-hidden="true"></i> {{ i18n "store_access_universities" }}</li>
+      {{ end }}
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "store_access_conferences" }}</li>
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "store_access_breakfast" (dict "days" .days) }}</li>
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "store_access_lunch" (dict "days" .days) }}</li>
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "store_access_meet_and_greet" | safeHTML }}</li>
+    </ul>
+    {{ partial "store_button" (dict "status" .status "url" .url "open_date" .open_date) }}
+  </div>
+</div>

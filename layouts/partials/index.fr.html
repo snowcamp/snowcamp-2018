@@ -15,7 +15,7 @@
                   </div>
                 </div>
                 <h2 class="title">Snowcamp <span>{{ .Site.Data.edition.year }}</span></h2>
-                <h3 class="date"><span>{{ (index .Site.Data.edition.lang .Lang).dates }} </span>{{ .Site.Data.edition.year }}, Grenoble</h3>
+                <h3 class="date"><span>{{ (index .Site.Data.edition.dates $.Site.Language.Lang) }} </span>{{ .Site.Data.edition.year }}, Grenoble</h3>
               </div>
             </div>
           </div>
@@ -138,7 +138,7 @@
                 </span>
                 <span class="heading">{{ i18n "cfp_program_translation" }}</span>
               </h2>
-              {{ partial "cfp_dates" (dict "context" . "edition" $.Site.Data.edition "cfp" $cfp) }}
+              {{ partial "cfp_dates" (dict "edition" $.Site.Data.edition "cfp" $cfp "lang" $.Site.Language.Lang) }}
             </div>
           </div>
         </div>
@@ -147,7 +147,7 @@
             <div class="single">
               <img src="{{.Site.BaseURL}}/img/themas.png" alt="themas">
             </div>
-          </div> 
+          </div>
           <div class="col-xs-12 col-sm-6 col-md-6">
             <div class="single">
                 {{ if (eq $cfp_status "open") }}
