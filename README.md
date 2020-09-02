@@ -15,7 +15,7 @@ npm install gulp-cli -g
 npm install
 ```
 
-### Hugo
+### Hugo (v.0.74 or higher)
 
 Hugo is not a nodejs (javascript) package it needs to be installed (to the commandline). It is written in GO, but Hugo developers maintain binaries for all platforms so it's easy to install. https://gohugo.io/
 
