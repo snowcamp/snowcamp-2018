@@ -27,6 +27,23 @@
   translation: CFP closes
 - id: cfp_notifications
   translation: Notifications
+# Sponsors
+- id: sponsor_chamois
+  translation: Sponsor Chamois
+- id: sponsor_etoile
+  translation: Sponsors Étoile
+- id: sponsor_flocon
+  translation: Sponsors Flocon
+- id: partners
+  translation: Partners
+- id: become_sponsor
+  translation: Become a sponsor
+- id: sponsor_thanks
+  translation: "They have already placed their trust to prepare the edition {{ .edition_year }} <span> </span>together.<br/>Many thanks to our sponsors!"
+- id: sponsor_previous_year
+  translation: They were sponsors the last edition
+- id: sponsor_thanks_previous_year
+  translation: "They placed their trust to prepare the edition {{ .edition_year }} <span> </span>together.<br/>Many thanks to our sponsors!"
 # Tickets
 - id: store_package_title
   translation: "{{ .title }} - Package {{ .days }} days"
