@@ -1,0 +1,13 @@
+{{ if (eq .status "open") }}
+<a class="snc-btn disabled"
+    href="{{ .url }}" target="_blank"><span>{{ i18n "store_is_open" }}</span></a>
+{{ else if (eq .status "closed") }}
+<a class="snc-btn disabled"
+   href="{{ .url }}" target="_blank"><span>{{ i18n "store_is_soldout" }}</span></a>
+{{ else if (eq .open_date "") }}
+<a class="snc-btn disabled"
+   href="{{ .url }}" target="_blank"><span>{{ i18n "store_not_open" }}</span></a>
+{{ else }}
+<a class="snc-btn disabled"
+   href="{{ .url }}" target="_blank"><span>{{ i18n "store_opens_on" (dict "date" .open_date) }}</span></a>
+{{ end }}

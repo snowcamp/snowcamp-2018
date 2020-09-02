@@ -3,7 +3,7 @@
 - id: cfp_program_translation
   translation: CFP
 - id: schedule_translation
-  translation: Agenda  
+  translation: Agenda
 - id: ticketlabel
   translation: Billeterie
 - id: what_is_this
@@ -17,6 +17,61 @@
 - id: past_editions
   translation: Éditions précédentes
 - id: venue
-  translation: Venir  
+  translation: Venir
 - id: coc
   translation: CdC
+# CFP
+- id: cfp_opens
+  translation: Ouverture du CFP
+- id: cfp_closes
+  translation: Fermeture du CFP
+- id: cfp_notifications
+  translation: Notifications
+# Sponsors
+- id: sponsor_chamois
+  translation: Sponsor Chamois
+- id: sponsor_etoile
+  translation: Sponsors Étoile
+- id: sponsor_flocon
+  translation: Sponsors Flocon
+- id: partners
+  translation: Partenaires
+- id: become_sponsor
+  translation: Devenir sponsor
+- id: sponsor_thanks
+  translation: "Ils nous ont déjà accordé leur confiance pour préparer ensemble l'édition {{ .edition_year }}.<br/>Un grand merci à nos sponsors !"
+- id: sponsor_previous_year
+  translation: Ils étaient sponsors l'édition précédente
+- id: sponsor_thanks_previous_year
+  translation: "Ils nous ont accordé leur confiance pour préparer ensemble l'édition {{ .edition_year }}.<br/>Un grand merci à nos sponsors !"
+# Tickets
+- id: store_package_title
+  translation: "{{ .title }} - Pack {{ .days }} jours"
+- id: store_package_universities_plus_confs
+  translation: Universités + Conférences
+- id: store_package_confs_only
+  translation: Conférences seulement
+- id: store_access_universities
+  translation: Accès aux Universités
+- id: store_access_conferences
+  translation: Accès aux Conférences
+- id: store_access_breakfast
+  translation: "Petit déjeuner sur les {{ .days }} jours"
+- id: store_access_lunch
+  translation: "Repas du midi sur les {{ .days }} jours"
+- id: store_access_meet_and_greet
+  translation: Meet & Greet le Jeudi soir
+- id: store_classic_dates
+  translation: "La billetterie ouvre le {{ .date1 }} pour la vente d'une première salve de billets, le {{ .date2 }} pour la seconde salve"
+- id: store_not_open
+  translation: La billetterie n'est pas encore ouverte
+- id: store_early_birds_open
+  translation: "Vente des Early Birds le {{ .date }} !"
+- id: store_opens_on
+  translation: "La billetterie ouvre le {{ .date }} !"
+- id: store_is_open
+  translation: La billetterie est ouverte
+- id: store_is_soldout
+  translation: La billetterie est épuisée !
+- id: store_here
+  translation: Billetterie ici

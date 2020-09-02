@@ -1,12 +1,5 @@
-<html class="no-js" lang="{{ .Site.Params.locale }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-
-<head>
-  {{ partial "header.html" . }}
-</head>
-
-<body lang="fr">
-{{ partial "header_menu.html" . }}
-
+---
+---
 <section>
   <div id="snc-organisation" class="snc-ticket">
     <div class="snc-inner">
@@ -26,31 +19,8 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          {{ range $.Site.Data.organisation.organizers }}
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="snc-single-speaker">
-              <figure>
-                <img src="{{ $.Site.BaseURL }}/img/orga/{{.img}}" alt="{{.name}}">
-                <figcaption>
-                  <a class="sp-tw" href="https://twitter.com/{{.twitter}}/" target="_blank"><i class="fa fa-twitter"></i></a>
-                  <a class="sp-in" href="https://www.linkedin.com/in/{{.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
-                  <a class="sp-gh" href="https://github.com/{{.github}}" target="_blank"><i class="fa fa-github"></i></a>
-                </figcaption>
-              </figure>
-              <div class="speaker-info">
-                <h4 class="subtitle">{{.name}}</h4>
-              </div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
+        {{< orgas >}}
       </div>
     </div>
   </div>
 </section>
-
-{{ partial "footer.html" . }}
-
-
-</body>

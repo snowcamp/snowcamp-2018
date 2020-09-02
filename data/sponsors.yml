@@ -1,20 +1,4 @@
-lang:
-  fr:
-    chamois: Sponsor Chamois
-    etoile: Sponsors Étoile
-    flocon: Sponsors Flocon
-    partners: Partenaires
-    thanks_1: Ils nous ont déjà accordé leur confiance pour préparer ensemble l'édition
-    thanks_2: .<br/>Un grand merci à nos sponsors !
-    become: Devenir sponsor
-  en:
-    chamois: Sponsor Chamois
-    etoile: Sponsors Étoile
-    flocon: Sponsors Flocon
-    partners: Partners
-    thanks_1: They have already placed their trust to prepare the edition
-    thanks_2: <span> </span>together.<br/>Many thanks to our sponsors!
-    become: Become a sponsor
+display: previous # possible values: previous, current
 etoile:
   - name: Norsys
     logo: img/sponsors/2018/norsys.png
@@ -109,10 +93,10 @@ etoile:
       en: https://www.soprasteria.com/en/home/
     description:
       fr: "Sopra Steria, un leader européen du conseil, des services et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.
-           <br>Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif. 
+           <br>Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.
            <br>Fort de 45 000 collaborateurs dans 25 pays, nous construisons un futur résolument prometteur."
       en: "Sopra Steria, un leader européen du conseil, des services et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.
-           <br>Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif. 
+           <br>Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.
            <br>Fort de 45 000 collaborateurs dans 25 pays, nous construisons un futur résolument prometteur."
   - name: Open
     logo: img/sponsors/2019/open.png
@@ -167,24 +151,24 @@ flocon:
     description:
       fr: "SOAT réalise des missions d’expertise et de développement IT agiles. <br>Elle est spécialisée dans le développement logiciel, l’expertise technologique (Web, Full Stack, Back-end, Front-end, Big Data, Cloud, Mobile, Architecture), la formation, le coaching et l’innovation.
 <br>Elle offre un accompagnement de bout-en-bout et sur-mesure, prônant les approches Agile, Craftsmanship et DevOps.
-Née en 2001, SOAT réalise un CA de 40 millions €. Elle accompagne plus de 150 clients grâce à ses 370 collaborateurs, au sein d’une organisation qui valorise l’intelligence collective. 
+Née en 2001, SOAT réalise un CA de 40 millions €. Elle accompagne plus de 150 clients grâce à ses 370 collaborateurs, au sein d’une organisation qui valorise l’intelligence collective.
 <br><br>
 Grâce à l’INCLUSIVE SOFTWARE DEVELOPMENT
 Nous cultivons l’intelligence collective pour développer avec nos clients des solutions adaptées à leur réalité, grâce à la complémentarité de nos profils, approches et savoir-faire.
 <br>
-Pour CRÉER DE LA VALEUR 
+Pour CRÉER DE LA VALEUR
 Et faire grandir les projets de nos clients et de nos consultants."
       en: "SOAT réalise des missions d’expertise et de développement IT agiles. <br>Elle est spécialisée dans le développement logiciel, l’expertise technologique (Web, Full Stack, Back-end, Front-end, Big Data, Cloud, Mobile, Architecture), la formation, le coaching et l’innovation.
 <br>Elle offre un accompagnement de bout-en-bout et sur-mesure, prônant les approches Agile, Craftsmanship et DevOps.
-Née en 2001, SOAT réalise un CA de 40 millions €. Elle accompagne plus de 150 clients grâce à ses 370 collaborateurs, au sein d’une organisation qui valorise l’intelligence collective. 
+Née en 2001, SOAT réalise un CA de 40 millions €. Elle accompagne plus de 150 clients grâce à ses 370 collaborateurs, au sein d’une organisation qui valorise l’intelligence collective.
 <br><br>
 Grâce à l’INCLUSIVE SOFTWARE DEVELOPMENT
 Nous cultivons l’intelligence collective pour développer avec nos clients des solutions adaptées à leur réalité, grâce à la complémentarité de nos profils, approches et savoir-faire.
 <br>
-Pour CRÉER DE LA VALEUR 
+Pour CRÉER DE LA VALEUR
 Et faire grandir les projets de nos clients et de nos consultants."
-      fr: 
-      en: 
+      fr:
+      en:
   - name: Qim info
     logo: img/sponsors/2020/quiminfo.png
     url:

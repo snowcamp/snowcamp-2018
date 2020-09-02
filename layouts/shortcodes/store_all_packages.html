@@ -1,0 +1,30 @@
+{{ $lang := $.Site.Language.Lang }}
+{{ $store := $.Site.Data.ticket.store }}
+{{ $early_birds := $.Site.Data.ticket.store.early }}
+{{ $classic := $.Site.Data.ticket.store.classic }}
+
+{{ $store_url := (cond (isset $store "url") $store.url (absLangURL "/tickets")) }}
+
+{{ $early_birds_opens_on := (default "" (index $early_birds.date $lang)) }}
+{{ $early_birds_common := (dict "title" $early_birds.title "status" $early_birds.status "url" $store_url "open_date" $early_birds_opens_on) }}
+{{ $early_birds_2_days_price :=  (printf "<strike>%d  &euro;</strike> %d &euro;" $classic.price_conf $early_birds.price_conf ) | safeHTML }}
+{{ $early_birds_2_days := (merge $early_birds_common (dict "days" 2 "price" $early_birds_2_days_price)) }}
+{{ $early_birds_3_days_price :=  (printf "<strike>%d  &euro;</strike> %d &euro;" $classic.price_univ $early_birds.price_univ ) | safeHTML }}
+{{ $early_birds_3_days := (merge $early_birds_common (dict "days" 3 "price" $early_birds_3_days_price)) }}
+{{ $early_birds_package := (dict "package_3_days" $early_birds_3_days "package_2_days" $early_birds_2_days) }}
+
+{{ $classic_opens_on := (default "" (index $classic.date1 $lang)) }}
+{{ $classic_common := (dict "title" $classic.title "status" $classic.status "url" $store_url "open_date" $classic_opens_on) }}
+{{ $classic_2_days_price :=  (printf "%d  &euro;" $classic.price_conf) | safeHTML }}
+{{ $classic_2_days := (merge $classic_common (dict "days" 2 "price" $classic_2_days_price)) }}
+{{ $classic_3_days_price :=  (printf "%d  &euro;" $classic.price_univ ) | safeHTML }}
+{{ $classic_3_days := (merge $classic_common (dict "days" 3 "price" $classic_3_days_price)) }}
+{{ $classic_package := (dict "package_3_days" $classic_3_days "package_2_days" $classic_2_days) }}
+
+{{ if (or (eq $early_birds.status "open") (eq $early_birds.status "not_open")) }}
+  {{ partial "store_packages" $early_birds_package }}
+  {{ partial "store_packages" $classic_package }}
+{{ else }}
+  {{ partial "store_packages" $classic_package }}
+  {{ partial "store_packages" $early_birds_package }}
+{{ end }}

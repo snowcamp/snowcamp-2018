@@ -1,5 +1,5 @@
-{{ $lang := .context.Lang }}
-{{ $sponsors_lang := (index .sponsors.lang $lang) }}
+{{ $lang := .lang }}
+{{ $sponsors_year := (cond (eq .sponsors.display "previous") (sub .edition.year 1) .edition.year) }}
 <section>
     <div id="sponsors" class="snc-sponsors">
       <div class="snc-inner-bg">
@@ -10,16 +10,24 @@
                 <div class="snc-heading-area">
                   <h2 class="snc-heading">
                     <span class="back-heading"><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                    <span class="heading">Sponsors {{ .edition.year }}</span>
+                    {{ if (eq .sponsors.display "previous") }}
+                    <span class="heading">{{ i18n "sponsor_previous_year" }}</span>
+                    {{ else }}
+                    <span class="heading">Sponsors {{ $sponsors_year }}</span>
+                    {{ end }}
                   </h2>
-                  <p class="text">{{ $sponsors_lang.thanks_1 | safeHTML }} {{ .edition.year }}{{ $sponsors_lang.thanks_2 | safeHTML }}</p>
+                  {{ if (eq .sponsors.display "previous") }}
+                  <p class="text">{{ i18n "sponsor_thanks_previous_year" (dict "edition_year" $sponsors_year) | safeHTML }}</p>
+                  {{ else }}
+                  <p class="text">{{ i18n "sponsor_thanks" (dict "edition_year" $sponsors_year) | safeHTML }}</p>
+                  {{ end }}
                 </div>
               </div>
             </div>
             {{ if isset .sponsors "chamois" }}
             <div class="row">
               <div class="col-xs-12">
-                <h3 class="sponsored-heading first-heading">{{ $sponsors_lang.chamois }} &#129351;</h3>
+                <h3 class="sponsored-heading first-heading">{{ i18n "sponsor_chamois" }} &#129351;</h3>
               </div>
             </div>
             {{ end }}
@@ -29,7 +37,7 @@
                   <div class="row">
                   {{end}}
                       <div class="single">
-                          {{ $sponsor_url := (cond (isset $sponsor.url $lang ) (index $sponsor.url $lang) "") }}
+                          {{ $sponsor_url := (cond (isset $sponsor.url $lang) (index $sponsor.url $lang) "") }}
                           {{ $sponsor_desc := (cond (isset $sponsor.description $lang ) (index $sponsor.description $lang) "") }}
                         <a href="{{ $sponsor_url }}" target="_blank"
                             data-placement="top" data-toggle="tooltip" data-html="true"
@@ -38,18 +46,18 @@
                       </div>
                   {{ if modBool (add $i 1) 3 }}
                   </div>
-                  {{end}}                  
+                  {{end}}
                 {{ end }}
             </div>
             {{ if isset .sponsors "etoile" }}
             <div class="row">
                 <div class="col-xs-12">
-                  <h3 class="sponsored-heading">{{ $sponsors_lang.etoile }} &#9734;</h3>
+                  <h3 class="sponsored-heading">{{ i18n "sponsor_etoile" }} &#9734;</h3>
                 </div>
             </div>
             {{ end }}
             <div class="sponsors-area">
-                {{ range $i, $sponsor := .sponsors.etoile }}                
+                {{ range $i, $sponsor := .sponsors.etoile }}
                   {{ if modBool $i 3 }}
                   <div class="row">
                   {{end}}
@@ -63,13 +71,13 @@
                       </div>
                   {{ if modBool (add $i 1) 3 }}
                   </div>
-                  {{end}}                  
+                  {{end}}
                 {{ end }}
             </div>
             {{ if isset .sponsors "flocon" }}
             <div class="row">
               <div class="col-xs-12">
-                <h3 class="sponsored-heading">{{ $sponsors_lang.flocon }} ❄</h3>
+                <h3 class="sponsored-heading">{{ i18n "sponsor_flocon" }} ❄</h3>
               </div>
             </div>
             {{ end }}
@@ -88,16 +96,16 @@
                       </div>
                   {{ if modBool (add $i 1) 3 }}
                   </div>
-                  {{end}}                  
+                  {{end}}
                 {{ end }}
             </div>
             <div class="sponsors-btn-area">
-              <a class="snc-btn snc-btn-big" href="{{ .baseUrl }}{{ .context.Lang }}/sponsors"><span>{{ $sponsors_lang.become }}</span></a>
+              <a class="snc-btn snc-btn-big" href="{{ .baseUrl }}{{ $lang }}/sponsors"><span>{{ i18n "become_sponsor" }}</span></a>
             </div>
 
             <div class="row">
               <div class="col-xs-12">
-                <h3 class="sponsored-heading">{{ $sponsors_lang.partners }}</h3>
+                <h3 class="sponsored-heading">{{ i18n "partners" }}</h3>
               </div>
             </div>
             <div class="sponsors-area">
@@ -115,7 +123,7 @@
                       </div>
                   {{ if modBool (add $i 1) 3 }}
                   </div>
-                  {{end}}                  
+                  {{end}}
                 {{ end }}
             </div>
           </div> <!-- Container -->
