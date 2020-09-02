@@ -19,7 +19,7 @@ etoile:
   - name: ForgeRock
     logo: img/sponsors/2018/forgerock.png
     url:
-      fr:
+      fr: https://www.forgerock.com/
       en: https://www.forgerock.com/
     description:
       fr: '<strong>ForgeRock®</strong>, le leader sur le marché de la gestion de l’identité numérique, transforme la manière dont les entreprises établissent des échanges sécurisés entre les personnes, les services et les objets. Les entreprises adoptent la ForgeRock Identity Platform™ en tant que système d’identité numérique pour rentabiliser les échanges avec leurs clients, respecter les règlements sur la confidentialité et le consentement (GDPR, HIPAA, PSD2, Open Banking, etc.), et tirer le meilleur profit de l’Internet des objets. ForgeRock est le fournisseur de centaines de marques comme Morningstar, Vodafone, GEICO, Toyota ou Pearson et de nombreux gouvernements comme la Norvège, le Canada ou la Belgique, et gère des milliards d’identités dans le monde entier. ForgeRock dispose de bureaux dans toute l’Europe, aux États-Unis et en Asie.'
