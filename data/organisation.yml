@@ -4,16 +4,6 @@ organizers:
     twitter: ctranxuan
     linkedin: ctranxuan
     github: ctranxuan
-  - name: Clement Escoffier
-    img: clement.jpeg
-    twitter: clementplop
-    linkedin: clementescoffier
-    github: cescoffier
-  - name: Emmanuel Hugonnet
-    img: emmanuel.png
-    twitter: ehsavoie
-    linkedin: ehsavoie
-    github: ehsavoie
   - name: Johan Martinsson
     img: johan.jpg
     twitter: johan_alps
@@ -39,27 +29,27 @@ organizers:
     twitter: migmoq
     linkedin: miguel-moquillon-b8a1aa3
     github: mmoqui
+  - name: Pierrick Rassat
+    img: pierrick.jpg
+    twitter: kraiss7
+    linkedin: pierrick-rassat-7002b691
+    github: kraiss
   - name: Rémy Sanlaville
     img: remy.jpg
     twitter: sanlaville
     linkedin: sanlaville
     github: sanlaville
-  - name: Sylvain Bauza
-    img: sylvain.jpg
-    twitter: sylvainbauza
-    linkedin: sylvainbauza
-    github: sbauza
   - name: Sébastien Chassande-Barrioz
     img: sebastien.jpg
     twitter: SnowCampIO
     linkedin: sébastien-chassande-barrioz-aa6a623
     github: snowcamp
-  - name: Yannick Chiron  
+  - name: Yannick Chiron
     img: yannick.jpg
     twitter: Ldoppea
     linkedin: yannickchiron
     github: Ldoppea
-  - name: Yohan Lasorsa  
+  - name: Yohan Lasorsa
     img: yohan.jpeg
     twitter: sinedied
     linkedin: yohanlasorsa
