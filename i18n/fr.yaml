@@ -16,8 +16,12 @@
   translation: Nos sponsors
 - id: past_editions
   translation: Éditions précédentes
+- id: tickets
+  translation: Tickets
 - id: venue
   translation: Venir
+- id: videos
+  translation: Vidéos
 - id: coc
   translation: CdC
 # CFP
