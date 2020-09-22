@@ -4,6 +4,9 @@
       <div class="snc-inner">
         <div class="container">
           <div class="row">
+            <h3>Due to the Covid crisis, SnowCamp 2021 is unfortunately cancelled but we hope to see you on 2022!</h3>
+          </div>
+          <div class="row">
             <div class="col-xs-12">
               <div class="banner-info">
                 <div class="snc-countdown-area">
@@ -138,7 +141,9 @@
                 </span>
                 <span class="heading">{{ i18n "cfp_program_translation" }}</span>
               </h2>
+              {{ if (ne $cfp_status "not_open") }}
               {{ partial "cfp_dates" (dict "edition" $.Site.Data.edition "cfp" $cfp "lang" $.Site.Language.Lang) }}
+              {{ end }}
               </div>
             </div>
           </div>
