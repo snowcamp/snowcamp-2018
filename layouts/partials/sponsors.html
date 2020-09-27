@@ -30,7 +30,6 @@
                 <h3 class="sponsored-heading first-heading">{{ i18n "sponsor_chamois" }} &#129351;</h3>
               </div>
             </div>
-            {{ end }}
             <div class="sponsors-area">
                 {{ range $i, $sponsor := .sponsors.chamois }}
                   {{ if modBool $i 3 }}
@@ -49,13 +48,13 @@
                   {{end}}
                 {{ end }}
             </div>
+            {{ end }}
             {{ if isset .sponsors "etoile" }}
             <div class="row">
                 <div class="col-xs-12">
                   <h3 class="sponsored-heading">{{ i18n "sponsor_etoile" }} &#9734;</h3>
                 </div>
             </div>
-            {{ end }}
             <div class="sponsors-area">
                 {{ range $i, $sponsor := .sponsors.etoile }}
                   {{ if modBool $i 3 }}
@@ -74,13 +73,13 @@
                   {{end}}
                 {{ end }}
             </div>
+            {{ end }}
             {{ if isset .sponsors "flocon" }}
             <div class="row">
               <div class="col-xs-12">
                 <h3 class="sponsored-heading">{{ i18n "sponsor_flocon" }} ❄</h3>
               </div>
             </div>
-            {{ end }}
             <div class="sponsors-area">
                 {{ range $i, $sponsor := .sponsors.flocon }}
                   {{ if modBool $i 3 }}
@@ -99,10 +98,12 @@
                   {{end}}
                 {{ end }}
             </div>
+            {{ end }}
             <div class="sponsors-btn-area">
               <a class="snc-btn snc-btn-big" href="{{ .baseUrl }}{{ $lang }}/sponsors"><span>{{ i18n "become_sponsor" }}</span></a>
             </div>
 
+            {{ if isset .sponsors "partners" }}
             <div class="row">
               <div class="col-xs-12">
                 <h3 class="sponsored-heading">{{ i18n "partners" }}</h3>
@@ -126,6 +127,7 @@
                   {{end}}
                 {{ end }}
             </div>
+            {{ end }}
           </div> <!-- Container -->
         </div><!-- Inner -->
       </div> <!-- Inner-bg -->
