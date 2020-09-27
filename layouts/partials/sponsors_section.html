@@ -1,0 +1,49 @@
+{{ $lang := .lang }}
+{{ $sponsors_year := (cond (eq .sponsors.display "previous") (sub .edition.year 1) .edition.year) }}
+<section>
+    <div id="sponsors" class="snc-sponsors">
+      <div class="snc-inner-bg">
+        <div class="snc-inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <div class="snc-heading-area">
+                  <h2 class="snc-heading">
+                    <span class="back-heading"><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                    {{ if (eq .sponsors.display "previous") }}
+                    <span class="heading">{{ i18n "sponsor_previous_year" }}</span>
+                    {{ else }}
+                    <span class="heading">Sponsors {{ $sponsors_year }}</span>
+                    {{ end }}
+                  </h2>
+                  {{ if (eq .sponsors.display "previous") }}
+                  <p class="text">{{ i18n "sponsor_thanks_previous_year" (dict "edition_year" $sponsors_year) | safeHTML }}</p>
+                  {{ else }}
+                  <p class="text">{{ i18n "sponsor_thanks" (dict "edition_year" $sponsors_year) | safeHTML }}</p>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+            {{ if isset .sponsors "chamois" }}
+              {{ $sponsor_title := (delimit (slice (i18n "sponsor_chamois") "&#129351;") " ") }}
+              {{ partial "sponsors" (dict "sponsors" .sponsors.chamois "sponsor_title" $sponsor_title "column_number" 3 "baseUrl" .baseUrl "lang" $lang) }}
+            {{ end }}
+            {{ if isset .sponsors "etoile" }}
+              {{ $sponsor_title := (delimit (slice (i18n "sponsor_etoile") "&#9734;") " ") }}
+              {{ partial "sponsors" (dict "sponsors" .sponsors.etoile "sponsor_title" $sponsor_title "column_number" 3 "baseUrl" .baseUrl "lang" $lang) }}
+            {{ end }}
+            {{ if isset .sponsors "flocon" }}
+              {{ $sponsor_title := (delimit (slice (i18n "sponsor_flocon") "&#10052;") " ") }}
+              {{ partial "sponsors" (dict "sponsors" .sponsors.flocon "sponsor_title" $sponsor_title "column_number" 3 "baseUrl" .baseUrl "lang" $lang) }}
+            {{ end }}
+            <div class="sponsors-btn-area">
+              <a class="snc-btn snc-btn-big" href="{{ .baseUrl }}{{ $lang }}/sponsors"><span>{{ i18n "become_sponsor" }}</span></a>
+            </div>
+            {{ if isset .sponsors "partners" }}
+              {{ partial "sponsors" (dict "sponsors" .sponsors.partners "sponsor_title" (i18n "partners") "column_number" 3 "baseUrl" .baseUrl "lang" $lang) }}
+            {{ end }}
+          </div> <!-- Container -->
+        </div><!-- Inner -->
+      </div> <!-- Inner-bg -->
+    </div> <!-- Sponsors -->
+  </section>
