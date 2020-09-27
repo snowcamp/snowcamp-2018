@@ -79,3 +79,6 @@
   translation: The store is soldout!
 - id: store_here
   translation: Store here
+# Previous edition
+- id: previous_sponsors_thanks
+  translation: "Without them, nothing would have been possible. A big thank you to our sponsors {{ .year }}!"

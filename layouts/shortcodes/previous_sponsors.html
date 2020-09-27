@@ -1,0 +1,44 @@
+{{ $year := (.Get "year") }}
+{{ $previous_edition_file := (printf "previous_editions_%s" $year) }}
+{{ $previous_edition := (index $.Site.Data $previous_edition_file) }}
+{{ $sponsors := $previous_edition.sponsors }}
+{{ $baseUrl := .Site.BaseURL }}
+{{ $lang := $.Site.Language.Lang }}
+<section>
+  <div class="snc-sponsors">
+    <div class="snc-inner-bg">
+      <div class="past-snc-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <div class="snc-sponsors-heading-area">
+                <h2 class="snc-heading">
+                  <span class="back-heading"><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                  <span class="heading">Sponsors {{ $year }}</span>
+                </h2>
+                <p class="text">
+                  {{ i18n "previous_sponsors_thanks" (dict "year" $year) }}
+                </p>
+              </div>
+            </div>
+          </div>
+          {{ if isset $sponsors "chamois" }}
+            {{ $sponsor_title := (delimit (slice (i18n "sponsor_chamois") "&#129351;") " ") }}
+            {{ partial "sponsors" (dict "sponsors" $sponsors.chamois "sponsor_title" $sponsor_title "column_number" 4 "baseUrl" $baseUrl "lang" $lang) }}
+          {{ end }}
+          {{ if isset $sponsors "etoile" }}
+            {{ $sponsor_title := (delimit (slice (i18n "sponsor_etoile") "&#9734;") " ") }}
+            {{ partial "sponsors" (dict "sponsors" $sponsors.etoile "sponsor_title" $sponsor_title "column_number" 4 "baseUrl" $baseUrl "lang" $lang) }}
+          {{ end }}
+          {{ if isset $sponsors "flocon" }}
+            {{ $sponsor_title := (delimit (slice (i18n "sponsor_flocon") "&#10052;") " ") }}
+            {{ partial "sponsors" (dict "sponsors" $sponsors.flocon "sponsor_title" $sponsor_title "column_number" 4 "baseUrl" $baseUrl "lang" $lang) }}
+          {{ end }}
+          {{ if isset $sponsors "partners" }}
+            {{ partial "sponsors" (dict "sponsors" $sponsors.partners "sponsor_title" (i18n "partners") "column_number" 4 "baseUrl" $baseUrl "lang" $lang) }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

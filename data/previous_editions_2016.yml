@@ -1,0 +1,92 @@
+sponsors:
+  etoile:
+    - name: Tuleap
+      logo: img/sponsors/2018/tuleap.png
+      url:
+        fr: https://www.tuleap.org/
+        en: https://www.tuleap.org/
+      description:
+        fr: ''
+        en: ''
+    - name: Red Hat
+      logo: img/sponsors/2016/redhat.png
+      url:
+        fr: https://www.redhat.com/fr
+        en: https://www.redhat.com/en
+      description:
+        fr: ''
+        en: ''
+  flocon:
+    - name: SonarQube
+      logo: img/sponsors/2016/sonarqube.png
+      url:
+        fr: http://www.sonarqube.org/
+        en: http://www.sonarqube.org/
+      description:
+        fr: ''
+        en: ''
+    - name: Salesforce
+      logo: img/sponsors/2018/salesforce.png
+      url:
+        fr: https://www.salesforce.com/
+        en: https://www.salesforce.com/
+      description:
+        fr: 'Salesforce est la plateforme n°1 au monde des solutions de gestion de la relation client (CRM). Pour configurer ou gérer nos applications basées sur le cloud (pour les ventes, les services, le marketing et bien plus encore), inutile de recourir à des spécialistes en informatique. Connectez-vous et découvrez simplement cette nouvelle manière d''être en contact avec vos clients. Salesforce à Grenoble, c''est une équipe de développement logiciel avec une expertise unique en recherche d''information, machine learning et haute performance en environnement distribué multi-tenants (cloud). Nous sommes à la recherche de développeurs motivés et talentueux, de toute expérience désireux de contribuer au futur du search à Salesforce.'
+        en: 'Salesforce is the world’s #1 Customer Relationship Management (CRM) platform. Our cloud-based applications for sales, service, marketing, and more don’t require IT experts to set up or manage — simply log in and start connecting to customers in a whole new way. The expertise of the Grenoble R&D centre covers a wide range of areas from information retrieval, query understanding, machine learning, artificial intelligence, distributed computing, large scale distributed processing, from user interface to backend infrastructure. The centre is looking for talented and motivated individuals to join and to contribute to the future of Search at Salesforce.'
+    - name: Elastic
+      logo: img/sponsors/2017/elastic.png
+      url:
+        fr: https://www.elastic.co/
+        en: https://www.elastic.co/
+      description:
+        fr: 'Elastic est leader logiciel mondial pour construire des données structurées ou non, exploitables en temps-réel pour des cas d’utilisation de recherches, de logging et d’analyse. Fondés en 2012 par les personnes qui sont derrière les projets open-source Elasticsearch, Kibana, Beats et Logstash, Elastic Stack, X-Pack et Elastic Cloud ont plus de 75 millions de téléchargements cumulés à cette date. Elastic est soutenue par Benchmark Capital, Index Ventures et NEA, avec des sièges à Amsterdam et Mountain View (Californie), ainsi que des bureaux et des employés dans le monde entier. Pour en savoir plus, visiter www.elastic.co.'
+        en: 'Elastic is the world’s leading software provider for making structured and unstructured data usable in real time for use cases like search, logging, and analytics. Founded in 2012 by the people behind the Elasticsearch, Kibana, Beats, and Logstash open source projects, the Elastic Stack, X-Pack, and Elastic Cloud have had more than 75 million cumulative downloads to date. Elastic is backed by Benchmark Capital, Index Ventures, and NEA with headquarters in Amsterdam and Mountain View, California, and offices and employees around the world. To learn more, visit www.elastic.co.'
+    - name: Deolan
+      logo: img/sponsors/2016/deolan.png
+      url:
+        fr: http://www.deolan.com/
+        en: http://www.deolan.com/
+      description:
+        fr: ''
+        en: ''
+    - name: Datastax
+      logo: img/sponsors/2016/datastax.png
+      url:
+        fr: http://www.datastax.com/
+        en: http://www.datastax.com/
+      description:
+        fr: ''
+        en: ''
+    - name: Streamdata.io
+      logo: img/sponsors/2016/streamdataio.png
+      url:
+        fr: https://streamdata.io/
+        en: https://streamdata.io/
+      description:
+        fr: 'Streamdata.io provides a Proxy-as-a-Service solution based on Web standards, that turns any API into a real-time stream of updates without requiring any server-side code. We poll APIs, cache the response, and push only incremental updates to your servers, applications and devices, allowing you to focus on your user experience! We also provide scalability for your API infrastructure with our caching capabilities, so you don’t have to worry about becoming a victim of your success.'
+        en: 'Streamdata.io provides a Proxy-as-a-Service solution based on Web standards, that turns any API into a real-time stream of updates without requiring any server-side code. We poll APIs, cache the response, and push only incremental updates to your servers, applications and devices, allowing you to focus on your user experience! We also provide scalability for your API infrastructure with our caching capabilities, so you don’t have to worry about becoming a victim of your success.'
+    - name: Jahia
+      logo: img/sponsors/2016/jahia.png
+      url:
+        fr: https://www.jahia.com/home.html
+        en: https://www.jahia.com/home.html
+      description:
+        fr: ''
+        en: ''
+    - name: Adobe
+      logo: img/sponsors/2016/adobe.png
+      url:
+        fr: http://www.adobe.com/
+        en: http://www.adobe.com/
+      description:
+        fr: ''
+        en: ''
+  partners:
+    - name: AlpesJUG
+      logo: img/partners/alpesjug.png
+      url:
+        fr: http://alpesjug.fr/
+        en: http://alpesjug.fr/
+      description:
+        fr: '<b>AlpesJug</b> est le groupe des utilisateurs Java de la région grenobloise, et à l''origine du Snowcamp.'
+        en: '<b>AlpesJug</b> is the Java User Group of the Grenoble area, and the initiator of the Snowcamp conference.'

@@ -1,0 +1,145 @@
+sponsors:
+  chamois:
+    - name: Thales
+      logo: img/sponsors/2019/thales.png
+      url:
+        fr: https://www.thalesgroup.com/
+        en: https://www.thalesgroup.com/en
+      description:
+        fr:
+        en:
+  etoile:
+    - name: Zenika
+      logo: img/sponsors/2018/zenika.png
+      url:
+        fr: https://www.zenika.com/
+        en: https://www.zenika.com/
+      description:
+        fr: '<strong>Zenika</strong>, L’innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;'
+        en: '<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;'
+    - name: Norsys
+      logo: img/sponsors/2018/norsys.png
+      url:
+        fr: http://www.norsys.fr/
+        en: http://www.norsys.fr/
+      description:
+        fr: 'Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.'
+        en: 'Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.'
+    - name: ForgeRock
+      logo: img/sponsors/2018/forgerock.png
+      url:
+        fr: https://www.forgerock.com/
+        en: https://www.forgerock.com/
+      description:
+        fr: '<strong>ForgeRock®</strong>, le leader sur le marché de la gestion de l’identité numérique, transforme la manière dont les entreprises établissent des échanges sécurisés entre les personnes, les services et les objets. Les entreprises adoptent la ForgeRock Identity Platform™ en tant que système d’identité numérique pour rentabiliser les échanges avec leurs clients, respecter les règlements sur la confidentialité et le consentement (GDPR, HIPAA, PSD2, Open Banking, etc.), et tirer le meilleur profit de l’Internet des objets. ForgeRock est le fournisseur de centaines de marques comme Morningstar, Vodafone, GEICO, Toyota ou Pearson et de nombreux gouvernements comme la Norvège, le Canada ou la Belgique, et gère des milliards d’identités dans le monde entier. ForgeRock dispose de bureaux dans toute l’Europe, aux États-Unis et en Asie.'
+        en: '<strong>ForgeRock®</strong> is the Digital Identity Management company transforming the way organizations interact securely with customers, employees, devices, and things. Organizations adopt the ForgeRock Identity Platform™ as their digital identity system of record to monetize customer relationships, address stringent regulations for privacy and consent (GDPR, HIPAA, FCC privacy, etc.), and leverage the internet of things. ForgeRock serves hundreds of brands, including Morningstar, Vodafone, GEICO, Toyota and Pearson, as well as governments such as Norway, New Zealand, and Belgium, among many others. Headquartered in San Francisco, California, ForgeRock has offices in Austin, London, Bristol, Grenoble, Munich, Paris, Oslo, Singapore, Sydney and Vancouver, Washington.'
+    - name: Open
+      logo: img/sponsors/2019/open.png
+      url:
+        fr: http://www.open-groupe.com/
+        en: http://www.open-groupe.com/
+      description:
+        fr: '<strong>ForgeRock®</strong>, le leader sur le marché de la gestion de l’identité numérique, transforme la manière dont les entreprises établissent des échanges sécurisés entre les personnes, les services et les objets. Les entreprises adoptent la ForgeRock Identity Platform™ en tant que système d’identité numérique pour rentabiliser les échanges avec leurs clients, respecter les règlements sur la confidentialité et le consentement (GDPR, HIPAA, PSD2, Open Banking, etc.), et tirer le meilleur profit de l’Internet des objets. ForgeRock est le fournisseur de centaines de marques comme Morningstar, Vodafone, GEICO, Toyota ou Pearson et de nombreux gouvernements comme la Norvège, le Canada ou la Belgique, et gère des milliards d’identités dans le monde entier. ForgeRock dispose de bureaux dans toute l’Europe, aux États-Unis et en Asie.'
+        en: 'ESN généraliste et multi technologique (Java, C#, ReactJS, Angular,…) , résolument tournée vers l’expertise digitale (IoT, Big Data, E-commerce, mobilité, innovation), mettant un accent fort sur la relation collaborateur ainsi que sur la proximité clients'
+    - name: StackLabs
+      logo: img/sponsors/2019/stacklabs.png
+      url:
+        fr: http://www.stack-labs.com
+        en: http://www.stack-labs.com
+      description:
+        fr: 'The new generation tech company. Big Data pure player, turning data into valuable services.'
+        en: 'The new generation tech company. Big Data pure player, turning data into valuable services.'
+    - name: Criteo
+      logo: img/sponsors/2019/crite.png
+      url:
+        fr: https://www.criteo.com/
+        en: https://www.criteo.com/
+      description:
+        fr: 'Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data.'
+        en: 'Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data.'
+    - name: Kaizen Solutions
+      logo: img/sponsors/2018/kaizen.png
+      url:
+        fr: https://kaizen-solutions.net/
+        en: https://kaizen-solutions.net/
+      description:
+        fr: 'Notre société de services accompagne de grands groupes industriels sur Grenoble et sur Lyon en apportant des solutions logicielles haut de gamme sur l’ensemble des couches logicielles du capteur jusqu’au cloud. Partenaire boîte blanche, nous accompagnons nos clients sur leurs systèmes d’informations connectés temps réel à travers des solutions qui répondent à des projets complexes, portant sur de forts enjeux économiques, techniques et humains.
+              <br/>Vous avez envie de rejoindre une jeune société à taille humaine ? Qui se préoccupe de vous proposer des projets qui correspondent à vos attentes ?
+              <br/>Être vrai avant d’être différent, voilà notre vision du métier du service !'
+        en: 'Notre société de services accompagne de grands groupes industriels sur Grenoble et sur Lyon en apportant des solutions logicielles haut de gamme sur l’ensemble des couches logicielles du capteur jusqu’au cloud. Partenaire boîte blanche, nous accompagnons nos clients sur leurs systèmes d’informations connectés temps réel à travers des solutions qui répondent à des projets complexes, portant sur de forts enjeux économiques, techniques et humains.
+              <br/>Vous avez envie de rejoindre une jeune société à taille humaine ? Qui se préoccupe de vous proposer des projets qui correspondent à vos attentes ?
+              <br/>Être vrai avant d’être différent, voilà notre vision du métier du service !'
+    - name: Sopra Steria
+      logo: img/sponsors/2018/sopra-steria.png
+      url:
+        fr: https://www.soprasteria.com/fr/home
+        en: https://www.soprasteria.com/en/home
+      description:
+        fr: ''
+        en: ''
+    - name: Kelkoo
+      logo: img/sponsors/2019/kelkoogroup.png
+      url:
+        fr: https://www.kelkoogroup.com/fr/
+        en: https://www.kelkoogroup.com/
+      description:
+        fr: 'Kelkoo Group est une plateforme marketing pour le e-commerce qui connecte les produits de nos marchands à nos sites propriétaires de comparaison de prix et à notre réseau premium de sites Publishers. Avec 20 ans d’expérience en e-commerce, marketing digital et analyse consommateur, nous proposons des solutions efficaces dans 22 pays à travers le monde'
+        en: 'Kelkoo Group is an ecommerce marketing platform that connects our merchants’ products to a network of proprietary shopping websites and premium publishers. Our 20 years of experience in ecommerce, digital marketing and consumer analytics, provide efficient solutions in 22 countries worldwide.'
+  flocon:
+    - name: Salesforce
+      logo: img/sponsors/2018/salesforce.png
+      url:
+        fr: https://www.salesforce.com/
+        en: https://www.salesforce.com/
+      description:
+        fr: 'Salesforce est la plateforme n°1 au monde des solutions de gestion de la relation client (CRM). Pour configurer ou gérer nos applications basées sur le cloud (pour les ventes, les services, le marketing et bien plus encore), inutile de recourir à des spécialistes en informatique. Connectez-vous et découvrez simplement cette nouvelle manière d''être en contact avec vos clients. Salesforce à Grenoble, c''est une équipe de développement logiciel avec une expertise unique en recherche d''information, machine learning et haute performance en environnement distribué multi-tenants (cloud). Nous sommes à la recherche de développeurs motivés et talentueux, de toute expérience désireux de contribuer au futur du search à Salesforce.'
+        en: 'Salesforce is the world’s #1 Customer Relationship Management (CRM) platform. Our cloud-based applications for sales, service, marketing, and more don’t require IT experts to set up or manage — simply log in and start connecting to customers in a whole new way. The expertise of the Grenoble R&D centre covers a wide range of areas from information retrieval, query understanding, machine learning, artificial intelligence, distributed computing, large scale distributed processing, from user interface to backend infrastructure. The centre is looking for talented and motivated individuals to join and to contribute to the future of Search at Salesforce.'
+    - name: Orange
+      logo: img/sponsors/2019/orange.png
+      url:
+        fr: https://www.orange.fr/
+        en: https://www.orange.com/
+      description:
+        fr: 'Le Groupe Orange a une forte expertise sur son métier historique des télécoms et le devient aussi sur la partie software. Depuis plusieurs années, Orange investit dans le développement interne de ses produits et services stratégiques pour offrir à nos clients une expérience optimale et innover. Orange est présent en France et dans de nombreux pays en Europe, en Afrique et au Moyen Orient.'
+        en: 'Orange Group has a strong expertise in its historical telecoms business and is also becoming so in the software part. For several years, Orange has been investing in the internal development of its strategic products and services to offer our customers the best possible experience and innovate. Orange operates in France and in many countries in Europe, Africa and the Middle East.'
+    - name: BonitSoft
+      logo: img/sponsors/2019/bonitasoft.png
+      url:
+        fr: https://fr.bonitasoft.com/
+        en: https://www.bonitasoft.com/
+      description:
+        fr: ''
+        en: ''
+    - name: Exoscale
+      logo: img/sponsors/2019/exoscale.png
+      url:
+        fr: https://www.exoscale.com
+        en: https://www.exoscale.com
+      description:
+        fr: ''
+        en: ''
+  partners:
+    - name: Manning
+      logo: img/partners/2019/manning.png
+      url:
+        fr: https://www.manning.com/
+        en: https://www.manning.com/
+      description:
+        fr: '<b>Manning</b> est un éditeur indépendant de livres d''informatique pour les développeurs logiciel, ingénieurs, architectes, administrateurs système, managers et tous les professionnels de l''informatique. Les livres que nous publions couvrent un large éventail de sujets nécessaires au développeur moderne ; des langages et frameworks, aux bonnes practiques pour les responsables d''équipes.'
+        en: '<b>Manning</b> is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.'
+    - name: AlpesJUG
+      logo: img/partners/alpesjug.png
+      url:
+        fr: http://alpesjug.fr/
+        en: http://alpesjug.fr/
+      description:
+        fr: '<b>AlpesJug</b> est le groupe des utilisateurs Java de la région grenobloise, et à l''origine du Snowcamp.'
+        en: '<b>AlpesJug</b> is the Java User Group of the Grenoble area, and the initiator of the Snowcamp conference.'
+    - name: Sticker Mule
+      logo: img/partners/2019/stickermule.png
+      url:
+        fr: http://stickermule.com/supports/snowcamp20-sponsorship/
+        en: http://stickermule.com/supports/snowcamp20-sponsorship/
+      description:
+        fr: 'Avec <b>Sticker Mule</b>, achetez rapidement et facilement des produits imprimés personnalisés. Il suffit de 60 secondes pour passer votre commande. Il nous faudra ensuite quelques jours pour transformer vos modèles et images en stickers, magnets, badges, étiquettes autocollantes ou emballages personnalisés. Nous offrons des épreuves en ligne gratuites, un délai de production extrêmement court et la livraison à l''international est gratuite.'
+        en: '<b>Sticker Mule</b> is the fastest and easiest way to buy custom printed products. Thousands of people in the EU trust us to make kick-ass stickers, labels, magnets, badges & more. Order in seconds and get free online proofs, free shipping, and super fast turnaround.'
