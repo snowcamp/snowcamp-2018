@@ -3,8 +3,8 @@
 {{ $previous_edition := (index $.Site.Data $previous_edition_file) }}
 {{ $lang := $.Site.Language.Lang }}
 <section>
-  <div id="snc-past-page" class="snc-past-page">
-    <div class="snc-inner">
+  <div id="snc-past-page-{{ $year }}" class="snc-past-page">
+    <div class="snc-past-inner">
       <div class="container" id="edition-{{ $year }}">
         <div class="row">
           <div class="col-xs-12">
