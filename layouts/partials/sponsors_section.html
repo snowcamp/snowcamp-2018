@@ -1,5 +1,5 @@
 {{ $lang := .lang }}
-{{ $sponsors_year := (cond (eq .sponsors.display "previous") (sub .edition.year 1) .edition.year) }}
+{{ $sponsors_year := (cond (eq .sponsors.display "previous") .edition.previous_edition_year .edition.year) }}
 <section>
     <div id="sponsors" class="snc-sponsors">
       <div class="snc-inner-bg">
