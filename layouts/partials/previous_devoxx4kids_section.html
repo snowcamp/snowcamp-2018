@@ -1,0 +1,15 @@
+<section style="margin-top:3em">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 text">
+      <h2>Devoxx4Kids</h2>
+      <p>{{ (index .devoxx4kids.summary .lang) | safeHTML }}</p>
+      <br/>
+      <p>{{ (index .devoxx4kids.agenda .lang) }}</p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 polaroid-images">
+      <div class="single">
+        <a href="#" class="rot4" title="Devoxx4Kids"><img src="img/devoxx4kids.png" alt="Devoxx4Kids" width="30%"></a>
+      </div>
+    </div>
+  </div>
+</section>

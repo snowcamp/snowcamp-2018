@@ -1,3 +1,13 @@
+sched_url: https://snowcamp2017.sched.com/
+flickr_embed_url: https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=www.flickr.com/photos/jmesnil/albums/72157663571775721&sort=4&by=album&theme=default_notextpanel&scale=fit&skin=alexis-light&autoplay=true&id=59283040275c6
+punch_line:
+  fr: Aussi plein d'excellent sujets !
+  en: Great with many subjects too!
+summary:
+  fr: 'En %s, SnowCamp inaugurait sa première édition autour de 4 thématiques : Découverte, Web &amp; Cloud, DevOps
+       et IoT. Pour en savoir plus, jeter un œil à l''agenda de cette toute première fois : <a href="%s" target="_blank">ici !</a>'
+  en: 'In %s, SnowCamp started its first edition with 4 themes : Discovery, Web &amp; Cloud, DevOps and IoT.
+       To know more about, have a look at the agenda of this first edition: <a href="%s" target="_blank">here!</a>'
 sponsors:
   etoile:
     - name: Tuleap

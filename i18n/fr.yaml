@@ -81,4 +81,8 @@
   translation: Billetterie ici
 # Previous edition
 - id: previous_sponsors_thanks
-  translation: "Sans eux, l'aventure 2019 n'aurait pas été possible. Un grand merci à nos sponsors {{ .year }} !"
+  translation: "Sans eux, l'aventure n'aurait pas été possible. Un grand merci à nos sponsors {{ .year }} !"
+- id: previous_edition_how_was_it
+  translation: "Il y avait quoi en {{ .year }} ?"
+- id: previous_edition_relive_with_images
+  translation: "Revivez l'édition {{ .year }} en images !"

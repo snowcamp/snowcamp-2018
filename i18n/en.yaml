@@ -82,3 +82,7 @@
 # Previous edition
 - id: previous_sponsors_thanks
   translation: "Without them, nothing would have been possible. A big thank you to our sponsors {{ .year }}!"
+- id: previous_edition_how_was_it
+  translation: "How was {{ .year }}?"
+- id: previous_edition_relive_with_images
+  translation: Relive the edition {{ .year }} with images!

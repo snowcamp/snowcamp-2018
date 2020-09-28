@@ -1,3 +1,13 @@
+sched_url: https://snowcamp2018.sched.com/
+flickr_embed_url: https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=www.flickr.com/photos/162459903@N02/albums/72157691113279061&sort=0&by=album&theme=default_notextpanel&scale=fill&skin=default-light&autoplay=true&id=5928285e55233
+punch_line:
+  fr: Beaucoup de choses passionnantes !
+  en: Great with amazing subjects!
+summary:
+  fr: 'En %s, SnowCamp était articulé autour de 4 thèmes : Découverte, Web &amp; Cloud, Sécurité
+       et IoT. Redécouvrez l''agenda et les supports de présentations <a href="%s" target="_blank">ici !</a>'
+  en: 'In %s, SnowCamp focused on 4 themes: Discovery, Web &amp; Cloud, Security and IoT.
+       You can find the agenda and some slides <a href="%s" target="_blank">here!</a>'
 sponsors:
   etoile:
     - name: ForgeRock

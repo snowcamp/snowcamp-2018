@@ -1,3 +1,22 @@
+sched_url: https://snowcamp2017.sched.com/
+flickr_embed_url: https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=www.flickr.com/photos/ludovicpoitou/albums/72157680189414036&sort=0&by=album&theme=default_notextpanel&scale=fill&skin=default-light&autoplay=true&id=5928285e55232
+punch_line:
+  fr: Plein de choses !
+  en: Amazing with many subjects!
+summary:
+  fr: 'En %s, SnowCamp était articulé autour de 4 thèmes : Découverte, Web &amp; Cloud, Sécurité
+       et IoT Redécouvrez l''agenda et les supports de présentations <a href="%s" target="_blank">ici !</a>'
+  en: 'In %s, SnowCamp focused on 4 themes: Discovery, Web &amp; Cloud, Security and IoT.
+       You can find the agenda and some slides <a href="%s" target="_blank">here!</a>'
+devoxx4kids:
+  summary:
+    fr: 'Un <a href="http://www.devoxx4kids.org/france/" target="_blank">Devoxx4Kids</a> était organisé le Mercredi après-midi pour les enfants de 6 à 14 ans afin de faire
+        découvrir à ces chérubins le monde du numérique sous un angle "Geeks".'
+    en: 'A <a href="http://www.devoxx4kids.org" target="_blank">Devoxx4Kids</a> was organized on the Wednesday afternoon for kids from 6 to 14 years old.
+        It was the opportunity for them to discover the digital world from a "Geek" perspective.'
+  agenda:
+    fr: 'Au menu : des ateliers de robotiques et de programmation de jeux vidéos !'
+    en: 'On the agenda: robotic workshops and video games programming!'
 sponsors:
   chamois:
     - name: BeeBuzziness

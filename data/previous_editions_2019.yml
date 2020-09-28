@@ -1,3 +1,13 @@
+sched_url: https://snowcamp2019.sched.com/
+flickr_embed_url: https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=www.flickr.com/photos/162459903@N02/albums/72157706183887935&sort=0&by=user&theme=default&scale=fit&speed=3000&limit=10&skin=default&autoplay=true
+punch_line:
+  fr: Beaucoup de choses captivantes !
+  en: Great with wonderful subjects!
+summary:
+  fr: 'En %s, SnowCamp était articulé autour de 4 thèmes : Découverte, Web &amp; DevOps / Cloud, Langages & Paradigmes
+       et IA / Machine Learning. Redécouvrez l''agenda et les supports de présentations <a href="%s" target="_blank">ici !</a>'
+  en: 'In %s, SnowCamp focused on 4 themes: Discovery, Web &amp; DevOps / Cloud, Languages & Paradigmes and IA / Machine Learning.
+       You can find the agenda and some slides <a href="%s" target="_blank">here!</a>'
 sponsors:
   chamois:
     - name: Thales
