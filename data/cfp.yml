@@ -1,6 +1,6 @@
 status: not_open # not_open, opens_soon, open, closed, published
 url: # https://conference-hall.io/public/event/zF1XY9S12LULXZl6yVqB
-sched_url: N/A # //snowcamp2020.sched.com/
+sched_url: N/A #https://snowcamp2020.sched.com/
 dates:
   open_date:
     fr: 8 Septembre 2021
