@@ -1,27 +1,27 @@
 $(document).ready(function () {
 
   // Configure the countdown
+  var second = 1000;
+  var minute = second * 60;
+  var hour = minute * 60;
+  var day = hour * 24;
 
-  var countdown = $('#snc-countdown');
-  var lang = $('body').attr('lang');
-  var dataTime = countdown.data('date'); // Date Format : Y/m/d
-  countdown.countdown(dataTime, function (event) {
-    if (lang == 'en') {
-      $(this).html(event.strftime(''
-        + '<span class="snc-days">%D <i> Days </i></span> '
-        + '<span class="snc-hr">%H <i> Hours </i></span> '
-        + '<span class="snc-min">%M <i> Minutes </i></span> '
-        + '<span class="snc-sec">%S <i> Seconds </i></span>'
-      ));
-    } else {
-      $(this).html(event.strftime(''
-        + '<span class="snc-days">%D <i> Jours </i></span> '
-        + '<span class="snc-hr">%H <i> Heures </i></span> '
-        + '<span class="snc-min">%M <i> Minutes </i></span> '
-        + '<span class="snc-sec">%S <i> Secondes </i></span>'
-      ));
+  var countdown = document.getElementById('snc-countdown');
+  var dataTime = countdown.dataset.date; // Date Format : Y/m/d
+  var countDownDate = new Date(dataTime).getTime();
+
+  var timer = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+
+    document.getElementById("cd-days").innerText = Math.floor(distance / (day)),
+    document.getElementById("cd-hours").innerText = Math.floor((distance % (day)) / (hour)),
+    document.getElementById("cd-min").innerText = Math.floor((distance % (hour)) / (minute)),
+    document.getElementById("cd-sec").innerText = Math.floor((distance % (minute)) / second);
+    if (distance < 0) {
+      clearInterval(timer);
     }
-  });
+  }, 0);
 
   // Scrolling
   $(window).scroll(function () {
