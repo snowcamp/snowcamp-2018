@@ -36,7 +36,7 @@
         {{ if isset $previous_edition "devoxx4kids" }}
           {{ partial "previous_devoxx4kids_section" (dict "devoxx4kids" $previous_edition.devoxx4kids "lang" $lang)}}
         {{ end }}
-        {{ partial "previous_sponsors_section" (dict "year" $year "previous_edition" $previous_edition "baseUrl" .Site.BaseURL "lang" $lang)}}
+        {{ partial "previous_sponsors_logos_section" (dict "year" $year "previous_edition" $previous_edition "baseUrl" .Site.BaseURL "lang" $lang)}}
         <section>
           <div class="row">
             {{ $previous_edition.flickr_album_url | safeHTMLAttr }}

@@ -19,18 +19,18 @@
           </div>
           {{ if isset $sponsors "chamois" }}
             {{ $sponsor_title := (delimit (slice (i18n "sponsor_chamois") "&#129351;") " ") }}
-            {{ partial "sponsors" (dict "sponsors" $sponsors.chamois "sponsor_title" $sponsor_title "column_number" 4 "baseUrl" .baseUrl "lang" .lang) }}
+            {{ partial "sponsors_logos" (dict "sponsors" $sponsors.chamois "sponsor_title" $sponsor_title "column_number" 4 "baseUrl" .baseUrl "lang" .lang) }}
           {{ end }}
           {{ if isset $sponsors "etoile" }}
             {{ $sponsor_title := (delimit (slice (i18n "sponsor_etoile") "&#9734;") " ") }}
-            {{ partial "sponsors" (dict "sponsors" $sponsors.etoile "sponsor_title" $sponsor_title "column_number" 4 "baseUrl" .baseUrl "lang" .lang) }}
+            {{ partial "sponsors_logos" (dict "sponsors" $sponsors.etoile "sponsor_title" $sponsor_title "column_number" 4 "baseUrl" .baseUrl "lang" .lang) }}
           {{ end }}
           {{ if isset $sponsors "flocon" }}
             {{ $sponsor_title := (delimit (slice (i18n "sponsor_flocon") "&#10052;") " ") }}
-            {{ partial "sponsors" (dict "sponsors" $sponsors.flocon "sponsor_title" $sponsor_title "column_number" 4 "baseUrl" .baseUrl "lang" .lang) }}
+            {{ partial "sponsors_logos" (dict "sponsors" $sponsors.flocon "sponsor_title" $sponsor_title "column_number" 4 "baseUrl" .baseUrl "lang" .lang) }}
           {{ end }}
           {{ if isset $sponsors "partners" }}
-            {{ partial "sponsors" (dict "sponsors" $sponsors.partners "sponsor_title" (i18n "partners") "column_number" 4 "baseUrl" .baseUrl "lang" .lang) }}
+            {{ partial "sponsors_logos" (dict "sponsors" $sponsors.partners "sponsor_title" (i18n "partners") "column_number" 4 "baseUrl" .baseUrl "lang" .lang) }}
           {{ end }}
         </div>
       </div>
