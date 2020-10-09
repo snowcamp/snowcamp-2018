@@ -48,6 +48,34 @@
   translation: They were sponsors the last edition
 - id: sponsor_thanks_previous_year
   translation: "They placed their trust to prepare the edition {{ .edition_year }} <span> </span>together.<br/>Many thanks to our sponsors!"
+- id: sponsor_flocon_limit
+  translation:
+    one: "Limited to 1 sponsor"
+    other: "Limited to {{ .number }} sponsors"
+- id: sponsor_places_conferences
+  translation: "Free tickets to attend the sessions ({{ .number }} free tickets)"
+- id: sponsor_places_booth
+  translation: "Free tickets for the sponsors space only ({{ .number }} free tickets)"
+- id: sponsor_places_speakers_dinner
+  translation: "Places for the <em>speakers dinner</em> ({{ .number }} persons)"
+- id: sponsor_booth_area
+  translation: Booth in the exhibition hall ({{ .area }})
+- id: sponsor_logo_pass
+  translation: Your logo on the attendees pass
+- id: sponsor_logo_website
+  translation: Your logo on the SnowCamp website
+- id: sponsor_logo_billposting
+  translation: Your logo visible on the location of the conference
+- id: sponsor_logo_pass_strap
+  translation: Your logo on pass straps
+- id: sponsor_keynote_talk
+  translation: "Free keynote ({{ .duration }})"
+- id: snowcamp_logo_usage
+  translation: Authorisation to use the SnowCamp logo for your communications
+- id: sponsorship_prospectus
+  translation: Sponsorship Prospectus
+- id: contact_us
+  translation: Contact us
 # Tickets
 - id: store_package_title
   translation: "{{ .title }} - Package {{ .days }} days"

@@ -1,0 +1,45 @@
+{{ $type := (.Get "type") }}
+{{ $class := (.Get "class") }}
+{{ $lang := $.Site.Language.Lang }}
+{{ $sponsorship := $.Site.Data.sponsors.sponsorship }}
+{{ $sponsor := (index $sponsorship.type $type) }}
+{{ $prospectus := $sponsorship.prospectus }}
+<div class="single {{ $class }}">
+  <div class="single-top">
+    <h2 class="title">{{ $sponsor.title }}</h2>
+    <h4 class="price">{{ $sponsor.price }}</h4>
+    <p>{{ i18n "sponsor_limit" (dict "number" $sponsor.number) }}</p>
+  </div>
+  <div class="single-bottom">
+    <ul class="list-unstyled list">
+      {{ if isset $sponsor "places" }}
+      {{ $places := $sponsor.places }}
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_places_conferences" (dict "number" $places.conferences) }}</li>
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_places_booth" (dict "number" $places.conferences) }}</li>
+      {{ end }}
+      {{ if isset $sponsor "booth_area" }}
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_booth_area" (dict "area" $sponsor.booth_area) }}</li>
+      {{ end }}
+      {{ if $sponsor.logo_premium }}
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_logo_pass" }}</li>
+      {{ end }}
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_logo_website" }}</li>
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_logo_billposting" }}</li>
+      {{ if $sponsor.logo_premium }}
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_logo_pass_strap" }}</li>
+      {{ end }}
+      {{ if isset $sponsor "places" }}
+      {{ $places := $sponsor.places }}
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_places_speakers_dinner" (dict "number" $places.speakers_dinner) | safeHTML }}</li>
+      {{ end }}
+      {{ if isset $sponsor "keynote_talk" }}
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_keynote_talk" (dict "duration" $sponsor.keynote_talk) }}</li>
+      {{ end }}
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "snowcamp_logo_usage" }}</li>
+    </ul>
+    <div class="sponsors-form">
+      <a href="{{ $prospectus | safeHTMLAttr }}" target="_blank">{{ i18n "sponsorship_prospectus" }}</a>
+    </div>
+    <a class="snc-btn" href="mailto:team@snowcamp.io"><span>{{ i18n "contact_us" }}</span></a>
+  </div>
+</div>

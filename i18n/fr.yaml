@@ -48,6 +48,34 @@
   translation: Ils étaient sponsors l'édition précédente
 - id: sponsor_thanks_previous_year
   translation: "Ils nous ont accordé leur confiance pour préparer ensemble l'édition {{ .edition_year }}.<br/>Un grand merci à nos sponsors !"
+- id: sponsor_limit
+  translation:
+    one: "Limité à 1 sponsor"
+    other: "Limité à {{ .number }} sponsors"
+- id: sponsor_places_conferences
+  translation: "Entrées offertes pour participer aux sessions ({{ .number }} entrées)"
+- id: sponsor_places_booth
+  translation: "Entrées offertes sur l’espace sponsor uniquement ({{ .number }} entrées)"
+- id: sponsor_places_speakers_dinner
+  translation: "Places pour le <em>speakers dinner</em> ({{ .number }} personnes)"
+- id: sponsor_booth_area
+  translation: "Stand dans le hall d'exposition ({{ .area }})"
+- id: sponsor_logo_pass
+  translation: Logo sur badges portés par les participants
+- id: sponsor_logo_website
+  translation: Logo sur notre site web du SnowCamp
+- id: sponsor_logo_billposting
+  translation: Affichage de votre logo sur le lieu de la conférence
+- id: sponsor_logo_pass_strap
+  translation: Logo sur les tours de cou
+- id: sponsor_keynote_talk
+  translation: "Présentation de votre choix lors d'une session plénière ({{ .duration }})"
+- id: snowcamp_logo_usage
+  translation: Autorisation d’exploiter le logo SnowCamp pour votre communication
+- id: sponsorship_prospectus
+  translation: Plaquette Sponsors
+- id: contact_us
+  translation: Nous contacter
 # Tickets
 - id: store_package_title
   translation: "{{ .title }} - Pack {{ .days }} jours"

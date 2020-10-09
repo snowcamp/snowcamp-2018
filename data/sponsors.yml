@@ -1,3 +1,30 @@
+sponsorship:
+  prospectus: https://drive.google.com/file/d/1nzJYabsa1gGLuNLsr_Vclp1QpwewRs9S/view
+  type:
+    flocon:
+      title: Flocon
+      price: 1000 €
+      number: 5
+    etoile:
+      title: Étoile
+      price: 3000 €
+      number: 9
+      booth_area: 4m²
+      places:
+        conferences: 2
+        booth: 2
+        speakers_dinner: 2
+    chamois:
+      title: Chamois
+      price: 7000 €
+      number: 1
+      booth_area: 8m²
+      keynote_talk: 10 min
+      logo_premium: yes
+      places:
+        conferences: 6
+        booth: 3
+        speakers_dinner: 2
 display: previous # possible values: previous, current
 etoile:
   - name: Norsys
