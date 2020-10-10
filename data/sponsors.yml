@@ -5,13 +5,15 @@ sponsorship:
       title: Flocon
       price: 1000 €
       number: 5
+      places:
+        conferences: 2
     etoile:
       title: Étoile
       price: 3000 €
       number: 9
       booth_area: 4m²
       places:
-        conferences: 2
+        conferences: 3
         booth: 2
         speakers_dinner: 2
     chamois:

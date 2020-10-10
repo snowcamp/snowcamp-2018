@@ -16,8 +16,12 @@
     <ul class="list-unstyled list">
       {{ if isset $sponsor "places" }}
       {{ $places := $sponsor.places }}
-      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_places_conferences" (dict "number" $places.conferences) }}</li>
-      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_places_booth" (dict "number" $places.conferences) }}</li>
+        {{ if isset $places "conferences" }}
+        <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_places_conferences" (dict "number" $places.conferences) }}</li>
+        {{ end }}
+        {{ if isset $places "booth" }}
+        <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_places_booth" (dict "number" $places.booth) }}</li>
+        {{ end }}
       {{ end }}
       {{ if isset $sponsor "booth_area" }}
       <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_booth_area" (dict "area" $sponsor.booth_area) }}</li>
@@ -30,9 +34,8 @@
       {{ if $sponsor.logo_premium }}
       <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_logo_pass_strap" }}</li>
       {{ end }}
-      {{ if isset $sponsor "places" }}
-      {{ $places := $sponsor.places }}
-      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_places_speakers_dinner" (dict "number" $places.speakers_dinner) | safeHTML }}</li>
+      {{ if (and (isset $sponsor "places") (isset $sponsor.places "speakers_dinner")) }}
+      <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_places_speakers_dinner" (dict "number" $sponsor.places.speakers_dinner) | safeHTML }}</li>
       {{ end }}
       {{ if isset $sponsor "keynote_talk" }}
       <li><i class="fa fa-check" aria-hidden="true"></i> {{ i18n "sponsor_keynote_talk" (dict "duration" $sponsor.keynote_talk) }}</li>
