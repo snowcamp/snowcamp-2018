@@ -48,10 +48,10 @@
   translation: They were sponsors the last edition
 - id: sponsor_thanks_previous_year
   translation: "They placed their trust to prepare the edition {{ .edition_year }} <span> </span>together.<br/>Many thanks to our sponsors!"
-- id: sponsor_flocon_limit
+- id: sponsor_limit
   translation:
     one: "Limited to 1 sponsor"
-    other: "Limited to {{ .number }} sponsors"
+    other: "Limited to {{ .Count }} sponsors"
 - id: sponsor_places_conferences
   translation: "Free tickets to attend the sessions ({{ .number }} free tickets)"
 - id: sponsor_places_booth

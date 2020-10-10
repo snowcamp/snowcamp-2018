@@ -51,7 +51,7 @@
 - id: sponsor_limit
   translation:
     one: "Limité à 1 sponsor"
-    other: "Limité à {{ .number }} sponsors"
+    other: "Limité à {{ .Count }} sponsors"
 - id: sponsor_places_conferences
   translation: "Entrées offertes pour participer aux sessions ({{ .number }} entrées)"
 - id: sponsor_places_booth

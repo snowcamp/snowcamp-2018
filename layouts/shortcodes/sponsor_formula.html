@@ -8,7 +8,9 @@
   <div class="single-top">
     <h2 class="title">{{ $sponsor.title }}</h2>
     <h4 class="price">{{ $sponsor.price }}</h4>
-    <p>{{ i18n "sponsor_limit" (dict "number" $sponsor.number) }}</p>
+    {{ with $sponsor }}
+    <p>{{ i18n "sponsor_limit" .number }}</p>
+    {{ end }}
   </div>
   <div class="single-bottom">
     <ul class="list-unstyled list">
