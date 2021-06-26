@@ -28,6 +28,7 @@ const src = process.cwd();
  * @type {Boolean}
  */
 const isProduction = argv.prod;
+const isDraft = argv.draft;
 
 /**
  * DevMode Config
@@ -35,11 +36,12 @@ const isProduction = argv.prod;
  */
 const devOpts = !isProduction ? `--buildDrafts=true --baseUrl="${cfg.devHost}:${cfg.port}/"` : '';
 
+const configFile = isDraft ? '--config=config.toml,config-draft.toml' : '--config=config.toml'
 /**
  * Command that will be executed by `exec()`
  * @type {String}
  */
-const command = `hugo --config=config.toml -s ${src} -d ${dest} ${devOpts}`;
+const command = `hugo ${configFile} -s ${src} -d ${dest} ${devOpts}`;
 
 gulp.task('hugo:build', done =>
   exec(command, (err, stdout) => {
