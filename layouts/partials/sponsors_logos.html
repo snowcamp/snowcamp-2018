@@ -1,4 +1,5 @@
 {{ $lang := .lang }}
+{{ $baseUrl := .baseUrl }}
 {{ $column_number := .column_number }}
 <div class="row">
   <div class="col-xs-12">
@@ -16,7 +17,7 @@
           <a href="{{ $sponsor_url }}" target="_blank"
               data-placement="top" data-toggle="tooltip" data-html="true"
               data-original-title="{{ $sponsor_desc }}">
-            <img src="{{ .baseUrl }}/{{ $sponsor.logo }}" alt="{{ $sponsor.name }}"/></a>
+            <img src="{{ $baseUrl }}/{{ $sponsor.logo }}" alt="{{ $sponsor.name }}"/></a>
         </div>
     {{ if modBool (add $i 1) $column_number }}
     </div>
