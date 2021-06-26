@@ -1,0 +1,41 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - draft
+
+jobs:
+  deploy-draft:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.84.0'
+          extended: true
+
+      - name: Install Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "10"
+
+      - name: Build
+        run: |
+          npm install -g bower
+          bower install --allow-root
+          npm install
+          npm run builddraft
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3.7.3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY_DRAFT }}
+          external_repository: Ldoppea/draft-snowcamp
+          publish_branch: master
+          publish_dir: ./public

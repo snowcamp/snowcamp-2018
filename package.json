@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Snowcamp",
   "main": "index.js",
+  "scripts": {
+    "build": "gulp build --prod=true",
+    "builddraft": "gulp build --prod=true --draft=true"
+  },
   "devDependencies": {
     "autoprefixer": "^6.5.4",
     "babel-core": "^6.26.3",
