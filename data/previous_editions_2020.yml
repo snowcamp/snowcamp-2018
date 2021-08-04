@@ -1,0 +1,214 @@
+sched_url: https://snowcamp2020.sched.com/
+flickr_embed_url: https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=www.flickr.com/photos/162459903@N02/albums/72157712842299932&sort=0&by=album&theme=default&scale=fit&speed=3000&limit=10&skin=default&autoplay=true
+punch_line:
+  fr: Beaucoup de sujets passionnant !
+  en: Great with excellent subjects!
+summary:
+  fr: 'En %s, SnowCamp était décliné autour de 4 thèmes : Découverte, Web &amp; DevOps / Cloud, Langages & Paradigmes
+       et IA / Machine Learning. Redécouvrez l''agenda et les supports de présentations <a href="%s" target="_blank">ici !</a>'
+  en: 'In %s, SnowCamp focused on 4 themes: Discovery, Web &amp; DevOps / Cloud, Languages & Paradigmes and IA / Machine Learning.
+       You can find the agenda and some slides <a href="%s" target="_blank">here!</a>'
+sponsors:
+  etoile:
+    - name: Norsys
+      logo: img/sponsors/2018/norsys.png
+      url:
+        fr: http://www.norsys.fr/
+        en: http://www.norsys.fr/
+      description:
+        fr: 'Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.'
+        en: 'Norsys est une ESN spécialisée depuis plus de 20 ans dans le conseil en assistance à maîtrise d’ouvrage et l’ingénierie informatique sur les technologies Open source. Elle compte aujourd’hui 500 collaborateurs répartis sur Lille, Paris, Lyon, Grenoble, Nantes, Nice et Marrakech.'
+    - name: Kelkoo
+      logo: img/sponsors/2019/kelkoogroup.png
+      url:
+        fr: https://www.kelkoogroup.com/fr/
+        en: https://www.kelkoogroup.com/
+      description:
+        fr: 'Kelkoo Group est une plateforme marketing pour le e-commerce qui connecte les produits de nos marchands à nos sites propriétaires de comparaison de prix et à notre réseau premium de sites Publishers. Avec 20 ans d’expérience en e-commerce, marketing digital et analyse consommateur, nous proposons des solutions efficaces dans 22 pays à travers le monde.'
+        en: 'Kelkoo Group is an ecommerce marketing platform that connects our merchants’ products to a network of proprietary shopping websites and premium publishers. Our 20 years of experience in ecommerce, digital marketing and consumer analytics, provide efficient solutions in 22 countries worldwide.'
+    - name: ForgeRock
+      logo: img/sponsors/2018/forgerock.png
+      url:
+        fr: https://www.forgerock.com/
+        en: https://www.forgerock.com/
+      description:
+        fr: '<strong>ForgeRock®</strong>, le leader sur le marché de la gestion de l’identité numérique, transforme la manière dont les entreprises établissent des échanges sécurisés entre les personnes, les services et les objets. Les entreprises adoptent la ForgeRock Identity Platform™ en tant que système d’identité numérique pour rentabiliser les échanges avec leurs clients, respecter les règlements sur la confidentialité et le consentement (GDPR, HIPAA, PSD2, Open Banking, etc.), et tirer le meilleur profit de l’Internet des objets. ForgeRock est le fournisseur de centaines de marques comme Morningstar, Vodafone, GEICO, Toyota ou Pearson et de nombreux gouvernements comme la Norvège, le Canada ou la Belgique, et gère des milliards d’identités dans le monde entier. ForgeRock dispose de bureaux dans toute l’Europe, aux États-Unis et en Asie.'
+        en: '<strong>ForgeRock®</strong> is the Digital Identity Management company transforming the way organizations interact securely with customers, employees, devices, and things. Organizations adopt the ForgeRock Identity Platform™ as their digital identity system of record to monetize customer relationships, address stringent regulations for privacy and consent (GDPR, HIPAA, FCC privacy, etc.), and leverage the internet of things. ForgeRock serves hundreds of brands, including Morningstar, Vodafone, GEICO, Toyota and Pearson, as well as governments such as Norway, New Zealand, and Belgium, among many others. Headquartered in San Francisco, California, ForgeRock has offices in Austin, London, Bristol, Grenoble, Munich, Paris, Oslo, Singapore, Sydney and Vancouver, Washington.'
+    - name: BonitaSoft
+      logo: img/sponsors/2019/bonitasoft.png
+      url:
+        fr: https://fr.bonitasoft.com/
+        en: https://www.bonitasoft.com/
+      description:
+        fr: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l’amélioration de l’automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
+        en: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l’amélioration de l’automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
+    - name: Viseo
+      logo: img/sponsors/2018/viseo.png
+      url:
+        fr: http://www.viseo.com/fr
+        en: http://www.viseo.com/en
+      description:
+        fr: '<b>VISEO Technologies</b> est un cabinet de conseil &amp; services, expert des nouvelles technologies.
+            <br/>Filiale du Groupe VISEO, nous délivrons les dispositifs numériques au service de la volonté d’accélération digitale de nos clients. «Venez avec votre idée et repartez avec votre produit». C’est notre promesse.
+            <br/>À Grenoble, nous sommes + de 110 ingénieurs spécialistes des processus de conception et de développement logiciel.
+                  Nous avons mis au point la Factory Agile, pour répondre aux enjeux auxquels sont confrontés les entreprises : une plateforme dédiée à la production de projets digitaux innovants en environnement web, mobile et objets connectés. Nos compétences s’articulent autour des domaines technologiques, méthodologiques et pédagogiques.
+                  Acteur précurseur et promoteur de l’innovation, notre métier est l’optimisation de chaque étape du processus de développement logiciel en transférant vers nos clients des technologies, des méthodes et des concepts innovants.
+                  VISEO développe son expertise dans la modélisation, la conception et le déploiement des architectures (Iot, Java, .NET, Web, Mobile…). Les méthodes agiles, parfaitement maîtrisées, fournissent un cadre méthodologique et organisationnel clair et éprouvé.
+                  Si comme nous, vous souhaitez intégrer une culture d’entreprise axée sur la proximité, l’échange, le partage de connaissances et la formation et vous aimez travaillez dans une ambiance conviviale sur des projets innovants et stimulants, n’attendez plus : rejoignez-nous ! http://www.viseo.com/fr/communique-de-presse/viseo-grenoble-ouvre-ses-meetups-technologiques-la-communaute'
+        en: '<b>VISEO Technologies</b> est un cabinet de conseil &amp; services, expert des nouvelles technologies.
+            <br/>Filiale du Groupe VISEO, nous délivrons les dispositifs numériques au service de la volonté d’accélération digitale de nos clients. «Venez avec votre idée et repartez avec votre produit». C’est notre promesse.
+            <br/>À Grenoble, nous sommes + de 110 ingénieurs spécialistes des processus de conception et de développement logiciel.
+                  Nous avons mis au point la Factory Agile, pour répondre aux enjeux auxquels sont confrontés les entreprises : une plateforme dédiée à la production de projets digitaux innovants en environnement web, mobile et objets connectés. Nos compétences s’articulent autour des domaines technologiques, méthodologiques et pédagogiques.
+                  Acteur précurseur et promoteur de l’innovation, notre métier est l’optimisation de chaque étape du processus de développement logiciel en transférant vers nos clients des technologies, des méthodes et des concepts innovants.
+                  VISEO développe son expertise dans la modélisation, la conception et le déploiement des architectures (Iot, Java, .NET, Web, Mobile…). Les méthodes agiles, parfaitement maîtrisées, fournissent un cadre méthodologique et organisationnel clair et éprouvé.
+                  Si comme nous, vous souhaitez intégrer une culture d’entreprise axée sur la proximité, l’échange, le partage de connaissances et la formation et vous aimez travaillez dans une ambiance conviviale sur des projets innovants et stimulants, n’attendez plus : rejoignez-nous ! http://www.viseo.com/fr/communique-de-presse/viseo-grenoble-ouvre-ses-meetups-technologiques-la-communaute'
+    - name: Kaizen
+      logo: img/sponsors/2018/kaizen.png
+      url:
+        fr: https://kaizen-solutions.net/
+        en: https://kaizen-solutions.net/
+      description:
+        fr: "Partenaire boîte blanche, nous accompagnons nos clients sur leurs systèmes d’informations connectés temps réel à travers des solutions qui répondent à des projets complexes, portant sur de forts enjeux économiques, techniques et humains.
+            <br>Avec une approche verticale du métier, nous intervenons sur toutes les couches du capteur jusqu’au cloud à travers une vision ingénierie système.
+            <br><br>Afin d’avoir une vision globale de la chaîne de réalisation d’un projet, nous mettons l’ingénierie système au cœur de notre démarche. Cette méthodologie a pour objectif de maîtriser la conception et la réalisation d’un produit depuis l’expression du besoin jusqu’à l’acquisition de la solution.
+            L’ingénierie système devient nécessaire pour des produits complexes ou déployés dans un environnement complexe. Sa mise en œuvre permet d’assurer la réussite des projets de nos clients.
+            <br><br>Nos services sont autant à destination des grands groupes que des start-up technologiques. L’alliance des deux nous permet ainsi de travailler sur des projets complexes avec de forts enjeux techniques, économiques et humains et d’accompagner les projets les plus innovants."
+        en: "Partenaire boîte blanche, nous accompagnons nos clients sur leurs systèmes d’informations connectés temps réel à travers des solutions qui répondent à des projets complexes, portant sur de forts enjeux économiques, techniques et humains.
+            <br>Avec une approche verticale du métier, nous intervenons sur toutes les couches du capteur jusqu’au cloud à travers une vision ingénierie système.
+            <br><br>Afin d’avoir une vision globale de la chaîne de réalisation d’un projet, nous mettons l’ingénierie système au cœur de notre démarche. Cette méthodologie a pour objectif de maîtriser la conception et la réalisation d’un produit depuis l’expression du besoin jusqu’à l’acquisition de la solution.
+            L’ingénierie système devient nécessaire pour des produits complexes ou déployés dans un environnement complexe. Sa mise en œuvre permet d’assurer la réussite des projets de nos clients.
+            <br><br>Nos services sont autant à destination des grands groupes que des start-up technologiques. L’alliance des deux nous permet ainsi de travailler sur des projets complexes avec de forts enjeux techniques, économiques et humains et d’accompagner les projets les plus innovants."
+    - name: Zenika
+      logo: img/sponsors/2018/zenika.png
+      url:
+        fr: https://www.zenika.com/
+        en: https://www.zenika.com/
+      description:
+        fr: '<strong>Zenika</strong>, L’innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;'
+        en: '<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;'
+    - name: Microsoft
+      logo: img/sponsors/2020/microsoft.png
+      url:
+        fr: https://www.microsoft.com/fr-fr/
+        en: https://www.microsoft.com/en-us/
+      description:
+        fr: "Leader des plateformes et des services de productivité, Microsoft donne à chaque individu et chaque organisation les moyens de réaliser ses ambitions, dans un monde fondé sur le Cloud et la mobilité.
+            <br>Grâce à des investissements en recherche et développement dans des domaines de pointe comme l’IA, le quantum computing ou la réalité mixte, Microsoft a su s’imposer comme un leader de l’innovation tout en ayant à coeur de former les développeurs à travers des initiatives comme l’école IA (https://simplon.co/ecoleia/) ou Microsoft Learn (aka.ms/learn). Le virage vers l’opensource engagé par Microsoft ces dernières années participe également à l’ouverture de l’entreprise auprès des développeurs. Il n’est plus rare de voir Microsoft mettre à disposition de la communauté des outils ou langages sous licence opensource à l’instar de Typescript, .Net Core ou VSCode. Sans oublier Linux dans lequel l’entreprise investie à la fois sur Azure et sur Windows avec WSL (Windows Subsystem for Linux)."
+        en: "As a leader in productivity platforms and services, Microsoft gives every individual and every organization the tools to achieve their ambitions in a cloud and mobility-based world.
+            <br>Thanks to investments in research and development in cutting-edge fields such as AI, quantum computing or mixed reality, Microsoft has established itself as a leader in innovation while having at heart to train developers through initiatives like the IA School (https://simplon.co/ecoleia/) and Microsoft Learn (aka.ms/learn).. Microsoft's move to opensource in recent years is also helping to open up the company to developers. It is not uncommon to see Microsoft open-sourcing projects like tools or languages like Typescript, .Net Core or VSCode. Not to mention Linux in which the company invests on both Azure and Windows with WSL (Windows Subsystem for Linux)."
+    - name: Sopra Steria
+      logo: img/sponsors/2018/sopra-steria.png
+      url:
+        fr: https://www.soprasteria.com/fr/accueil/
+        en: https://www.soprasteria.com/en/home/
+      description:
+        fr: "Sopra Steria, un leader européen du conseil, des services et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.
+            <br>Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.
+            <br>Fort de 45 000 collaborateurs dans 25 pays, nous construisons un futur résolument prometteur."
+        en: "Sopra Steria, un leader européen du conseil, des services et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.
+            <br>Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.
+            <br>Fort de 45 000 collaborateurs dans 25 pays, nous construisons un futur résolument prometteur."
+    - name: Open
+      logo: img/sponsors/2019/open.png
+      url:
+        fr: http://www.open-groupe.com/
+        en: http://www.open-groupe.com/
+      description:
+        fr: ESN généraliste et multi technologique (Java, C#, ReactJS, Angular,…) , résolument tournée vers l’expertise digitale (IoT, Big Data, E-commerce, mobilité, innovation), mettant un accent fort sur la relation collaborateur ainsi que sur la proximité clients
+        en: General IT services company (Java, C#, ReactJS, Angular,…), specialized on digital expertises (IoT, Big Data, Market Place, Mobility &amp; Geolocalisation, Digital Communication), with a strong focus on employees relationship and customer proximity
+    - name: Criteo
+      logo: img/sponsors/2019/crite.png
+      url:
+        fr: https://www.criteo.com/
+        en: https://www.criteo.com/
+      description:
+        fr: Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data.
+        en: Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data.
+  flocon:
+    - name: Tuleap
+      logo: img/sponsors/2020/tuleap.png
+      url:
+        fr: https://www.tuleap.org/
+        en: https://www.tuleap.org/
+      description:
+        fr: "Tuleap est un outil d’entreprise tout-en-un pour la Gestion Agile et le Développement Logiciel. Tuleap est une véritable alternative à la suite Atlassian. La solution permet aux PO, clients, développeurs, équipe IT et QA, de collaborer pour développer et déployer des logiciels de meilleure qualité. Les grand atouts de Tuleap: centralisation des outils, liberté de configuration par les équipes, automatisation des tâches.
+            <br>Sur une même plateforme Tuleap, chaque équipe est autonome dans la gestion de son espace de travail, quelque soit sa façon de travailler : Scrum, Kanban, ITIL, CMMI, ISO… Chaque équipe sélectionne les outils dont elle a besoin parmi un large panel de modules : Planification des releases, tableau Kanban, tracker d’artefacts, Git, SVN, Pull requests, Jenkins, Gerrit, Tests manuels et automatisés, Gestionnaire de documents,…
+            https://www.tuleap.org/"
+        en: "Tuleap est un outil d’entreprise tout-en-un pour la Gestion Agile et le Développement Logiciel. Tuleap est une véritable alternative à la suite Atlassian. La solution permet aux PO, clients, développeurs, équipe IT et QA, de collaborer pour développer et déployer des logiciels de meilleure qualité. Les grand atouts de Tuleap: centralisation des outils, liberté de configuration par les équipes, automatisation des tâches.
+            <br>Sur une même plateforme Tuleap, chaque équipe est autonome dans la gestion de son espace de travail, quelque soit sa façon de travailler : Scrum, Kanban, ITIL, CMMI, ISO… Chaque équipe sélectionne les outils dont elle a besoin parmi un large panel de modules : Planification des releases, tableau Kanban, tracker d’artefacts, Git, SVN, Pull requests, Jenkins, Gerrit, Tests manuels et automatisés, Gestionnaire de documents,…
+            https://www.tuleap.org/"
+    - name: AViSTO
+      logo: img/sponsors/2020/avisto.png
+      url:
+        fr: https://www.avisto.com/?utm_source=snowcamp&utm_medium=sponsor&utm_campaign=backlinks
+        en: https://www.avisto.com/?utm_source=snowcamp&utm_medium=sponsor&utm_campaign=backlinks
+      description:
+        fr: 'AViSTO, vous ne connaissez peut-être pas encore : une société 100% ingénieurs, des développeurs passionnés, des projets techniques et ambitieux… Le SNOWCAMP, on aime, alors on le soutient et on y participe !'
+        en: 'AViSTO, you may not know us yet: a company 100% engineers, with passionate developers, technical and ambitious projects... SNOWCAMP, we love it, so we support it and participate to it!'
+    - name: KLS Group
+      logo: img/sponsors/2020/kls.png
+      url:
+        fr: https://www.kls-group.fr/
+        en: https://www.kls-group.fr/en/kls-group-en-home/
+      description:
+        fr: Editeur-intégrateur de logiciels dédiés à l’optimisation globale de la Supply Chain (WMS gestion des stocks pour les grands comptes et PME, TMS gestion des expéditions, APS prévisions, WCS pilotage d’équipements mécanisés) depuis 30 ans. KLS Group propose une gamme complète pour une vision à 360° de votre logistique pour tous secteurs d’activité.
+        en: Editor-integrator of software dedicated to the global optimization of the Supply Chain (WMS, TMS, APS, WCS) for 30 years. KLS Group proposes a complete range for a 360 degree view on your logistics for any business sectors.
+    - name: SOAT
+      logo: img/sponsors/2020/soat.png
+      url:
+        fr: https://www.soat.fr/
+        en: https://www.soat.fr/
+      description:
+        fr: "SOAT réalise des missions d’expertise et de développement IT agiles. <br>Elle est spécialisée dans le développement logiciel, l’expertise technologique (Web, Full Stack, Back-end, Front-end, Big Data, Cloud, Mobile, Architecture), la formation, le coaching et l’innovation.
+  <br>Elle offre un accompagnement de bout-en-bout et sur-mesure, prônant les approches Agile, Craftsmanship et DevOps.
+  Née en 2001, SOAT réalise un CA de 40 millions €. Elle accompagne plus de 150 clients grâce à ses 370 collaborateurs, au sein d’une organisation qui valorise l’intelligence collective.
+  <br><br>
+  Grâce à l’INCLUSIVE SOFTWARE DEVELOPMENT
+  Nous cultivons l’intelligence collective pour développer avec nos clients des solutions adaptées à leur réalité, grâce à la complémentarité de nos profils, approches et savoir-faire.
+  <br>
+  Pour CRÉER DE LA VALEUR
+  Et faire grandir les projets de nos clients et de nos consultants."
+        en: "SOAT réalise des missions d’expertise et de développement IT agiles. <br>Elle est spécialisée dans le développement logiciel, l’expertise technologique (Web, Full Stack, Back-end, Front-end, Big Data, Cloud, Mobile, Architecture), la formation, le coaching et l’innovation.
+  <br>Elle offre un accompagnement de bout-en-bout et sur-mesure, prônant les approches Agile, Craftsmanship et DevOps.
+  Née en 2001, SOAT réalise un CA de 40 millions €. Elle accompagne plus de 150 clients grâce à ses 370 collaborateurs, au sein d’une organisation qui valorise l’intelligence collective.
+  <br><br>
+  Grâce à l’INCLUSIVE SOFTWARE DEVELOPMENT
+  Nous cultivons l’intelligence collective pour développer avec nos clients des solutions adaptées à leur réalité, grâce à la complémentarité de nos profils, approches et savoir-faire.
+  <br>
+  Pour CRÉER DE LA VALEUR
+  Et faire grandir les projets de nos clients et de nos consultants."
+        fr:
+        en:
+    - name: Qim info
+      logo: img/sponsors/2020/quiminfo.png
+      url:
+        fr: https://www.qiminfo.ch/
+        en: https://www.qiminfo.ch/language/en/
+      description:
+        fr: 'Qim info est une société de services intervenant auprès de grands comptes dans des secteurs variés : Industrie, Santé, Aéronautique, Luxe...<br>Présents sur Grenoble, Genève, Lausanne et Zürich, nous accompagnons nos clients dans l’évolution et la mise en œuvre de leur système d’information.<br>Proches, fidèles et pragmatiques, nous visons l’excellence et la satisfaction de nos collaborateurs ainsi que de nos clients.<br>Notre expertise dans le domaine de l’IT est notre force, l’humain au cœur de nos valeurs.'
+        en: 'Qim info is an IT Consulting company working with key accounts in various sectors : Industry, Healthcare, Aeronautics, Luxury ...<br>Our offices are in Grenoble, Genève, Lausanne and Zurich and we assist our clients in the evolution and implementation of their information system.<br>Close, faithful and pragmatic, we strive for excellence and satisfaction of our employees as well as our customers.<br>Our expertise in the IT field is our strength, the human being at the very heart of our values.'
+  partners:
+    - name: Manning
+      logo: img/partners/2019/manning.png
+      url:
+        fr: https://www.manning.com/
+        en: https://www.manning.com/
+      description:
+        fr: '<b>Manning</b> est un éditeur indépendant de livres d''informatique pour les développeurs logiciel, ingénieurs, architectes, administrateurs système, managers et tous les professionnels de l''informatique. Les livres que nous publions couvrent un large éventail de sujets nécessaires au développeur moderne ; des langages et frameworks, aux bonnes practiques pour les responsables d''équipes.'
+        en: '<b>Manning</b> is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders.'
+    - name: AlpesJUG
+      logo: img/partners/alpesjug.png
+      url:
+        fr: http://alpesjug.fr/
+        en: http://alpesjug.fr/
+      description:
+        fr: '<b>AlpesJug</b> est le groupe des utilisateurs Java de la région grenobloise, et à l''origine du Snowcamp.'
+        en: '<b>AlpesJug</b> is the Java User Group of the Grenoble area, and the initiator of the Snowcamp conference.'
+    - name: Sticker Mule
+      logo: img/partners/2019/stickermule.png
+      url:
+        fr: http://stickermule.com/supports/snowcamp20-sponsorship/
+        en: http://stickermule.com/supports/snowcamp20-sponsorship/
+      description:
+        fr: 'Avec <b>Sticker Mule</b>, achetez rapidement et facilement des produits imprimés personnalisés. Il suffit de 60 secondes pour passer votre commande. Il nous faudra ensuite quelques jours pour transformer vos modèles et images en stickers, magnets, badges, étiquettes autocollantes ou emballages personnalisés. Nous offrons des épreuves en ligne gratuites, un délai de production extrêmement court et la livraison à l''international est gratuite.'
+        en: '<b>Sticker Mule</b> is the fastest and easiest way to buy custom printed products. Thousands of people in the EU trust us to make kick-ass stickers, labels, magnets, badges & more. Order in seconds and get free online proofs, free shipping, and super fast turnaround.'
