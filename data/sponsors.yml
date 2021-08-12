@@ -59,6 +59,23 @@ etoile:
           <br>Grâce à des investissements en recherche et développement dans des domaines de pointe comme l’IA, le quantum computing ou la réalité mixte, Microsoft a su s’imposer comme un leader de l’innovation tout en ayant à coeur de former les développeurs à travers des initiatives comme l’école IA (https://simplon.co/ecoleia/) ou Microsoft Learn (aka.ms/learn). Le virage vers l’opensource engagé par Microsoft ces dernières années participe également à l’ouverture de l’entreprise auprès des développeurs. Il n’est plus rare de voir Microsoft mettre à disposition de la communauté des outils ou langages sous licence opensource à l’instar de Typescript, .Net Core ou VSCode. Sans oublier Linux dans lequel l’entreprise investie à la fois sur Azure et sur Windows avec WSL (Windows Subsystem for Linux)."
       en: "As a leader in productivity platforms and services, Microsoft gives every individual and every organization the tools to achieve their ambitions in a cloud and mobility-based world.
           <br>Thanks to investments in research and development in cutting-edge fields such as AI, quantum computing or mixed reality, Microsoft has established itself as a leader in innovation while having at heart to train developers through initiatives like the IA School (https://simplon.co/ecoleia/) and Microsoft Learn (aka.ms/learn).. Microsoft's move to opensource in recent years is also helping to open up the company to developers. It is not uncommon to see Microsoft open-sourcing projects like tools or languages like Typescript, .Net Core or VSCode. Not to mention Linux in which the company invests on both Azure and Windows with WSL (Windows Subsystem for Linux)."
+flocon:
+  - name: SOAT
+    logo: img/sponsors/2020/soat.png
+    url:
+      fr: https://www.soat.fr/
+      en: https://www.soat.fr/
+    description:
+      fr: "Créée en 2001, SOAT compte près de 340 collaborateurs et accompagne les organisations dans l’exploitation du potentiel technologique et humain du numérique.
+           <br>Pour cela, elle recrute, fédère et anime une communauté de spécialistes qui déploie ses compétences au cours de missions techniques et organisationnelles. Parmi ses domaines d’expertise on compte le développement applicatif, l’architecture, le Cloud, la Data et les approches Agile, Craft et DevOps.
+           <br>Grâce aux profils diversifiés de ses consultants, SOAT offre un accompagnement global et sur-mesure à plus de 150 clients.
+           <br>Conjuguant expertise et convivialité, sa forte culture d’entreprise offre un cadre propice à l’épanouissement de chacun.
+           <br>Rejoindre SOAT, c’est évoluer dans un environnement de confiance, de proximité et de partage où les moments conviviaux viennent régulièrement ponctuer la vie des Soatiens et Soatiennes !"
+      en: "Créée en 2001, SOAT compte près de 340 collaborateurs et accompagne les organisations dans l’exploitation du potentiel technologique et humain du numérique.
+           <br>Pour cela, elle recrute, fédère et anime une communauté de spécialistes qui déploie ses compétences au cours de missions techniques et organisationnelles. Parmi ses domaines d’expertise on compte le développement applicatif, l’architecture, le Cloud, la Data et les approches Agile, Craft et DevOps.
+           <br>Grâce aux profils diversifiés de ses consultants, SOAT offre un accompagnement global et sur-mesure à plus de 150 clients.
+           <br>Conjuguant expertise et convivialité, sa forte culture d’entreprise offre un cadre propice à l’épanouissement de chacun.
+           <br>Rejoindre SOAT, c’est évoluer dans un environnement de confiance, de proximité et de partage où les moments conviviaux viennent régulièrement ponctuer la vie des Soatiens et Soatiennes !"
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
