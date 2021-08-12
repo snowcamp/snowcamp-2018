@@ -59,6 +59,16 @@ etoile:
           <br>Grâce à des investissements en recherche et développement dans des domaines de pointe comme l’IA, le quantum computing ou la réalité mixte, Microsoft a su s’imposer comme un leader de l’innovation tout en ayant à coeur de former les développeurs à travers des initiatives comme l’école IA (https://simplon.co/ecoleia/) ou Microsoft Learn (aka.ms/learn). Le virage vers l’opensource engagé par Microsoft ces dernières années participe également à l’ouverture de l’entreprise auprès des développeurs. Il n’est plus rare de voir Microsoft mettre à disposition de la communauté des outils ou langages sous licence opensource à l’instar de Typescript, .Net Core ou VSCode. Sans oublier Linux dans lequel l’entreprise investie à la fois sur Azure et sur Windows avec WSL (Windows Subsystem for Linux)."
       en: "As a leader in productivity platforms and services, Microsoft gives every individual and every organization the tools to achieve their ambitions in a cloud and mobility-based world.
           <br>Thanks to investments in research and development in cutting-edge fields such as AI, quantum computing or mixed reality, Microsoft has established itself as a leader in innovation while having at heart to train developers through initiatives like the IA School (https://simplon.co/ecoleia/) and Microsoft Learn (aka.ms/learn).. Microsoft's move to opensource in recent years is also helping to open up the company to developers. It is not uncommon to see Microsoft open-sourcing projects like tools or languages like Typescript, .Net Core or VSCode. Not to mention Linux in which the company invests on both Azure and Windows with WSL (Windows Subsystem for Linux)."
+  - name: Gravitee
+    logo: img/sponsors/2021/gravitee.jpg
+    url:
+      fr: https://www.gravitee.io/
+      en: https://www.gravitee.io/
+    description:
+      fr: "Gravitee.io est une plateforme open source de gestion d’API riche en fonctionnalités, simple d’emploi et économique. La plateforme fournit la gestion des API, des identités et des accès, la création d’alertes et un tableau de bord multi-tenant offrant contrôle, sécurité et gouvernance facilitée des écosystèmes API. Un support complet est fourni aux API d’open banking. Gravitee.io fournit assistance, hébergement, formation et conseil pour garantir la réussite des entreprises dans leur parcours API.
+           Pour de plus amples informations sur Gravitee.io, consultez le site https://www.gravitee.io/."
+      en: "Gravitee.io est une plateforme open source de gestion d’API riche en fonctionnalités, simple d’emploi et économique. La plateforme fournit la gestion des API, des identités et des accès, la création d’alertes et un tableau de bord multi-tenant offrant contrôle, sécurité et gouvernance facilitée des écosystèmes API. Un support complet est fourni aux API d’open banking. Gravitee.io fournit assistance, hébergement, formation et conseil pour garantir la réussite des entreprises dans leur parcours API.
+           Pour de plus amples informations sur Gravitee.io, consultez le site https://www.gravitee.io/."
 flocon:
   - name: SOAT
     logo: img/sponsors/2020/soat.png
