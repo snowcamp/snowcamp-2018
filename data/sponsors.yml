@@ -69,6 +69,16 @@ etoile:
            Pour de plus amples informations sur Gravitee.io, consultez le site https://www.gravitee.io/."
       en: "Gravitee.io est une plateforme open source de gestion d’API riche en fonctionnalités, simple d’emploi et économique. La plateforme fournit la gestion des API, des identités et des accès, la création d’alertes et un tableau de bord multi-tenant offrant contrôle, sécurité et gouvernance facilitée des écosystèmes API. Un support complet est fourni aux API d’open banking. Gravitee.io fournit assistance, hébergement, formation et conseil pour garantir la réussite des entreprises dans leur parcours API.
            Pour de plus amples informations sur Gravitee.io, consultez le site https://www.gravitee.io/."
+  - name: CGI
+    logo: img/sponsors/2021/cgi.jpg
+    url:
+      fr: https://www.cgi.com/fr
+      en: https://www.cgi.com/en
+    description:
+      fr: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
+          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
+      en: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
+          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
 flocon:
   - name: SOAT
     logo: img/sponsors/2020/soat.png
