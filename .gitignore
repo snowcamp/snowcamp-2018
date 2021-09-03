@@ -13,3 +13,4 @@ _site/
 .jekyll-metadata
 scmpublish-checkout/
 package-lock.json
+.vscode
