@@ -1,9 +1,10 @@
-{{ $type := (.Get "type") }}
-{{ $class := (.Get "class") }}
-{{ $lang := $.Site.Language.Lang }}
-{{ $sponsorship := $.Site.Data.sponsors.sponsorship }}
-{{ $sponsor := (index $sponsorship.type $type) }}
+{{ $type := .type }}
+{{ $class := .class }}
+{{ $lang := .lang }}
+{{ $sponsorship := .sponsorship }}
+{{ $sponsor := $type }}
 {{ $prospectus := $sponsorship.prospectus }}
+
 <div class="single {{ $class }}">
   <div class="single-top">
     <h2 class="title">{{ $sponsor.title }}</h2>

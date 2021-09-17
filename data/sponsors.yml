@@ -10,23 +10,23 @@ sponsorship:
     etoile:
       title: Étoile
       price: 3000 €
-      number: 9
+      number: 10
       booth_area: 4m²
       places:
         conferences: 3
         booth: 2
         speakers_dinner: 2
-    chamois:
-      title: Chamois
-      price: 7000 €
-      number: 1
-      booth_area: 8m²
-      keynote_talk: 10 min
-      logo_premium: yes
-      places:
-        conferences: 6
-        booth: 3
-        speakers_dinner: 2
+#    chamois:
+#      title: Chamois
+#      price: 7000 €
+#      number: 1
+#      booth_area: 8m²
+#      keynote_talk: 10 min
+#      logo_premium: yes
+#      places:
+#        conferences: 6
+#        booth: 3
+#        speakers_dinner: 2
 display: current # possible values: previous, current
 etoile:
   - name: Viseo

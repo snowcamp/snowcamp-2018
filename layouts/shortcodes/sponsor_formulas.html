@@ -1,0 +1,15 @@
+{{ $sponsorship := .Site.Data.sponsors.sponsorship }}
+{{ $sponsorship_count := len $sponsorship.type }}
+
+<div class="row">
+  {{ range $i, $type := (sort $sponsorship.type "price") }}
+   <div class="col-xs-12 col-sm-6 col-md-4">
+    {{ if modBool $i $sponsorship_count }}
+      {{ partial "sponsor_formula" (dict "type" $type "sponsorship" $sponsorship "lang" $.Site.Language.Lang) }}
+    {{ else }}
+      {{ partial "sponsor_formula" (dict "type" $type "sponsorship" $sponsorship "lang" $.Site.Language.Lang "class" "active") }}
+    {{ end }}
+   </div>
+   {{ end }}
+</div>
+
