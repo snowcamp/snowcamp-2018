@@ -85,16 +85,18 @@ etoile:
       fr: http://www.open-groupe.com/
       en: http://www.open-groupe.com/
     description:
-      fr: '<strong>ForgeRock®</strong>, le leader sur le marché de la gestion de l’identité numérique, transforme la manière dont les entreprises établissent des échanges sécurisés entre les personnes, les services et les objets. Les entreprises adoptent la ForgeRock Identity Platform™ en tant que système d’identité numérique pour rentabiliser les échanges avec leurs clients, respecter les règlements sur la confidentialité et le consentement (GDPR, HIPAA, PSD2, Open Banking, etc.), et tirer le meilleur profit de l’Internet des objets. ForgeRock est le fournisseur de centaines de marques comme Morningstar, Vodafone, GEICO, Toyota ou Pearson et de nombreux gouvernements comme la Norvège, le Canada ou la Belgique, et gère des milliards d’identités dans le monde entier. ForgeRock dispose de bureaux dans toute l’Europe, aux États-Unis et en Asie.'
-      en: 'ESN généraliste et multi technologique (Java, C#, ReactJS, Angular,…) , résolument tournée vers l’expertise digitale (IoT, Big Data, E-commerce, mobilité, innovation), mettant un accent fort sur la relation collaborateur ainsi que sur la proximité clients'
+      fr: 'Acteur majeur du numérique, Open - 3700 collaborateurs -  accompagne les entreprises dans leur transformation IT & Digitale
+           Open, a Digital Services Company, assists companies with their digital and IT transformation'
+      en: 'Acteur majeur du numérique, Open - 3700 collaborateurs -  accompagne les entreprises dans leur transformation IT & Digitale
+           Open, a Digital Services Company, assists companies with their digital and IT transformation '
   - name: Sopra Steria
     logo: img/sponsors/2018/sopra-steria.png
     url:
       fr: https://www.soprasteria.com/fr/home
       en: https://www.soprasteria.com/en/home
     description:
-      fr: ''
-      en: ''
+      fr: 'Sopra Steria, l’un des leaders européens du conseil, des services numériques et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.'
+      en: 'Sopra Steria, l’un des leaders européens du conseil, des services numériques et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.'
 flocon:
   - name: SOAT
     logo: img/sponsors/2022/soat.png
