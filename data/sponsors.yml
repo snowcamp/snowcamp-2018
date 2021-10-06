@@ -97,6 +97,22 @@ etoile:
     description:
       fr: 'Sopra Steria, l’un des leaders européens du conseil, des services numériques et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.'
       en: 'Sopra Steria, l’un des leaders européens du conseil, des services numériques et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.'
+  - name: Forgerock
+    logo: img/sponsors/2018/forgerock.png
+    url:
+      fr: https://www.forgerock.com/
+      en: https://www.forgerock.com/
+    description:
+      fr: <strong>ForgeRock®</strong>, le leader sur le marché de la gestion de l’identité numérique, transforme la manière dont les entreprises établissent des échanges sécurisés entre les personnes, les services et les objets. Les entreprises adoptent la ForgeRock Identity Platform™ en tant que système d’identité numérique pour rentabiliser les échanges avec leurs clients, respecter les règlements sur la confidentialité et le consentement (GDPR, HIPAA, PSD2, Open Banking, etc.), et tirer le meilleur profit de l’Internet des objets. ForgeRock est le fournisseur de centaines de marques comme Morningstar, Vodafone, GEICO, Toyota ou Pearson et de nombreux gouvernements comme la Norvège, le Canada ou la Belgique, et gère des milliards d’identités dans le monde entier. ForgeRock dispose de bureaux dans toute l’Europe, aux États-Unis et en Asie.
+      en: <strong>ForgeRock®</strong> is the Digital Identity Management company transforming the way organizations interact securely with customers, employees, devices, and things. Organizations adopt the ForgeRock Identity Platform™ as their digital identity system of record to monetize customer relationships, address stringent regulations for privacy and consent (GDPR, HIPAA, FCC privacy, etc.), and leverage the internet of things. ForgeRock serves hundreds of brands, including Morningstar, Vodafone, GEICO, Toyota and Pearson, as well as governments such as Norway, New Zealand, and Belgium, among many others. Headquartered in San Francisco, California, ForgeRock has offices in Austin, London, Bristol, Grenoble, Munich, Paris, Oslo, Singapore, Sydney and Vancouver, Washington.
+  - name: Norsys
+    logo: img/sponsors/2018/norsys.png
+    url:
+      fr: https://www.norsys.fr/
+      en: https://www.norsys.fr/
+    description:
+      fr: 'Norsys est une ESN engagée, reconnue société à mission et certifiée Bcorp. Notre raison d’être : Concevoir avec une préoccupation humaine et éthique des usages du numérique efficaces afin de contribuer à l’évolution positive du monde. En 2021, norsys développe un nouveau modèle d’entreprise inspiré de la permaculture : "La permaentreprise (c) vise à obtenir une production efficace, utile aux humains, sans nuire à la planète, en faisant un usage sobre voire régénératif des ressources et en partageant équitablement les richesses. Bref, un modèle viable pour un monde vivable"'
+      en: 'Norsys est une ESN engagée, reconnue société à mission et certifiée Bcorp. Notre raison d’être : Concevoir avec une préoccupation humaine et éthique des usages du numérique efficaces afin de contribuer à l’évolution positive du monde. En 2021, norsys développe un nouveau modèle d’entreprise inspiré de la permaculture : "La permaentreprise (c) vise à obtenir une production efficace, utile aux humains, sans nuire à la planète, en faisant un usage sobre voire régénératif des ressources et en partageant équitablement les richesses. Bref, un modèle viable pour un monde vivable"'
 flocon:
   - name: SOAT
     logo: img/sponsors/2022/soat.png
@@ -114,6 +130,27 @@ flocon:
            <br>Grâce aux profils diversifiés de ses consultants, SOAT offre un accompagnement global et sur-mesure à plus de 150 clients.
            <br>Conjuguant expertise et convivialité, sa forte culture d’entreprise offre un cadre propice à l’épanouissement de chacun.
            <br>Rejoindre SOAT, c’est évoluer dans un environnement de confiance, de proximité et de partage où les moments conviviaux viennent régulièrement ponctuer la vie des Soatiens et Soatiennes !"
+  - name: Sogilis
+    logo: img/sponsors/2022/sogilis.png
+    url:
+      fr: https://www.sogilis.com/
+      en: https://www.sogilis.com/
+    description:
+      fr: '<em>VOUS POUVEZ TOUT FAIRE TOUT SEUL.</em><br/>
+             <em>Ou bien, vous pouvez gagner du temps, partager, progresser. Et créer le bon produit.</em><br/>
+             Imaginer une technologie ou un produit en tandem permet de construire et de vendre la bonne solution, plus vite, sans défaut.
+             Pour cela, il faut trouver une équipe :<br/>
+             - compétente, qui sait structurer, itérer, cibler, co-développer ;<br/>
+             - qui choisit votre projet et s’implique comme si c’était le sien ;<br/>
+             - qui renforce vos rangs et complète vos compétences, jusqu’à ce que vous deveniez autonome sur votre technologie.'
+      en: '<em>YOU CAN DEAL WITH IT YOURSELF.</em><br/>
+             <em>Or you can save time, share, grow. All while creating the right product.</em><br/>
+             Turning to outside help to build a technology is the fastest way to sell and deliver.
+             On condition that the support team:
+             - knows how to structure a project, and to iterate and develop with you;<br/>
+             - chooses to work with you and makes your product its own;<br/>
+             - complements your team until you’re fully proficient with the technology.<br/>'
+
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
