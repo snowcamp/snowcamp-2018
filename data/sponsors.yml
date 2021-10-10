@@ -150,6 +150,26 @@ flocon:
              - knows how to structure a project, and to iterate and develop with you;<br/>
              - chooses to work with you and makes your product its own;<br/>
              - complements your team until you’re fully proficient with the technology.<br/>'
+  - name: Kelkoo Group
+    logo: img/sponsors/2022/kelkoogroup.png
+    url:
+      fr: https://www.kelkoogroup.com/fr/
+      en: https://www.kelkoogroup.com/
+    description:
+      fr: 'Kelkoo Group c’est une entreprise du monde de l’ecommerce qui a fêté ses 22 ans il y a peu mais a su rester très jeune et dynamique.
+            Ce sont plus de 10000 marchands qui nous font confiance pour leur envoyer des leads qualifiés dans 40 pays.
+            Ce sont des probématiques passionantes de scalabilité, de haute disponibilité et une approche très data driven dans tout ce que nous faisons.
+            C’est une équipe science qui grandit régulièrement et nous aide à être très compétitifs.
+            Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
+            Kelkoo c’est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d’initiative est encouragée.
+            Bienveillance et responsabilisation y sont les maitre mots.'
+      en: 'Kelkoo Group c’est une entreprise du monde de l’ecommerce qui a fêté ses 22 ans il y a peu mais a su rester très jeune et dynamique.
+            Ce sont plus de 10000 marchands qui nous font confiance pour leur envoyer des leads qualifiés dans 40 pays.
+            Ce sont des probématiques passionantes de scalabilité, de haute disponibilité et une approche très data driven dans tout ce que nous faisons.
+            C’est une équipe science qui grandit régulièrement et nous aide à être très compétitifs.
+            Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
+            Kelkoo c’est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d’initiative est encouragée.
+            Bienveillance et responsabilisation y sont les maitre mots.'
 
 partners:
   - name: AlpesJUG
