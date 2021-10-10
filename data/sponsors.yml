@@ -190,6 +190,16 @@ flocon:
             Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
             Kelkoo c’est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d’initiative est encouragée.
             Bienveillance et responsabilisation y sont les maitre mots.'
+  - name: KLS Group
+    logo: img/sponsors/2022/kls.png
+    url:
+      fr: https://www.kls-group.fr/
+      en: https://www.kls-group.fr/
+    description:
+      fr: 'Editeur-intégrateur de logiciels dédiés à l’optimisation globale de la Supply Chain (WMS gestion des stocks pour les grands comptes et PME, TMS gestion des expéditions, APS prévisions, WCS pilotage d’équipements mécanisés) depuis 30 ans.
+            KLS Group propose une gamme complète pour une vision à 360° de votre logistique pour tous secteurs d’activité.'
+      en: 'Editor-integrator of software dedicated to the global optimization of the Supply Chain (WMS, TMS, APS, WCS) for 30 years.
+            KLS Group proposes a complete range for a 360 degree view on your logistics for any business sectors.'
 
 partners:
   - name: AlpesJUG
