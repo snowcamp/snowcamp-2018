@@ -150,6 +150,26 @@ flocon:
              - knows how to structure a project, and to iterate and develop with you;<br/>
              - chooses to work with you and makes your product its own;<br/>
              - complements your team until you’re fully proficient with the technology.<br/>'
+  - name: AViSTO
+    logo: img/sponsors/2022/avisto.png
+    url:
+      fr: https://www.avisto.com
+      en: https://www.avisto.com
+    description:
+      fr: 'CULTURE TECHNIQUE
+            <br>Chez AViSTO, la culture technique est présente à tous les étages : les fondateurs, les business managers et nos équipes techniques sont toutes composées d’ingénieurs logiciel.
+            Nous sommes fiers de cet ADN technique !
+            En tant que société de services nous intervenons principalement sur des projets à forts enjeux technologiques nécessitant une coordination importante avec plusieurs équipes.
+            <br><br>POURQUOI NOUS SOUTENONS LE SNOWCAMP
+            <br>Le SNOWCAMP permet aux développeurs passionnés d’avoir des échanges pointus dans une ambiance conviviale.
+            Nous sommes ainsi heureux de soutenir cette initiative 100% bénévole qui vise à promouvoir les dernières technologies au sein de la communauté des tech de Grenoble.'
+      en: 'CULTURE TECHNIQUE
+            <br>Chez AViSTO, la culture technique est présente à tous les étages : les fondateurs, les business managers et nos équipes techniques sont toutes composées d’ingénieurs logiciel.
+            Nous sommes fiers de cet ADN technique !
+            En tant que société de services nous intervenons principalement sur des projets à forts enjeux technologiques nécessitant une coordination importante avec plusieurs équipes.
+            <br><br>POURQUOI NOUS SOUTENONS LE SNOWCAMP
+            <br>Le SNOWCAMP permet aux développeurs passionnés d’avoir des échanges pointus dans une ambiance conviviale.
+            Nous sommes ainsi heureux de soutenir cette initiative 100% bénévole qui vise à promouvoir les dernières technologies au sein de la communauté des tech de Grenoble.'
 
 partners:
   - name: AlpesJUG
