@@ -1,14 +1,14 @@
 store:
-#  url: https://yurplan.com/event/Snow-Camp-2020/48840#/ # uncomment to display the link
+  url: https://yurplan.com/event/Snow-Camp-2022/75335#/ # uncomment to display the link
   early:
     title: Early Birds
     price_conf: 42
     price_univ: 100
     status: not_open # not_open, open, closed
     date:
-      default: unknown # trick, don't remove
-#      fr: 15 Octobre # uncomment to display the date
-#      en: 15th of October # uncomment to display the date
+#      default: unknown # trick, don't remove
+      fr: 28 Octobre # uncomment to display the date
+      en: 28th of October # uncomment to display the date
   classic:
     title: Standard
     price_conf: 60
