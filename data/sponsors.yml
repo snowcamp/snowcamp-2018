@@ -190,6 +190,17 @@ flocon:
             Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
             Kelkoo c’est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d’initiative est encouragée.
             Bienveillance et responsabilisation y sont les maitre mots.'
+meetgreet:
+  - name: ZENIKA
+    logo: img/sponsors/2022/zenika.png
+    url:
+      fr: https://www.zenika.com
+      en: https://www.zenika.com
+    description:
+      fr: "ZENIKA est une entreprise réseau constituée de 500 passionnés en IT et agilité qui contribuent au projet CODING THE WORLD, en co-construisant le monde numérique de demain avec leurs clients.
+            A la fois experts, formateurs, et opérationnels, nos consultants constituent une grande richesse pour accompagner nos clients dans la digitalisation de leurs métiers."
+      en: "ZENIKA est une entreprise réseau constituée de 500 passionnés en IT et agilité qui contribuent au projet CODING THE WORLD, en co-construisant le monde numérique de demain avec leurs clients.
+            A la fois experts, formateurs, et opérationnels, nos consultants constituent une grande richesse pour accompagner nos clients dans la digitalisation de leurs métiers."
 
 partners:
   - name: AlpesJUG

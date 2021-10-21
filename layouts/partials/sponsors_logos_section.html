@@ -29,11 +29,15 @@
               {{ partial "sponsors_logos" (dict "sponsors" .sponsors.chamois "sponsor_title" $sponsor_title "column_number" 3 "baseUrl" .baseUrl "lang" $lang) }}
             {{ end }}
             {{ if isset .sponsors "etoile" }}
-              {{ $sponsor_title := (delimit (slice (i18n "sponsor_etoile") "&#9734;") " ") }}
+              {{ $sponsor_title := (delimit (slice (i18n "sponsor_etoile") "⭐") " ") }}
               {{ partial "sponsors_logos" (dict "sponsors" .sponsors.etoile "sponsor_title" $sponsor_title "column_number" 3 "baseUrl" .baseUrl "lang" $lang) }}
             {{ end }}
+            {{ if isset .sponsors "meetgreet" }}
+              {{ $sponsor_title := (delimit (slice (i18n "sponsor_meetgreet") "🍻") " ") }}
+              {{ partial "sponsors_logos" (dict "sponsors" .sponsors.meetgreet "sponsor_title" $sponsor_title "column_number" 3 "baseUrl" .baseUrl "lang" $lang) }}
+            {{ end }}
             {{ if isset .sponsors "flocon" }}
-              {{ $sponsor_title := (delimit (slice (i18n "sponsor_flocon") "&#10052;") " ") }}
+              {{ $sponsor_title := (delimit (slice (i18n "sponsor_flocon") "❄️") " ") }}
               {{ partial "sponsors_logos" (dict "sponsors" .sponsors.flocon "sponsor_title" $sponsor_title "column_number" 3 "baseUrl" .baseUrl "lang" $lang) }}
             {{ end }}
             <div class="sponsors-btn-area">
