@@ -38,6 +38,8 @@
   translation: Sponsors Étoile
 - id: sponsor_flocon
   translation: Sponsors Flocon
+- id: sponsor_meetgreet
+  translation: Sponsor Meet&Greet
 - id: partners
   translation: Partenaires
 - id: become_sponsor
