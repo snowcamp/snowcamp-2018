@@ -4,7 +4,7 @@ store:
     title: Early Birds
     price_conf: 42
     price_univ: 100
-    status: not_open # not_open, open, closed
+    status: open # not_open, open, closed
     date:
 #      default: unknown # trick, don't remove
       fr: 28 Octobre # uncomment to display the date
