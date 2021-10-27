@@ -190,6 +190,18 @@ flocon:
             Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
             Kelkoo c’est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d’initiative est encouragée.
             Bienveillance et responsabilisation y sont les maitre mots.'
+  - name: Salesforce
+    logo: img/sponsors/2018/salesforce.png
+    url:
+      fr: https://engineering.salesforce.com/
+      en: https://engineering.salesforce.com/
+    description:
+      fr: 'We opened our first European office in Ireland in 2000, just one year after we founded Salesforce. Today, we are the global leader in Customer Relationship Management (CRM) and have offices in 13 European countries.
+           Our employees are building relationships with our customers, creating powerful technologies and volunteering in our communities across the region. From Spain to Sweden, from Ireland to Italy, we bring companies of
+           every size and industry together with their customers.'
+      en: 'We opened our first European office in Ireland in 2000, just one year after we founded Salesforce. Today, we are the global leader in Customer Relationship Management (CRM) and have offices in 13 European countries.
+           Our employees are building relationships with our customers, creating powerful technologies and volunteering in our communities across the region. From Spain to Sweden, from Ireland to Italy, we bring companies of
+           every size and industry together with their customers.'
 meetgreet:
   - name: ZENIKA
     logo: img/sponsors/2022/zenika.png
