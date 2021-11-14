@@ -1,6 +1,6 @@
-status: closed # not_open, opens_soon, open, closed, published
+status: published # not_open, opens_soon, open, closed, published
 url: https://conference-hall.io/public/event/CHD1tsd1qEQHYy8Pe9om # url of the cfp
-sched_url: N/A #https://snowcamp2020.sched.com/
+sched_url: https://snowcamp2022.sched.com/
 dates:
   open_date:
     fr: 1er Septembre 2021
