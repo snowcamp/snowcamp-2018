@@ -210,6 +210,14 @@ flocon:
     description:
       fr: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l’amélioration de l’automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
       en: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l’amélioration de l’automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
+  - name: KLS Group
+    logo: img/sponsors/2020/kls.png
+    url:
+      fr: https://www.kls-group.fr/
+      en: https://www.kls-group.fr/en/kls-group-en-home/
+    description:
+      fr: Editeur-intégrateur de logiciels dédiés à l’optimisation globale de la Supply Chain (WMS gestion des stocks pour les grands comptes et PME, TMS gestion des expéditions, APS prévisions, WCS pilotage d’équipements mécanisés) depuis 30 ans. KLS Group propose une gamme complète pour une vision à 360° de votre logistique pour tous secteurs d’activité.
+      en: Editor-integrator of software dedicated to the global optimization of the Supply Chain (WMS, TMS, APS, WCS) for 30 years. KLS Group proposes a complete range for a 360 degree view on your logistics for any business sectors.
 meetgreet:
   - name: ZENIKA
     logo: img/sponsors/2022/zenika.png
