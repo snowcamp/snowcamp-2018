@@ -218,17 +218,6 @@ flocon:
     description:
       fr: Editeur-intégrateur de logiciels dédiés à l’optimisation globale de la Supply Chain (WMS gestion des stocks pour les grands comptes et PME, TMS gestion des expéditions, APS prévisions, WCS pilotage d’équipements mécanisés) depuis 30 ans. KLS Group propose une gamme complète pour une vision à 360° de votre logistique pour tous secteurs d’activité.
       en: Editor-integrator of software dedicated to the global optimization of the Supply Chain (WMS, TMS, APS, WCS) for 30 years. KLS Group proposes a complete range for a 360 degree view on your logistics for any business sectors.
-meetgreet:
-  - name: ZENIKA
-    logo: img/sponsors/2022/zenika.png
-    url:
-      fr: https://www.zenika.com
-      en: https://www.zenika.com
-    description:
-      fr: "ZENIKA est une entreprise réseau constituée de 500 passionnés en IT et agilité qui contribuent au projet CODING THE WORLD, en co-construisant le monde numérique de demain avec leurs clients.
-            A la fois experts, formateurs, et opérationnels, nos consultants constituent une grande richesse pour accompagner nos clients dans la digitalisation de leurs métiers."
-      en: "ZENIKA est une entreprise réseau constituée de 500 passionnés en IT et agilité qui contribuent au projet CODING THE WORLD, en co-construisant le monde numérique de demain avec leurs clients.
-            A la fois experts, formateurs, et opérationnels, nos consultants constituent une grande richesse pour accompagner nos clients dans la digitalisation de leurs métiers."
 partners:
   - name: AlpesJUG
     logo: img/partners/alpesjug.png
