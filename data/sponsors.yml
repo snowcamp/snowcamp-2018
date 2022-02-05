@@ -27,7 +27,7 @@ sponsorship:
 #        conferences: 6
 #        booth: 3
 #        speakers_dinner: 2
-display: current # possible values: previous, current
+display: previous # possible values: previous, current
 etoile:
   - name: Viseo
     logo: img/sponsors/2022/viseo.png

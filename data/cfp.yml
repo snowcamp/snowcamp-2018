@@ -1,4 +1,4 @@
-status: published # not_open, opens_soon, open, closed, published
+status: not_open # not_open, opens_soon, open, closed, published
 url: https://conference-hall.io/public/event/CHD1tsd1qEQHYy8Pe9om # url of the cfp
 sched_url: https://snowcamp2022.sched.com/
 dates:
