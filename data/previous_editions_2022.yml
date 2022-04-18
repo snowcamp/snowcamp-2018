@@ -4,8 +4,8 @@ punch_line:
   fr: Une reprise des confs en présentiel qui fait du bien !
   en: Move back to in person conference that feels so good!
 summary:
-  fr: 'Retrouvez le programme de SnowCamp %s <a href="%s" target="_blank">ici</a> !. Vous pouvez aussi retrouver les liens vers les slides des conférences <a href="https://github.com/snowcamp/snowcamp-2022-supports-sessions">ici</a>, et les retours des participants <a href="https://roti.express/feedback/sc2022">là</a>'
-  en: 'The agenda for SnowCamp %s is available <a href="%s" target="_blank">here</a>!. You can also find the links to the sessions material <a href="https://github.com/snowcamp/snowcamp-2022-supports-sessions">here</a>, and the participants feedback <a href="https://roti.express/feedback/sc2022">there</a>.'
+  fr: 'Retrouvez le programme de SnowCamp %s <a href="%s" target="_blank">ici</a> ! Vous pouvez aussi retrouver les liens vers les slides des conférences <a href="https://github.com/snowcamp/snowcamp-2022-supports-sessions">ici</a>, et les retours des participants <a href="https://roti.express/feedback/sc2022">là</a>'
+  en: 'The agenda for SnowCamp %s is available <a href="%s" target="_blank">here</a>! You can also find the links to the sessions material <a href="https://github.com/snowcamp/snowcamp-2022-supports-sessions">here</a>, and the participants feedback <a href="https://roti.express/feedback/sc2022">there</a>.'
 sponsors:
   etoile:
     - name: Viseo
