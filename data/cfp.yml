@@ -1,13 +1,13 @@
-status: not_open # not_open, opens_soon, open, closed, published
-url: https://conference-hall.io/public/event/CHD1tsd1qEQHYy8Pe9om # url of the cfp
-sched_url: https://snowcamp2022.sched.com/
+status: open # not_open, opens_soon, open, closed, published
+url: https://conference-hall.io/public/event/ZGJWM1x64evaNUzycEzn # url of the cfp
+# sched_url: https://snowcamp2022.sched.com/
 dates:
   open_date:
-    fr: 1er Septembre 2021
-    en: 1st of September 2021
+    fr: 1er Septembre 2022
+    en: 1st of September 2022
   close_date:
-    fr: 15 Octobre 2021
-    en: 15th of October 2021
+    fr: 15 Octobre 2022
+    en: 15th of October 2022
   notification_date:
-    fr: Début Novembre 2021
-    en: Beginning November 2021
+    fr: Début Novembre 2022
+    en: Beginning November 2022
