@@ -18,7 +18,7 @@
   {{ i18n "store_not_open" }}
 {{ end }}
 </p>
-{{ if isset $store "url"}}
+{{ if ((and (isset $store "url"), (or (not (eq $early_birds_status "not_open")), (not (eq $classic_status "not_open")))) }}
 <p>
   <a href="{{ $store.url }}" target="_blank">
     <i class="fa fa-hand-o-right" aria-hidden="true"><span> <b>{{ i18n "store_here" }}</b></span></i>
