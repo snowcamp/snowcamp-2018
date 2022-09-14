@@ -1,5 +1,5 @@
 store:
-#  url: https://yurplan.com/event/Snow-Camp-2022/75335#/ # uncomment to display the link
+  url: https://www.billetweb.fr/snowcamp-2023 
   early:
     title: Early Birds
     price_conf: 42
@@ -7,8 +7,8 @@ store:
     status: not_open # not_open, open, closed
     date:
       default: unknown # trick, don't remove
-#      fr: 28 Octobre # uncomment to display the date
-#      en: 28th of October # uncomment to display the date
+      fr: 17 Octobre # uncomment to display the date
+      en: 17th of October # uncomment to display the date
   classic:
     title: Standard
     price_conf: 65
@@ -16,8 +16,8 @@ store:
     status: not_open # not_open, open, closed
     date1:
       default: unknown # trick, don't remove
-#    fr: 23 Novembre à 15h # uncomment to display the date
-#      en: 23rd of November at 3:00 pm (Paris TimeZone) # uncomment to display the date
+#    fr: 21 Novembre à 15h # uncomment to display the date
+#      en: 21rd of November at 3:00 pm (Paris TimeZone) # uncomment to display the date
     date2:
-      fr: 25 Novembre à 11h
-      en: 25th of November at 11 am (Paris TimeZone)
+      fr: 21 Novembre à 11h
+      en: 21th of November at 11 am (Paris TimeZone)
