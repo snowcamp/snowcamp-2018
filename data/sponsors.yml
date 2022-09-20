@@ -90,6 +90,19 @@ etoile:
       fr: '<strong>Zenika</strong>, L’innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;'
       en: '<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;'
 
+  - name: Thales
+    logo: img/sponsors/2023/thales.jpg
+    url:
+      fr: https://www.thalesgroup.com/
+      en: https://www.thalesgroup.com/en
+    description:
+      fr: "Thales Services Numériques : Intégrateur et opérateur de systèmes critiques
+            <br>Notre mission est d’assurer en permanence la performance, la résilience et la sécurité des systèmes d information critiques de nos clients confrontés
+            <br>aux nombreuses avancées de l’informatique et aux évolutions constantes des cybermenaces."
+      en: "Thales Services Numériques : Critical systems integrator and operator
+            <br>The mission of Thales Services Numériques is to continuously ensure performance, resilience and security
+            <br>of our customers' critical information systems by accompanying them in the integration of technological innovations while keeping them safe from the cyber threat."
+
 #  - name: Microsoft
 #    logo: img/sponsors/2020/microsoft.png
 #    url:
@@ -133,19 +146,6 @@ etoile:
 #      fr: ''
 #      en: ''
 
-#  - name: Thales
-#    logo: img/sponsors/2023/thales.jpg
-#    url:
-#      fr: https://www.thalesgroup.com/
-#      en: https://www.thalesgroup.com/en
-#    description:
-#      fr: "Thales Services Numériques : Intégrateur et opérateur de systèmes critiques
-#            <br>Notre mission est d’assurer en permanence la performance, la résilience et la sécurité des systèmes d information critiques de nos clients confrontés
-#            <br>aux nombreuses avancées de l’informatique et aux évolutions constantes des cybermenaces."
-#      en: "Thales Services Numériques : Critical systems integrator and operator
-#            <br>The mission of Thales Services Numériques is to continuously ensure performance, resilience and security
-#            <br>of our customers' critical information systems by accompanying them in the integration of technological innovations while keeping them safe from the cyber threat."
-
 #    - name: Abylsen
 #      logo: img/sponsors/2023/abylsen.png
 #      url:
@@ -186,7 +186,7 @@ flocon:
       en: ''
 
   - name: Hardis
-    logo: img/sponsors/2023/hardis_group
+    logo: img/sponsors/2023/hardis_group.webp
     url:
       fr: https://www.hardis-group.com
       en: https://www.hardis-group.com
@@ -223,6 +223,15 @@ flocon:
 #            Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
 #            Kelkoo c’est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d’initiative est encouragée.
 #            Bienveillance et responsabilisation y sont les maitre mots.'
+
+#  - name: Moodys
+#    logo: img/sponsors/2023/moodys.webp
+#    url:
+#      fr: https://www.moodys.com
+#      en: https://www.moodys.com
+#    description:
+#      fr: ''
+#      en: ''
 
 
 partners:
