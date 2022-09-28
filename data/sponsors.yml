@@ -103,6 +103,15 @@ etoile:
             <br>The mission of Thales Services Numériques is to continuously ensure performance, resilience and security
             <br>of our customers' critical information systems by accompanying them in the integration of technological innovations while keeping them safe from the cyber threat."
 
+  - name: Abylsen
+    logo: img/sponsors/2023/abylsen.png
+    url:
+      fr: https://abylsen.com
+      en: https://abylsen.com
+    description:
+      fr: "Abylsen : Le meilleur des deux mondes, l’agilité de la start-up et la solidité d’un grand groupe ! <br>Groupe Européen de conseil en ingénierie industrielle et tertiaire, créateur de solutions ingénieuses, Abylsen a été fondé en 2005 par des entrepreneurs ambitieux. Nous sommes aujourd’hui 2400 collaborateurs présents sur 27 implantations dans 6 pays.<br>Nous sommes multi-spécialiste, intervenons auprès de 500 clients (des groupes internationaux aux PME) dans 8 secteurs d’activités (Aéronautique Spatial Défense, Automobile, Énergie, Industrie / Industrie Lourde, Life Sciences, Transport Ferroviaire Infrastructures BTP, IT / Digital Télécoms, Banque Finance). Rejoignez Abylsen et créez votre futur !<br>Dans le cadre du développement de notre entité Abylsen ST/RA (Sciences & Technologies Rhône-Alpes Auvergne Bourgogne), spécialisée dans les nouvelles technologies, l’industrie 4.0, l’IoT et l’Energie (solaire, hydraulique, éolienne, conventionnelle) nous recherchons un(e) de nouveaux talens H/F pour intégrer notre équipe de consultants et apporter votre expertise sur l’ensemble de nos projets."
+      en: "Abylsen : Le meilleur des deux mondes, l’agilité de la start-up et la solidité d’un grand groupe ! <br>Groupe Européen de conseil en ingénierie industrielle et tertiaire, créateur de solutions ingénieuses, Abylsen a été fondé en 2005 par des entrepreneurs ambitieux. Nous sommes aujourd’hui 2400 collaborateurs présents sur 27 implantations dans 6 pays.<br>Nous sommes multi-spécialiste, intervenons auprès de 500 clients (des groupes internationaux aux PME) dans 8 secteurs d’activités (Aéronautique Spatial Défense, Automobile, Énergie, Industrie / Industrie Lourde, Life Sciences, Transport Ferroviaire Infrastructures BTP, IT / Digital Télécoms, Banque Finance). Rejoignez Abylsen et créez votre futur !<br>Dans le cadre du développement de notre entité Abylsen ST/RA (Sciences & Technologies Rhône-Alpes Auvergne Bourgogne), spécialisée dans les nouvelles technologies, l’industrie 4.0, l’IoT et l’Energie (solaire, hydraulique, éolienne, conventionnelle) nous recherchons un(e) de nouveaux talens H/F pour intégrer notre équipe de consultants et apporter votre expertise sur l’ensemble de nos projets."
+
 #  - name: Microsoft
 #    logo: img/sponsors/2020/microsoft.png
 #    url:
@@ -145,15 +154,6 @@ etoile:
 #    description:
 #      fr: ''
 #      en: ''
-
-#    - name: Abylsen
-#      logo: img/sponsors/2023/abylsen.png
-#      url:
-#        fr: https://abylsen.com
-#        en: https://abylsen.com
-#      description:
-#        fr: "Abylsen : Le meilleur des deux mondes, l’agilité de la start-up et la solidité d’un grand groupe ! <br>Groupe Européen de conseil en ingénierie industrielle et tertiaire, créateur de solutions ingénieuses, Abylsen a été fondé en 2005 par des entrepreneurs ambitieux. Nous sommes aujourd’hui 2400 collaborateurs présents sur 27 implantations dans 6 pays.<br>Nous sommes multi-spécialiste, intervenons auprès de 500 clients (des groupes internationaux aux PME) dans 8 secteurs d’activités (Aéronautique Spatial Défense, Automobile, Énergie, Industrie / Industrie Lourde, Life Sciences, Transport Ferroviaire Infrastructures BTP, IT / Digital Télécoms, Banque Finance). Rejoignez Abylsen et créez votre futur ! <br>Dans le cadre du développement de notre entité Abylsen ST/RA (Sciences & Technologies Rhône-Alpes Auvergne Bourgogne), spécialisée dans les nouvelles technologies, l’industrie 4.0, l’IoT et l’Energie (solaire, hydraulique, éolienne, conventionnelle) nous recherchons un(e) de nouveaux talens H/F pour intégrer notre équipe de consultants et apporter votre expertise sur l’ensemble de nos projets. 
-#        en: "Abylsen : Le meilleur des deux mondes, l’agilité de la start-up et la solidité d’un grand groupe ! <br>Groupe Européen de conseil en ingénierie industrielle et tertiaire, créateur de solutions ingénieuses, Abylsen a été fondé en 2005 par des entrepreneurs ambitieux. Nous sommes aujourd’hui 2400 collaborateurs présents sur 27 implantations dans 6 pays.<br>Nous sommes multi-spécialiste, intervenons auprès de 500 clients (des groupes internationaux aux PME) dans 8 secteurs d’activités (Aéronautique Spatial Défense, Automobile, Énergie, Industrie / Industrie Lourde, Life Sciences, Transport Ferroviaire Infrastructures BTP, IT / Digital Télécoms, Banque Finance). Rejoignez Abylsen et créez votre futur ! <br>Dans le cadre du développement de notre entité Abylsen ST/RA (Sciences & Technologies Rhône-Alpes Auvergne Bourgogne), spécialisée dans les nouvelles technologies, l’industrie 4.0, l’IoT et l’Energie (solaire, hydraulique, éolienne, conventionnelle) nous recherchons un(e) de nouveaux talens H/F pour intégrer notre équipe de consultants et apporter votre expertise sur l’ensemble de nos projets. 
 flocon:
   - name: AViSTO
     logo: img/sponsors/2022/avisto.png
@@ -227,11 +227,11 @@ flocon:
 #  - name: Moodys
 #    logo: img/sponsors/2023/moodys.webp
 #    url:
-#      fr: https://www.moodys.com
-#      en: https://www.moodys.com
+#      fr: https://www.moodysanalytics.com
+#      en: https://www.moodysanalytics.com
 #    description:
-#      fr: ''
-#      en: ''
+#      fr: "Moody's Analytics provides financial intelligence and analytical tools supporting our clients' growth, efficiency and risk management objectives. The combination of our unparalleled expertise in risk, expansive information resources, and innovative application of technology, helps today's business leaders confidently navigate an evolving marketplace. We fast-track innovation and leverage emerging technologies to build the next generation of Moody's Analytics SaaS solutions. We have a team of 180 engineers based in Montbonnot, covering all functions of software development (Dev, QA, BA, UX, DevOps, PMO ...) working in a multi-cultural environment with colleagues all around the globe."
+#      en: "Moody's Analytics provides financial intelligence and analytical tools supporting our clients' growth, efficiency and risk management objectives. The combination of our unparalleled expertise in risk, expansive information resources, and innovative application of technology, helps today's business leaders confidently navigate an evolving marketplace. We fast-track innovation and leverage emerging technologies to build the next generation of Moody's Analytics SaaS solutions. We have a team of 180 engineers based in Montbonnot, covering all functions of software development (Dev, QA, BA, UX, DevOps, PMO ...) working in a multi-cultural environment with colleagues all around the globe."
 
 
 partners:
