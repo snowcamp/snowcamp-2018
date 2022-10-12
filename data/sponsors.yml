@@ -112,15 +112,28 @@ etoile:
       fr: "Abylsen : Le meilleur des deux mondes, l’agilité de la start-up et la solidité d’un grand groupe ! <br>Groupe Européen de conseil en ingénierie industrielle et tertiaire, créateur de solutions ingénieuses, Abylsen a été fondé en 2005 par des entrepreneurs ambitieux. Nous sommes aujourd’hui 2400 collaborateurs présents sur 27 implantations dans 6 pays.<br>Nous sommes multi-spécialiste, intervenons auprès de 500 clients (des groupes internationaux aux PME) dans 8 secteurs d’activités (Aéronautique Spatial Défense, Automobile, Énergie, Industrie / Industrie Lourde, Life Sciences, Transport Ferroviaire Infrastructures BTP, IT / Digital Télécoms, Banque Finance). Rejoignez Abylsen et créez votre futur !<br>Dans le cadre du développement de notre entité Abylsen ST/RA (Sciences & Technologies Rhône-Alpes Auvergne Bourgogne), spécialisée dans les nouvelles technologies, l’industrie 4.0, l’IoT et l’Energie (solaire, hydraulique, éolienne, conventionnelle) nous recherchons un(e) de nouveaux talens H/F pour intégrer notre équipe de consultants et apporter votre expertise sur l’ensemble de nos projets."
       en: "Abylsen : Le meilleur des deux mondes, l’agilité de la start-up et la solidité d’un grand groupe ! <br>Groupe Européen de conseil en ingénierie industrielle et tertiaire, créateur de solutions ingénieuses, Abylsen a été fondé en 2005 par des entrepreneurs ambitieux. Nous sommes aujourd’hui 2400 collaborateurs présents sur 27 implantations dans 6 pays.<br>Nous sommes multi-spécialiste, intervenons auprès de 500 clients (des groupes internationaux aux PME) dans 8 secteurs d’activités (Aéronautique Spatial Défense, Automobile, Énergie, Industrie / Industrie Lourde, Life Sciences, Transport Ferroviaire Infrastructures BTP, IT / Digital Télécoms, Banque Finance). Rejoignez Abylsen et créez votre futur !<br>Dans le cadre du développement de notre entité Abylsen ST/RA (Sciences & Technologies Rhône-Alpes Auvergne Bourgogne), spécialisée dans les nouvelles technologies, l’industrie 4.0, l’IoT et l’Energie (solaire, hydraulique, éolienne, conventionnelle) nous recherchons un(e) de nouveaux talens H/F pour intégrer notre équipe de consultants et apporter votre expertise sur l’ensemble de nos projets."
 
-#  - name: Microsoft
-#    logo: img/sponsors/2020/microsoft.png
-#    url:
-#      fr: https://www.microsoft.com/fr-fr/
-#      en: https://www.microsoft.com/en-us/
-#    description:
-#      fr: "La team des Developer Relations de Microsoft sont heureux de vous accueillir à son stand où de nombreuses surprises vous attendent ! Rencontrez notre équipe de passionés et tentez votre chance pour gagner une Surface Go en participant à un tirage au sort! Venez découvrir nos opportunités de carrière ainsi que notre engagement à soutenir les développeur.ses dans la réalisation de leurs projets et à les accompagner dans leur formation tout au long de leur carrière grâce à des initiatives comme Microsoft Learn (aka.ms/devrelfr/learn). "
-#      en: "As a leader in productivity platforms and services, Microsoft gives every individual and every organization the tools to achieve their ambitions in a cloud and mobility-based world.
-#          <br>Thanks to investments in research and development in cutting-edge fields such as AI, quantum computing or mixed reality, Microsoft has established itself as a leader in innovation while having at heart to train developers through initiatives like the IA School (https://simplon.co/ecoleia/) and Microsoft Learn (aka.ms/learn).. Microsoft's move to opensource in recent years is also helping to open up the company to developers. It is not uncommon to see Microsoft open-sourcing projects like tools or languages like Typescript, .Net Core or VSCode. Not to mention Linux in which the company invests on both Azure and Windows with WSL (Windows Subsystem for Linux)."
+  - name: Microsoft
+    logo: img/sponsors/2020/microsoft.png
+    url:
+      fr: https://www.microsoft.com/fr-fr/
+      en: https://www.microsoft.com/en-us/
+    description:
+      fr: "La team des Developer Relations de Microsoft sont heureux de vous accueillir à son stand où de nombreuses surprises vous attendent ! Rencontrez notre équipe de passionés et tentez votre chance pour gagner une Surface Go en participant à un tirage au sort! Venez découvrir nos opportunités de carrière ainsi que notre engagement à soutenir les développeur.ses dans la réalisation de leurs projets et à les accompagner dans leur formation tout au long de leur carrière grâce à des initiatives comme Microsoft Learn (aka.ms/devrelfr/learn). "
+      en: "As a leader in productivity platforms and services, Microsoft gives every individual and every organization the tools to achieve their ambitions in a cloud and mobility-based world.
+          <br>Thanks to investments in research and development in cutting-edge fields such as AI, quantum computing or mixed reality, Microsoft has established itself as a leader in innovation while having at heart to train developers through initiatives like the IA School (https://simplon.co/ecoleia/) and Microsoft Learn (aka.ms/learn).. Microsoft's move to opensource in recent years is also helping to open up the company to developers. It is not uncommon to see Microsoft open-sourcing projects like tools or languages like Typescript, .Net Core or VSCode. Not to mention Linux in which the company invests on both Azure and Windows with WSL (Windows Subsystem for Linux)."
+
+  - name: Salesforce
+    logo: img/sponsors/2018/salesforce.png
+    url:
+      fr: https://engineering.salesforce.com/
+      en: https://engineering.salesforce.com/
+    description:
+      fr: 'We opened our first European office in Ireland in 2000, just one year after we founded Salesforce. Today, we are the global leader in Customer Relationship Management (CRM) and have offices in 13 European countries.
+           Our employees are building relationships with our customers, creating powerful technologies and volunteering in our communities across the region. From Spain to Sweden, from Ireland to Italy, we bring companies of
+           every size and industry together with their customers.'
+      en: 'We opened our first European office in Ireland in 2000, just one year after we founded Salesforce. Today, we are the global leader in Customer Relationship Management (CRM) and have offices in 13 European countries.
+           Our employees are building relationships with our customers, creating powerful technologies and volunteering in our communities across the region. From Spain to Sweden, from Ireland to Italy, we bring companies of
+           every size and industry together with their customers.'
 
 #  - name: CGI
 #    logo: img/sponsors/2022/cgi.jpg
@@ -133,18 +146,6 @@ etoile:
 #      en: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
 #          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
 
-#  - name: Salesforce
-#    logo: img/sponsors/2018/salesforce.png
-#    url:
-#      fr: https://engineering.salesforce.com/
-#      en: https://engineering.salesforce.com/
-#    description:
-#      fr: 'We opened our first European office in Ireland in 2000, just one year after we founded Salesforce. Today, we are the global leader in Customer Relationship Management (CRM) and have offices in 13 European countries.
-#           Our employees are building relationships with our customers, creating powerful technologies and volunteering in our communities across the region. From Spain to Sweden, from Ireland to Italy, we bring companies of
-#           every size and industry together with their customers.'
-#      en: 'We opened our first European office in Ireland in 2000, just one year after we founded Salesforce. Today, we are the global leader in Customer Relationship Management (CRM) and have offices in 13 European countries.
-#           Our employees are building relationships with our customers, creating powerful technologies and volunteering in our communities across the region. From Spain to Sweden, from Ireland to Italy, we bring companies of
-#           every size and industry together with their customers.'
 
 #  - name: OVH Cloud
 #    logo: img/sponsors/2023/OVHCloud.png
