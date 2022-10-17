@@ -1,5 +1,5 @@
 store:
-  #url: https://www.billetweb.fr/snowcamp-2023 
+  url: https://www.billetweb.fr/shop.php?event=snowcamp-2023
   early:
     title: Early Birds
     price_conf: 42
@@ -7,8 +7,8 @@ store:
     status: not_open # not_open, open, closed
     date:
       default: unknown # trick, don't remove
-      fr: 17 Octobre # uncomment to display the date
-      en: 17th of October # uncomment to display the date
+      fr: 17 Octobre à 11h # uncomment to display the date
+      en: 17th of October at 11am # uncomment to display the date
   classic:
     title: Standard
     price_conf: 65
