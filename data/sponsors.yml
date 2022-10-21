@@ -135,16 +135,16 @@ etoile:
            Our employees are building relationships with our customers, creating powerful technologies and volunteering in our communities across the region. From Spain to Sweden, from Ireland to Italy, we bring companies of
            every size and industry together with their customers.'
 
-#  - name: CGI
-#    logo: img/sponsors/2022/cgi.jpg
-#    url:
-#      fr: https://www.cgi.com/fr
-#      en: https://www.cgi.com/en
-#    description:
-#      fr: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
-#          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
-#      en: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
-#          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
+  - name: CGI
+    logo: img/sponsors/2022/cgi.jpg
+    url:
+      fr: https://www.cgi.com/fr
+      en: https://www.cgi.com/en
+    description:
+      fr: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
+          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
+      en: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
+          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
 
 
 #  - name: OVH Cloud
