@@ -96,7 +96,7 @@
 - id: store_access_meet_and_greet
   translation: Meet & Greet le Jeudi soir
 - id: store_classic_dates
-  translation: "La billetterie ouvre le {{ .date1 }} pour la vente d'une première salve de billets, le {{ .date2 }} pour la seconde salve"
+  translation: "La billetterie ouvre le {{ .date1 }}."
 - id: store_not_open
   translation: La billetterie n'est pas encore ouverte
 - id: store_early_birds_open
