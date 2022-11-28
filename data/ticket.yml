@@ -13,7 +13,7 @@ store:
     title: Standard
     price_conf: 65
     price_univ: 155
-    status: not_open # not_open, open, closed
+    status: open # not_open, open, closed
     date1:
       default: unknown # trick, don't remove
       fr: 21 Novembre à 11h
