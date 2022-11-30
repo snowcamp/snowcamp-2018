@@ -147,14 +147,14 @@ etoile:
           <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
 
 
-#  - name: OVH Cloud
-#    logo: img/sponsors/2023/OVHCloud.png
-#    url:
-#      fr: https://engineering.salesforce.com/
-#      en: https://engineering.salesforce.com/
-#    description:
-#      fr: ''
-#      en: ''
+  - name: OVH Cloud
+    logo: img/sponsors/2023/logo-ovh.png
+    url:
+      fr: https://ovhcloud.com
+      en: https://ovhcloud.com
+    description:
+      fr: ''
+      en: ''
 flocon:
   - name: AViSTO
     logo: img/sponsors/2022/avisto.png
