@@ -225,14 +225,14 @@ flocon:
             Kelkoo c’est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d’initiative est encouragée.
             Bienveillance et responsabilisation y sont les maitre mots.'
 
-#  - name: Moodys
-#    logo: img/sponsors/2023/moodys.webp
-#    url:
-#      fr: https://www.moodysanalytics.com
-#      en: https://www.moodysanalytics.com
-#    description:
-#      fr: "Moody's Analytics provides financial intelligence and analytical tools supporting our clients' growth, efficiency and risk management objectives. The combination of our unparalleled expertise in risk, expansive information resources, and innovative application of technology, helps today's business leaders confidently navigate an evolving marketplace. We fast-track innovation and leverage emerging technologies to build the next generation of Moody's Analytics SaaS solutions. We have a team of 180 engineers based in Montbonnot, covering all functions of software development (Dev, QA, BA, UX, DevOps, PMO ...) working in a multi-cultural environment with colleagues all around the globe."
-#      en: "Moody's Analytics provides financial intelligence and analytical tools supporting our clients' growth, efficiency and risk management objectives. The combination of our unparalleled expertise in risk, expansive information resources, and innovative application of technology, helps today's business leaders confidently navigate an evolving marketplace. We fast-track innovation and leverage emerging technologies to build the next generation of Moody's Analytics SaaS solutions. We have a team of 180 engineers based in Montbonnot, covering all functions of software development (Dev, QA, BA, UX, DevOps, PMO ...) working in a multi-cultural environment with colleagues all around the globe."
+  - name: Moodys
+    logo: img/sponsors/2023/moodys.webp
+    url:
+      fr: https://www.moodysanalytics.com
+      en: https://www.moodysanalytics.com
+    description:
+      fr: "Moody's Analytics provides financial intelligence and analytical tools supporting our clients' growth, efficiency and risk management objectives. The combination of our unparalleled expertise in risk, expansive information resources, and innovative application of technology, helps today's business leaders confidently navigate an evolving marketplace. We fast-track innovation and leverage emerging technologies to build the next generation of Moody's Analytics SaaS solutions. We have a team of 180 engineers based in Montbonnot, covering all functions of software development (Dev, QA, BA, UX, DevOps, PMO ...) working in a multi-cultural environment with colleagues all around the globe."
+      en: "Moody's Analytics provides financial intelligence and analytical tools supporting our clients' growth, efficiency and risk management objectives. The combination of our unparalleled expertise in risk, expansive information resources, and innovative application of technology, helps today's business leaders confidently navigate an evolving marketplace. We fast-track innovation and leverage emerging technologies to build the next generation of Moody's Analytics SaaS solutions. We have a team of 180 engineers based in Montbonnot, covering all functions of software development (Dev, QA, BA, UX, DevOps, PMO ...) working in a multi-cultural environment with colleagues all around the globe."
 
 
 partners:
