@@ -9,6 +9,11 @@ organizers:
     twitter: johan_alps
     linkedin: jomartinsson
     github: martinsson
+  - name: Julien Giovaresco
+    img: julien.jpg
+    twitter: jgiovaresco
+    linkedin: jgiovaresco
+    github: jgiovaresco
   - name: Lorie Pisicchio
     img: lorie.png
     twitter: LoriePisicchio
@@ -19,6 +24,11 @@ organizers:
     twitter: LudoMP
     linkedin: ludovicp
     github: ludomp
+  - name: Maha Alsayasneh
+    img: maha.jpeg
+    twitter: MahaALSayasneh
+    linkedin: maha-alsayasneh-6aa34a57
+    github: alsayasneh
   - name: Michel Barret
     img: michel.jpg
     twitter: barmic42
@@ -44,6 +54,11 @@ organizers:
     twitter: SnowCampIO
     linkedin: sébastien-chassande-barrioz-aa6a623
     github: snowcamp
+  - name: Willy Malvault
+    img: willy.png
+    twitter: malvault
+    linked: willy-malvault-aa584814
+    github: vlamy
   - name: Yannick Chiron
     img: yannick.jpg
     twitter: Ldoppea
