@@ -183,24 +183,9 @@ flocon:
       fr: https://www.diabeloop.fr/
       en: https://www.diabeloop.fr/
     description:
-      fr: 'Créé en 2015, Diabeloop rassemble la personnalité, la passion et les compétences de plus de 180 collaborateur·rices, en France (Grenoble et Paris) et à l'international qui partagent une même mission :
-            <br>- rendre nos innovations accessibles aux personnes vivant avec un diabète ;
-            <br>- soulager leur lourde charge mentale.
-            <br>En juin 2022, Diabeloop a conclu un troisième tour de financement (série C) à hauteur de 70 millions d'euros pour poursuivre son développement, représentant une des plus importantes levée de fonds en Europe dans le domaine de l'intelligence artificielle thérapeutique.
-            <br>Trois de nos solutions ont reçu le marquage CE :
-            <br>- DBLG1 System, une solution de délivrance d’insuline automatisée et personnalisée pour le traitement du diabète de type 1 - 2018 ;
-            <br>- DBL-hu, un dispositif destiné à automatiser la gestion du diabète de type 1 hautement instable - 2020
-            <br>- YourLoops, une plateforme de visualisation de données en temps réel, conçue pour les systèmes DBL - 2020.
-            <br>Au printemps 2021, nous avons lancé commercialement avec succès DBLG1 System dans plusieurs pays d’Europe et équipé plus de 10 000 personnes. Nous avons d'autres produits en cours de développement avec un plan de croissance ambitieux pour étendre notre empreinte internationale.'
-      en: 'Créé en 2015, Diabeloop rassemble la personnalité, la passion et les compétences de plus de 180 collaborateur·rices, en France (Grenoble et Paris) et à l'international qui partagent une même mission :
-            <br>- rendre nos innovations accessibles aux personnes vivant avec un diabète ;
-            <br>- soulager leur lourde charge mentale.
-            <br>En juin 2022, Diabeloop a conclu un troisième tour de financement (série C) à hauteur de 70 millions d'euros pour poursuivre son développement, représentant une des plus importantes levée de fonds en Europe dans le domaine de l'intelligence artificielle thérapeutique.
-            <br>Trois de nos solutions ont reçu le marquage CE :
-            <br>- DBLG1 System, une solution de délivrance d’insuline automatisée et personnalisée pour le traitement du diabète de type 1 - 2018 ;
-            <br>- DBL-hu, un dispositif destiné à automatiser la gestion du diabète de type 1 hautement instable - 2020
-            <br>- YourLoops, une plateforme de visualisation de données en temps réel, conçue pour les systèmes DBL - 2020.
-            <br>Au printemps 2021, nous avons lancé commercialement avec succès DBLG1 System dans plusieurs pays d’Europe et équipé plus de 10 000 personnes. Nous avons d'autres produits en cours de développement avec un plan de croissance ambitieux pour étendre notre empreinte internationale.'
+      fr: ''
+      en: ''
+
   - name: Hardis
     logo: img/sponsors/2023/hardis_group.webp
     url:
