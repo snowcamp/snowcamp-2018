@@ -1,0 +1,230 @@
+sched_url: https://snowcamp2023.sched.com/
+flickr_embed_url: https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=www.flickr.com/photos/162459903@N02/albums/72177720305519001&sort=0&by=album&theme=default&scale=fill&speed=3000&limit=10&skin=default&autoplay=true
+punch_line:
+  fr: Une super conf IT a Grenoble
+  en: A top IT conference at Grenoble
+summary:
+  fr: 'Retrouvez le programme de SnowCamp %s <a href="%s" target="_blank">ici</a> ! Vous pouvez aussi retrouver les liens vers les slides des conférences dans <a href="https://snowcamp2023.sched.com">Sched</a>, et les retours des participants <a href="https://openfeedback.io/snowcamp23/2023-01-25">là</a>'
+  en: 'The agenda for SnowCamp %s is available <a href="%s" target="_blank">here</a>! You can also find the links to the sessions material in <a href="https://snowcamp2023.sched.com">Sched</a>, and the participants feedback <a href="https://openfeedback.io/snowcamp23/2023-01-25">there</a>.'
+sponsors:
+  etoile:
+    - name: Viseo
+      logo: img/sponsors/2022/viseo.png
+      url:
+        fr: http://www.viseo.com/fr
+        en: http://www.viseo.com/en
+      description:
+        fr: "VISEO utilise la technologie comme un puissant levier de transformation et d’innovation pour aider ses clients à tirer parti des opportunités du numérique, adresser les nouveaux usages et affronter la concurrence d’acteurs qui changent les règles du jeu.
+            <br>Avec 2 500 collaborateurs intervenant sur 5 continents, VISEO concilie agilité et complémentarité de ses savoir-faire - design de nouveaux produits et services, digitalisation des processus métier, valorisation des données, développement des actifs digitaux - pour faire du numérique un réel levier de compétitivité et de performance.
+            <br>Aujourd’hui, nous sommes des experts de l’architecture et du développement logiciel, back-end, web, mobile et IoT. L’agilité a changé notre façon de penser notre métier et nous a considérablement aidé dans la réussite de nos projets en mettant la collaboration et la qualité au centre de l’engagement.
+            <br>Nous organisons régulièrement au sein de nos communautés des présentations sur les techniques, les technologies ou les pratiques du monde du développement, comme les VISEO Tech An Hour. Si comme nous, vous êtes convaincus que l’excellence passe par l'amélioration continue individuelle et collective et par le partage des expériences et des connaissances, alors, venez nous rencontrer."
+        en: '<b>VISEO</b> is a digital service company that reconciles agility and the complementarity of its know-how - design of new products and services, digitization of business processes, enhancement of data, development of digital assets - to make digital a real lever for competitiveness and performance.
+              Today, we are nearly 600 experts in software architecture and development, web, mobile and IoT. Agility has changed the way we think about our business and has helped us considerably in the success of our projects by putting collaboration and quality at the center of our commitment.
+              We regularly organize presentations in our communities on techniques, technologies or practices in the development world, such as the VISEO Tech An Hour. If, like us, you are convinced that excellence is achieved through individual and collective continuous improvement and by sharing experiences and knowledge, then come and meet us.'
+  
+    - name: Open
+      logo: img/sponsors/2019/open.png
+      url:
+        fr: https://www.open.global/
+        en: https://www.open.global/
+      description:
+        fr: "Open, l'ESN Partenaire de confiance des grandes entreprises françaises, engagé dans leur transformation IT & Digitale (3800 collaborateurs, 16 villes)
+            Open, the trusted digital services partner of the French companies and organisations in support of their IT and digital transformation (3800 employees  • 16 cities)"
+        en: "Open, l'ESN Partenaire de confiance des grandes entreprises françaises, engagé dans leur transformation IT & Digitale (3800 collaborateurs, 16 villes)
+            Open, the trusted digital services partner of the French companies and organisations in support of their IT and digital transformation (3800 employees  • 16 cities)"
+  
+    - name: Criteo
+      logo: img/sponsors/2023/crite.png
+      url:
+        fr: https://www.criteo.com/
+        en: https://www.criteo.com/
+      description:
+        fr: Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data.
+        en: Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data.
+  
+    - name: Gravitee
+      logo: img/sponsors/2022/gravitee.jpg
+      url:
+        fr: https://www.gravitee.io/
+        en: https://www.gravitee.io/
+      description:
+        fr: "Gravitee.io est une plateforme open source de gestion d'API riche en fonctionnalités, simple d'emploi et économique. La plateforme Gravitee fournit la gestion des API, des identités et des accès, la création d'alertes et un tableau de bord multi-tenant offrant contrôle, sécurité et une gouvernance facilitée des écosystèmes d'API, grace à un outil unique et centralisé qui s'intègre de manière transparente à votre infrastructure existante. Gravitee API Management est extensible - grace à son propre système de plug-in interne, vous permettant de promouvoir les API d'un environnement à un autre, définir vos propres policies, développer votre propre système de reporting, etc. Avec des alertes MFA alimentées par Infobip, la prise en charge d'OpenTracing, des ressources de policies de cache pour Redis et une prise en charge complète des API open banking, Gravitee s'engage envers la communauté open source et fournit des outils de développement de pointe. Gravitee.io fournit une assistance, un hébergement, une formation et des conseils pour garantir aux entreprises la réussite de leur parcours API."
+        en: "Gravitee.io is a feature-rich, user-friendly, and cost-effective Open Source API Platform. The Gravitee platform provides API Management, Identity & Access Management, Alerting, and multi-tenant dashboards to enable effortless control, security and governance of API ecosystems – all through a single, centralized tool that integrates with your existing infrastructure seamlessly. Gravitee API Management is fully extensible – using its own internal plugin system, so you can promote APIs from one environment to another, define your own policy, develop your own reporting system, and more. With MFA alerts powered by Infobip, OpenTracing support, cache policy resources for Redis, and full support for open banking APIs, Gravitee is committed to the open-source community and to providing industry-leading development tools. Gravitee.io provides support, hosting, training and consultancy to ensure businesses can succeed on their API journey."
+  
+    - name: Sopra Steria
+      logo: img/sponsors/2018/sopra-steria.png
+      url:
+        fr: https://www.soprasteria.com/fr/
+        en: https://www.soprasteria.com/en/
+      description:
+        fr: 'Sopra Steria, l’un des leaders européens du conseil, des services numériques et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.'
+        en: 'Sopra Steria, l’un des leaders européens du conseil, des services numériques et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.'
+  
+    - name: Zenika
+      logo: img/sponsors/2023/zenika.png
+      url:
+        fr: https://www.zenika.com/
+        en: https://www.zenika.com/
+      description:
+        fr: '<strong>Zenika</strong>, L’innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;'
+        en: '<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;'
+  
+    - name: Thales
+      logo: img/sponsors/2023/thales.jpg
+      url:
+        fr: https://www.thalesgroup.com/
+        en: https://www.thalesgroup.com/en
+      description:
+        fr: "Thales Services Numériques : Intégrateur et opérateur de systèmes critiques
+              <br>Notre mission est d’assurer en permanence la performance, la résilience et la sécurité des systèmes d information critiques de nos clients confrontés
+              <br>aux nombreuses avancées de l’informatique et aux évolutions constantes des cybermenaces."
+        en: "Thales Services Numériques : Critical systems integrator and operator
+              <br>The mission of Thales Services Numériques is to continuously ensure performance, resilience and security
+              <br>of our customers' critical information systems by accompanying them in the integration of technological innovations while keeping them safe from the cyber threat."
+  
+    - name: Abylsen
+      logo: img/sponsors/2023/abylsen.png
+      url:
+        fr: https://abylsen.com
+        en: https://abylsen.com
+      description:
+        fr: "Abylsen : Le meilleur des deux mondes, l’agilité de la start-up et la solidité d’un grand groupe ! <br>Groupe Européen de conseil en ingénierie industrielle et tertiaire, créateur de solutions ingénieuses, Abylsen a été fondé en 2005 par des entrepreneurs ambitieux. Nous sommes aujourd’hui 2400 collaborateurs présents sur 27 implantations dans 6 pays.<br>Nous sommes multi-spécialiste, intervenons auprès de 500 clients (des groupes internationaux aux PME) dans 8 secteurs d’activités (Aéronautique Spatial Défense, Automobile, Énergie, Industrie / Industrie Lourde, Life Sciences, Transport Ferroviaire Infrastructures BTP, IT / Digital Télécoms, Banque Finance). Rejoignez Abylsen et créez votre futur !<br>Dans le cadre du développement de notre entité Abylsen ST/RA (Sciences & Technologies Rhône-Alpes Auvergne Bourgogne), spécialisée dans les nouvelles technologies, l’industrie 4.0, l’IoT et l’Energie (solaire, hydraulique, éolienne, conventionnelle) nous recherchons un(e) de nouveaux talens H/F pour intégrer notre équipe de consultants et apporter votre expertise sur l’ensemble de nos projets."
+        en: "Abylsen : Le meilleur des deux mondes, l’agilité de la start-up et la solidité d’un grand groupe ! <br>Groupe Européen de conseil en ingénierie industrielle et tertiaire, créateur de solutions ingénieuses, Abylsen a été fondé en 2005 par des entrepreneurs ambitieux. Nous sommes aujourd’hui 2400 collaborateurs présents sur 27 implantations dans 6 pays.<br>Nous sommes multi-spécialiste, intervenons auprès de 500 clients (des groupes internationaux aux PME) dans 8 secteurs d’activités (Aéronautique Spatial Défense, Automobile, Énergie, Industrie / Industrie Lourde, Life Sciences, Transport Ferroviaire Infrastructures BTP, IT / Digital Télécoms, Banque Finance). Rejoignez Abylsen et créez votre futur !<br>Dans le cadre du développement de notre entité Abylsen ST/RA (Sciences & Technologies Rhône-Alpes Auvergne Bourgogne), spécialisée dans les nouvelles technologies, l’industrie 4.0, l’IoT et l’Energie (solaire, hydraulique, éolienne, conventionnelle) nous recherchons un(e) de nouveaux talens H/F pour intégrer notre équipe de consultants et apporter votre expertise sur l’ensemble de nos projets."
+  
+    - name: Microsoft
+      logo: img/sponsors/2020/microsoft.png
+      url:
+        fr: https://www.microsoft.com/fr-fr/
+        en: https://www.microsoft.com/en-us/
+      description:
+        fr: "La team des Developer Relations de Microsoft sont heureux de vous accueillir à son stand où de nombreuses surprises vous attendent ! Rencontrez notre équipe de passionés et tentez votre chance pour gagner une Surface Go en participant à un tirage au sort! Venez découvrir nos opportunités de carrière ainsi que notre engagement à soutenir les développeur.ses dans la réalisation de leurs projets et à les accompagner dans leur formation tout au long de leur carrière grâce à des initiatives comme Microsoft Learn (aka.ms/devrelfr/learn). "
+        en: "As a leader in productivity platforms and services, Microsoft gives every individual and every organization the tools to achieve their ambitions in a cloud and mobility-based world.
+            <br>Thanks to investments in research and development in cutting-edge fields such as AI, quantum computing or mixed reality, Microsoft has established itself as a leader in innovation while having at heart to train developers through initiatives like the IA School (https://simplon.co/ecoleia/) and Microsoft Learn (aka.ms/learn).. Microsoft's move to opensource in recent years is also helping to open up the company to developers. It is not uncommon to see Microsoft open-sourcing projects like tools or languages like Typescript, .Net Core or VSCode. Not to mention Linux in which the company invests on both Azure and Windows with WSL (Windows Subsystem for Linux)."
+  
+    - name: Salesforce
+      logo: img/sponsors/2018/salesforce.png
+      url:
+        fr: https://engineering.salesforce.com/
+        en: https://engineering.salesforce.com/
+      description:
+        fr: 'We opened our first European office in Ireland in 2000, just one year after we founded Salesforce. Today, we are the global leader in Customer Relationship Management (CRM) and have offices in 13 European countries.
+             Our employees are building relationships with our customers, creating powerful technologies and volunteering in our communities across the region. From Spain to Sweden, from Ireland to Italy, we bring companies of
+             every size and industry together with their customers.'
+        en: 'We opened our first European office in Ireland in 2000, just one year after we founded Salesforce. Today, we are the global leader in Customer Relationship Management (CRM) and have offices in 13 European countries.
+             Our employees are building relationships with our customers, creating powerful technologies and volunteering in our communities across the region. From Spain to Sweden, from Ireland to Italy, we bring companies of
+             every size and industry together with their customers.'
+  
+    - name: CGI
+      logo: img/sponsors/2022/cgi.jpg
+      url:
+        fr: https://www.cgi.com/fr
+        en: https://www.cgi.com/en
+      description:
+        fr: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
+            <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
+        en: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
+            <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
+  
+  
+    - name: OVH Cloud
+      logo: img/sponsors/2023/logo-ovh.png
+      url:
+        fr: https://ovhcloud.com
+        en: https://ovhcloud.com
+      description:
+        fr: ''
+        en: ''
+  flocon:
+    - name: AViSTO
+      logo: img/sponsors/2022/avisto.png
+      url:
+        fr: https://www.avisto.com
+        en: https://www.avisto.com
+      description:
+        fr: 'CULTURE TECHNIQUE
+              <br>Chez AViSTO, la culture technique est présente à tous les étages : les fondateurs, les business managers et nos équipes techniques sont toutes composées d’ingénieurs logiciel.
+              Nous sommes fiers de cet ADN technique !
+              En tant que société de services nous intervenons principalement sur des projets à forts enjeux technologiques nécessitant une coordination importante avec plusieurs équipes.
+              <br><br>POURQUOI NOUS SOUTENONS LE SNOWCAMP
+              <br>Le SNOWCAMP permet aux développeurs passionnés d’avoir des échanges pointus dans une ambiance conviviale.
+              Nous sommes ainsi heureux de soutenir cette initiative 100% bénévole qui vise à promouvoir les dernières technologies au sein de la communauté des tech de Grenoble.'
+        en: 'CULTURE TECHNIQUE
+              <br>Chez AViSTO, la culture technique est présente à tous les étages : les fondateurs, les business managers et nos équipes techniques sont toutes composées d’ingénieurs logiciel.
+              Nous sommes fiers de cet ADN technique !
+              En tant que société de services nous intervenons principalement sur des projets à forts enjeux technologiques nécessitant une coordination importante avec plusieurs équipes.
+              <br><br>POURQUOI NOUS SOUTENONS LE SNOWCAMP
+              <br>Le SNOWCAMP permet aux développeurs passionnés d’avoir des échanges pointus dans une ambiance conviviale.
+              Nous sommes ainsi heureux de soutenir cette initiative 100% bénévole qui vise à promouvoir les dernières technologies au sein de la communauté des tech de Grenoble.'
+  
+    - name: Diabeloop
+      logo: img/sponsors/2023/diabeloop.webp
+      url:
+        fr: https://www.diabeloop.fr/
+        en: https://www.diabeloop.fr/
+      description:
+        fr: 'Créé en 2015, Diabeloop rassemble la personnalité, la passion et les compétences de plus de 180 collaborateur·rices, en France (Grenoble et Paris) et à l international qui partagent une même mission :
+              <br>- rendre nos innovations accessibles aux personnes vivant avec un diabète ;
+              <br>- soulager leur lourde charge mentale.
+              <br>En juin 2022, Diabeloop a conclu un troisième tour de financement (série C) à hauteur de 70 millions d euros pour poursuivre son développement, représentant une des plus importantes levée de fonds en Europe dans le domaine de l intelligence artificielle thérapeutique.
+              <br>Trois de nos solutions ont reçu le marquage CE :
+              <br>- DBLG1 System, une solution de délivrance d insuline automatisée et personnalisée pour le traitement du diabète de type 1 - 2018 ;
+              <br>- DBL-hu, un dispositif destiné à automatiser la gestion du diabète de type 1 hautement instable - 2020
+              <br>- YourLoops, une plateforme de visualisation de données en temps réel, conçue pour les systèmes DBL - 2020.
+              <br>Au printemps 2021, nous avons lancé commercialement avec succès DBLG1 System dans plusieurs pays d Europe et équipé plus de 10 000 personnes. Nous avons d autres produits en cours de développement avec un plan de croissance ambitieux pour étendre notre empreinte internationale.'
+        en: 'Créé en 2015, Diabeloop rassemble la personnalité, la passion et les compétences de plus de 180 collaborateur·rices, en France (Grenoble et Paris) et à l international qui partagent une même mission :
+              <br>- rendre nos innovations accessibles aux personnes vivant avec un diabète ;
+              <br>- soulager leur lourde charge mentale.
+              <br>En juin 2022, Diabeloop a conclu un troisième tour de financement (série C) à hauteur de 70 millions d euros pour poursuivre son développement, représentant une des plus importantes levée de fonds en Europe dans le domaine de l intelligence artificielle thérapeutique.
+              <br>Trois de nos solutions ont reçu le marquage CE :
+              <br>- DBLG1 System, une solution de délivrance d insuline automatisée et personnalisée pour le traitement du diabète de type 1 - 2018 ;
+              <br>- DBL-hu, un dispositif destiné à automatiser la gestion du diabète de type 1 hautement instable - 2020
+              <br>- YourLoops, une plateforme de visualisation de données en temps réel, conçue pour les systèmes DBL - 2020.
+              <br>Au printemps 2021, nous avons lancé commercialement avec succès DBLG1 System dans plusieurs pays d Europe et équipé plus de 10 000 personnes. Nous avons d autres produits en cours de développement avec un plan de croissance ambitieux pour étendre notre empreinte internationale.'
+  
+    - name: Hardis
+      logo: img/sponsors/2023/hardis_group.webp
+      url:
+        fr: https://www.hardis-group.com
+        en: https://www.hardis-group.com
+      description:
+        fr: ''
+        en: ''
+  
+    - name: KLS Group
+      logo: img/sponsors/2023/klsgroup.webp
+      url:
+        fr: https://www.kls-group.fr
+        en: https://www.kls-group.fr
+      description:
+        fr: ''
+        en: ''
+  
+    - name: Kelkoo Group
+      logo: img/sponsors/2022/kelkoogroup.png
+      url:
+        fr: https://www.kelkoogroup.com/fr/
+        en: https://www.kelkoogroup.com/
+      description:
+        fr: 'Kelkoo Group c’est une entreprise du monde de l’ecommerce qui a fêté ses 22 ans il y a peu mais a su rester très jeune et dynamique.
+              Ce sont plus de 10000 marchands qui nous font confiance pour leur envoyer des leads qualifiés dans 40 pays.
+              Ce sont des probématiques passionantes de scalabilité, de haute disponibilité et une approche très data driven dans tout ce que nous faisons.
+              C’est une équipe science qui grandit régulièrement et nous aide à être très compétitifs.
+              Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
+              Kelkoo c’est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d’initiative est encouragée.
+              Bienveillance et responsabilisation y sont les maitre mots.'
+        en: 'Kelkoo Group c’est une entreprise du monde de l’ecommerce qui a fêté ses 22 ans il y a peu mais a su rester très jeune et dynamique.
+              Ce sont plus de 10000 marchands qui nous font confiance pour leur envoyer des leads qualifiés dans 40 pays.
+              Ce sont des probématiques passionantes de scalabilité, de haute disponibilité et une approche très data driven dans tout ce que nous faisons.
+              C’est une équipe science qui grandit régulièrement et nous aide à être très compétitifs.
+              Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
+              Kelkoo c’est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d’initiative est encouragée.
+              Bienveillance et responsabilisation y sont les maitre mots.'
+  
+    - name: Moodys
+      logo: img/sponsors/2023/moodys.webp
+      url:
+        fr: https://www.moodysanalytics.com
+        en: https://www.moodysanalytics.com
+      description:
+        fr: "Moody's Analytics provides financial intelligence and analytical tools supporting our clients' growth, efficiency and risk management objectives. The combination of our unparalleled expertise in risk, expansive information resources, and innovative application of technology, helps today's business leaders confidently navigate an evolving marketplace. We fast-track innovation and leverage emerging technologies to build the next generation of Moody's Analytics SaaS solutions. We have a team of 180 engineers based in Montbonnot, covering all functions of software development (Dev, QA, BA, UX, DevOps, PMO ...) working in a multi-cultural environment with colleagues all around the globe."
+        en: "Moody's Analytics provides financial intelligence and analytical tools supporting our clients' growth, efficiency and risk management objectives. The combination of our unparalleled expertise in risk, expansive information resources, and innovative application of technology, helps today's business leaders confidently navigate an evolving marketplace. We fast-track innovation and leverage emerging technologies to build the next generation of Moody's Analytics SaaS solutions. We have a team of 180 engineers based in Montbonnot, covering all functions of software development (Dev, QA, BA, UX, DevOps, PMO ...) working in a multi-cultural environment with colleagues all around the globe."
