@@ -1,13 +1,13 @@
 status: published # not_open, opens_soon, open, closed, published
 url: https://conference-hall.io/public/event/ZGJWM1x64evaNUzycEzn # url of the cfp
-sched_url: https://snowcamp2023.sched.com/
+sched_url: https://snowcamp2024.sched.com/
 dates:
   open_date:
-    fr: 1er Septembre 2022
-    en: 1st of September 2022
+    fr: 1er Septembre 2023
+    en: 1st of September 2023
   close_date:
-    fr: 15 Octobre 2022
-    en: 15th of October 2022
+    fr: 15 Octobre 2023
+    en: 15th of October 2023
   notification_date:
-    fr: Début Novembre 2022
-    en: Beginning November 2022
+    fr: Début Novembre 2023
+    en: Beginning November 2023
