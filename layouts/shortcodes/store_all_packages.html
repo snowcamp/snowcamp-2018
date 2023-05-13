@@ -21,10 +21,14 @@
 {{ $classic_3_days := (merge $classic_common (dict "days" 3 "price" $classic_3_days_price)) }}
 {{ $classic_package := (dict "package_3_days" $classic_3_days "package_2_days" $classic_2_days) }}
 
-{{ if (or (eq $early_birds.status "open") (eq $early_birds.status "not_open")) }}
-  {{ partial "store_packages" $early_birds_package }}
-  {{ partial "store_packages" $classic_package }}
+{{ if (eq $early_birds.status "deactivated") }}
+    {{ partial "store_packages" $classic_package }}
 {{ else }}
-  {{ partial "store_packages" $classic_package }}
-  {{ partial "store_packages" $early_birds_package }}
+    {{ if (or (eq $early_birds.status "open") (eq $early_birds.status "not_open")) }}
+      {{ partial "store_packages" $early_birds_package }}
+      {{ partial "store_packages" $classic_package }}
+    {{ else }}
+      {{ partial "store_packages" $classic_package }}
+      {{ partial "store_packages" $early_birds_package }}
+    {{ end }}
 {{ end }}
