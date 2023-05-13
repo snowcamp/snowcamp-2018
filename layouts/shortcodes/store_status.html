@@ -8,7 +8,7 @@
 <p class="text dark-background emph">
 {{ if (and (eq $early_birds_status "closed") (eq $classic_status "closed")) }}
   {{ i18n "store_is_soldout" }}
-{{ else if (and (eq $early_birds_status "closed") (or (eq $classic_status "not_open") (eq $classic_status "open"))) }}
+{{ else if (and (or (eq $early_birds_status "closed") (eq $early_birds_status "deactivated")) (or (eq $classic_status "not_open") (eq $classic_status "open"))) }}
   {{ i18n "store_classic_dates" (dict "date1" (index $classic.date1 $lang) "date2" (index $classic.date2 $lang)) }}
 {{ else if (or (eq $early_birds_status "open") (eq $classic_status "open")) }}
   {{ i18n "store_is_open" }}
