@@ -156,6 +156,15 @@ etoile:
 #      fr: ''
 #      en: ''
 flocon:
+  - name: Slate Digital
+    logo: img/sponsors/2024/slatedigital.png
+    url:
+      fr: https://slatedigital.com
+      en: https://slatedigital.com
+    description:
+      fr: 'Slate Digital est spécialisée dans la production de plugins audios de haute qualité pour les professionnels et amateurs de l industrie musicale. Nos produits sont utilisés par des musiciens, des producteurs et des ingénieurs du son du monde entier.Et oui, si ça se trouve ton artiste préféré utilise nos produits.Nous sommes connus pour notre engagement envers l innovation et la qualité, ainsi que pour notre étroite collaboration avec les professionnels afin de répondre spécifiquement aux besoins des clients. Nous sommes également reconnus pour notre culture d entreprise dynamique et collaborative qui encourage la créativité et la prise d initiatives.'
+      en: 'Slate Digital est spécialisée dans la production de plugins audios de haute qualité pour les professionnels et amateurs de l industrie musicale. Nos produits sont utilisés par des musiciens, des producteurs et des ingénieurs du son du monde entier.Et oui, si ça se trouve ton artiste préféré utilise nos produits.Nous sommes connus pour notre engagement envers l innovation et la qualité, ainsi que pour notre étroite collaboration avec les professionnels afin de répondre spécifiquement aux besoins des clients. Nous sommes également reconnus pour notre culture d entreprise dynamique et collaborative qui encourage la créativité et la prise d initiatives.'
+
 #  - name: AViSTO
 #    logo: img/sponsors/2022/avisto.png
 #    url:
