@@ -220,14 +220,14 @@ flocon:
 #      fr: ''
 #      en: ''
 #
-#  - name: KLS Group
-#    logo: img/sponsors/2023/klsgroup.webp
-#    url:
-#      fr: https://www.kls-group.fr
-#      en: https://www.kls-group.fr
-#    description:
-#      fr: ''
-#      en: ''
+  - name: KLS Group
+    logo: img/sponsors/2023/klsgroup.webp
+    url:
+      fr: https://www.kls-group.fr
+      en: https://www.kls-group.fr
+    description:
+      fr: 'Implémenté dans les plus grands CHU français (Lyon, Montpellier, Bordeaux ) ainsi que dans de grandes enseignes industrielles et logistique, nous développons des applications métiers dédiées à la gestion des stocks et à la traçabilité de leurs flux depuis plus de 35 ans. Notre position de leader du domaine sur le secteur des CHU et notre intégration au sein d un groupe en plein essor (KLS Group 65 personnes 4 business units), nous assurent stabilité et pérennité. Nous sommes éditeurs et uniques intégrateurs de nos solutions.'
+      en: 'Implémenté dans les plus grands CHU français (Lyon, Montpellier, Bordeaux ) ainsi que dans de grandes enseignes industrielles et logistique, nous développons des applications métiers dédiées à la gestion des stocks et à la traçabilité de leurs flux depuis plus de 35 ans. Notre position de leader du domaine sur le secteur des CHU et notre intégration au sein d un groupe en plein essor (KLS Group 65 personnes 4 business units), nous assurent stabilité et pérennité. Nous sommes éditeurs et uniques intégrateurs de nos solutions.'
 #
 #  - name: Kelkoo Group
 #    logo: img/sponsors/2022/kelkoogroup.png
