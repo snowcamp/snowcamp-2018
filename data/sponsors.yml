@@ -29,30 +29,64 @@ sponsorship:
 #        speakers_dinner: 2
 display: current # possible values: previous, current
 etoile:
-#  - name: Viseo
-#    logo: img/sponsors/2022/viseo.png
+  - name: Moodys
+    logo: img/sponsors/2023/moodys.webp
+    url:
+      fr: https://www.moodysanalytics.com
+      en: https://www.moodysanalytics.com
+    description:
+      fr: "Moody's Analytics fournit des renseignements financiers et des outils analytiques soutenant les objectifs de croissance, d'efficacité et de gestion des risques de nos clients. La combinaison de notre expertise inégalée en matière de risque, de vastes ressources d'information et d'une application innovante de la technologie aide les chefs d'entreprise d'aujourd'hui à naviguer en toute confiance sur un marché en évolution. Nous accélérons l'innovation et tirons parti des technologies émergentes pour créer la prochaine génération de solutions Moody's Analytics SaaS. Nous avons une équipe de 180 ingénieurs basés à Montbonnot, couvrant toutes les fonctions du développement logiciel (Dev, QA, BA, UX, DevOps, PMO, …) travaillant dans un environnement multiculturel avec des collègues du monde entier."
+      en: "Moody’s Analytics provides financial intelligence and analytical tools supporting our clients’ growth, efficiency and risk management objectives. The combination of our unparalleled expertise in risk, expansive information resources, and innovative application of technology, helps today’s business leaders confidently navigate an evolving marketplace. We fast-track innovation and leverage emerging technologies to build the next generation of Moody's Analytics SaaS solutions. We have a team of 180 engineers based in Montbonnot, covering all functions of software development (Dev, QA, BA, UX, DevOps, PMO, …) working in a multi-cultural environment with colleagues all around the globe."
+  - name: Viseo
+    logo: img/sponsors/2022/viseo.png
+    url:
+      fr: http://www.viseo.com/fr
+      en: http://www.viseo.com/en
+    description:
+      fr: "VISEO utilise la technologie comme un puissant levier de transformation et d’innovation pour aider ses clients à tirer parti des opportunités du numérique, adresser les nouveaux usages et affronter la concurrence d’acteurs qui changent les règles du jeu.
+          <br>Avec 2 500 collaborateurs intervenant sur 5 continents, VISEO concilie agilité et complémentarité de ses savoir-faire - design de nouveaux produits et services, digitalisation des processus métier, valorisation des données, développement des actifs digitaux - pour faire du numérique un réel levier de compétitivité et de performance.
+          <br>Aujourd’hui, nous sommes des experts de l’architecture et du développement logiciel, back-end, web, mobile et IoT. L’agilité a changé notre façon de penser notre métier et nous a considérablement aidé dans la réussite de nos projets en mettant la collaboration et la qualité au centre de l’engagement.
+          <br>Nous organisons régulièrement au sein de nos communautés des présentations sur les techniques, les technologies ou les pratiques du monde du développement, comme les VISEO Tech An Hour. Si comme nous, vous êtes convaincus que l’excellence passe par l'amélioration continue individuelle et collective et par le partage des expériences et des connaissances, alors, venez nous rencontrer."
+      en: '<b>VISEO</b> is a digital service company that reconciles agility and the complementarity of its know-how - design of new products and services, digitization of business processes, enhancement of data, development of digital assets - to make digital a real lever for competitiveness and performance.
+            Today, we are nearly 600 experts in software architecture and development, web, mobile and IoT. Agility has changed the way we think about our business and has helped us considerably in the success of our projects by putting collaboration and quality at the center of our commitment.
+            We regularly organize presentations in our communities on techniques, technologies or practices in the development world, such as the VISEO Tech An Hour. If, like us, you are convinced that excellence is achieved through individual and collective continuous improvement and by sharing experiences and knowledge, then come and meet us.'
+  - name: Open
+    logo: img/sponsors/2019/open.png
+    url:
+      fr: https://www.open.global/
+      en: https://www.open.global/
+    description:
+      fr: "Open, l'ESN Partenaire de confiance des grandes entreprises françaises, engagé dans leur transformation IT & Digitale (3800 collaborateurs, 16 villes)
+          Open, the trusted digital services partner of the French companies and organisations in support of their IT and digital transformation (3800 employees  • 16 cities)"
+      en: "Open, l'ESN Partenaire de confiance des grandes entreprises françaises, engagé dans leur transformation IT & Digitale (3800 collaborateurs, 16 villes)
+          Open, the trusted digital services partner of the French companies and organisations in support of their IT and digital transformation (3800 employees  • 16 cities)"
+  - name: ATOS
+    logo: img/sponsors/2024/atos.png
+    url:
+      fr: https://atos.net/fr/
+      en: https://atos.net/
+    description:
+      fr: "La raison d'être d'Atos est de contribuer à façonner l'espace informationnel. Grâce à nos compétences et nos services, nous soutenons le développement de la connaissance, de l'éducation et de la recherche dans une approche pluriculturelle et contribuons au développement de l'excellence scientifique et technologique. Partout dans le monde, nous permettons à nos clients et à nos collaborateurs, et plus généralement au plus grand nombre, de vivre, travailler et progresser durablement et en toute confiance dans l'espace informationnel. Chez Atos, leader international des technologies numériques sécurisées et décarbonées pour les entreprises, nous contribuons à façonner l'espace informationnel. La diversité des compétences et des expériences de nos collaborateurs nous permet, ensemble, de faire les bons choix avec nos clients, pour notre entreprise et notre propre avenir.Chez Atos, nos choix façonnent le futur."
+      en: "La raison d'être d'Atos est de contribuer à façonner l'espace informationnel. Grâce à nos compétences et nos services, nous soutenons le développement de la connaissance, de l'éducation et de la recherche dans une approche pluriculturelle et contribuons au développement de l'excellence scientifique et technologique. Partout dans le monde, nous permettons à nos clients et à nos collaborateurs, et plus généralement au plus grand nombre, de vivre, travailler et progresser durablement et en toute confiance dans l'espace informationnel. Chez Atos, leader international des technologies numériques sécurisées et décarbonées pour les entreprises, nous contribuons à façonner l'espace informationnel. La diversité des compétences et des expériences de nos collaborateurs nous permet, ensemble, de faire les bons choix avec nos clients, pour notre entreprise et notre propre avenir.Chez Atos, nos choix façonnent le futur."
+#  - name: Sopra Steria
+#    logo: img/sponsors/2018/sopra-steria.png
 #    url:
-#      fr: http://www.viseo.com/fr
-#      en: http://www.viseo.com/en
+#      fr: https://www.soprasteria.com/fr/
+#      en: https://www.soprasteria.com/en/
 #    description:
-#      fr: "VISEO utilise la technologie comme un puissant levier de transformation et d’innovation pour aider ses clients à tirer parti des opportunités du numérique, adresser les nouveaux usages et affronter la concurrence d’acteurs qui changent les règles du jeu.
-#          <br>Avec 2 500 collaborateurs intervenant sur 5 continents, VISEO concilie agilité et complémentarité de ses savoir-faire - design de nouveaux produits et services, digitalisation des processus métier, valorisation des données, développement des actifs digitaux - pour faire du numérique un réel levier de compétitivité et de performance.
-#          <br>Aujourd’hui, nous sommes des experts de l’architecture et du développement logiciel, back-end, web, mobile et IoT. L’agilité a changé notre façon de penser notre métier et nous a considérablement aidé dans la réussite de nos projets en mettant la collaboration et la qualité au centre de l’engagement.
-#          <br>Nous organisons régulièrement au sein de nos communautés des présentations sur les techniques, les technologies ou les pratiques du monde du développement, comme les VISEO Tech An Hour. Si comme nous, vous êtes convaincus que l’excellence passe par l'amélioration continue individuelle et collective et par le partage des expériences et des connaissances, alors, venez nous rencontrer."
-#      en: '<b>VISEO</b> is a digital service company that reconciles agility and the complementarity of its know-how - design of new products and services, digitization of business processes, enhancement of data, development of digital assets - to make digital a real lever for competitiveness and performance.
-#            Today, we are nearly 600 experts in software architecture and development, web, mobile and IoT. Agility has changed the way we think about our business and has helped us considerably in the success of our projects by putting collaboration and quality at the center of our commitment.
-#            We regularly organize presentations in our communities on techniques, technologies or practices in the development world, such as the VISEO Tech An Hour. If, like us, you are convinced that excellence is achieved through individual and collective continuous improvement and by sharing experiences and knowledge, then come and meet us.'
+#      fr: 'Sopra Steria, l’un des leaders européens du conseil, des services numériques et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.'
+#      en: 'Sopra Steria, l’un des leaders européens du conseil, des services numériques et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.'
 #
-#  - name: Open
-#    logo: img/sponsors/2019/open.png
+#  - name: CGI
+#    logo: img/sponsors/2022/cgi.jpg
 #    url:
-#      fr: https://www.open.global/
-#      en: https://www.open.global/
+#      fr: https://www.cgi.com/fr
+#      en: https://www.cgi.com/en
 #    description:
-#      fr: "Open, l'ESN Partenaire de confiance des grandes entreprises françaises, engagé dans leur transformation IT & Digitale (3800 collaborateurs, 16 villes)
-#          Open, the trusted digital services partner of the French companies and organisations in support of their IT and digital transformation (3800 employees  • 16 cities)"
-#      en: "Open, l'ESN Partenaire de confiance des grandes entreprises françaises, engagé dans leur transformation IT & Digitale (3800 collaborateurs, 16 villes)
-#          Open, the trusted digital services partner of the French companies and organisations in support of their IT and digital transformation (3800 employees  • 16 cities)"
+#      fr: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
+#          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
+#      en: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
+#          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
 #
 #  - name: Criteo
 #    logo: img/sponsors/2023/crite.png
@@ -71,24 +105,6 @@ etoile:
 #    description:
 #      fr: "Gravitee.io est une plateforme open source de gestion d'API riche en fonctionnalités, simple d'emploi et économique. La plateforme Gravitee fournit la gestion des API, des identités et des accès, la création d'alertes et un tableau de bord multi-tenant offrant contrôle, sécurité et une gouvernance facilitée des écosystèmes d'API, grace à un outil unique et centralisé qui s'intègre de manière transparente à votre infrastructure existante. Gravitee API Management est extensible - grace à son propre système de plug-in interne, vous permettant de promouvoir les API d'un environnement à un autre, définir vos propres policies, développer votre propre système de reporting, etc. Avec des alertes MFA alimentées par Infobip, la prise en charge d'OpenTracing, des ressources de policies de cache pour Redis et une prise en charge complète des API open banking, Gravitee s'engage envers la communauté open source et fournit des outils de développement de pointe. Gravitee.io fournit une assistance, un hébergement, une formation et des conseils pour garantir aux entreprises la réussite de leur parcours API."
 #      en: "Gravitee.io is a feature-rich, user-friendly, and cost-effective Open Source API Platform. The Gravitee platform provides API Management, Identity & Access Management, Alerting, and multi-tenant dashboards to enable effortless control, security and governance of API ecosystems – all through a single, centralized tool that integrates with your existing infrastructure seamlessly. Gravitee API Management is fully extensible – using its own internal plugin system, so you can promote APIs from one environment to another, define your own policy, develop your own reporting system, and more. With MFA alerts powered by Infobip, OpenTracing support, cache policy resources for Redis, and full support for open banking APIs, Gravitee is committed to the open-source community and to providing industry-leading development tools. Gravitee.io provides support, hosting, training and consultancy to ensure businesses can succeed on their API journey."
-#
-#  - name: Sopra Steria
-#    logo: img/sponsors/2018/sopra-steria.png
-#    url:
-#      fr: https://www.soprasteria.com/fr/
-#      en: https://www.soprasteria.com/en/
-#    description:
-#      fr: 'Sopra Steria, l’un des leaders européens du conseil, des services numériques et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.'
-#      en: 'Sopra Steria, l’un des leaders européens du conseil, des services numériques et de l’édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l’humain au centre de son action et s’engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif.'
-#
-#  - name: Zenika
-#    logo: img/sponsors/2023/zenika.png
-#    url:
-#      fr: https://www.zenika.com/
-#      en: https://www.zenika.com/
-#    description:
-#      fr: '<strong>Zenika</strong>, L’innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;'
-#      en: '<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;'
 #
 #  - name: Thales
 #    logo: img/sponsors/2023/thales.jpg
@@ -135,17 +151,6 @@ etoile:
 #           Our employees are building relationships with our customers, creating powerful technologies and volunteering in our communities across the region. From Spain to Sweden, from Ireland to Italy, we bring companies of
 #           every size and industry together with their customers.'
 #
-#  - name: CGI
-#    logo: img/sponsors/2022/cgi.jpg
-#    url:
-#      fr: https://www.cgi.com/fr
-#      en: https://www.cgi.com/en
-#    description:
-#      fr: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
-#          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
-#      en: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
-#          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
-#
 #
 #  - name: OVH Cloud
 #    logo: img/sponsors/2023/logo-ovh.png
@@ -164,27 +169,34 @@ flocon:
     description:
       fr: 'Slate Digital est spécialisée dans la production de plugins audios de haute qualité pour les professionnels et amateurs de l industrie musicale. Nos produits sont utilisés par des musiciens, des producteurs et des ingénieurs du son du monde entier.Et oui, si ça se trouve ton artiste préféré utilise nos produits.Nous sommes connus pour notre engagement envers l innovation et la qualité, ainsi que pour notre étroite collaboration avec les professionnels afin de répondre spécifiquement aux besoins des clients. Nous sommes également reconnus pour notre culture d entreprise dynamique et collaborative qui encourage la créativité et la prise d initiatives.'
       en: 'Slate Digital specialises in the production of high-quality audio plugins for professionals and amateurs in the music industry. Our products are used by musicians, producers and sound engineers from all over the world, and yes, your favourite artist may well be using our products... We are known for our commitment to innovation and quality, and for working closely with professionals to meet specific customer needs. We are also known for our dynamic, collaborative corporate culture that encourages creativity and initiative.'
-
-#  - name: AViSTO
-#    logo: img/sponsors/2022/avisto.png
-#    url:
-#      fr: https://www.avisto.com
-#      en: https://www.avisto.com
-#    description:
-#      fr: 'CULTURE TECHNIQUE
-#            <br>Chez AViSTO, la culture technique est présente à tous les étages : les fondateurs, les business managers et nos équipes techniques sont toutes composées d’ingénieurs logiciel.
-#            Nous sommes fiers de cet ADN technique !
-#            En tant que société de services nous intervenons principalement sur des projets à forts enjeux technologiques nécessitant une coordination importante avec plusieurs équipes.
-#            <br><br>POURQUOI NOUS SOUTENONS LE SNOWCAMP
-#            <br>Le SNOWCAMP permet aux développeurs passionnés d’avoir des échanges pointus dans une ambiance conviviale.
-#            Nous sommes ainsi heureux de soutenir cette initiative 100% bénévole qui vise à promouvoir les dernières technologies au sein de la communauté des tech de Grenoble.'
-#      en: 'CULTURE TECHNIQUE
-#            <br>Chez AViSTO, la culture technique est présente à tous les étages : les fondateurs, les business managers et nos équipes techniques sont toutes composées d’ingénieurs logiciel.
-#            Nous sommes fiers de cet ADN technique !
-#            En tant que société de services nous intervenons principalement sur des projets à forts enjeux technologiques nécessitant une coordination importante avec plusieurs équipes.
-#            <br><br>POURQUOI NOUS SOUTENONS LE SNOWCAMP
-#            <br>Le SNOWCAMP permet aux développeurs passionnés d’avoir des échanges pointus dans une ambiance conviviale.
-#            Nous sommes ainsi heureux de soutenir cette initiative 100% bénévole qui vise à promouvoir les dernières technologies au sein de la communauté des tech de Grenoble.'
+  - name: KLS Group
+    logo: img/sponsors/2023/klsgroup.webp
+    url:
+      fr: https://www.kls-group.fr
+      en: https://www.kls-group.fr
+    description:
+      fr: 'Implémenté dans les plus grands CHU français (Lyon, Montpellier, Bordeaux ) ainsi que dans de grandes enseignes industrielles et logistique, nous développons des applications métiers dédiées à la gestion des stocks et à la traçabilité de leurs flux depuis plus de 35 ans. Notre position de leader du domaine sur le secteur des CHU et notre intégration au sein d un groupe en plein essor (KLS Group 65 personnes 4 business units), nous assurent stabilité et pérennité. Nous sommes éditeurs et uniques intégrateurs de nos solutions.'
+      en: 'Implémenté dans les plus grands CHU français (Lyon, Montpellier, Bordeaux ) ainsi que dans de grandes enseignes industrielles et logistique, nous développons des applications métiers dédiées à la gestion des stocks et à la traçabilité de leurs flux depuis plus de 35 ans. Notre position de leader du domaine sur le secteur des CHU et notre intégration au sein d un groupe en plein essor (KLS Group 65 personnes 4 business units), nous assurent stabilité et pérennité. Nous sommes éditeurs et uniques intégrateurs de nos solutions.'
+  - name: AViSTO
+    logo: img/sponsors/2022/avisto.png
+    url:
+      fr: https://www.avisto.com
+      en: https://www.avisto.com
+    description:
+      fr: 'CULTURE TECHNIQUE
+            <br>Chez AViSTO, la culture technique est présente à tous les étages : les fondateurs, les business managers et nos équipes techniques sont toutes composées d’ingénieurs logiciel.
+            Nous sommes fiers de cet ADN technique !
+            En tant que société de services nous intervenons principalement sur des projets à forts enjeux technologiques nécessitant une coordination importante avec plusieurs équipes.
+            <br><br>POURQUOI NOUS SOUTENONS LE SNOWCAMP
+            <br>Le SNOWCAMP permet aux développeurs passionnés d’avoir des échanges pointus dans une ambiance conviviale.
+            Nous sommes ainsi heureux de soutenir cette initiative 100% bénévole qui vise à promouvoir les dernières technologies au sein de la communauté des tech de Grenoble.'
+      en: 'CULTURE TECHNIQUE
+            <br>Chez AViSTO, la culture technique est présente à tous les étages : les fondateurs, les business managers et nos équipes techniques sont toutes composées d’ingénieurs logiciel.
+            Nous sommes fiers de cet ADN technique !
+            En tant que société de services nous intervenons principalement sur des projets à forts enjeux technologiques nécessitant une coordination importante avec plusieurs équipes.
+            <br><br>POURQUOI NOUS SOUTENONS LE SNOWCAMP
+            <br>Le SNOWCAMP permet aux développeurs passionnés d’avoir des échanges pointus dans une ambiance conviviale.
+            Nous sommes ainsi heureux de soutenir cette initiative 100% bénévole qui vise à promouvoir les dernières technologies au sein de la communauté des tech de Grenoble.'
 #
 #  - name: Diabeloop
 #    logo: img/sponsors/2023/diabeloop.webp
@@ -211,6 +223,15 @@ flocon:
 #            <br>- YourLoops, une plateforme de visualisation de données en temps réel, conçue pour les systèmes DBL - 2020.
 #            <br>Au printemps 2021, nous avons lancé commercialement avec succès DBLG1 System dans plusieurs pays d Europe et équipé plus de 10 000 personnes. Nous avons d autres produits en cours de développement avec un plan de croissance ambitieux pour étendre notre empreinte internationale.'
 #
+#  - name: Zenika
+#    logo: img/sponsors/2023/zenika.png
+#    url:
+#      fr: https://www.zenika.com/
+#      en: https://www.zenika.com/
+#    description:
+#      fr: '<strong>Zenika</strong>, L’innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;'
+#      en: '<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;'
+#
 #  - name: Hardis
 #    logo: img/sponsors/2023/hardis_group.webp
 #    url:
@@ -220,14 +241,6 @@ flocon:
 #      fr: ''
 #      en: ''
 #
-  - name: KLS Group
-    logo: img/sponsors/2023/klsgroup.webp
-    url:
-      fr: https://www.kls-group.fr
-      en: https://www.kls-group.fr
-    description:
-      fr: 'Implémenté dans les plus grands CHU français (Lyon, Montpellier, Bordeaux ) ainsi que dans de grandes enseignes industrielles et logistique, nous développons des applications métiers dédiées à la gestion des stocks et à la traçabilité de leurs flux depuis plus de 35 ans. Notre position de leader du domaine sur le secteur des CHU et notre intégration au sein d un groupe en plein essor (KLS Group 65 personnes 4 business units), nous assurent stabilité et pérennité. Nous sommes éditeurs et uniques intégrateurs de nos solutions.'
-      en: 'Implémenté dans les plus grands CHU français (Lyon, Montpellier, Bordeaux ) ainsi que dans de grandes enseignes industrielles et logistique, nous développons des applications métiers dédiées à la gestion des stocks et à la traçabilité de leurs flux depuis plus de 35 ans. Notre position de leader du domaine sur le secteur des CHU et notre intégration au sein d un groupe en plein essor (KLS Group 65 personnes 4 business units), nous assurent stabilité et pérennité. Nous sommes éditeurs et uniques intégrateurs de nos solutions.'
 #
 #  - name: Kelkoo Group
 #    logo: img/sponsors/2022/kelkoogroup.png
@@ -250,14 +263,6 @@ flocon:
 #            Kelkoo c’est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d’initiative est encouragée.
 #            Bienveillance et responsabilisation y sont les maitre mots.'
 #
-#  - name: Moodys
-#    logo: img/sponsors/2023/moodys.webp
-#    url:
-#      fr: https://www.moodysanalytics.com
-#      en: https://www.moodysanalytics.com
-#    description:
-#      fr: "Moody's Analytics provides financial intelligence and analytical tools supporting our clients' growth, efficiency and risk management objectives. The combination of our unparalleled expertise in risk, expansive information resources, and innovative application of technology, helps today's business leaders confidently navigate an evolving marketplace. We fast-track innovation and leverage emerging technologies to build the next generation of Moody's Analytics SaaS solutions. We have a team of 180 engineers based in Montbonnot, covering all functions of software development (Dev, QA, BA, UX, DevOps, PMO ...) working in a multi-cultural environment with colleagues all around the globe."
-#      en: "Moody's Analytics provides financial intelligence and analytical tools supporting our clients' growth, efficiency and risk management objectives. The combination of our unparalleled expertise in risk, expansive information resources, and innovative application of technology, helps today's business leaders confidently navigate an evolving marketplace. We fast-track innovation and leverage emerging technologies to build the next generation of Moody's Analytics SaaS solutions. We have a team of 180 engineers based in Montbonnot, covering all functions of software development (Dev, QA, BA, UX, DevOps, PMO ...) working in a multi-cultural environment with colleagues all around the globe."
 #
 
 partners:
