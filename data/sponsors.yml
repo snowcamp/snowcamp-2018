@@ -197,7 +197,15 @@ flocon:
     description:
       fr: "Partenaire fondateur de l écosystème CBTW, Positive Thinking Company est une entreprise mondiale de conseil en technologie qui s appuie sur un large éventail de compétences : Développement Web & Mobile, Sécurité, Cloud, Data & Analytics, Hyperautomation, Digital Workplace. Les secteurs qui en bénéficient principalement sont les services bancaires et financiers, la santé, la vente au détail, les services publics et les assurances. Nous sommes partenaires de nos clients à chaque étape du cycle de vie de leurs projets : de la stratégie à l implémentation. Nous conseillons nos clients et nous construisons leurs projets avec l aide de nos talentueux spécialistes. Nous avons pour but de libérer tout le potentiel de nos collaborateurs en leur offrant un environnement évolutif qui encourage la collaboration et la créativité toujours avec un Positive Mindset. Notre objectif est de générer des résultats qui permettent à nos clients de rester compétitifs et à la pointe de l innovation dans des environnements en constante évolution."
       en: "Founding partner of the CBTW ecosystem, Positive Thinking Company is a global technology consulting firm based on a wide range of skills: Software Development, Security, Cloud, Data & Analytics, Hyperautomation, Digital Workplace. We serve different industries and sectors like banking and financial services, healthcare, retail, public sector and insurance. We guide our clients at every stage of their project lifecycle: from strategy to implementation. We advise our clients and build their projects with the help of our talented specialists. We aim to unleash the full potential of our co-workers by providing a progressive environment that encourages collaboration, creativity and a Positive Mindset.Our aim is to generate results that enable our clients to remain competitive and stay at the forefront of innovation in ever-changing environments."
-
+  - name: Zenika
+    logo: img/sponsors/2023/zenika.png
+    url:
+      fr: https://www.zenika.com/
+      en: https://www.zenika.com/
+    description:
+      fr: "<strong>Zenika</strong>, L innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;"
+      en: "<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;"
+#
 #  - name: BonitaSoft
 #    logo: img/sponsors/2019/bonitasoft.png
 #    url:
@@ -207,14 +215,6 @@ flocon:
 #      fr: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l amélioration de l automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
 #      en: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l amélioration de l automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
 #
-#  - name: Zenika
-#    logo: img/sponsors/2023/zenika.png
-#    url:
-#      fr: https://www.zenika.com/
-#      en: https://www.zenika.com/
-#    description:
-#      fr: "<strong>Zenika</strong>, L innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;"
-#      en: "<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;"
 #
 #  - name: Kelkoo Group
 #    logo: img/sponsors/2022/kelkoogroup.png
