@@ -78,6 +78,22 @@ etoile:
             <br>Véritable partenaire technique de proximité pour ses clients, KAIZEN Solutions est une Entreprise  de Services du Numérique, qui tire sa force de la créativité et de l amélioration continue de ses équipes."
       en: "De la Start-Up aux grands groupes industriels, KAIZEN Solutions conçoit des solutions logicielles sur mesure. KAIZEN accompagne les transformations métier des entreprises impactées par les innovations du capteur jusqu au cloud.
             <br>Véritable partenaire technique de proximité pour ses clients, KAIZEN Solutions est une Entreprise  de Services du Numérique, qui tire sa force de la créativité et de l amélioration continue de ses équipes."
+  - name: Elastic
+    logo: img/sponsors/2017/elastic.png
+    url:
+      fr: https://www.elastic.co/fr/
+      en: https://www.elastic.co
+    description:
+      fr: "En tant que plateforme de pointe destinée aux solutions optimisées pour la recherche, Elastic aide les organisations, leurs employés et leurs clients à trouver plus rapidement ce dont ils ont besoin, tout en assurant le bon fonctionnement des applications fondamentales et la protection des infrastructures contre les cyber attaques. Adobe, BMW, Microsoft, Zurich Insurance et des milliers d'autres organisations exploitent la puissance des solutions Elastic que sont Enterprise Search, Observability et Security pour obtenir plus rapidement des résultats pertinents. Peu importe où et comment nos clients mettent en œuvre les solutions Elastic, nous les aidons dans la recherche, la résolution et la réussite, à grande échelle et sur une seule et unique plateforme. Des résultats disponibles où que se trouvent vos données, dans un seul cloud, sur plusieurs clouds ou bien sur site. La puissance d'Elastic."
+      en: "En tant que plateforme de pointe destinée aux solutions optimisées pour la recherche, Elastic aide les organisations, leurs employés et leurs clients à trouver plus rapidement ce dont ils ont besoin, tout en assurant le bon fonctionnement des applications fondamentales et la protection des infrastructures contre les cyber attaques. Adobe, BMW, Microsoft, Zurich Insurance et des milliers d'autres organisations exploitent la puissance des solutions Elastic que sont Enterprise Search, Observability et Security pour obtenir plus rapidement des résultats pertinents. Peu importe où et comment nos clients mettent en œuvre les solutions Elastic, nous les aidons dans la recherche, la résolution et la réussite, à grande échelle et sur une seule et unique plateforme. Des résultats disponibles où que se trouvent vos données, dans un seul cloud, sur plusieurs clouds ou bien sur site. La puissance d'Elastic."
+  - name: Criteo
+    logo: img/sponsors/2023/crite.png
+    url:
+      fr: https://www.criteo.com/
+      en: https://www.criteo.com/
+    description:
+      fr: "Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data."
+      en: "Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data."
 #  - name: Norsys
 #    logo: img/sponsors/2018/norsys.png
 #    url:
@@ -87,14 +103,6 @@ etoile:
 #      fr: "Norsys est une ESN engagée, reconnue société à mission et certifiée Bcorp. Notre raison d être : Concevoir avec une préoccupation humaine et éthique des usages du numérique efficaces afin de contribuer à l évolution positive du monde. En 2021, norsys développe un nouveau modèle d entreprise inspiré de la permaculture : "La permaentreprise (c) vise à obtenir une production efficace, utile aux humains, sans nuire à la planète, en faisant un usage sobre voire régénératif des ressources et en partageant équitablement les richesses. Bref, un modèle viable pour un monde vivable"
 #      en: "Norsys est une ESN engagée, reconnue société à mission et certifiée Bcorp. Notre raison d être : Concevoir avec une préoccupation humaine et éthique des usages du numérique efficaces afin de contribuer à l évolution positive du monde. En 2021, norsys développe un nouveau modèle d entreprise inspiré de la permaculture : "La permaentreprise (c) vise à obtenir une production efficace, utile aux humains, sans nuire à la planète, en faisant un usage sobre voire régénératif des ressources et en partageant équitablement les richesses. Bref, un modèle viable pour un monde vivable"
 #
-#  - name: Elastic
-#    logo: img/sponsors/2017/elastic.png
-#    url:
-#      fr: https://www.elastic.co/fr/
-#      en: https://www.elastic.co
-#    description:
-#      fr: "En tant que plateforme de pointe destinée aux solutions optimisées pour la recherche, Elastic aide les organisations, leurs employés et leurs clients à trouver plus rapidement ce dont ils ont besoin, tout en assurant le bon fonctionnement des applications fondamentales et la protection des infrastructures contre les cyber attaques. Adobe, BMW, Microsoft, Zurich Insurance et des milliers d'autres organisations exploitent la puissance des solutions Elastic que sont Enterprise Search, Observability et Security pour obtenir plus rapidement des résultats pertinents. Peu importe où et comment nos clients mettent en œuvre les solutions Elastic, nous les aidons dans la recherche, la résolution et la réussite, à grande échelle et sur une seule et unique plateforme. Des résultats disponibles où que se trouvent vos données, dans un seul cloud, sur plusieurs clouds ou bien sur site. La puissance d'Elastic."
-#      en: "En tant que plateforme de pointe destinée aux solutions optimisées pour la recherche, Elastic aide les organisations, leurs employés et leurs clients à trouver plus rapidement ce dont ils ont besoin, tout en assurant le bon fonctionnement des applications fondamentales et la protection des infrastructures contre les cyber attaques. Adobe, BMW, Microsoft, Zurich Insurance et des milliers d'autres organisations exploitent la puissance des solutions Elastic que sont Enterprise Search, Observability et Security pour obtenir plus rapidement des résultats pertinents. Peu importe où et comment nos clients mettent en œuvre les solutions Elastic, nous les aidons dans la recherche, la résolution et la réussite, à grande échelle et sur une seule et unique plateforme. Des résultats disponibles où que se trouvent vos données, dans un seul cloud, sur plusieurs clouds ou bien sur site. La puissance d'Elastic."
 #
 #  - name: Sopra Steria
 #    logo: img/sponsors/2018/sopra-steria.png
@@ -116,14 +124,6 @@ etoile:
 #      en: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
 #          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
 #
-#  - name: Criteo
-#    logo: img/sponsors/2023/crite.png
-#    url:
-#      fr: https://www.criteo.com/
-#      en: https://www.criteo.com/
-#    description:
-#      fr: "Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data."
-#      en: "Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data."
 #
 #  - name: Thales
 #    logo: img/sponsors/2023/thales.jpg
