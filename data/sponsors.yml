@@ -94,16 +94,16 @@ etoile:
     description:
       fr: "Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data."
       en: "Criteo (CRTO), the leader in commerce marketing, is building the highest performing and open commerce marketing ecosystem to drive profits and sales for retailers and brands. 2,700 Criteo team members partner with 16,000 customers and thousands of publishers across the globe to deliver performance at scale by connecting shoppers to the things they need and love. Designed for commerce, Criteo Commerce Marketing Ecosystem sees over $550 billion in annual commerce sales data."
-#  - name: Norsys
-#    logo: img/sponsors/2018/norsys.png
-#    url:
-#      fr: https://www.norsys.fr/
-#      en: https://www.norsys.fr/
-#    description:
-#      fr: "Norsys est une ESN engagée, reconnue société à mission et certifiée Bcorp. Notre raison d être : Concevoir avec une préoccupation humaine et éthique des usages du numérique efficaces afin de contribuer à l évolution positive du monde. En 2021, norsys développe un nouveau modèle d entreprise inspiré de la permaculture : "La permaentreprise (c) vise à obtenir une production efficace, utile aux humains, sans nuire à la planète, en faisant un usage sobre voire régénératif des ressources et en partageant équitablement les richesses. Bref, un modèle viable pour un monde vivable"
-#      en: "Norsys est une ESN engagée, reconnue société à mission et certifiée Bcorp. Notre raison d être : Concevoir avec une préoccupation humaine et éthique des usages du numérique efficaces afin de contribuer à l évolution positive du monde. En 2021, norsys développe un nouveau modèle d entreprise inspiré de la permaculture : "La permaentreprise (c) vise à obtenir une production efficace, utile aux humains, sans nuire à la planète, en faisant un usage sobre voire régénératif des ressources et en partageant équitablement les richesses. Bref, un modèle viable pour un monde vivable"
-#
-#
+  - name: Norsys
+    logo: img/sponsors/2018/norsys.png
+    url:
+      fr: https://www.norsys.fr/
+      en: https://www.norsys.fr/
+    description:
+      fr: "Norsys est une ESN engagée, reconnue société à mission et certifiée Bcorp. Notre raison d être : Concevoir avec une préoccupation humaine et éthique des usages du numérique efficaces afin de contribuer à l évolution positive du monde. En 2021, norsys développe un nouveau modèle d entreprise inspiré de la permaculture : "La permaentreprise (c) vise à obtenir une production efficace, utile aux humains, sans nuire à la planète, en faisant un usage sobre voire régénératif des ressources et en partageant équitablement les richesses. Bref, un modèle viable pour un monde vivable"
+      en: "Norsys est une ESN engagée, reconnue société à mission et certifiée Bcorp. Notre raison d être : Concevoir avec une préoccupation humaine et éthique des usages du numérique efficaces afin de contribuer à l évolution positive du monde. En 2021, norsys développe un nouveau modèle d entreprise inspiré de la permaculture : "La permaentreprise (c) vise à obtenir une production efficace, utile aux humains, sans nuire à la planète, en faisant un usage sobre voire régénératif des ressources et en partageant équitablement les richesses. Bref, un modèle viable pour un monde vivable"
+
+
 #  - name: Sopra Steria
 #    logo: img/sponsors/2018/sopra-steria.png
 #    url:
@@ -205,17 +205,16 @@ flocon:
     description:
       fr: "<strong>Zenika</strong>, L innovation technologique, organisationnelle et managériale permettant de construire ensemble un monde plus simple, plus ouvert, plus libre et plus accessible à tous. &lt;coding the world&gt;"
       en: "<strong>Zenika</strong>, technological and organizational innovation. Building together a simpler, more open, freer and accessible world. &lt;coding the world&gt;"
-#
-#  - name: BonitaSoft
-#    logo: img/sponsors/2019/bonitasoft.png
-#    url:
-#      fr: https://www.bonitasoft.com/
-#      en: https://www.bonitasoft.com/
-#    description:
-#      fr: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l amélioration de l automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
-#      en: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l amélioration de l automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
-#
-#
+  - name: BonitaSoft
+    logo: img/sponsors/2019/bonitasoft.png
+    url:
+      fr: https://www.bonitasoft.com/
+      en: https://www.bonitasoft.com/
+    description:
+      fr: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l amélioration de l automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
+      en: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l amélioration de l automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
+
+
 #  - name: Kelkoo Group
 #    logo: img/sponsors/2022/kelkoogroup.png
 #    url:
