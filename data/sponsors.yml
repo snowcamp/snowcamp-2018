@@ -102,6 +102,28 @@ etoile:
     description:
       fr: "Norsys est une ESN engagée, reconnue société à mission et certifiée Bcorp. Notre raison d être : Concevoir avec une préoccupation humaine et éthique des usages du numérique efficaces afin de contribuer à l évolution positive du monde. En 2021, norsys développe un nouveau modèle d entreprise inspiré de la permaculture : \"La permaentreprise (c) vise à obtenir une production efficace, utile aux humains, sans nuire à la planète, en faisant un usage sobre voire régénératif des ressources et en partageant équitablement les richesses. Bref, un modèle viable pour un monde vivable\""
       en: "Norsys est une ESN engagée, reconnue société à mission et certifiée Bcorp. Notre raison d être : Concevoir avec une préoccupation humaine et éthique des usages du numérique efficaces afin de contribuer à l évolution positive du monde. En 2021, norsys développe un nouveau modèle d entreprise inspiré de la permaculture : \"La permaentreprise (c) vise à obtenir une production efficace, utile aux humains, sans nuire à la planète, en faisant un usage sobre voire régénératif des ressources et en partageant équitablement les richesses. Bref, un modèle viable pour un monde vivable\""
+  - name: CGI
+    logo: img/sponsors/2022/cgi.jpg
+    url:
+      fr: https://www.cgi.com/fr
+      en: https://www.cgi.com/en
+    description:
+      fr: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
+          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
+      en: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
+          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
+  - name: Thales
+    logo: img/sponsors/2023/thales.jpg
+    url:
+      fr: https://www.thalesgroup.com/
+      en: https://www.thalesgroup.com/en
+    description:
+      fr: "Thales Services Numériques : Intégrateur et opérateur de systèmes critiques
+            <br>Notre mission est d assurer en permanence la performance, la résilience et la sécurité des systèmes d information critiques de nos clients confrontés
+            <br>aux nombreuses avancées de l informatique et aux évolutions constantes des cybermenaces."
+      en: "Thales Services Numériques : Critical systems integrator and operator
+            <br>The mission of Thales Services Numériques is to continuously ensure performance, resilience and security
+            <br>of our customers' critical information systems by accompanying them in the integration of technological innovations while keeping them safe from the cyber threat."
 
 
 #  - name: Sopra Steria
@@ -112,32 +134,6 @@ etoile:
 #    description:
 #      fr: "Sopra Steria, l un des leaders européens du conseil, des services numériques et de l édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l humain au centre de son action et s engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif."
 #      en: "Sopra Steria, l un des leaders européens du conseil, des services numériques et de l édition de logiciels, aide ses clients à mener leur transformation digitale et à obtenir des bénéfices concrets et durables. Il apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, combinant une connaissance approfondie des secteurs d activité et des technologies innovantes à une approche résolument collaborative. Sopra Steria place l humain au centre de son action et s engage auprès de ses clients à tirer le meilleur parti du digital pour construire un avenir positif."
-#
-#  - name: CGI
-#    logo: img/sponsors/2022/cgi.jpg
-#    url:
-#      fr: https://www.cgi.com/fr
-#      en: https://www.cgi.com/en
-#    description:
-#      fr: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
-#          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
-#      en: "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcome-based to help accelerate returns on your IT and business investments.
-#          <br>In all we do, our goal is to build trusted relationships through client proximity, providing industry and technology expertise to help you meet the needs of your customers and citizens."
-#
-#
-#  - name: Thales
-#    logo: img/sponsors/2023/thales.jpg
-#    url:
-#      fr: https://www.thalesgroup.com/
-#      en: https://www.thalesgroup.com/en
-#    description:
-#      fr: "Thales Services Numériques : Intégrateur et opérateur de systèmes critiques
-#            <br>Notre mission est d assurer en permanence la performance, la résilience et la sécurité des systèmes d information critiques de nos clients confrontés
-#            <br>aux nombreuses avancées de l informatique et aux évolutions constantes des cybermenaces."
-#      en: "Thales Services Numériques : Critical systems integrator and operator
-#            <br>The mission of Thales Services Numériques is to continuously ensure performance, resilience and security
-#            <br>of our customers' critical information systems by accompanying them in the integration of technological innovations while keeping them safe from the cyber threat."
-#
 #  - name: Salesforce
 #    logo: img/sponsors/2018/salesforce.png
 #    url:
