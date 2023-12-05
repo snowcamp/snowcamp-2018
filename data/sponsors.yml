@@ -209,28 +209,26 @@ flocon:
     description:
       fr: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l amélioration de l automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
       en: "Bonitasoft accompagne les entreprises innovantes partout dans le monde dans l amélioration de l automatisation de leurs processus métiers. La plateforme applicative extensible et ouverte Bonita libère tout le potentiel des équipes de développements multi disciplinaires pour développer des Living Apps : des applications qui permettent une amélioration continue et incrémentale, en connectant des interfaces utilisateurs sur mesure avec les opérations de backoffice. Avec plus de 1000 clients dans 75 pays et un écosystème de plus de 10 000 membres, Bonitasoft propose la plateforme de Digitale Process Automation opensource la plus utilisée."
-
-
-#  - name: Kelkoo Group
-#    logo: img/sponsors/2022/kelkoogroup.png
-#    url:
-#      fr: https://www.kelkoogroup.com/fr/
-#      en: https://www.kelkoogroup.com/
-#    description:
-#      fr: "Kelkoo Group c est une entreprise du monde de l ecommerce qui a fêté ses 22 ans il y a peu mais a su rester très jeune et dynamique.
-#            Ce sont plus de 10000 marchands qui nous font confiance pour leur envoyer des leads qualifiés dans 40 pays.
-#            Ce sont des probématiques passionantes de scalabilité, de haute disponibilité et une approche très data driven dans tout ce que nous faisons.
-#            C est une équipe science qui grandit régulièrement et nous aide à être très compétitifs.
-#            Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
-#            Kelkoo c est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d initiative est encouragée.
-#            Bienveillance et responsabilisation y sont les maitre mots."
-#      en: "Kelkoo Group c est une entreprise du monde de l ecommerce qui a fêté ses 22 ans il y a peu mais a su rester très jeune et dynamique.
-#            Ce sont plus de 10000 marchands qui nous font confiance pour leur envoyer des leads qualifiés dans 40 pays.
-#            Ce sont des probématiques passionantes de scalabilité, de haute disponibilité et une approche très data driven dans tout ce que nous faisons.
-#            C est une équipe science qui grandit régulièrement et nous aide à être très compétitifs.
-#            Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
-#            Kelkoo c est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d initiative est encouragée.
-#            Bienveillance et responsabilisation y sont les maitre mots."
+  - name: Kelkoo Group
+    logo: img/sponsors/2022/kelkoogroup.png
+    url:
+      fr: https://www.kelkoogroup.com/fr/
+      en: https://www.kelkoogroup.com/
+    description:
+      fr: "Kelkoo Group c est une entreprise du monde de l ecommerce qui a fêté ses 22 ans il y a peu mais a su rester très jeune et dynamique.
+            Ce sont plus de 10000 marchands qui nous font confiance pour leur envoyer des leads qualifiés dans 40 pays.
+            Ce sont des probématiques passionantes de scalabilité, de haute disponibilité et une approche très data driven dans tout ce que nous faisons.
+            C est une équipe science qui grandit régulièrement et nous aide à être très compétitifs.
+            Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
+            Kelkoo c est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d initiative est encouragée.
+            Bienveillance et responsabilisation y sont les maitre mots."
+      en: "Kelkoo Group c est une entreprise du monde de l ecommerce qui a fêté ses 22 ans il y a peu mais a su rester très jeune et dynamique.
+            Ce sont plus de 10000 marchands qui nous font confiance pour leur envoyer des leads qualifiés dans 40 pays.
+            Ce sont des probématiques passionantes de scalabilité, de haute disponibilité et une approche très data driven dans tout ce que nous faisons.
+            C est une équipe science qui grandit régulièrement et nous aide à être très compétitifs.
+            Avec une équipe de 80 personnes qui travaillent avec des langages modernes (Scala, Angular, NodeJS), le centre engineering et produit basé à Grenoble reste très attaché à la région et son environement de montagne.
+            Kelkoo c est aussi un environnement de travail international, une entreprise avec très peu de hiérarchie et où la prise d initiative est encouragée.
+            Bienveillance et responsabilisation y sont les maitre mots."
 
 partners:
   - name: AlpesJUG
